@@ -1,0 +1,13 @@
+{
+  "name": "dsh-catalog",
+  "version": "0.1.0",
+  "private": true,
+  "description": "DSH Community Market standard catalog source for the PerryLink dsh-* plugin family.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "node scripts/build-catalog.mjs",
+    "validate": "node scripts/validate.mjs",
+    "build:check": "node scripts/build-catalog.mjs && node scripts/validate.mjs"
+  }
+}
