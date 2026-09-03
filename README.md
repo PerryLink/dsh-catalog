@@ -41,6 +41,12 @@ Primary (Vercel, automated) — the `deploy` workflow rebuilds the manifest with
 
 Alternative (Deno Deploy) — the self-contained `deploy/deno-worker.js` unit: create a Deno Deploy project rooted at `deploy/`, rebuild with `node scripts/build-catalog.mjs https://<your-project>.deno.dev`, and deploy. (Deno temporarily disabled new signups as of 2026-09-03; Vercel is the default path.)
 
+Alternative (Cloudflare Workers) — `deploy/wrangler.toml` + `deploy/cloudflare-worker.js` are ready:
+
+1. Sign up at dash.cloudflare.com, create an API token (Workers → Edit permission) and note the Account ID.
+2. `gh secret set CLOUDFLARE_API_TOKEN -R PerryLink/dsh-catalog` and `gh secret set CLOUDFLARE_ACCOUNT_ID -R PerryLink/dsh-catalog`.
+3. `gh workflow run deploy -R PerryLink/dsh-catalog` — the workflow deploys once, reads the assigned `*.workers.dev` URL, rebuilds the manifest with that origin, and redeploys (two-pass, automatic).
+
 Either way the site serves `GET /catalog-source.json` and `GET /v1/plugins` as `application/json` on one HTTPS origin.
 
 ## Use in DSH Desktop

@@ -6,6 +6,7 @@ on:
     paths:
       - 'vercel.json'
       - '.vercelignore'
+      - 'deploy/**'
       - 'scripts/build-catalog.mjs'
       - 'data/**'
       - '.github/workflows/deploy.yml'
@@ -22,16 +23,38 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Rebuild catalog with the live origin
-        run: node scripts/build-catalog.mjs https://perrylink-dsh-catalog.vercel.app
-      - name: Validate artifacts
+      - name: Validate committed artifacts
         run: node scripts/validate.mjs
       - name: Deploy to Vercel
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: |
           if [ -z "$VERCEL_TOKEN" ]; then
-            echo "SKIP deploy: VERCEL_TOKEN secret not set"
+            echo "SKIP vercel: VERCEL_TOKEN secret not set"
             exit 0
           fi
+          node scripts/build-catalog.mjs https://perrylink-dsh-catalog.vercel.app
+          node scripts/validate.mjs
           npx -y vercel@latest deploy --prod --yes --token "$VERCEL_TOKEN"
+      - name: Deploy to Cloudflare Workers
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "SKIP cloudflare: CLOUDFLARE_API_TOKEN secret not set"
+            exit 0
+          fi
+          cd deploy
+          npx -y wrangler@latest deploy --config wrangler.toml 2>&1 | tee /tmp/wrangler.log
+          URL="$(grep -oE 'https://perrylink-dsh-catalog\.[a-z0-9-]+\.workers\.dev' /tmp/wrangler.log | head -1)"
+          cd ..
+          if [ -n "$URL" ]; then
+            echo "workers.dev URL: $URL"
+            node scripts/build-catalog.mjs "$URL"
+            node scripts/validate.mjs
+            cd deploy
+            npx -y wrangler@latest deploy --config wrangler.toml
+          else
+            echo "WARN: could not parse workers.dev URL from wrangler output"
+          fi
