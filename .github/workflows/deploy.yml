@@ -60,7 +60,8 @@ jobs:
           done
           node scripts/build-icons.mjs
           cd deploy
-          npx -y wrangler@latest deploy --config wrangler.toml 2>&1 | tee /tmp/workers.log || true          URL="$(grep -oE 'https://perrylink-dsh-catalog\.[a-z0-9-]+\.workers\.dev' /tmp/workers.log | head -1 || true)"
+          npx -y wrangler@latest deploy --config wrangler.toml 2>&1 | tee /tmp/workers.log || true
+          URL="$(grep -oE 'https://perrylink-dsh-catalog\.[a-z0-9-]+\.workers\.dev' /tmp/workers.log | head -1 || true)"
           CHANNEL=workers
           if [ -z "$URL" ]; then
             echo "workers.dev unavailable, falling back to Cloudflare Pages"
