@@ -31,6 +31,7 @@ jobs:
             echo "SKIP vercel: VERCEL_TOKEN secret not set"
             exit 0
           fi
+          node scripts/build-icons.mjs
           node scripts/build-catalog.mjs https://perrylink-dsh-catalog.vercel.app
           node scripts/validate.mjs
           npx -y vercel@latest deploy --prod --yes --token "$VERCEL_TOKEN"
@@ -57,9 +58,9 @@ jobs:
               --data "{\"subdomain\":\"$SUB\"}"
             echo
           done
+          node scripts/build-icons.mjs
           cd deploy
-          npx -y wrangler@latest deploy --config wrangler.toml 2>&1 | tee /tmp/workers.log || true
-          URL="$(grep -oE 'https://perrylink-dsh-catalog\.[a-z0-9-]+\.workers\.dev' /tmp/workers.log | head -1 || true)"
+          npx -y wrangler@latest deploy --config wrangler.toml 2>&1 | tee /tmp/workers.log || true          URL="$(grep -oE 'https://perrylink-dsh-catalog\.[a-z0-9-]+\.workers\.dev' /tmp/workers.log | head -1 || true)"
           CHANNEL=workers
           if [ -z "$URL" ]; then
             echo "workers.dev unavailable, falling back to Cloudflare Pages"

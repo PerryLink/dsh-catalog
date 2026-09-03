@@ -46,6 +46,12 @@ for (const item of page.items) {
     check(/^(?:@[a-z0-9][a-z0-9._-]*\/)?[a-z0-9][a-z0-9._-]*$/.test(item.package.name), `package name pattern: ${item.id}`)
   }
   if (item.repository) check(/^https:\/\/(?![^/?#]*@)(?![^/?#]*:)/.test(item.repository.url), `repository url: ${item.id}`)
+  if (item.media?.icon) {
+    check(typeof item.media.icon.url === 'string' && /^https:\/\/[^/?#]+\/icons\/[A-Za-z0-9][A-Za-z0-9._-]*\.png$/.test(item.media.icon.url), `icon url shape: ${item.id}`)
+    check(item.media.icon.alt === undefined || (typeof item.media.icon.alt === 'string' && item.media.icon.alt.length >= 1 && item.media.icon.alt.length <= 120), `icon alt bounds: ${item.id}`)
+    const endpointHost = new URL(manifest.transport.endpoint).host
+    check(new URL(item.media.icon.url).host === endpointHost, `icon same-origin as endpoint: ${item.id}`)
+  }
   const joined = JSON.stringify(item)
   check(!/dsh\s+plugin\s+--profile|pnpm\s+(add|install)|npm\s+(i|install)/.test(joined), `no install commands: ${item.id}`)
 }

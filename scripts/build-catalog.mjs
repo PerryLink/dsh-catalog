@@ -27,11 +27,12 @@ for (const pkg of packages) {
   const npm = byName.get(pkg.npm)
   if (!npm) throw new Error(`npm snapshot missing for ${pkg.npm}`)
   const repositoryUrl = `https://github.com/${pkg.repo}`
+  const iconSlug = pkg.npm.replace(/^@/, '').replace(/[^A-Za-z0-9._-]/g, '-')
   const item = {
     id: pkg.npm.startsWith('@') ? pkg.npm.slice(1) : pkg.npm,
     name: pkg.npm,
     displayName: clean(pkg.displayName),
-    summary: clean(npm.description ?? `${pkg.displayName}: DeepSeek Harness (dsh) plugin.`).slice(0, 1000),
+    summary: clean(pkg.summary ?? npm.description ?? `${pkg.displayName}: DeepSeek Harness (dsh) plugin.`).slice(0, 1000),
     homepage: npm.homepage && /^https:/.test(npm.homepage) ? npm.homepage : repositoryUrl,
     latestVersion: npm.latest,
     license: typeof npm.license === 'string' && npm.license.length <= 80 ? npm.license : undefined,
@@ -39,6 +40,7 @@ for (const pkg of packages) {
     repository: { url: repositoryUrl },
     package: { registry: 'npm', name: pkg.npm },
     publisher: { name: 'PerryLink', url: 'https://github.com/PerryLink' },
+    media: { icon: { url: `${deployOrigin}/icons/${iconSlug}.png`, alt: pkg.displayName } },
     updatedAt: npm.updatedAt,
   }
   items.push(item)
@@ -56,7 +58,7 @@ const manifest = {
   manifestVersion: '1.0.0',
   providerId: 'com.perrylink.dsh-catalog',
   name: 'PerryLink DSH Catalog',
-  description: 'Official catalog of the 33-package PerryLink DeepSeek Harness plugin family on npm.',
+  description: `Official catalog of the ${packages.length}-package PerryLink DeepSeek Harness plugin family on npm.`,
   homepage: 'https://github.com/PerryLink/dsh-catalog',
   attribution: { name: 'PerryLink', url: 'https://github.com/PerryLink' },
   transport: { kind: 'https-json', endpoint: `${deployOrigin}/v1/plugins`, method: 'GET' },
