@@ -63,6 +63,7 @@ jobs:
           CHANNEL=workers
           if [ -z "$URL" ]; then
             echo "workers.dev unavailable, falling back to Cloudflare Pages"
+            npx -y wrangler@latest pages project create perrylink-dsh-catalog --production-branch main 2>&1 | tee /tmp/pages-create.log || true
             npx -y wrangler@latest pages deploy . --project-name=perrylink-dsh-catalog 2>&1 | tee /tmp/pages.log || true
             URL="$(grep -oE 'https://perrylink-dsh-catalog\.pages\.dev' /tmp/pages.log | head -1 || true)"
             CHANNEL=pages
