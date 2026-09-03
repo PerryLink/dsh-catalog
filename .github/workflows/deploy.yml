@@ -81,6 +81,15 @@ jobs:
             else
               npx -y wrangler@latest pages deploy . --project-name=perrylink-dsh-catalog
             fi
+            cd ..
+            echo "--- live smoke ---"
+            curl -fsS "$URL/catalog-source.json" -o /tmp/manifest.json
+            grep -q "$URL/v1/plugins" /tmp/manifest.json
+            curl -fsS "$URL/v1/plugins" -o /tmp/plugins.json
+            node -e "const j=require('/tmp/plugins.json');if(!Array.isArray(j.items)||j.items.length<34)throw new Error('unexpected items: '+(j.items&&j.items.length));if(!j.items.every(i=>i.media&&i.media.icon&&i.media.icon.url))throw new Error('missing media.icon');console.log('plugins ok:',j.items.length,'items, all with media.icon')"
+            curl -fsS "$URL/icons/dsh-auto-review.png" -o /tmp/icon.png
+            node -e "const b=require('fs').readFileSync('/tmp/icon.png');if(!b.subarray(0,8).equals(Buffer.from([137,80,78,71,13,10,26,10])))throw new Error('bad png signature');console.log('icon ok:',b.length,'bytes')"
+            echo "live smoke ok: $URL"
           else
             echo "ERROR: no deploy URL obtained from wrangler output"
             exit 1
