@@ -66,4 +66,11 @@ const manifest = {
 await mkdir(`${base}/artifacts/v1`, { recursive: true })
 await writeFile(`${base}/artifacts/v1/plugins.json`, `${JSON.stringify(page, null, 2)}\n`)
 await writeFile(`${base}/catalog-source.json`, `${JSON.stringify(manifest, null, 2)}\n`)
-console.log(`built ${items.length} items -> artifacts/v1/plugins.json, catalog-source.json (endpoint ${deployOrigin}/v1/plugins)`)
+// The deploy unit (deploy/deno-worker.js) imports its payload with
+// ./-relative specifiers, so it must be self-contained: mirror both
+// artifacts into deploy/ so any Deno Deploy project rooted at deploy/
+// (or the whole repo) serves the same content.
+await mkdir(`${base}/deploy/artifacts/v1`, { recursive: true })
+await writeFile(`${base}/deploy/artifacts/v1/plugins.json`, `${JSON.stringify(page, null, 2)}\n`)
+await writeFile(`${base}/deploy/catalog-source.json`, `${JSON.stringify(manifest, null, 2)}\n`)
+console.log(`built ${items.length} items -> artifacts/v1/plugins.json + deploy/ copies (endpoint ${deployOrigin}/v1/plugins)`)

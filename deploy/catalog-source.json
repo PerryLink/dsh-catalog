@@ -1,0 +1,22 @@
+{
+  "manifestVersion": "1.0.0",
+  "providerId": "com.perrylink.dsh-catalog",
+  "name": "PerryLink DSH Catalog",
+  "description": "Official catalog of the 33-package PerryLink DeepSeek Harness plugin family on npm.",
+  "homepage": "https://github.com/PerryLink/dsh-catalog",
+  "attribution": {
+    "name": "PerryLink",
+    "url": "https://github.com/PerryLink"
+  },
+  "transport": {
+    "kind": "https-json",
+    "endpoint": "https://replace-with-deploy-origin.invalid/v1/plugins",
+    "method": "GET"
+  },
+  "query": {
+    "supported": [],
+    "defaultLimit": 50,
+    "maxLimit": 50,
+    "sorts": []
+  }
+}

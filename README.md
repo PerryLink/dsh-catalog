@@ -23,6 +23,8 @@ node scripts/validate.mjs                 # structural checks
 node scripts/build-catalog.mjs https://<your-project>.deno.dev   # real origin
 ```
 
+`build-catalog.mjs` writes the manifest and provider page to the repo root **and** mirrors both into `deploy/`, so `deploy/deno-worker.js` is a self-contained Deno Deploy unit (its `./` imports always resolve).
+
 `data/npm-snapshot.json` is refreshed with:
 
 ```powershell
@@ -31,7 +33,15 @@ node scripts/build-catalog.mjs https://<your-project>.deno.dev   # real origin
 
 ## Deploy (Deno Deploy, free tier)
 
-1. Create a Deno Deploy project pointing at this folder (entry: `deploy/deno-worker.js`).
+Automated path (recommended) — the `deploy` workflow rebuilds the manifest with the live origin `https://perrylink-dsh-catalog.deno.dev`, validates, and deploys `deploy/deno-worker.js`:
+
+1. Create an Access Token on dash.deno.com (Account → Settings → Access Tokens).
+2. `gh secret set DENO_DEPLOY_TOKEN -R PerryLink/dsh-catalog` (paste the token).
+3. `gh workflow run deploy -R PerryLink/dsh-catalog` — the first run creates the project; later pushes to `main` redeploy automatically.
+
+Manual path:
+
+1. Create a Deno Deploy project rooted at `deploy/` (entry: `deploy/deno-worker.js`).
 2. Rebuild with the real origin: `node scripts/build-catalog.mjs https://<your-project>.deno.dev`.
 3. Re-deploy. The worker serves `GET /catalog-source.json` and `GET /v1/plugins` as `application/json`.
 

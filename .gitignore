@@ -1,3 +1,7 @@
 node_modules/
 artifacts/
 catalog-source.json
+# The deploy unit is self-contained: keep the mirrored copies the build
+# emits into deploy/ (Deno Deploy serves them next to deno-worker.js).
+!deploy/artifacts/
+!deploy/catalog-source.json

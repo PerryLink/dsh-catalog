@@ -1,0 +1,40 @@
+name: deploy
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'deploy/**'
+      - 'scripts/build-catalog.mjs'
+      - 'data/**'
+      - '.github/workflows/deploy.yml'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Rebuild catalog with the live origin
+        run: node scripts/build-catalog.mjs https://perrylink-dsh-catalog.deno.dev
+      - name: Validate artifacts
+        run: node scripts/validate.mjs
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+      - name: Deploy to Deno Deploy
+        env:
+          DENO_DEPLOY_TOKEN: ${{ secrets.DENO_DEPLOY_TOKEN }}
+        run: |
+          if [ -z "$DENO_DEPLOY_TOKEN" ]; then
+            echo "SKIP deploy: DENO_DEPLOY_TOKEN secret not set"
+            exit 0
+          fi
+          cd deploy
+          deno run -A npm:deployctl@latest deploy --project=perrylink-dsh-catalog --prod deno-worker.js
