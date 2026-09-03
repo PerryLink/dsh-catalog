@@ -34,7 +34,7 @@ jobs:
           node scripts/build-catalog.mjs https://perrylink-dsh-catalog.vercel.app
           node scripts/validate.mjs
           npx -y vercel@latest deploy --prod --yes --token "$VERCEL_TOKEN"
-      - name: Deploy to Cloudflare Workers
+      - name: Deploy to Cloudflare
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
@@ -44,6 +44,7 @@ jobs:
             echo "SKIP cloudflare: CLOUDFLARE_API_TOKEN secret not set"
             exit 0
           fi
+          echo "account id prefix: ${CLOUDFLARE_ACCOUNT_ID:0:8}"
           echo "--- workers.dev subdomain state ---"
           curl -s "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/subdomain" \
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN"
@@ -57,16 +58,27 @@ jobs:
             echo
           done
           cd deploy
-          npx -y wrangler@latest deploy --config wrangler.toml 2>&1 | tee /tmp/wrangler.log
-          URL="$(grep -oE 'https://perrylink-dsh-catalog\.[a-z0-9-]+\.workers\.dev' /tmp/wrangler.log | head -1)"
+          npx -y wrangler@latest deploy --config wrangler.toml 2>&1 | tee /tmp/workers.log || true
+          URL="$(grep -oE 'https://perrylink-dsh-catalog\.[a-z0-9-]+\.workers\.dev' /tmp/workers.log | head -1)"
+          CHANNEL=workers
+          if [ -z "$URL" ]; then
+            echo "workers.dev unavailable, falling back to Cloudflare Pages"
+            npx -y wrangler@latest pages deploy . --project-name=perrylink-dsh-catalog 2>&1 | tee /tmp/pages.log || true
+            URL="$(grep -oE 'https://perrylink-dsh-catalog\.pages\.dev' /tmp/pages.log | head -1)"
+            CHANNEL=pages
+          fi
           cd ..
           if [ -n "$URL" ]; then
-            echo "workers.dev URL: $URL"
+            echo "deployed URL: $URL (channel $CHANNEL)"
             node scripts/build-catalog.mjs "$URL"
             node scripts/validate.mjs
             cd deploy
-            npx -y wrangler@latest deploy --config wrangler.toml
+            if [ "$CHANNEL" = workers ]; then
+              npx -y wrangler@latest deploy --config wrangler.toml
+            else
+              npx -y wrangler@latest pages deploy . --project-name=perrylink-dsh-catalog
+            fi
           else
-            echo "ERROR: could not parse workers.dev URL from wrangler output"
+            echo "ERROR: no deploy URL obtained from wrangler output"
             exit 1
           fi
