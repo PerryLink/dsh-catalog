@@ -6,7 +6,7 @@ A [DSH Community Market](https://github.com/anywhere-labs/dsh-desktop/tree/main/
 - Provider page: `artifacts/v1/plugins.json` (generated)
 - Source of truth: `data/packages.json` (npm name → repo → display name → categories) + `data/npm-snapshot.json` (npm registry snapshot)
 - Generator / validator: `scripts/build-catalog.mjs`, `scripts/validate.mjs`
-- Deploy unit: `deploy/deno-worker.js` (Deno Deploy, serves manifest + `/v1/plugins` with `application/json`)
+- Deploy: Vercel static site with a `/v1/plugins` rewrite (`vercel.json`, primary) or the self-contained Deno unit `deploy/deno-worker.js` (alternative)
 
 ## Compliance notes
 
@@ -31,23 +31,21 @@ node scripts/build-catalog.mjs https://<your-project>.deno.dev   # real origin
 # PowerShell: re-fetch the 33 packages from registry.npmjs.org (see packages.json names)
 ```
 
-## Deploy (Deno Deploy, free tier)
+## Deploy
 
-Automated path (recommended) — the `deploy` workflow rebuilds the manifest with the live origin `https://perrylink-dsh-catalog.deno.dev`, validates, and deploys `deploy/deno-worker.js`:
+Primary (Vercel, automated) — the `deploy` workflow rebuilds the manifest with the live origin `https://perrylink-dsh-catalog.vercel.app`, validates, and deploys to Vercel (static files plus a `/v1/plugins` rewrite to `artifacts/v1/plugins.json`, so the endpoint returns `application/json` on the exact contract path):
 
-1. Create an Access Token on dash.deno.com (Account → Settings → Access Tokens).
-2. `gh secret set DENO_DEPLOY_TOKEN -R PerryLink/dsh-catalog` (paste the token).
+1. Sign in to vercel.com with GitHub and create a token (Account → Settings → Tokens).
+2. `gh secret set VERCEL_TOKEN -R PerryLink/dsh-catalog` (paste the token).
 3. `gh workflow run deploy -R PerryLink/dsh-catalog` — the first run creates the project; later pushes to `main` redeploy automatically.
 
-Manual path:
+Alternative (Deno Deploy) — the self-contained `deploy/deno-worker.js` unit: create a Deno Deploy project rooted at `deploy/`, rebuild with `node scripts/build-catalog.mjs https://<your-project>.deno.dev`, and deploy. (Deno temporarily disabled new signups as of 2026-09-03; Vercel is the default path.)
 
-1. Create a Deno Deploy project rooted at `deploy/` (entry: `deploy/deno-worker.js`).
-2. Rebuild with the real origin: `node scripts/build-catalog.mjs https://<your-project>.deno.dev`.
-3. Re-deploy. The worker serves `GET /catalog-source.json` and `GET /v1/plugins` as `application/json`.
+Either way the site serves `GET /catalog-source.json` and `GET /v1/plugins` as `application/json` on one HTTPS origin.
 
 ## Use in DSH Desktop
 
-Open the built-in Market → **Sources** → add source → paste the manifest URL `https://<your-project>.deno.dev/catalog-source.json` → select it. Browsing is read-only; installation of any listed plugin goes through the Market's own npm-identity verification and user confirmation.
+Open the built-in Market → **Sources** → add source → paste the manifest URL `https://perrylink-dsh-catalog.vercel.app/catalog-source.json` → select it. Browsing is read-only; installation of any listed plugin goes through the Market's own npm-identity verification and user confirmation.
 
 A listing in this catalog is metadata, not a security review. The same plugins also have evidence records in [dsh-plugin-certification](https://github.com/PerryLink/dsh-plugin-certification) and MCP access via [dsh-cert-mcp](https://github.com/PerryLink/dsh-cert-mcp).
 
@@ -55,7 +53,7 @@ A listing in this catalog is metadata, not a security review. The same plugins a
 
 ## 中文说明
 
-PerryLink 全家桶的 [DSH Community Market](https://github.com/anywhere-labs/dsh-desktop/tree/main/dsh-community-market) 标准目录源：33 个 npm 包，由 npm registry 生成，按公开 v1 契约做结构校验。部署到 Deno Deploy 免费额度后，在 DSH Desktop 的 市场 → Sources 里添加 manifest URL 即可浏览（浏览只读；安装仍走市场自身的 npm 身份校验与用户确认）。生成产物中的占位域名 `replace-with-deploy-origin.invalid` 在部署时替换，请勿直接注册占位地址。
+PerryLink 全家桶的 [DSH Community Market](https://github.com/anywhere-labs/dsh-desktop/tree/main/dsh-community-market) 标准目录源：33 个 npm 包，由 npm registry 生成，按公开 v1 契约做结构校验。部署到 Vercel（免费额度，静态 + `/v1/plugins` 重写；Deno Deploy 为备选）后，在 DSH Desktop 的 市场 → Sources 里添加 manifest URL 即可浏览（浏览只读；安装仍走市场自身的 npm 身份校验与用户确认）。生成产物中的占位域名 `replace-with-deploy-origin.invalid` 在部署时替换，请勿直接注册占位地址。
 
 ## License
 

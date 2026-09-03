@@ -4,7 +4,8 @@ on:
   push:
     branches: [main]
     paths:
-      - 'deploy/**'
+      - 'vercel.json'
+      - '.vercelignore'
       - 'scripts/build-catalog.mjs'
       - 'data/**'
       - '.github/workflows/deploy.yml'
@@ -22,19 +23,15 @@ jobs:
         with:
           node-version: 22
       - name: Rebuild catalog with the live origin
-        run: node scripts/build-catalog.mjs https://perrylink-dsh-catalog.deno.dev
+        run: node scripts/build-catalog.mjs https://perrylink-dsh-catalog.vercel.app
       - name: Validate artifacts
         run: node scripts/validate.mjs
-      - uses: denoland/setup-deno@v2
-        with:
-          deno-version: v2.x
-      - name: Deploy to Deno Deploy
+      - name: Deploy to Vercel
         env:
-          DENO_DEPLOY_TOKEN: ${{ secrets.DENO_DEPLOY_TOKEN }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: |
-          if [ -z "$DENO_DEPLOY_TOKEN" ]; then
-            echo "SKIP deploy: DENO_DEPLOY_TOKEN secret not set"
+          if [ -z "$VERCEL_TOKEN" ]; then
+            echo "SKIP deploy: VERCEL_TOKEN secret not set"
             exit 0
           fi
-          cd deploy
-          deno run -A npm:deployctl@latest deploy --project=perrylink-dsh-catalog --prod deno-worker.js
+          npx -y vercel@latest deploy --prod --yes --token "$VERCEL_TOKEN"

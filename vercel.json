@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "name": "perrylink-dsh-catalog",
+  "rewrites": [
+    { "source": "/v1/plugins", "destination": "/artifacts/v1/plugins.json" }
+  ]
+}
