@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-03T15:24:27.607Z",
-  "revision": "perrylink-dsh-catalog-2026-09-03",
+  "generatedAt": "2026-09-04T15:33:24.095Z",
+  "revision": "perrylink-dsh-catalog-2026-09-04",
   "items": [
     {
       "id": "dsh-auto-review",
@@ -9,7 +9,7 @@
       "displayName": "Auto Review",
       "summary": "Second-model AI auto-review for DeepSeek Harness approval requests: a read-only reviewer subagent decides allow/deny on the approval answerer chain, with fail-closed fallback and full session-log audit.",
       "homepage": "https://github.com/PerryLink/dsh-auto-review#readme",
-      "latestVersion": "0.10.2",
+      "latestVersion": "0.10.3",
       "license": "Apache-2.0",
       "categories": [
         "workflow"
@@ -31,7 +31,7 @@
           "alt": "Auto Review"
         }
       },
-      "updatedAt": "2026-09-03T10:50:15.159Z"
+      "updatedAt": "2026-09-04T14:14:11.793Z"
     },
     {
       "id": "dsh-permission-rules",
@@ -39,7 +39,7 @@
       "displayName": "Permission Rules",
       "summary": "Declarative, ordered allow/deny/ask permission rules for DeepSeek Harness: match tool names, arguments (glob/regex), workspace paths, and network targets (domain/IP/port/scheme), plus a Codex-style process-level network policy.",
       "homepage": "https://github.com/PerryLink/dsh-permission-rules#readme",
-      "latestVersion": "0.6.9",
+      "latestVersion": "0.6.10",
       "license": "Apache-2.0",
       "categories": [
         "workflow"
@@ -61,7 +61,7 @@
           "alt": "Permission Rules"
         }
       },
-      "updatedAt": "2026-09-03T10:50:23.937Z"
+      "updatedAt": "2026-09-04T14:01:05.689Z"
     },
     {
       "id": "dsh-doublecheck",
@@ -69,7 +69,7 @@
       "displayName": "DoubleCheck",
       "summary": "Delivery quality gate for DeepSeek Harness: grill the requirements, test the implementation, prove the delivery, and gate the handoff with a deliverable/rework decision.",
       "homepage": "https://github.com/PerryLink/dsh-doublecheck#readme",
-      "latestVersion": "0.9.4",
+      "latestVersion": "0.9.5",
       "license": "Apache-2.0",
       "categories": [
         "tools"
@@ -91,7 +91,7 @@
           "alt": "DoubleCheck"
         }
       },
-      "updatedAt": "2026-09-02T14:59:03.562Z"
+      "updatedAt": "2026-09-04T14:07:05.054Z"
     },
     {
       "id": "dsh-memento",
@@ -99,7 +99,7 @@
       "displayName": "Memento",
       "summary": "Bounded, layered, approval-gated, auditable cross-session memory for DeepSeek Harness — a capability seam (ctx.memory service + local SQLite provider + memory tool + frozen snapshot injection), not another memory warehouse.",
       "homepage": "https://github.com/PerryLink/dsh-memento#readme",
-      "latestVersion": "0.5.4",
+      "latestVersion": "0.5.5",
       "license": "Apache-2.0",
       "categories": [
         "memory"
@@ -121,7 +121,7 @@
           "alt": "Memento"
         }
       },
-      "updatedAt": "2026-09-03T10:54:17.379Z"
+      "updatedAt": "2026-09-04T14:02:49.199Z"
     },
     {
       "id": "dsh-checkpoint-rewind",
@@ -129,7 +129,7 @@
       "displayName": "Checkpoint Rewind",
       "summary": "Unified DSH checkpoints: session, workspace, and config three-state snapshots with one-shot /checkpoint and /rewind rollback, a checkpoint tool, automatic interval snapshots, a Settings-page timeline with pairwise diffs, and seed-replay session recovery.",
       "homepage": "https://github.com/PerryLink/dsh-checkpoint-rewind#readme",
-      "latestVersion": "0.6.4",
+      "latestVersion": "0.6.5",
       "license": "Apache-2.0",
       "categories": [
         "session"
@@ -151,7 +151,7 @@
           "alt": "Checkpoint Rewind"
         }
       },
-      "updatedAt": "2026-09-02T14:55:58.188Z"
+      "updatedAt": "2026-09-04T14:05:16.920Z"
     },
     {
       "id": "dsh-mcp-panel",
@@ -159,7 +159,7 @@
       "displayName": "MCP Panel",
       "summary": "Web panel for managing MCP (Model Context Protocol) servers in DeepSeek Harness: inspect, start/stop, view logs, and configure servers, with automatic backups.",
       "homepage": "https://github.com/PerryLink/dsh-mcp-panel#readme",
-      "latestVersion": "0.6.6",
+      "latestVersion": "0.6.7",
       "license": "Apache-2.0",
       "categories": [
         "integration"
@@ -181,7 +181,7 @@
           "alt": "MCP Panel"
         }
       },
-      "updatedAt": "2026-09-03T10:51:21.249Z"
+      "updatedAt": "2026-09-04T14:13:12.316Z"
     },
     {
       "id": "dsh-composer-history",
@@ -219,7 +219,7 @@
       "displayName": "Session Pin",
       "summary": "Pin important sessions in DeepSeek Harness so they stay visible, sorted first, and protected from cleanup.",
       "homepage": "https://github.com/PerryLink/dsh-session-pin#readme",
-      "latestVersion": "0.7.3",
+      "latestVersion": "0.7.4",
       "license": "Apache-2.0",
       "categories": [
         "session"
@@ -241,7 +241,7 @@
           "alt": "Session Pin"
         }
       },
-      "updatedAt": "2026-09-02T14:56:42.064Z"
+      "updatedAt": "2026-09-04T14:03:17.875Z"
     },
     {
       "id": "dsh-session-sync",
@@ -249,7 +249,7 @@
       "displayName": "Session Sync",
       "summary": "Session synchronization for DeepSeek Harness: push/pull session logs to remote storage with configurable auto push/pull.",
       "homepage": "https://github.com/PerryLink/dsh-session-sync#readme",
-      "latestVersion": "0.2.3",
+      "latestVersion": "0.2.6",
       "license": "Apache-2.0",
       "categories": [
         "session"
@@ -271,7 +271,7 @@
           "alt": "Session Sync"
         }
       },
-      "updatedAt": "2026-09-02T14:53:06.349Z"
+      "updatedAt": "2026-09-04T14:41:13.010Z"
     },
     {
       "id": "dsh-output-styles",
@@ -279,7 +279,7 @@
       "displayName": "Output Styles",
       "summary": "Output styling for DeepSeek Harness: themes, markdown rendering options, and display presets for model responses.",
       "homepage": "https://github.com/PerryLink/dsh-output-styles#readme",
-      "latestVersion": "0.6.6",
+      "latestVersion": "0.6.8",
       "license": "Apache-2.0",
       "categories": [
         "interface"
@@ -301,7 +301,7 @@
           "alt": "Output Styles"
         }
       },
-      "updatedAt": "2026-09-03T11:01:06.486Z"
+      "updatedAt": "2026-09-04T14:52:57.812Z"
     },
     {
       "id": "dsh-lsp-actions",
@@ -309,7 +309,7 @@
       "displayName": "LSP Actions",
       "summary": "LSP actions for DeepSeek Harness: the IDE-integration plugin that exposes language-server diagnostics, definitions, references, and fixes to the agent.",
       "homepage": "https://github.com/PerryLink/dsh-lsp-actions#readme",
-      "latestVersion": "0.4.3",
+      "latestVersion": "0.4.4",
       "license": "Apache-2.0",
       "categories": [
         "tools"
@@ -331,7 +331,7 @@
           "alt": "LSP Actions"
         }
       },
-      "updatedAt": "2026-09-02T13:29:28.537Z"
+      "updatedAt": "2026-09-04T14:11:36.125Z"
     },
     {
       "id": "dsh-background-agents",
@@ -339,7 +339,7 @@
       "displayName": "Background Agents",
       "summary": "Background agents for DeepSeek Harness: run subagents as background jobs with a structured task board and approval controls.",
       "homepage": "https://github.com/PerryLink/dsh-background-agents#readme",
-      "latestVersion": "0.8.1",
+      "latestVersion": "0.9.2",
       "license": "Apache-2.0",
       "categories": [
         "agent"
@@ -361,7 +361,7 @@
           "alt": "Background Agents"
         }
       },
-      "updatedAt": "2026-09-02T15:00:53.361Z"
+      "updatedAt": "2026-09-04T14:44:11.686Z"
     },
     {
       "id": "dsh-claude-move",
@@ -399,7 +399,7 @@
       "displayName": "Translate",
       "summary": "Translate text and files inside DeepSeek Harness with quality checks; also fixes broken JSON output from models.",
       "homepage": "https://github.com/PerryLink/dsh-translate#readme",
-      "latestVersion": "0.2.3",
+      "latestVersion": "0.2.4",
       "license": "Apache-2.0",
       "categories": [
         "tools"
@@ -421,7 +421,7 @@
           "alt": "Translate"
         }
       },
-      "updatedAt": "2026-09-02T13:10:46.642Z"
+      "updatedAt": "2026-09-04T14:02:56.888Z"
     },
     {
       "id": "dsh-local-ai",
@@ -429,7 +429,7 @@
       "displayName": "Local AI",
       "summary": "Run local AI models inside DeepSeek Harness: Ollama/LM Studio/local endpoints as drop-in model routes.",
       "homepage": "https://github.com/PerryLink/dsh-local-ai#readme",
-      "latestVersion": "0.2.3",
+      "latestVersion": "0.2.4",
       "license": "Apache-2.0",
       "categories": [
         "model"
@@ -451,7 +451,7 @@
           "alt": "Local AI"
         }
       },
-      "updatedAt": "2026-09-02T13:29:55.227Z"
+      "updatedAt": "2026-09-04T14:04:50.906Z"
     },
     {
       "id": "dsh-mask",
@@ -459,7 +459,7 @@
       "displayName": "Mask",
       "summary": "Mask sensitive values in DeepSeek Harness sessions: redaction rules for secrets, with an in-memory allowlist and a controlled reveal workflow.",
       "homepage": "https://github.com/PerryLink/dsh-mask#readme",
-      "latestVersion": "0.2.2",
+      "latestVersion": "0.2.3",
       "license": "Apache-2.0",
       "categories": [
         "tools"
@@ -481,7 +481,7 @@
           "alt": "Mask"
         }
       },
-      "updatedAt": "2026-09-01T16:11:54.038Z"
+      "updatedAt": "2026-09-04T14:09:50.122Z"
     },
     {
       "id": "dsh-data-quality",
@@ -489,7 +489,7 @@
       "displayName": "Data Quality",
       "summary": "Data-quality gate for DeepSeek Harness artifacts: validate datasets and files against schema, freshness, and cross-plugin verification rules.",
       "homepage": "https://github.com/PerryLink/dsh-data-quality#readme",
-      "latestVersion": "0.3.4",
+      "latestVersion": "0.3.6",
       "license": "Apache-2.0",
       "categories": [
         "tools"
@@ -511,7 +511,7 @@
           "alt": "Data Quality"
         }
       },
-      "updatedAt": "2026-09-02T14:54:24.050Z"
+      "updatedAt": "2026-09-04T14:49:26.957Z"
     },
     {
       "id": "dsh-score",
@@ -519,7 +519,7 @@
       "displayName": "Score",
       "summary": "Plugin quality scoring for the DSH ecosystem: evaluate plugins against checks and produce evidence-backed compliance reports.",
       "homepage": "https://github.com/PerryLink/dsh-score#readme",
-      "latestVersion": "0.2.4",
+      "latestVersion": "0.2.5",
       "license": "Apache-2.0",
       "categories": [
         "dev"
@@ -541,7 +541,7 @@
           "alt": "Score"
         }
       },
-      "updatedAt": "2026-09-02T15:02:20.678Z"
+      "updatedAt": "2026-09-04T14:03:55.763Z"
     },
     {
       "id": "dsh-test-drive",
@@ -549,7 +549,7 @@
       "displayName": "Test Drive",
       "summary": "Test Drive: run plugins in a disposable sandbox environment (temporary DSH_HOME) and score the results as JSON/Markdown.",
       "homepage": "https://github.com/PerryLink/dsh-test-drive#readme",
-      "latestVersion": "0.3.5",
+      "latestVersion": "0.3.6",
       "license": "Apache-2.0",
       "categories": [
         "dev"
@@ -571,7 +571,7 @@
           "alt": "Test Drive"
         }
       },
-      "updatedAt": "2026-09-02T15:04:09.775Z"
+      "updatedAt": "2026-09-04T14:05:46.785Z"
     },
     {
       "id": "dsh-defend",
@@ -579,7 +579,7 @@
       "displayName": "Defend",
       "summary": "Defense guard for DeepSeek Harness: pre-execution protection against recursive deletion, plus prompt-leak and key-leak detection assets.",
       "homepage": "https://github.com/PerryLink/dsh-defend#readme",
-      "latestVersion": "0.3.3",
+      "latestVersion": "0.3.4",
       "license": "Apache-2.0",
       "categories": [
         "dev"
@@ -601,7 +601,7 @@
           "alt": "Defend"
         }
       },
-      "updatedAt": "2026-09-02T14:57:22.022Z"
+      "updatedAt": "2026-09-04T14:07:05.788Z"
     },
     {
       "id": "dsh-budget",
@@ -609,7 +609,7 @@
       "displayName": "Budget",
       "summary": "Token and cost budgeting for DeepSeek Harness: per-session/agent budgets with a built-in carbon footprint estimate.",
       "homepage": "https://github.com/PerryLink/dsh-budget#readme",
-      "latestVersion": "0.4.3",
+      "latestVersion": "0.4.4",
       "license": "Apache-2.0",
       "categories": [
         "tools"
@@ -631,7 +631,7 @@
           "alt": "Budget"
         }
       },
-      "updatedAt": "2026-09-02T14:55:06.862Z"
+      "updatedAt": "2026-09-04T14:03:03.224Z"
     },
     {
       "id": "dsh-fast",
@@ -639,7 +639,7 @@
       "displayName": "Fast",
       "summary": "Speed up DeepSeek Harness responses: streaming and optimization toggles surfaced via the /fast command.",
       "homepage": "https://github.com/PerryLink/dsh-fast#readme",
-      "latestVersion": "0.2.4",
+      "latestVersion": "0.2.6",
       "license": "Apache-2.0",
       "categories": [
         "tools"
@@ -661,7 +661,7 @@
           "alt": "Fast"
         }
       },
-      "updatedAt": "2026-09-02T14:55:05.300Z"
+      "updatedAt": "2026-09-04T14:50:43.701Z"
     },
     {
       "id": "dsh-observe",
@@ -669,7 +669,7 @@
       "displayName": "Observe",
       "summary": "Observability for DeepSeek Harness: request tracing, telemetry, log buffering, and retry visibility.",
       "homepage": "https://github.com/PerryLink/dsh-observe#readme",
-      "latestVersion": "0.2.4",
+      "latestVersion": "0.2.7",
       "license": "Apache-2.0",
       "categories": [
         "dev"
@@ -691,7 +691,7 @@
           "alt": "Observe"
         }
       },
-      "updatedAt": "2026-09-02T14:58:30.069Z"
+      "updatedAt": "2026-09-04T14:49:11.851Z"
     },
     {
       "id": "dsh-click",
@@ -699,7 +699,7 @@
       "displayName": "Click",
       "summary": "Click-and-run automation for DeepSeek Harness: define UI actions and let the agent click through them, each action gated by approval.",
       "homepage": "https://github.com/PerryLink/dsh-click#readme",
-      "latestVersion": "0.3.3",
+      "latestVersion": "0.3.4",
       "license": "Apache-2.0",
       "categories": [
         "tools"
@@ -721,7 +721,7 @@
           "alt": "Click"
         }
       },
-      "updatedAt": "2026-09-02T14:58:43.529Z"
+      "updatedAt": "2026-09-04T14:06:57.663Z"
     },
     {
       "id": "dsh-talk",
@@ -729,7 +729,7 @@
       "displayName": "Talk",
       "summary": "Voice for DeepSeek Harness: text-to-speech and speech-to-text with mute and speak-to-chat controls.",
       "homepage": "https://github.com/PerryLink/dsh-talk#readme",
-      "latestVersion": "0.3.3",
+      "latestVersion": "0.3.4",
       "license": "Apache-2.0",
       "categories": [
         "tools"
@@ -751,7 +751,7 @@
           "alt": "Talk"
         }
       },
-      "updatedAt": "2026-09-02T14:54:59.321Z"
+      "updatedAt": "2026-09-04T14:05:01.315Z"
     },
     {
       "id": "dsh-draw",
@@ -759,7 +759,7 @@
       "displayName": "Draw",
       "summary": "Draw diagrams and images in DeepSeek Harness: text-to-image with local/hardware fallback and durable workspaces.",
       "homepage": "https://github.com/PerryLink/dsh-draw#readme",
-      "latestVersion": "0.2.5",
+      "latestVersion": "0.2.7",
       "license": "Apache-2.0",
       "categories": [
         "tools"
@@ -781,7 +781,7 @@
           "alt": "Draw"
         }
       },
-      "updatedAt": "2026-09-02T15:09:18.924Z"
+      "updatedAt": "2026-09-04T14:17:08.706Z"
     },
     {
       "id": "dsh-industry-research",
@@ -789,7 +789,7 @@
       "displayName": "Industry Research",
       "summary": "Industry research toolkit: structured company/industry dives with source capture and auditable research trails.",
       "homepage": "https://github.com/PerryLink/dsh-industry-research#readme",
-      "latestVersion": "0.3.2",
+      "latestVersion": "0.3.3",
       "license": "Apache-2.0",
       "categories": [
         "knowledge"
@@ -811,7 +811,7 @@
           "alt": "Industry Research"
         }
       },
-      "updatedAt": "2026-09-02T13:29:07.707Z"
+      "updatedAt": "2026-09-04T14:09:14.111Z"
     },
     {
       "id": "dsh-research-report",
@@ -819,7 +819,7 @@
       "displayName": "Research Report",
       "summary": "Research reports with integrity: evidence-linked reports whose content hash seals the directory of sources.",
       "homepage": "https://github.com/PerryLink/dsh-research-report#readme",
-      "latestVersion": "0.3.3",
+      "latestVersion": "0.3.4",
       "license": "Apache-2.0",
       "categories": [
         "knowledge"
@@ -841,7 +841,7 @@
           "alt": "Research Report"
         }
       },
-      "updatedAt": "2026-09-02T15:06:27.907Z"
+      "updatedAt": "2026-09-04T14:05:35.396Z"
     },
     {
       "id": "dsh-fund-research",
@@ -849,7 +849,7 @@
       "displayName": "Fund Research",
       "summary": "Fund research: analyze funds with returns, holdings, and performance decomposition.",
       "homepage": "https://github.com/PerryLink/dsh-fund-research#readme",
-      "latestVersion": "0.4.2",
+      "latestVersion": "0.4.4",
       "license": "Apache-2.0",
       "categories": [
         "knowledge"
@@ -871,7 +871,7 @@
           "alt": "Fund Research"
         }
       },
-      "updatedAt": "2026-09-02T13:12:53.739Z"
+      "updatedAt": "2026-09-04T14:49:43.105Z"
     },
     {
       "id": "dsh-library",
@@ -879,7 +879,7 @@
       "displayName": "Library",
       "summary": "Personal knowledge library for DeepSeek Harness: cite_check and library_docs tools over your saved documents.",
       "homepage": "https://github.com/PerryLink/dsh-library#readme",
-      "latestVersion": "0.2.3",
+      "latestVersion": "0.2.5",
       "license": "Apache-2.0",
       "categories": [
         "knowledge"
@@ -901,7 +901,7 @@
           "alt": "Library"
         }
       },
-      "updatedAt": "2026-09-02T13:09:29.534Z"
+      "updatedAt": "2026-09-04T14:50:39.075Z"
     },
     {
       "id": "dsh-plugin-guide",
@@ -909,7 +909,7 @@
       "displayName": "Plugin Guide",
       "summary": "The DSH plugin development guide as an installable skill: packaging, contracts, checks, and a pack verifier for builds.",
       "homepage": "https://github.com/PerryLink/dsh-plugin-guide#readme",
-      "latestVersion": "0.3.3",
+      "latestVersion": "0.3.4",
       "license": "Apache-2.0",
       "categories": [
         "knowledge"
@@ -931,7 +931,7 @@
           "alt": "Plugin Guide"
         }
       },
-      "updatedAt": "2026-09-02T13:31:46.116Z"
+      "updatedAt": "2026-09-04T14:10:49.973Z"
     },
     {
       "id": "perrylink/dsh-github",
@@ -939,7 +939,7 @@
       "displayName": "GitHub",
       "summary": "GitHub for DeepSeek Harness: PR/issue/repo/file tools, reviews, and CI checks — every write gated by human approval, token never logged.",
       "homepage": "https://github.com/PerryLink/dsh-github#readme",
-      "latestVersion": "0.7.3",
+      "latestVersion": "0.7.4",
       "license": "Apache-2.0",
       "categories": [
         "integration"
@@ -961,7 +961,7 @@
           "alt": "GitHub"
         }
       },
-      "updatedAt": "2026-09-02T13:13:39.097Z"
+      "updatedAt": "2026-09-04T14:11:13.216Z"
     },
     {
       "id": "perrylink/dsh-skill-pack-security-provider",
@@ -969,7 +969,7 @@
       "displayName": "Skill Pack Security Provider",
       "summary": "Security skill-pack provider: pre-packaged security review skills with a risk card; ships both host and client faces.",
       "homepage": "https://github.com/PerryLink/dsh-skill-pack-security#readme",
-      "latestVersion": "2.2.5",
+      "latestVersion": "2.2.7",
       "license": "Apache-2.0",
       "categories": [
         "agent"
@@ -991,7 +991,7 @@
           "alt": "Skill Pack Security Provider"
         }
       },
-      "updatedAt": "2026-09-03T10:56:57.292Z"
+      "updatedAt": "2026-09-04T14:21:10.709Z"
     },
     {
       "id": "dsh-personal-directive",
@@ -1022,9 +1022,39 @@
         }
       },
       "updatedAt": "2026-09-03T11:03:44.096Z"
+    },
+    {
+      "id": "perrylink/dsh-ticktick",
+      "name": "@perrylink/dsh-ticktick",
+      "displayName": "TickTick",
+      "summary": "TickTick (Dida365) task bridge for DeepSeek Harness: a session-header task panel (list filter, quick add, complete, delete, due dates, drag reorder), eleven curated ticktick_* tools, and a plugin settings card over the official TickTick MCP endpoint.",
+      "homepage": "https://github.com/PerryLink/dsh-ticktick#readme",
+      "latestVersion": "0.1.2",
+      "license": "Apache-2.0",
+      "categories": [
+        "integration"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-ticktick"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "@perrylink/dsh-ticktick"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/perrylink-dsh-ticktick.png",
+          "alt": "TickTick"
+        }
+      },
+      "updatedAt": "2026-09-04T15:28:42.908Z"
     }
   ],
   "page": {
-    "total": 34
+    "total": 35
   }
 }
