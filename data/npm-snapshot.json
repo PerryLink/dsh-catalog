@@ -59,8 +59,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-composer-history#readme",
     "repository": "https://github.com/PerryLink/dsh-composer-history.git",
-    "latest": "0.6.5",
-    "updatedAt": "2026-09-02T14:53:48.454Z"
+    "latest": "0.7.0",
+    "updatedAt": "2026-09-04T16:04:53.504Z"
   },
   {
     "name": "dsh-session-pin",
@@ -113,8 +113,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-claude-move#readme",
     "repository": "git+https://github.com/PerryLink/dsh-claude-move.git",
-    "latest": "0.3.3",
-    "updatedAt": "2026-09-02T13:36:47.326Z"
+    "latest": "0.4.1",
+    "updatedAt": "2026-09-05T02:21:55.221Z"
   },
   {
     "name": "dsh-translate",
@@ -313,5 +313,14 @@
     "repository": "git+https://github.com/PerryLink/dsh-ticktick.git",
     "latest": "0.1.2",
     "updatedAt": "2026-09-04T15:28:42.908Z"
+  },
+  {
+    "name": "@perrylink/dsh-cert-mcp",
+    "description": "Read-only MCP server exposing the dsh-plugin-certification registry: certification grades, snapshots and five-dimension evidence for DeepSeek Harness plugins.",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-cert-mcp#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-cert-mcp.git",
+    "latest": "0.1.2",
+    "updatedAt": "2026-09-04T14:16:05.003Z"
   }
 ]

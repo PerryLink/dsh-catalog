@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-04T15:33:24.095Z",
-  "revision": "perrylink-dsh-catalog-2026-09-04",
+  "generatedAt": "2026-09-05T02:22:15.957Z",
+  "revision": "perrylink-dsh-catalog-2026-09-05",
   "items": [
     {
       "id": "dsh-auto-review",
@@ -189,7 +189,7 @@
       "displayName": "Composer History",
       "summary": "Message edit history for the DSH composer: browse past versions of a message and restore any revision, with sliding-context awareness.",
       "homepage": "https://github.com/PerryLink/dsh-composer-history#readme",
-      "latestVersion": "0.6.5",
+      "latestVersion": "0.7.0",
       "license": "Apache-2.0",
       "categories": [
         "session"
@@ -211,7 +211,7 @@
           "alt": "Composer History"
         }
       },
-      "updatedAt": "2026-09-02T14:53:48.454Z"
+      "updatedAt": "2026-09-04T16:04:53.504Z"
     },
     {
       "id": "dsh-session-pin",
@@ -369,7 +369,7 @@
       "displayName": "Claude Move",
       "summary": "Claude Code to DeepSeek Harness migration: import CLAUDE.md/AGENTS.md, slash commands, and session history — approval-gated and idempotent.",
       "homepage": "https://github.com/PerryLink/dsh-claude-move#readme",
-      "latestVersion": "0.3.3",
+      "latestVersion": "0.4.1",
       "license": "Apache-2.0",
       "categories": [
         "integration"
@@ -391,7 +391,7 @@
           "alt": "Claude Move"
         }
       },
-      "updatedAt": "2026-09-02T13:36:47.326Z"
+      "updatedAt": "2026-09-05T02:21:55.221Z"
     },
     {
       "id": "dsh-translate",
@@ -1052,9 +1052,39 @@
         }
       },
       "updatedAt": "2026-09-04T15:28:42.908Z"
+    },
+    {
+      "id": "perrylink/dsh-cert-mcp",
+      "name": "@perrylink/dsh-cert-mcp",
+      "displayName": "Certification MCP",
+      "summary": "Read-only MCP server exposing the dsh-plugin-certification registry: certification grades, snapshots and five-dimension evidence for DeepSeek Harness plugins.",
+      "homepage": "https://github.com/PerryLink/dsh-cert-mcp#readme",
+      "latestVersion": "0.1.2",
+      "license": "Apache-2.0",
+      "categories": [
+        "integration"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-cert-mcp"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "@perrylink/dsh-cert-mcp"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/perrylink-dsh-cert-mcp.png",
+          "alt": "Certification MCP"
+        }
+      },
+      "updatedAt": "2026-09-04T14:16:05.003Z"
     }
   ],
   "page": {
-    "total": 35
+    "total": 36
   }
 }
