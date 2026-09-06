@@ -5,8 +5,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-auto-review#readme",
     "repository": "git+https://github.com/PerryLink/dsh-auto-review.git",
-    "latest": "0.10.3",
-    "updatedAt": "2026-09-04T14:14:11.793Z"
+    "latest": "0.10.4",
+    "updatedAt": "2026-09-05T15:04:30.976Z"
   },
   {
     "name": "dsh-permission-rules",
@@ -322,5 +322,14 @@
     "repository": "git+https://github.com/PerryLink/dsh-cert-mcp.git",
     "latest": "0.1.2",
     "updatedAt": "2026-09-04T14:16:05.003Z"
+  },
+  {
+    "name": "dsh-reach",
+    "description": "Multi-channel decision & remote-control bridge for DeepSeek Harness: pushes any workspace's approval/question cards to IM channels (WeChat iLink first) and answers them from chat, with a session console, per-channel security, and an open push service.",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-reach#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-reach.git",
+    "latest": "0.1.2",
+    "updatedAt": "2026-09-04T14:04:58.933Z"
   }
 ]

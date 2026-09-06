@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-05T02:22:15.957Z",
-  "revision": "perrylink-dsh-catalog-2026-09-05",
+  "generatedAt": "2026-09-06T04:18:17.742Z",
+  "revision": "perrylink-dsh-catalog-2026-09-06",
   "items": [
     {
       "id": "dsh-auto-review",
@@ -9,7 +9,7 @@
       "displayName": "Auto Review",
       "summary": "Second-model AI auto-review for DeepSeek Harness approval requests: a read-only reviewer subagent decides allow/deny on the approval answerer chain, with fail-closed fallback and full session-log audit.",
       "homepage": "https://github.com/PerryLink/dsh-auto-review#readme",
-      "latestVersion": "0.10.3",
+      "latestVersion": "0.10.4",
       "license": "Apache-2.0",
       "categories": [
         "workflow"
@@ -31,7 +31,7 @@
           "alt": "Auto Review"
         }
       },
-      "updatedAt": "2026-09-04T14:14:11.793Z"
+      "updatedAt": "2026-09-05T15:04:30.976Z"
     },
     {
       "id": "dsh-permission-rules",
@@ -187,7 +187,7 @@
       "id": "dsh-composer-history",
       "name": "dsh-composer-history",
       "displayName": "Composer History",
-      "summary": "Message edit history for the DSH composer: browse past versions of a message and restore any revision, with sliding-context awareness.",
+      "summary": "Terminal-style input history for the DeepSeek Harness web composer: edge-first arrows with exact draft/caret restore, browser-local persisted history, Ctrl+R reverse search, workspace recall, and sliding-context awareness.",
       "homepage": "https://github.com/PerryLink/dsh-composer-history#readme",
       "latestVersion": "0.7.0",
       "license": "Apache-2.0",
@@ -277,7 +277,7 @@
       "id": "dsh-output-styles",
       "name": "dsh-output-styles",
       "displayName": "Output Styles",
-      "summary": "Output styling for DeepSeek Harness: themes, markdown rendering options, and display presets for model responses.",
+      "summary": "Runtime-switchable model output styles for DeepSeek Harness: a Markdown style library (six built-ins, Claude Code-parity proactive/learning), /style command, session-scoped persistence, system-prompt injection, a plugin renderer registry, per-session/per-tool rules, and /export rendering.",
       "homepage": "https://github.com/PerryLink/dsh-output-styles#readme",
       "latestVersion": "0.6.8",
       "license": "Apache-2.0",
@@ -487,7 +487,7 @@
       "id": "dsh-data-quality",
       "name": "dsh-data-quality",
       "displayName": "Data Quality",
-      "summary": "Data-quality gate for DeepSeek Harness artifacts: validate datasets and files against schema, freshness, and cross-plugin verification rules.",
+      "summary": "Deterministic data profiling, cleaning, and verification for DeepSeek Harness: DAMA scorecard, content-hash dedupe, metric expectations, and drift checks.",
       "homepage": "https://github.com/PerryLink/dsh-data-quality#readme",
       "latestVersion": "0.3.6",
       "license": "Apache-2.0",
@@ -577,7 +577,7 @@
       "id": "dsh-defend",
       "name": "dsh-defend",
       "displayName": "Defend",
-      "summary": "Defense guard for DeepSeek Harness: pre-execution protection against recursive deletion, plus prompt-leak and key-leak detection assets.",
+      "summary": "Prompt-injection, jailbreak, and secret-leak defense for DeepSeek Harness: Aho-Corasick detection with allow/ask/block interception, sanitized audit events, and a recursive-delete pre-execution gate.",
       "homepage": "https://github.com/PerryLink/dsh-defend#readme",
       "latestVersion": "0.3.4",
       "license": "Apache-2.0",
@@ -607,7 +607,7 @@
       "id": "dsh-budget",
       "name": "dsh-budget",
       "displayName": "Budget",
-      "summary": "Token and cost budgeting for DeepSeek Harness: per-session/agent budgets with a built-in carbon footprint estimate.",
+      "summary": "Cost governance for DeepSeek Harness: aggregated token/cost metering per model, session and day, budget caps with threshold alerts and over-limit policies, carbon footprint estimation, per-model latency benchmarks, and the /budget command.",
       "homepage": "https://github.com/PerryLink/dsh-budget#readme",
       "latestVersion": "0.4.4",
       "license": "Apache-2.0",
@@ -637,7 +637,7 @@
       "id": "dsh-fast",
       "name": "dsh-fast",
       "displayName": "Fast",
-      "summary": "Speed up DeepSeek Harness responses: streaming and optimization toggles surfaced via the /fast command.",
+      "summary": "Read-only performance diagnostics for DeepSeek Harness: session load/restore timing, spill-hit counts, compaction count and trigger, context-injection volume (AGENTS.md/skills/tool-schema token share), and LLM cache hit rate — surfaced via /fast.",
       "homepage": "https://github.com/PerryLink/dsh-fast#readme",
       "latestVersion": "0.2.6",
       "license": "Apache-2.0",
@@ -697,7 +697,7 @@
       "id": "dsh-click",
       "name": "dsh-click",
       "displayName": "Click",
-      "summary": "Click-and-run automation for DeepSeek Harness: define UI actions and let the agent click through them, each action gated by approval.",
+      "summary": "Cross-platform native desktop control for DeepSeek Harness (Windows first): screen_shot, screen_read, click/type/scroll/key, and app_list/app_launch — approval-gated, never stealing foreground focus.",
       "homepage": "https://github.com/PerryLink/dsh-click#readme",
       "latestVersion": "0.3.4",
       "license": "Apache-2.0",
@@ -757,7 +757,7 @@
       "id": "dsh-draw",
       "name": "dsh-draw",
       "displayName": "Draw",
-      "summary": "Draw diagrams and images in DeepSeek Harness: text-to-image with local/hardware fallback and durable workspaces.",
+      "summary": "Unified static-image generation router for DeepSeek Harness: one image_generate tool with standard parameters, config-driven engine routing (OpenAI Images, Zhipu CogView, and any compatible endpoint), health-aware fallback, durable workspace attachments, and per-session quota accounting.",
       "homepage": "https://github.com/PerryLink/dsh-draw#readme",
       "latestVersion": "0.2.7",
       "license": "Apache-2.0",
@@ -877,7 +877,7 @@
       "id": "dsh-library",
       "name": "dsh-library",
       "displayName": "Library",
-      "summary": "Personal knowledge library for DeepSeek Harness: cite_check and library_docs tools over your saved documents.",
+      "summary": "Local document knowledge base for DeepSeek Harness: library_add/remove/list, hybrid semantic+keyword library_search with diversity re-ranking and lost-in-the-middle avoidance, citation-aware injection, library_cite_check and library_diagnose — SQLite-backed index, local embedding, zero model downloads.",
       "homepage": "https://github.com/PerryLink/dsh-library#readme",
       "latestVersion": "0.2.5",
       "license": "Apache-2.0",
@@ -1082,9 +1082,39 @@
         }
       },
       "updatedAt": "2026-09-04T14:16:05.003Z"
+    },
+    {
+      "id": "dsh-reach",
+      "name": "dsh-reach",
+      "displayName": "Reach",
+      "summary": "Multi-channel decision and remote-control bridge for DeepSeek Harness: approval/question cards from any workspace mirrored to IM chat (WeChat iLink, Telegram, Feishu) with stable #token ids and P{n} numbering, answered from chat through the native pending waterfall — fail-closed sender ownership, session console, and proactive reach_send.",
+      "homepage": "https://github.com/PerryLink/dsh-reach#readme",
+      "latestVersion": "0.1.2",
+      "license": "Apache-2.0",
+      "categories": [
+        "integration"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-reach"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-reach"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-reach.png",
+          "alt": "Reach"
+        }
+      },
+      "updatedAt": "2026-09-04T14:04:58.933Z"
     }
   ],
   "page": {
-    "total": 36
+    "total": 37
   }
 }
