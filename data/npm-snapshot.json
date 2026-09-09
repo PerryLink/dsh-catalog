@@ -293,8 +293,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-skill-pack-security#readme",
     "repository": "git+https://github.com/PerryLink/dsh-skill-pack-security.git",
-    "latest": "2.2.12",
-    "updatedAt": "2026-09-09T11:55:16.780Z"
+    "latest": "2.2.13",
+    "updatedAt": "2026-09-09T14:26:57.710Z"
   },
   {
     "name": "dsh-personal-directive",
@@ -338,8 +338,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-autotier#readme",
     "repository": "git+https://github.com/PerryLink/dsh-autotier.git",
-    "latest": "0.1.1",
-    "updatedAt": "2026-09-09T14:09:02.398Z"
+    "latest": "0.2.0",
+    "updatedAt": "2026-09-09T14:43:11.288Z"
   },
   {
     "name": "dsh-plugin-upgrade",

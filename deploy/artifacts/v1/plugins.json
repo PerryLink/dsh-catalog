@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-09T14:12:15.152Z",
+  "generatedAt": "2026-09-09T14:44:57.871Z",
   "revision": "perrylink-dsh-catalog-2026-09-09",
   "items": [
     {
@@ -969,7 +969,7 @@
       "displayName": "Skill Pack Security Provider",
       "summary": "Security skill-pack provider: pre-packaged security review skills with a risk card; ships both host and client faces.",
       "homepage": "https://github.com/PerryLink/dsh-skill-pack-security#readme",
-      "latestVersion": "2.2.12",
+      "latestVersion": "2.2.13",
       "license": "Apache-2.0",
       "categories": [
         "agent"
@@ -991,7 +991,7 @@
           "alt": "Skill Pack Security Provider"
         }
       },
-      "updatedAt": "2026-09-09T11:55:16.780Z"
+      "updatedAt": "2026-09-09T14:26:57.710Z"
     },
     {
       "id": "dsh-personal-directive",
@@ -1119,7 +1119,7 @@
       "displayName": "Autotier",
       "summary": "Automatic strong/cheap model-tier routing for DeepSeek Harness: intent-gated tier landing on the agent/request waterfall, plan-mode handoff (strong plans, cheap implements), deterministic high-risk guards on tools/pre-execute, and failure escalation with TTL fallback.",
       "homepage": "https://github.com/PerryLink/dsh-autotier#readme",
-      "latestVersion": "0.1.1",
+      "latestVersion": "0.2.0",
       "license": "Apache-2.0",
       "categories": [
         "model",
@@ -1142,7 +1142,7 @@
           "alt": "Autotier"
         }
       },
-      "updatedAt": "2026-09-09T14:09:02.398Z"
+      "updatedAt": "2026-09-09T14:43:11.288Z"
     },
     {
       "id": "dsh-plugin-upgrade",
