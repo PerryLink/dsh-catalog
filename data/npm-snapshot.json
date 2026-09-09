@@ -5,8 +5,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-auto-review#readme",
     "repository": "git+https://github.com/PerryLink/dsh-auto-review.git",
-    "latest": "0.10.5",
-    "updatedAt": "2026-09-07T10:14:50.241Z"
+    "latest": "0.12.0",
+    "updatedAt": "2026-09-09T11:24:26.873Z"
   },
   {
     "name": "dsh-permission-rules",
@@ -14,8 +14,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-permission-rules#readme",
     "repository": "git+https://github.com/PerryLink/dsh-permission-rules.git",
-    "latest": "0.6.11",
-    "updatedAt": "2026-09-07T10:26:44.075Z"
+    "latest": "0.6.14",
+    "updatedAt": "2026-09-09T11:50:58.599Z"
   },
   {
     "name": "dsh-doublecheck",
@@ -23,8 +23,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-doublecheck#readme",
     "repository": "git+https://github.com/PerryLink/dsh-doublecheck.git",
-    "latest": "0.9.6",
-    "updatedAt": "2026-09-07T10:25:07.071Z"
+    "latest": "0.9.8",
+    "updatedAt": "2026-09-09T11:30:19.419Z"
   },
   {
     "name": "dsh-memento",
@@ -32,17 +32,17 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-memento#readme",
     "repository": "git+https://github.com/PerryLink/dsh-memento.git",
-    "latest": "0.5.6",
-    "updatedAt": "2026-09-07T10:26:03.621Z"
+    "latest": "0.5.10",
+    "updatedAt": "2026-09-09T10:54:50.044Z"
   },
   {
     "name": "dsh-checkpoint-rewind",
-    "description": "Unified DSH checkpoints: session + workspace + config three-state snapshots with one-shot rollback 鈥?/checkpoint and /rewind commands, a checkpoint tool, automatic interval snapshots, a Settings page timeline with pairwise diffs, and seed-replay session r",
+    "description": "Unified DSH checkpoints: session + workspace + config three-state snapshots with one-shot rollback — /checkpoint and /rewind commands, a checkpoint tool, automatic interval snapshots, a Settings page timeline with pairwise diffs, and seed-replay session r",
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-checkpoint-rewind#readme",
     "repository": "git+https://github.com/PerryLink/dsh-checkpoint-rewind.git",
-    "latest": "0.6.6",
-    "updatedAt": "2026-09-07T10:24:32.258Z"
+    "latest": "0.6.9",
+    "updatedAt": "2026-09-09T10:45:35.548Z"
   },
   {
     "name": "dsh-mcp-panel",
@@ -50,26 +50,26 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-mcp-panel#readme",
     "repository": "git+https://github.com/PerryLink/dsh-mcp-panel.git",
-    "latest": "0.6.8",
-    "updatedAt": "2026-09-07T10:26:09.747Z"
+    "latest": "0.6.10",
+    "updatedAt": "2026-09-09T10:54:02.726Z"
   },
   {
     "name": "dsh-composer-history",
-    "description": "Terminal-style input history for the DeepSeek Harness web composer: edge-first arrows with exact draft/caret restore, browser-local persisted history, Ctrl+R reverse search, workspace-scoped recall, and fully configurable keys 閳?plus sliding-context aware",
+    "description": "Terminal-style input history for the DeepSeek Harness web composer: edge-first arrows with exact draft/caret restore, browser-local persisted history, Ctrl+R reverse search, workspace-scoped recall, and fully configurable keys — plus sliding-context aware",
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-composer-history#readme",
     "repository": "https://github.com/PerryLink/dsh-composer-history.git",
-    "latest": "0.7.1",
-    "updatedAt": "2026-09-07T10:25:17.460Z"
+    "latest": "0.7.4",
+    "updatedAt": "2026-09-09T10:46:54.799Z"
   },
   {
     "name": "dsh-session-pin",
-    "description": "Pin sessions and workspaces to the top of the DeepSeek Harness sidebar with per-pin row colors 閳?a dual-face (host + client) dsh plugin with row [pin][swatch] controls, a header toggle, and a pinned panel.",
+    "description": "Pin sessions and workspaces to the top of the DeepSeek Harness sidebar with per-pin row colors — a dual-face (host + client) dsh plugin with row [pin][swatch] controls, a header toggle, and a pinned panel.",
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-session-pin#readme",
     "repository": "git+https://github.com/PerryLink/dsh-session-pin.git",
-    "latest": "0.7.5",
-    "updatedAt": "2026-09-07T10:32:23.339Z"
+    "latest": "0.7.8",
+    "updatedAt": "2026-09-09T11:10:16.933Z"
   },
   {
     "name": "dsh-session-sync",
@@ -77,8 +77,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-session-sync#readme",
     "repository": "git+https://github.com/PerryLink/dsh-session-sync.git",
-    "latest": "0.2.7",
-    "updatedAt": "2026-09-07T10:26:51.141Z"
+    "latest": "0.2.10",
+    "updatedAt": "2026-09-09T11:51:56.892Z"
   },
   {
     "name": "dsh-output-styles",
@@ -86,8 +86,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-output-styles#readme",
     "repository": "git+https://github.com/PerryLink/dsh-output-styles.git",
-    "latest": "0.6.9",
-    "updatedAt": "2026-09-07T10:30:31.110Z"
+    "latest": "0.6.13",
+    "updatedAt": "2026-09-09T12:00:55.448Z"
   },
   {
     "name": "dsh-lsp-actions",
@@ -95,8 +95,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-lsp-actions#readme",
     "repository": "git+https://github.com/PerryLink/dsh-lsp-actions.git",
-    "latest": "0.4.5",
-    "updatedAt": "2026-09-07T10:21:10.180Z"
+    "latest": "0.4.7",
+    "updatedAt": "2026-09-09T11:33:09.824Z"
   },
   {
     "name": "dsh-background-agents",
@@ -104,17 +104,17 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-background-agents#readme",
     "repository": "git+https://github.com/PerryLink/dsh-background-agents.git",
-    "latest": "0.9.3",
-    "updatedAt": "2026-09-07T10:21:30.836Z"
+    "latest": "0.9.5",
+    "updatedAt": "2026-09-09T11:27:57.721Z"
   },
   {
     "name": "dsh-claude-move",
-    "description": "Four-source migration wizard: copy Claude Code, Codex, OpenCode and Hermes sessions, memories, skills, instructions and slash commands into DeepSeek Harness as resumable sessions 鈥?copy-only, approval-gated, idempotent",
+    "description": "Four-source migration wizard: copy Claude Code, Codex, OpenCode and Hermes sessions, memories, skills, instructions and slash commands into DeepSeek Harness as resumable sessions — copy-only, approval-gated, idempotent",
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-claude-move#readme",
     "repository": "git+https://github.com/PerryLink/dsh-claude-move.git",
-    "latest": "0.4.2",
-    "updatedAt": "2026-09-07T10:24:40.578Z"
+    "latest": "0.4.5",
+    "updatedAt": "2026-09-09T11:22:50.426Z"
   },
   {
     "name": "dsh-translate",
@@ -122,8 +122,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-translate#readme",
     "repository": "git+https://github.com/PerryLink/dsh-translate.git",
-    "latest": "0.2.5",
-    "updatedAt": "2026-09-07T10:31:09.572Z"
+    "latest": "0.2.8",
+    "updatedAt": "2026-09-09T11:12:32.236Z"
   },
   {
     "name": "dsh-local-ai",
@@ -131,8 +131,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-local-ai#readme",
     "repository": "git+https://github.com/PerryLink/dsh-local-ai.git",
-    "latest": "0.2.5",
-    "updatedAt": "2026-09-07T10:25:33.928Z"
+    "latest": "0.2.7",
+    "updatedAt": "2026-09-09T10:51:42.736Z"
   },
   {
     "name": "dsh-mask",
@@ -140,8 +140,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-mask#readme",
     "repository": "git+https://github.com/PerryLink/dsh-mask.git",
-    "latest": "0.2.4",
-    "updatedAt": "2026-09-07T10:25:30.383Z"
+    "latest": "0.2.7",
+    "updatedAt": "2026-09-09T10:52:56.472Z"
   },
   {
     "name": "dsh-data-quality",
@@ -149,17 +149,17 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-data-quality#readme",
     "repository": "git+https://github.com/PerryLink/dsh-data-quality.git",
-    "latest": "0.3.7",
-    "updatedAt": "2026-09-07T10:25:09.178Z"
+    "latest": "0.3.8",
+    "updatedAt": "2026-09-09T11:21:50.123Z"
   },
   {
     "name": "dsh-score",
-    "description": "Multi-dimensional quality scoring for DeepSeek Harness plugins: scores one repo or npm package across install success (consuming dsh-test-drive results), maintenance activity, documentation completeness, security scan, and protocol compliance 鈥?every conc",
+    "description": "Multi-dimensional quality scoring for DeepSeek Harness plugins: scores one repo or npm package across install success (consuming dsh-test-drive results), maintenance activity, documentation completeness, security scan, and protocol compliance — every conc",
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-score#readme",
     "repository": "git+https://github.com/PerryLink/dsh-score.git",
-    "latest": "0.2.6",
-    "updatedAt": "2026-09-07T10:28:28.849Z"
+    "latest": "0.2.9",
+    "updatedAt": "2026-09-09T11:42:45.937Z"
   },
   {
     "name": "dsh-test-drive",
@@ -167,8 +167,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-test-drive#readme",
     "repository": "git+https://github.com/PerryLink/dsh-test-drive.git",
-    "latest": "0.3.7",
-    "updatedAt": "2026-09-07T10:31:09.440Z"
+    "latest": "0.3.9",
+    "updatedAt": "2026-09-09T11:45:15.922Z"
   },
   {
     "name": "dsh-defend",
@@ -176,8 +176,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-defend#readme",
     "repository": "git+https://github.com/PerryLink/dsh-defend.git",
-    "latest": "0.3.5",
-    "updatedAt": "2026-09-07T10:25:05.637Z"
+    "latest": "0.3.8",
+    "updatedAt": "2026-09-09T10:43:24.518Z"
   },
   {
     "name": "dsh-budget",
@@ -185,17 +185,17 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-budget#readme",
     "repository": "git+https://github.com/PerryLink/dsh-budget.git",
-    "latest": "0.4.5",
-    "updatedAt": "2026-09-07T10:24:43.385Z"
+    "latest": "0.4.7",
+    "updatedAt": "2026-09-09T10:44:45.813Z"
   },
   {
     "name": "dsh-fast",
-    "description": "Read-only performance diagnostics for DeepSeek Harness: session load (open/restore) timing, spill-hit counts, compaction count and trigger, context-injection volume (AGENTS.md/skills/tool-schema token share), and LLM cache hit rate 閳?surfaced via the /fas",
+    "description": "Read-only performance diagnostics for DeepSeek Harness: session load (open/restore) timing, spill-hit counts, compaction count and trigger, context-injection volume (AGENTS.md/skills/tool-schema token share), and LLM cache hit rate — surfaced via the /fas",
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-fast#readme",
     "repository": "git+https://github.com/PerryLink/dsh-fast.git",
-    "latest": "0.2.7",
-    "updatedAt": "2026-09-07T10:27:25.773Z"
+    "latest": "0.2.10",
+    "updatedAt": "2026-09-09T11:30:53.342Z"
   },
   {
     "name": "dsh-observe",
@@ -203,17 +203,17 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-observe#readme",
     "repository": "git+https://github.com/PerryLink/dsh-observe.git",
-    "latest": "0.2.8",
-    "updatedAt": "2026-09-07T10:27:38.075Z"
+    "latest": "0.2.10",
+    "updatedAt": "2026-09-09T11:28:44.903Z"
   },
   {
     "name": "dsh-click",
-    "description": "Cross-platform native desktop control tools for DeepSeek Harness (Windows first): screen_shot, screen_read (accessibility tree + pixel description for text-only models), click/type/scroll/key, and app_list/app_launch 鈥?every mutating action gated by appro",
+    "description": "Cross-platform native desktop control tools for DeepSeek Harness (Windows first): screen_shot, screen_read (accessibility tree + pixel description for text-only models), click/type/scroll/key, and app_list/app_launch — every mutating action gated by appro",
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-click#readme",
     "repository": "git+https://github.com/PerryLink/dsh-click.git",
-    "latest": "0.3.5",
-    "updatedAt": "2026-09-07T10:27:01.984Z"
+    "latest": "0.3.8",
+    "updatedAt": "2026-09-09T11:16:15.658Z"
   },
   {
     "name": "dsh-talk",
@@ -221,8 +221,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-talk#readme",
     "repository": "git+https://github.com/PerryLink/dsh-talk.git",
-    "latest": "0.3.5",
-    "updatedAt": "2026-09-07T10:28:57.569Z"
+    "latest": "0.3.8",
+    "updatedAt": "2026-09-09T11:41:00.058Z"
   },
   {
     "name": "dsh-draw",
@@ -230,8 +230,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-draw#readme",
     "repository": "git+https://github.com/PerryLink/dsh-draw.git",
-    "latest": "0.2.8",
-    "updatedAt": "2026-09-07T10:27:13.294Z"
+    "latest": "0.2.10",
+    "updatedAt": "2026-09-09T10:49:37.358Z"
   },
   {
     "name": "dsh-industry-research",
@@ -239,17 +239,17 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-industry-research#readme",
     "repository": "git+https://github.com/PerryLink/dsh-industry-research.git",
-    "latest": "0.3.4",
-    "updatedAt": "2026-09-07T10:25:28.781Z"
+    "latest": "0.3.7",
+    "updatedAt": "2026-09-09T11:35:34.430Z"
   },
   {
     "name": "dsh-research-report",
-    "description": "Verifiable research-report engine for DeepSeek Harness: a content-addressed evidence ledger (claim 閳?snapshot binding, tamper-evident) plus versioned sealed reports where every claim carries a verification verdict and the manifest hash seals the directory",
+    "description": "Verifiable research-report engine for DeepSeek Harness: a content-addressed evidence ledger (claim ↔ snapshot binding, tamper-evident) plus versioned sealed reports where every claim carries a verification verdict and the manifest hash seals the directory",
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-research-report#readme",
     "repository": "git+https://github.com/PerryLink/dsh-research-report.git",
-    "latest": "0.3.5",
-    "updatedAt": "2026-09-07T10:28:17.219Z"
+    "latest": "0.3.8",
+    "updatedAt": "2026-09-09T11:48:21.717Z"
   },
   {
     "name": "dsh-fund-research",
@@ -257,8 +257,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-fund-research#readme",
     "repository": "git+https://github.com/PerryLink/dsh-fund-research.git",
-    "latest": "0.4.5",
-    "updatedAt": "2026-09-07T10:25:31.248Z"
+    "latest": "0.4.8",
+    "updatedAt": "2026-09-09T11:31:29.937Z"
   },
   {
     "name": "dsh-library",
@@ -266,8 +266,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-library#readme",
     "repository": "git+https://github.com/PerryLink/dsh-library.git",
-    "latest": "0.2.6",
-    "updatedAt": "2026-09-07T10:25:32.973Z"
+    "latest": "0.2.9",
+    "updatedAt": "2026-09-09T10:49:41.177Z"
   },
   {
     "name": "dsh-plugin-guide",
@@ -275,8 +275,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-plugin-guide#readme",
     "repository": "git+https://github.com/PerryLink/dsh-plugin-guide.git",
-    "latest": "0.3.5",
-    "updatedAt": "2026-09-07T10:28:01.027Z"
+    "latest": "0.3.7",
+    "updatedAt": "2026-09-09T11:04:32.731Z"
   },
   {
     "name": "@perrylink/dsh-github",
@@ -284,8 +284,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-github#readme",
     "repository": "git+https://github.com/PerryLink/dsh-github.git",
-    "latest": "0.7.5",
-    "updatedAt": "2026-09-07T10:25:36.041Z"
+    "latest": "0.7.7",
+    "updatedAt": "2026-09-09T10:48:33.947Z"
   },
   {
     "name": "@perrylink/dsh-skill-pack-security-provider",
@@ -293,8 +293,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-skill-pack-security#readme",
     "repository": "git+https://github.com/PerryLink/dsh-skill-pack-security.git",
-    "latest": "2.2.9",
-    "updatedAt": "2026-09-07T10:31:20.086Z"
+    "latest": "2.2.12",
+    "updatedAt": "2026-09-09T11:55:16.780Z"
   },
   {
     "name": "dsh-personal-directive",
@@ -311,8 +311,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-ticktick#readme",
     "repository": "git+https://github.com/PerryLink/dsh-ticktick.git",
-    "latest": "0.1.3",
-    "updatedAt": "2026-09-07T10:29:29.405Z"
+    "latest": "0.1.5",
+    "updatedAt": "2026-09-09T11:11:57.689Z"
   },
   {
     "name": "@perrylink/dsh-cert-mcp",
@@ -320,8 +320,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-cert-mcp#readme",
     "repository": "git+https://github.com/PerryLink/dsh-cert-mcp.git",
-    "latest": "0.1.3",
-    "updatedAt": "2026-09-07T10:49:50.068Z"
+    "latest": "0.1.4",
+    "updatedAt": "2026-09-07T13:24:19.125Z"
   },
   {
     "name": "dsh-reach",
@@ -329,7 +329,16 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-reach#readme",
     "repository": "git+https://github.com/PerryLink/dsh-reach.git",
-    "latest": "0.1.3",
-    "updatedAt": "2026-09-07T10:28:31.483Z"
+    "latest": "0.1.5",
+    "updatedAt": "2026-09-09T11:08:13.266Z"
+  },
+  {
+    "name": "dsh-autotier",
+    "description": "Automatic strong/cheap model-tier routing for DeepSeek Harness: intent-gated tier landing on the agent/request waterfall, plan-mode handoff (strong plans, cheap implements), deterministic high-risk guards on tools/pre-execute, failure escalation with TTL ",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-autotier#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-autotier.git",
+    "latest": "0.1.0",
+    "updatedAt": "2026-09-09T11:05:59.094Z"
   }
 ]
