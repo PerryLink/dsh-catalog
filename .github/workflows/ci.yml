@@ -1,0 +1,62 @@
+name: ci
+
+# dsh-catalog had no CI. Its only automated gate was .githooks/pre-push, which
+# is opt-in per clone (`git config core.hooksPath .githooks`) and therefore
+# absent on any machine that did not enable it — including the two commits that
+# turned consecutive `main` deploys red on 2026-09-09. This workflow runs the
+# same checks server-side.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  data:
+    name: catalog data
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # Read-only. Reproduces both 2026-09-09 incidents: a malformed
+      # data/packages.json, and a listed package with no
+      # data/npm-snapshot.json row.
+      - run: node scripts/check-data.mjs
+
+  artifacts:
+    name: deployed artifacts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # Validate what actually ships — the committed deploy/ copies — rather
+      # than a fresh build. scripts/validate.mjs reads the repository-root
+      # paths, so stage the committed payload there first (both root paths are
+      # gitignored, so this cannot pollute the diff below).
+      - name: Validate the committed deploy artifacts
+        run: |
+          cp deploy/catalog-source.json catalog-source.json
+          mkdir -p artifacts/v1
+          cp deploy/artifacts/v1/plugins.json artifacts/v1/plugins.json
+          node scripts/validate.mjs
+
+      # Catches "data/ changed but deploy/ was never rebuilt". The no-argument
+      # build is safe here, and only here, because this checkout is throwaway:
+      # it rewrites the tracked deploy/ copies with the same placeholder origin
+      # they are committed with, and catalog-source.json carries no timestamp
+      # (unlike deploy/artifacts/v1/plugins.json, whose generatedAt/revision
+      # always differ). README §Build forbids the no-argument build as a *local*
+      # gate for exactly that rewriting reason.
+      - name: The committed deploy manifest must match a fresh build
+        run: |
+          node scripts/build-catalog.mjs
+          git diff --exit-code -- deploy/catalog-source.json
