@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-10T13:33:05.432Z",
+  "generatedAt": "2026-09-10T13:35:31.571Z",
   "revision": "perrylink-dsh-catalog-2026-09-10",
   "items": [
     {
@@ -1174,9 +1174,40 @@
         }
       },
       "updatedAt": "2026-09-10T06:22:54.023Z"
+    },
+    {
+      "id": "dsh-plugin-upgrade-rc1",
+      "name": "dsh-plugin-upgrade-rc1",
+      "displayName": "Plugin Upgrade 0.1.5-rc.1",
+      "summary": "Version-locked plugin upgrade skill for the 0.1.5-alpha.1 -> 0.1.5-rc.1 corridor: a bundled version card plus a zero-dependency seam scanner (11 seams, including the removed bare `conversation` client slot, the sidebar textpreview -> documentpreview rename, and the peer-range trap where >=0.1.2-rc.1 <0.2.0 alone rejects 0.1.5-rc.1) exposed as an npx CLI.",
+      "homepage": "https://github.com/PerryLink/dsh-plugin-upgrade-rc1#readme",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "categories": [
+        "dev",
+        "knowledge"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-plugin-upgrade-rc1"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-plugin-upgrade-rc1"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-plugin-upgrade-rc1.png",
+          "alt": "Plugin Upgrade 0.1.5-rc.1"
+        }
+      },
+      "updatedAt": "2026-09-10T13:31:46.398Z"
     }
   ],
   "page": {
-    "total": 39
+    "total": 40
   }
 }
