@@ -14,8 +14,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-permission-rules#readme",
     "repository": "git+https://github.com/PerryLink/dsh-permission-rules.git",
-    "latest": "0.6.20",
-    "updatedAt": "2026-09-10T11:50:07.643Z"
+    "latest": "0.6.21",
+    "updatedAt": "2026-09-10T12:41:37.103Z"
   },
   {
     "name": "dsh-doublecheck",

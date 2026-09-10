@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-10T11:52:13.491Z",
+  "generatedAt": "2026-09-10T12:43:30.429Z",
   "revision": "perrylink-dsh-catalog-2026-09-10",
   "items": [
     {
@@ -39,7 +39,7 @@
       "displayName": "Permission Rules",
       "summary": "Declarative, ordered allow/deny/ask permission rules for DeepSeek Harness: match tool names, arguments (glob/regex), workspace paths, and network targets (domain/IP/port/scheme), plus a Codex-style process-level network policy.",
       "homepage": "https://github.com/PerryLink/dsh-permission-rules#readme",
-      "latestVersion": "0.6.20",
+      "latestVersion": "0.6.21",
       "license": "Apache-2.0",
       "categories": [
         "workflow"
@@ -61,7 +61,7 @@
           "alt": "Permission Rules"
         }
       },
-      "updatedAt": "2026-09-10T11:50:07.643Z"
+      "updatedAt": "2026-09-10T12:41:37.103Z"
     },
     {
       "id": "dsh-doublecheck",
