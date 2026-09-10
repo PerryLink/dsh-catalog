@@ -14,8 +14,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-permission-rules#readme",
     "repository": "git+https://github.com/PerryLink/dsh-permission-rules.git",
-    "latest": "0.6.17",
-    "updatedAt": "2026-09-10T06:20:29.289Z"
+    "latest": "0.6.19",
+    "updatedAt": "2026-09-10T08:08:42.367Z"
   },
   {
     "name": "dsh-doublecheck",
@@ -50,8 +50,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-mcp-panel#readme",
     "repository": "git+https://github.com/PerryLink/dsh-mcp-panel.git",
-    "latest": "0.6.12",
-    "updatedAt": "2026-09-10T06:18:24.327Z"
+    "latest": "0.6.13",
+    "updatedAt": "2026-09-10T10:34:31.411Z"
   },
   {
     "name": "dsh-composer-history",
@@ -68,8 +68,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-session-pin#readme",
     "repository": "git+https://github.com/PerryLink/dsh-session-pin.git",
-    "latest": "0.7.9",
-    "updatedAt": "2026-09-10T06:22:38.865Z"
+    "latest": "0.7.10",
+    "updatedAt": "2026-09-10T08:04:32.675Z"
   },
   {
     "name": "dsh-session-sync",
@@ -95,8 +95,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-lsp-actions#readme",
     "repository": "git+https://github.com/PerryLink/dsh-lsp-actions.git",
-    "latest": "0.4.8",
-    "updatedAt": "2026-09-10T06:16:26.052Z"
+    "latest": "0.5.0",
+    "updatedAt": "2026-09-10T08:06:19.939Z"
   },
   {
     "name": "dsh-background-agents",
