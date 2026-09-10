@@ -38,6 +38,22 @@ node scripts/build-catalog.mjs https://<your-project>.deno.dev   # real origin
 node scripts/refresh-snapshot.mjs   # re-fetch every package from registry.npmjs.org
 ```
 
+### Maintaining `data/`
+
+`data/packages.json` and `data/npm-snapshot.json` are **one unit**: a new or renamed package
+needs its snapshot row *in the same commit*. Two consecutive `main` deploys went red on
+2026-09-09 exactly this way — first a missing comma in `data/packages.json`, then a package
+listed without its snapshot row (`Error: npm snapshot missing for …`). Both are caught locally
+by the pre-push gate; enable it once per clone:
+
+```sh
+git config core.hooksPath .githooks   # then every push runs node scripts/check-data.mjs
+```
+
+`scripts/check-data.mjs` is read-only. Do **not** use `node scripts/build-catalog.mjs` as a
+gate: called without an argument it rewrites the committed `deploy/` artifacts with the
+placeholder origin.
+
 ## Deploy
 
 **Live**: `https://perrylink-dsh-catalog.perrylink.workers.dev` (Cloudflare Workers, deployed automatically by the `deploy` workflow).
@@ -60,7 +76,7 @@ A listing in this catalog is metadata, not a security review. The same plugins a
 
 ## 中文说明
 
-PerryLink 全家桶的 [DSH Community Market](https://github.com/anywhere-labs/dsh-desktop/tree/main/dsh-community-market) 标准目录源：38 个 npm 包，由 npm registry 生成，按公开 v1 契约做结构校验。已上线 Cloudflare Workers（`perrylink-dsh-catalog.perrylink.workers.dev`，deploy workflow 自动部署；Vercel 静态重写与 Deno Deploy 为备选通道）。每个条目还带同源 `media.icon` 图标（`/icons/*.png`，由 `scripts/build-icons.mjs` 确定性生成）。在 DSH Desktop 的 市场 → Sources 里添加 manifest URL 即可浏览（浏览只读；安装仍走市场自身的 npm 身份校验与用户确认）。生成产物中的占位域名 `replace-with-deploy-origin.invalid` 在部署时替换，请勿直接注册占位地址。
+PerryLink 全家桶的 [DSH Community Market](https://github.com/anywhere-labs/dsh-desktop/tree/main/dsh-community-market) 标准目录源：38 个 npm 包，由 npm registry 生成，按公开 v1 契约做结构校验。已上线 Cloudflare Workers（`perrylink-dsh-catalog.perrylink.workers.dev`，deploy workflow 自动部署；Vercel 静态重写与 Deno Deploy 为备选通道）。每个条目还带同源 `media.icon` 图标（`/icons/*.png`，由 `scripts/build-icons.mjs` 确定性生成）。在 DSH Desktop 的 市场 → Sources 里添加 manifest URL 即可浏览（浏览只读；安装仍走市场自身的 npm 身份校验与用户确认）。生成产物中的占位域名 `replace-with-deploy-origin.invalid` 在部署时替换，请勿直接注册占位地址。**维护纪律**：`data/packages.json` 与 `data/npm-snapshot.json` 必须同一次 commit 成对更新（2026-09-09 连续两次 `main` 部署红灯即由此而来：先是漏逗号，后是新增包缺 npm 快照行）；执行一次 `git config core.hooksPath .githooks` 后，每次 push 都会跑只读门禁 `scripts/check-data.mjs`。切勿把不带参数的 `node scripts/build-catalog.mjs` 当作门禁——它会把已入库的 `deploy/` 产物改写成占位域名。
 
 ## License
 

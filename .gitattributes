@@ -1,0 +1,2 @@
+# POSIX shell script: CRLF would break it under Git for Windows.
+.githooks/* text eol=lf
