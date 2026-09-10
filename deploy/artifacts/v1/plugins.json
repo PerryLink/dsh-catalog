@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-10T12:43:30.429Z",
+  "generatedAt": "2026-09-10T13:33:05.432Z",
   "revision": "perrylink-dsh-catalog-2026-09-10",
   "items": [
     {
@@ -39,7 +39,7 @@
       "displayName": "Permission Rules",
       "summary": "Declarative, ordered allow/deny/ask permission rules for DeepSeek Harness: match tool names, arguments (glob/regex), workspace paths, and network targets (domain/IP/port/scheme), plus a Codex-style process-level network policy.",
       "homepage": "https://github.com/PerryLink/dsh-permission-rules#readme",
-      "latestVersion": "0.6.21",
+      "latestVersion": "0.7.0",
       "license": "Apache-2.0",
       "categories": [
         "workflow"
@@ -61,7 +61,7 @@
           "alt": "Permission Rules"
         }
       },
-      "updatedAt": "2026-09-10T12:41:37.103Z"
+      "updatedAt": "2026-09-10T13:29:03.453Z"
     },
     {
       "id": "dsh-doublecheck",
@@ -429,7 +429,7 @@
       "displayName": "Local AI",
       "summary": "Run local AI models inside DeepSeek Harness: Ollama/LM Studio/local endpoints as drop-in model routes.",
       "homepage": "https://github.com/PerryLink/dsh-local-ai#readme",
-      "latestVersion": "0.2.8",
+      "latestVersion": "0.2.9",
       "license": "Apache-2.0",
       "categories": [
         "model"
@@ -451,7 +451,7 @@
           "alt": "Local AI"
         }
       },
-      "updatedAt": "2026-09-10T06:16:42.190Z"
+      "updatedAt": "2026-09-10T13:12:59.838Z"
     },
     {
       "id": "dsh-mask",
@@ -759,7 +759,7 @@
       "displayName": "Draw",
       "summary": "Unified static-image generation router for DeepSeek Harness: one image_generate tool with standard parameters, config-driven engine routing (OpenAI Images, Zhipu CogView, and any compatible endpoint), health-aware fallback, durable workspace attachments, and per-session quota accounting.",
       "homepage": "https://github.com/PerryLink/dsh-draw#readme",
-      "latestVersion": "0.2.11",
+      "latestVersion": "0.2.12",
       "license": "Apache-2.0",
       "categories": [
         "tools"
@@ -781,7 +781,7 @@
           "alt": "Draw"
         }
       },
-      "updatedAt": "2026-09-10T06:26:07.221Z"
+      "updatedAt": "2026-09-10T13:16:43.512Z"
     },
     {
       "id": "dsh-industry-research",
@@ -849,7 +849,7 @@
       "displayName": "Fund Research",
       "summary": "Fund research: analyze funds with returns, holdings, and performance decomposition.",
       "homepage": "https://github.com/PerryLink/dsh-fund-research#readme",
-      "latestVersion": "0.4.9",
+      "latestVersion": "0.4.10",
       "license": "Apache-2.0",
       "categories": [
         "knowledge"
@@ -871,7 +871,7 @@
           "alt": "Fund Research"
         }
       },
-      "updatedAt": "2026-09-10T06:13:26.975Z"
+      "updatedAt": "2026-09-10T13:12:22.039Z"
     },
     {
       "id": "dsh-library",
@@ -909,7 +909,7 @@
       "displayName": "Plugin Guide",
       "summary": "The DSH plugin development guide as an installable skill: packaging, contracts, checks, and a pack verifier for builds.",
       "homepage": "https://github.com/PerryLink/dsh-plugin-guide#readme",
-      "latestVersion": "0.3.8",
+      "latestVersion": "0.3.9",
       "license": "Apache-2.0",
       "categories": [
         "knowledge"
@@ -931,7 +931,7 @@
           "alt": "Plugin Guide"
         }
       },
-      "updatedAt": "2026-09-10T06:20:17.638Z"
+      "updatedAt": "2026-09-10T13:15:27.843Z"
     },
     {
       "id": "perrylink/dsh-github",
@@ -939,7 +939,7 @@
       "displayName": "GitHub",
       "summary": "GitHub for DeepSeek Harness: PR/issue/repo/file tools, reviews, and CI checks — every write gated by human approval, token never logged.",
       "homepage": "https://github.com/PerryLink/dsh-github#readme",
-      "latestVersion": "0.7.8",
+      "latestVersion": "0.7.9",
       "license": "Apache-2.0",
       "categories": [
         "integration"
@@ -961,7 +961,7 @@
           "alt": "GitHub"
         }
       },
-      "updatedAt": "2026-09-10T06:20:39.469Z"
+      "updatedAt": "2026-09-10T13:15:16.887Z"
     },
     {
       "id": "perrylink/dsh-skill-pack-security-provider",
@@ -1059,7 +1059,7 @@
       "displayName": "Certification MCP",
       "summary": "Read-only MCP server exposing the dsh-plugin-certification registry: certification grades, snapshots and five-dimension evidence for DeepSeek Harness plugins.",
       "homepage": "https://github.com/PerryLink/dsh-cert-mcp#readme",
-      "latestVersion": "0.1.4",
+      "latestVersion": "0.1.5",
       "license": "Apache-2.0",
       "categories": [
         "integration"
@@ -1081,7 +1081,7 @@
           "alt": "Certification MCP"
         }
       },
-      "updatedAt": "2026-09-07T13:24:19.125Z"
+      "updatedAt": "2026-09-10T12:47:45.717Z"
     },
     {
       "id": "dsh-reach",
@@ -1089,7 +1089,7 @@
       "displayName": "Reach",
       "summary": "Multi-channel decision and remote-control bridge for DeepSeek Harness: approval/question cards from any workspace mirrored to IM chat (WeChat iLink, Telegram, Feishu) with stable #token ids and P{n} numbering, answered from chat through the native pending waterfall — fail-closed sender ownership, session console, and proactive reach_send.",
       "homepage": "https://github.com/PerryLink/dsh-reach#readme",
-      "latestVersion": "0.1.6",
+      "latestVersion": "0.1.7",
       "license": "Apache-2.0",
       "categories": [
         "integration"
@@ -1111,7 +1111,7 @@
           "alt": "Reach"
         }
       },
-      "updatedAt": "2026-09-10T06:23:45.545Z"
+      "updatedAt": "2026-09-10T13:12:18.104Z"
     },
     {
       "id": "dsh-autotier",
