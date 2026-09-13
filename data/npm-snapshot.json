@@ -297,15 +297,6 @@
     "updatedAt": "2026-09-10T06:35:38.011Z"
   },
   {
-    "name": "dsh-personal-directive",
-    "description": "Repository prompt plugin with a live top-bar enable/disable switch (framework edition: ships a neutral placeholder directive).",
-    "license": "MIT",
-    "homepage": "https://github.com/PerryLink/dsh-personal-directive#readme",
-    "repository": "git+https://github.com/PerryLink/dsh-personal-directive.git",
-    "latest": "0.2.1",
-    "updatedAt": "2026-09-03T11:03:44.096Z"
-  },
-  {
     "name": "@perrylink/dsh-ticktick",
     "description": "TickTick (Dida365) task bridge for DeepSeek Harness: a Session-header task panel (list filter, quick add, complete, delete, due dates, drag reorder) over the official TickTick MCP endpoint, a Ticktick Remote service, curated agent tools, and a plugin sett",
     "license": "Apache-2.0",

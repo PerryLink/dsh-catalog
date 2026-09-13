@@ -994,36 +994,6 @@
       "updatedAt": "2026-09-10T06:35:38.011Z"
     },
     {
-      "id": "dsh-personal-directive",
-      "name": "dsh-personal-directive",
-      "displayName": "Personal Directive",
-      "summary": "Repository prompt plugin with a live top-bar enable/disable switch (framework edition: ships a neutral placeholder directive).",
-      "homepage": "https://github.com/PerryLink/dsh-personal-directive#readme",
-      "latestVersion": "0.2.1",
-      "license": "MIT",
-      "categories": [
-        "agent"
-      ],
-      "repository": {
-        "url": "https://github.com/PerryLink/dsh-personal-directive"
-      },
-      "package": {
-        "registry": "npm",
-        "name": "dsh-personal-directive"
-      },
-      "publisher": {
-        "name": "PerryLink",
-        "url": "https://github.com/PerryLink"
-      },
-      "media": {
-        "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-personal-directive.png",
-          "alt": "Personal Directive"
-        }
-      },
-      "updatedAt": "2026-09-03T11:03:44.096Z"
-    },
-    {
       "id": "perrylink/dsh-ticktick",
       "name": "@perrylink/dsh-ticktick",
       "displayName": "TickTick",
