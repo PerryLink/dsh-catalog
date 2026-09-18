@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-13T01:46:13.503Z",
-  "revision": "perrylink-dsh-catalog-2026-09-13",
+  "generatedAt": "2026-09-15T17:08:37.751Z",
+  "revision": "perrylink-dsh-catalog-2026-09-15",
   "items": [
     {
       "id": "dsh-auto-review",
@@ -1299,6 +1299,6 @@
     }
   ],
   "page": {
-    "total": 44
+    "total": 43
   }
 }
