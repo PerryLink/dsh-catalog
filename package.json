@@ -8,7 +8,8 @@
   "scripts": {
     "build": "node scripts/build-catalog.mjs",
     "validate": "node scripts/validate.mjs",
-    "build:check": "node scripts/build-catalog.mjs && node scripts/validate.mjs",
+    "check:counts": "node scripts/check-counts.mjs",
+    "build:check": "node scripts/check-counts.mjs && node scripts/build-catalog.mjs && node scripts/validate.mjs",
     "check": "tsc -p tsconfig.check.json",
     "typecheck:ci": "tsc -p tsconfig.check.ci.json"
   },
