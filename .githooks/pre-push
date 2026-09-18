@@ -3,7 +3,10 @@
 #   git config core.hooksPath .githooks
 #
 # Guards against the two incidents that turned two consecutive `main` deploys red on
-# 2026-09-09 (a missing comma in data/packages.json, then a missing npm-snapshot row).
+# 2026-09-09 (a missing comma in data/packages.json, then a missing npm-snapshot row),
+# and against the package count drifting out of data/packages.json again (the README
+# and the manifest advertised 44 while the shipped page carried 43).
 # Read-only: see scripts/check-data.mjs for why build-catalog.mjs must not run here.
 set -e
 node scripts/check-data.mjs
+node scripts/check-counts.mjs
