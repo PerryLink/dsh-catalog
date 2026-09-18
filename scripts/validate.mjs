@@ -2,8 +2,14 @@
 // DSH Community Market v1 contracts (catalog-source.schema.json and
 // catalog-provider-page.schema.json, vendored in ../schemas with attribution).
 // Usage: node scripts/validate.mjs
+//
+// Which files it reads: the committed `deploy/` mirrors first — that is the
+// payload that actually ships, and a fresh clone has no repository-root copies
+// (both root paths are gitignored). The root copies are used only as a fallback
+// for the historical "build to the root, then validate" flow.
 
 import { readFile } from 'node:fs/promises'
+import { existsSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 
 const base = fileURLToPath(new URL('..', import.meta.url))
@@ -11,8 +17,17 @@ const failures = []
 const check = (ok, message) => { if (!ok) failures.push(message) }
 
 const stripBom = (value) => value.replace(/^\uFEFF/, '')
-const manifest = JSON.parse(stripBom(await readFile(`${base}/catalog-source.json`, 'utf8')))
-const page = JSON.parse(stripBom(await readFile(`${base}/artifacts/v1/plugins.json`, 'utf8')))
+
+const resolveArtifact = (deployRelative, rootRelative) => {
+  if (existsSync(`${base}/${deployRelative}`)) return { path: `${base}/${deployRelative}`, face: deployRelative }
+  if (existsSync(`${base}/${rootRelative}`)) return { path: `${base}/${rootRelative}`, face: `${rootRelative} (repo root fallback)` }
+  throw new Error(`missing artifact: neither ${deployRelative} nor ${rootRelative} exists in ${base}`)
+}
+
+const manifestFile = resolveArtifact('deploy/catalog-source.json', 'catalog-source.json')
+const pageFile = resolveArtifact('deploy/artifacts/v1/plugins.json', 'artifacts/v1/plugins.json')
+const manifest = JSON.parse(stripBom(await readFile(manifestFile.path, 'utf8')))
+const page = JSON.parse(stripBom(await readFile(pageFile.path, 'utf8')))
 
 // catalog-source.schema.json mirrors
 check(manifest.manifestVersion === '1.0.0', 'manifestVersion must be 1.0.0')
@@ -56,10 +71,21 @@ for (const item of page.items) {
   check(!/dsh\s+plugin\s+--profile|pnpm\s+(add|install)|npm\s+(i|install)/.test(joined), `no install commands: ${item.id}`)
 }
 check(page.page !== undefined, 'page field required')
-if (page.page.total !== undefined) check(page.page.total >= 0 && Number.isInteger(page.page.total), 'page.total bounds')
+if (page.page !== undefined) {
+  check(Number.isInteger(page.page.total) && page.page.total >= 0, 'page.total must be a non-negative integer')
+  // Self-consistency lock: the page must never advertise a total its own items
+  // contradict. This repo shipped exactly that drift once (README/manifest said
+  // 44 while the page carried 43), so the two numbers are held together here.
+  check(
+    page.page.total === page.items.length,
+    `page.total (${page.page.total}) must equal items.length (${page.items.length})`,
+  )
+}
 
 if (failures.length) {
   console.error(`FAIL ${failures.length} checks:\n- ${failures.join('\n- ')}`)
   process.exit(1)
 }
-console.log(`validate ok: manifest + ${page.items.length} provider items pass v1 structural checks`)
+console.log(
+  `validate ok: manifest (${manifestFile.face}) + ${page.items.length} provider items (${pageFile.face}) pass v1 structural checks`,
+)
