@@ -59,7 +59,8 @@ The family count is **not** hand-maintained: `scripts/check-counts.mjs` derives 
 manifest description, the shipped page's `items`/`page.total` and the deploy live-smoke floor —
 to that one source. Run it to verify, or `node scripts/check-counts.mjs --write` to rewrite the
 README count sites from the source. It exists because the number did drift: the README and the
-manifest advertised 44 packages while the page shipped 43.
+manifest advertised a family one package larger than the page actually shipped (the concrete
+figures and the commit that fixed them are recorded in the `scripts/check-counts.mjs` header).
 
 `.github/workflows/ci.yml` runs `scripts/check-data.mjs`, `scripts/check-counts.mjs` and the
 build/validate pair on every push to `main` and on every pull request, so the hook above is a
