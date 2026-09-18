@@ -13,11 +13,15 @@ import { existsSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 
 const base = fileURLToPath(new URL('..', import.meta.url))
+/** @type {string[]} */
 const failures = []
+/** @param {boolean} ok @param {string} message */
 const check = (ok, message) => { if (!ok) failures.push(message) }
 
+/** @param {string} value */
 const stripBom = (value) => value.replace(/^\uFEFF/, '')
 
+/** @param {string} deployRelative @param {string} rootRelative */
 const resolveArtifact = (deployRelative, rootRelative) => {
   if (existsSync(`${base}/${deployRelative}`)) return { path: `${base}/${deployRelative}`, face: deployRelative }
   if (existsSync(`${base}/${rootRelative}`)) return { path: `${base}/${rootRelative}`, face: `${rootRelative} (repo root fallback)` }

@@ -20,10 +20,14 @@ import { fileURLToPath } from 'node:url'
 
 const base = fileURLToPath(new URL('..', import.meta.url))
 const write = process.argv.includes('--write')
+/** @param {string} value */
 const stripBom = (value) => value.replace(/^\uFEFF/, '')
+/** @param {string} relative */
 const readText = async (relative) => stripBom(await readFile(`${base}/${relative}`, 'utf8'))
+/** @param {string} relative */
 const readJson = async (relative) => JSON.parse(await readText(relative))
 
+/** @type {string[]} */
 const failures = []
 const packages = await readJson('data/packages.json')
 const count = packages.length
@@ -49,6 +53,14 @@ if (!new RegExp(`\\b${count}-package\\b`).test(manifest.description ?? '')) {
 //    check mode fails instead. A site whose pattern no longer matches is a hard
 //    failure: silent pattern drift would turn this gate green while the number
 //    rots again.
+/**
+ * @typedef {object} CountSite
+ * @property {string} name
+ * @property {RegExp} pattern
+ * @property {(match: string, before: string, stale: string, after: string) => string} replace
+ */
+
+/** @type {CountSite[]} */
 const readmeSites = [
   {
     name: 'README.md family summary (EN)',
