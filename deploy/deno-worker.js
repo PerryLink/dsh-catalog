@@ -9,11 +9,20 @@
 import manifest from './catalog-source.json' with { type: 'json' }
 import page from './artifacts/v1/plugins.json' with { type: 'json' }
 
+/** `Deno` is a Deno Deploy global and is not declared by @types/node, so it is
+ * reached through `globalThis` with an explicit runtime shape. */
+/** @typedef {{ serve: (handler: (request: Request) => Response | Promise<Response>) => unknown }} DenoRuntime */
+
+/** @type {unknown} */
+const globalScope = globalThis
+const denoRuntime = /** @type {{ Deno: DenoRuntime }} */ (globalScope)
+
+/** @param {unknown} payload */
 const text = (payload) => new Response(JSON.stringify(payload), {
   headers: { 'content-type': 'application/json; charset=utf-8', 'access-control-allow-origin': '*' },
 })
 
-Deno.serve((request) => {
+denoRuntime.Deno.serve((request) => {
   const { pathname } = new URL(request.url)
   if (request.method !== 'GET') return new Response('method not allowed', { status: 405 })
   if (pathname === '/catalog-source.json') return text(manifest)

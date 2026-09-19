@@ -15,9 +15,11 @@ import { readFile } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
 
 const base = fileURLToPath(new URL('..', import.meta.url))
+/** @param {string} value */
 const stripBom = (value) => value.replace(/^\uFEFF/, '')
 const failures = []
 
+/** @param {string} file */
 const load = async (file) => {
   const raw = await readFile(`${base}/data/${file}`, 'utf8')
   try {

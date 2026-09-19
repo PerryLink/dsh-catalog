@@ -8,7 +8,11 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import { deflateSync } from 'node:zlib'
 import { fileURLToPath } from 'node:url'
 
+/** One row of data/packages.json; only the fields this script reads. */
+/** @typedef {{ npm: string, displayName: string }} PackageRow */
+
 const base = fileURLToPath(new URL('..', import.meta.url))
+/** @param {string} value */
 const stripBom = (value) => value.replace(/^\uFEFF/, '')
 const packages = JSON.parse(stripBom(await readFile(`${base}/data/packages.json`, 'utf8')))
 
@@ -22,11 +26,13 @@ const CRC_TABLE = (() => {
   }
   return table
 })()
+/** @param {Buffer} buf */
 const crc32 = (buf) => {
   let c = -1
   for (let i = 0; i < buf.length; i++) c = CRC_TABLE[(c ^ buf[i]) & 0xff] ^ (c >>> 8)
   return (c ^ -1) >>> 0
 }
+/** @param {string} type @param {Buffer} data */
 const chunk = (type, data) => {
   const out = Buffer.alloc(12 + data.length)
   out.writeUInt32BE(data.length, 0)
@@ -35,6 +41,7 @@ const chunk = (type, data) => {
   out.writeUInt32BE(crc32(out.subarray(4, 8 + data.length)), 8 + data.length)
   return out
 }
+/** @param {number} size @param {Buffer} rgba */
 const encodePng = (size, rgba) => {
   const signature = Buffer.from([137, 80, 78, 71, 13, 10, 26, 10])
   const ihdr = Buffer.alloc(13)
@@ -52,6 +59,7 @@ const encodePng = (size, rgba) => {
 }
 
 // --- 5x7 bitmap font (A-Z, 0-9) ---
+/** @type {Record<string, string[]>} */
 const FONT = {
   A: ['01110', '10001', '10001', '11111', '10001', '10001', '10001'],
   B: ['11110', '10001', '10001', '11110', '10001', '10001', '11110'],
@@ -97,18 +105,23 @@ const PALETTE = [
   [76, 175, 80], [255, 152, 0], [96, 125, 139], [121, 85, 72],
 ]
 
+/** @param {string} value */
 const hash = (value) => {
   let h = 0
   for (let i = 0; i < value.length; i++) h = (h * 31 + value.charCodeAt(i)) >>> 0
   return h
 }
 
+/** @param {string} id */
 const slugOf = (id) => id.replace(/^@/, '').replace(/[^A-Za-z0-9._-]/g, '-')
 
+/** @param {string} displayName */
 const initialsOf = (displayName) =>
   displayName.split(/\s+/).filter((word) => /^[A-Za-z0-9]/.test(word))
     .slice(0, 2).map((word) => word[0].toUpperCase()).join('')
 
+/** @param {string[]} glyph @param {number} scale @param {Buffer} rgba
+ *  @param {number} size @param {number} x0 @param {number} y0 @param {number[]} color */
 const drawGlyph = (glyph, scale, rgba, size, x0, y0, color) => {
   for (let row = 0; row < 7; row++) {
     for (let col = 0; col < 5; col++) {
@@ -126,12 +139,14 @@ const drawGlyph = (glyph, scale, rgba, size, x0, y0, color) => {
   }
 }
 
+/** @param {PackageRow} pkg */
 const renderIcon = (pkg) => {
   const size = 128
   const rgba = Buffer.alloc(size * size * 4) // transparent
   const [cr, cg, cb] = PALETTE[hash(pkg.npm) % PALETTE.length]
   const radius = 26
   const inset = 4
+  /** @param {number} x @param {number} y */
   const inRoundRect = (x, y) => {
     const lo = inset
     const hi = size - 1 - inset
@@ -167,6 +182,7 @@ const renderIcon = (pkg) => {
 }
 
 await mkdir(`${base}/deploy/icons`, { recursive: true })
+/** @type {Record<string, string>} */
 const map = {}
 for (const pkg of packages) {
   const slug = slugOf(pkg.npm)

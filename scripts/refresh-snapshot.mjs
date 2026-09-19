@@ -7,10 +7,17 @@
 import { readFile, writeFile } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
 
+/** The npm registry document fields this script reads (registry JSON is untyped). */
+/** @typedef {{ name?: string, description?: unknown, license?: unknown, homepage?: unknown,
+ *   repository?: string | { url?: string }, 'dist-tags'?: { latest?: string },
+ *   time?: Record<string, string> }} RegistryDoc */
+
 const base = fileURLToPath(new URL('..', import.meta.url))
+/** @param {string} value */
 const stripBom = (value) => value.replace(/^\uFEFF/, '')
 const packages = JSON.parse(stripBom(await readFile(`${base}/data/packages.json`, 'utf8')))
 
+/** @param {string} name */
 const registryUrl = (name) =>
   `https://registry.npmjs.org/${name.startsWith('@') ? name.replace('/', '%2F') : name}`
 
@@ -19,7 +26,7 @@ const warnings = []
 for (const pkg of packages) {
   const res = await fetch(registryUrl(pkg.npm), { headers: { accept: 'application/json' } })
   if (!res.ok) throw new Error(`registry fetch failed for ${pkg.npm}: HTTP ${res.status}`)
-  const doc = await res.json()
+  const doc = /** @type {RegistryDoc} */ (await res.json())
   const latest = doc['dist-tags']?.latest
   const entry = {
     name: doc.name,
