@@ -8,15 +8,22 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
 
+/** One row of data/npm-snapshot.json; only the fields this script reads. */
+/** @typedef {{ name: string, description?: string, homepage?: string, license?: string, latest?: string, updatedAt?: string }} SnapshotRow */
+
 const base = fileURLToPath(new URL('..', import.meta.url))
 const deployOrigin = process.argv[2] ?? 'https://replace-with-deploy-origin.invalid'
 
+/** @param {string} value */
 const stripBom = (value) => value.replace(/^\uFEFF/, '')
 const packages = JSON.parse(stripBom(await readFile(`${base}/data/packages.json`, 'utf8')))
 const snapshot = JSON.parse(stripBom(await readFile(`${base}/data/npm-snapshot.json`, 'utf8')))
-const byName = new Map(snapshot.map((entry) => [entry.name, entry]))
+const byName = new Map(snapshot.map((/** @type {SnapshotRow} */ entry) => [entry.name, entry]))
 
 // Strip control characters and bidi controls: the wire schema rejects them.
+// Every call site passes a string (the `??` chain always ends in a literal);
+// the internal typeof guard stays as the runtime safety net.
+/** @param {string} value @returns {string} */
 const clean = (value) => {
   if (typeof value !== 'string') return value
   return value.replace(/[\u0000-\u001F\u007F-\u009F\u202A-\u202E\u2066-\u2069]/g, ' ')
@@ -62,7 +69,7 @@ const manifest = {
   homepage: 'https://github.com/PerryLink/dsh-catalog',
   attribution: { name: 'PerryLink', url: 'https://github.com/PerryLink' },
   transport: { kind: 'https-json', endpoint: `${deployOrigin}/v1/plugins`, method: 'GET' },
-  query: { supported: [], defaultLimit: 50, maxLimit: 50, sorts: [] },
+  query: { supported: /** @type {string[]} */ ([]), defaultLimit: 50, maxLimit: 50, sorts: /** @type {string[]} */ ([]) },
 }
 
 await mkdir(`${base}/artifacts/v1`, { recursive: true })

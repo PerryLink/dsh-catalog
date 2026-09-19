@@ -7,17 +7,23 @@ import manifest from './catalog-source.json' with { type: 'json' }
 import page from './artifacts/v1/plugins.json' with { type: 'json' }
 import { icons } from './icons-data.mjs'
 
+/** The generated icon map is a fixed-key object; the route indexes it by path. */
+/** @type {Record<string, string>} */
+const iconMap = icons
+
+/** @param {unknown} payload */
 const text = (payload) => new Response(JSON.stringify(payload), {
   headers: { 'content-type': 'application/json; charset=utf-8', 'access-control-allow-origin': '*' },
 })
 
 export default {
+  /** @param {Request} request */
   async fetch(request) {
     const { pathname } = new URL(request.url)
     if (request.method !== 'GET') return new Response('method not allowed', { status: 405 })
     if (pathname === '/catalog-source.json') return text(manifest)
     if (pathname === '/v1/plugins') return text(page)
-    const b64 = icons[pathname]
+    const b64 = iconMap[pathname]
     if (b64) {
       const bytes = Uint8Array.from(atob(b64), (c) => c.charCodeAt(0))
       return new Response(bytes, {

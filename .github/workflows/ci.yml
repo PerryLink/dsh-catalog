@@ -63,3 +63,24 @@ jobs:
         run: |
           node scripts/build-catalog.mjs
           git diff --exit-code -- deploy/catalog-source.json
+
+  types:
+    name: type ruler
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # The published-line ruler: `typecheck:ci` existed as a script but no
+      # workflow ever invoked it, so the generator scripts' types were only ever
+      # checked by hand (the 76 pre-existing errors R19 recorded). This repo
+      # tracks no lockfile - its other gates are dependency-free node scripts -
+      # so the install cannot be frozen; the compiler version comes from
+      # package.json's devDependencies.
+      - run: npm install --no-audit --no-fund
+
+      - name: Typecheck (published line)
+        run: npm run typecheck:ci
+
