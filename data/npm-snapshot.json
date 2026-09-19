@@ -311,8 +311,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-cert-mcp#readme",
     "repository": "git+https://github.com/PerryLink/dsh-cert-mcp.git",
-    "latest": "0.2.1",
-    "updatedAt": "2026-09-19T12:43:11.346Z"
+    "latest": "0.2.2",
+    "updatedAt": "2026-09-19T13:15:20.368Z"
   },
   {
     "name": "dsh-reach",
