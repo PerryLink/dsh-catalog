@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-19T12:51:36.993Z",
+  "generatedAt": "2026-09-19T13:17:44.783Z",
   "revision": "perrylink-dsh-catalog-2026-09-19",
   "items": [
     {
@@ -1029,7 +1029,7 @@
       "displayName": "Certification MCP",
       "summary": "Read-only MCP server exposing the dsh-plugin-certification registry: certification grades, snapshots and five-dimension evidence for DeepSeek Harness plugins.",
       "homepage": "https://github.com/PerryLink/dsh-cert-mcp#readme",
-      "latestVersion": "0.2.1",
+      "latestVersion": "0.2.2",
       "license": "Apache-2.0",
       "categories": [
         "integration"
@@ -1051,7 +1051,7 @@
           "alt": "Certification MCP"
         }
       },
-      "updatedAt": "2026-09-19T12:43:11.346Z"
+      "updatedAt": "2026-09-19T13:15:20.368Z"
     },
     {
       "id": "dsh-reach",
