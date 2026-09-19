@@ -5,3 +5,7 @@ catalog-source.json
 # emits into deploy/ (Deno Deploy serves them next to deno-worker.js).
 !deploy/artifacts/
 !deploy/catalog-source.json
+# This repository tracks no lockfile: its gates are dependency-free node
+# scripts, and the untracked package-lock.json an `npm install` leaves behind
+# (the CI type-ruler job installs) must never be committed by accident.
+package-lock.json
