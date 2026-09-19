@@ -50,8 +50,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-mcp-panel#readme",
     "repository": "git+https://github.com/PerryLink/dsh-mcp-panel.git",
-    "latest": "0.6.15",
-    "updatedAt": "2026-09-15T16:47:42.113Z"
+    "latest": "0.6.16",
+    "updatedAt": "2026-09-19T13:41:50.759Z"
   },
   {
     "name": "dsh-composer-history",
@@ -230,8 +230,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-draw#readme",
     "repository": "git+https://github.com/PerryLink/dsh-draw.git",
-    "latest": "0.2.14",
-    "updatedAt": "2026-09-12T02:43:08.642Z"
+    "latest": "0.2.15",
+    "updatedAt": "2026-09-19T14:02:32.586Z"
   },
   {
     "name": "dsh-industry-research",
@@ -334,12 +334,12 @@
   },
   {
     "name": "dsh-plugin-upgrade",
-    "description": "Plugin-author upgrade skill for DeepSeek Harness: a version-locked 0.1.3-alpha.1 -> 0.1.5-alpha.1 version card plus a zero-dependency seam scanner (V3 session format, assistant/message.stream, SessionHandleReadResult, ctx.agent, Inbox, SubprocessHandle.pi",
+    "description": "Plugin-author upgrade skill for DeepSeek Harness: the merged version-locked 0.1.3-alpha.1 -> 0.1.5-rc.1 corridor card plus a zero-dependency seam scanner over one 20-seam catalog — leg A (V3 session format, assistant/message.stream, SessionHandleReadResul",
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-plugin-upgrade#readme",
     "repository": "git+https://github.com/PerryLink/dsh-plugin-upgrade.git",
-    "latest": "0.1.3",
-    "updatedAt": "2026-09-10T06:22:54.023Z"
+    "latest": "2.0.0",
+    "updatedAt": "2026-09-19T15:09:00.719Z"
   },
   {
     "name": "dsh-plugin-upgrade-rc1",
