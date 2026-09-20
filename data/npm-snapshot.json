@@ -334,12 +334,12 @@
   },
   {
     "name": "dsh-plugin-upgrade",
-    "description": "Plugin-author upgrade skill for DeepSeek Harness: the merged version-locked 0.1.3-alpha.1 -> 0.1.5-rc.1 corridor card plus a zero-dependency seam scanner over one 20-seam catalog — leg A (V3 session format, assistant/message.stream, SessionHandleReadResul",
+    "description": "Plugin-author upgrade skill for DeepSeek Harness: one package, one corridor index - the scanner detects the caller peer band and routes to the matching closed corridor card (0.1.3-alpha.1 -> 0.1.5-rc.1 as legs A+B, and 0.1.5-rc.2 -> 0.1.6-alpha.2 as leg C",
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-plugin-upgrade#readme",
     "repository": "git+https://github.com/PerryLink/dsh-plugin-upgrade.git",
-    "latest": "2.0.0",
-    "updatedAt": "2026-09-19T15:09:00.719Z"
+    "latest": "2.0.1",
+    "updatedAt": "2026-09-20T02:29:27.831Z"
   },
   {
     "name": "dsh-plugin-upgrade-rc1",
