@@ -342,15 +342,6 @@
     "updatedAt": "2026-09-20T02:29:27.831Z"
   },
   {
-    "name": "dsh-plugin-upgrade-rc1",
-    "description": "Plugin-author upgrade skill for DeepSeek Harness: a version-locked 0.1.5-alpha.1 -> 0.1.5-rc.1 corridor card plus a zero-dependency seam scanner (the removed bare `conversation` client slot, the sidebar textpreview -> documentpreview package rename, the n",
-    "license": "Apache-2.0",
-    "homepage": "https://github.com/PerryLink/dsh-plugin-upgrade-rc1#readme",
-    "repository": "git+https://github.com/PerryLink/dsh-plugin-upgrade-rc1.git",
-    "latest": "0.1.0",
-    "updatedAt": "2026-09-10T13:31:46.398Z"
-  },
-  {
     "name": "dsh-team-rooms",
     "description": "Persistent multi-agent team rooms for DeepSeek Harness: cross-session rooms with a message bus, a shared task board, approval-gated handoffs and a shared timeline that survive DSH restarts. Extracted from dsh-background-agents 0.9.6, whose background-agen",
     "license": "Apache-2.0",
@@ -376,14 +367,5 @@
     "repository": "git+https://github.com/PerryLink/dsh-plugin-doctor.git",
     "latest": "0.2.3",
     "updatedAt": "2026-09-13T01:42:02.870Z"
-  },
-  {
-    "name": "dsh-plugin-upgrade-015",
-    "description": "Plugin-author upgrade skill for DeepSeek Harness: the merged version-locked 0.1.3-alpha.1 -> 0.1.5-rc.1 corridor card plus a zero-dependency seam scanner over one 20-seam catalog — leg A (V3 session format, assistant/message.stream, SessionHandleReadResul",
-    "license": "Apache-2.0",
-    "homepage": "https://github.com/PerryLink/dsh-plugin-upgrade-015#readme",
-    "repository": "git+https://github.com/PerryLink/dsh-plugin-upgrade-015.git",
-    "latest": "0.1.1",
-    "updatedAt": "2026-09-12T06:56:36.466Z"
   }
 ]
