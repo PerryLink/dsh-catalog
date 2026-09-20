@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-19T15:11:16.737Z",
-  "revision": "perrylink-dsh-catalog-2026-09-19",
+  "generatedAt": "2026-09-20T01:32:22.557Z",
+  "revision": "perrylink-dsh-catalog-2026-09-20",
   "items": [
     {
       "id": "dsh-auto-review",
@@ -1118,7 +1118,7 @@
       "id": "dsh-plugin-upgrade",
       "name": "dsh-plugin-upgrade",
       "displayName": "Plugin Upgrade",
-      "summary": "Version-locked plugin upgrade skill for the 0.1.3-alpha.1 -> 0.1.5-alpha.1 corridor: a bundled version card plus a zero-dependency seam scanner (10 seams, including the tsconfig stale-path false green) exposed as an npx CLI.",
+      "summary": "Plugin-author upgrade skill for DeepSeek Harness, new-generation single package: one corridor index reads the caller peer band and routes it to the matching closed corridor card (dsh 0.1.3-alpha.1 -> 0.1.5-rc.1 and 0.1.5-rc.2 -> 0.1.6-alpha.2), with a zero-dependency seam scanner shipped as a bundle skill and an npx CLI.",
       "homepage": "https://github.com/PerryLink/dsh-plugin-upgrade#readme",
       "latestVersion": "2.0.0",
       "license": "Apache-2.0",
@@ -1149,7 +1149,7 @@
       "id": "dsh-plugin-upgrade-rc1",
       "name": "dsh-plugin-upgrade-rc1",
       "displayName": "Plugin Upgrade 0.1.5-rc.1",
-      "summary": "Version-locked plugin upgrade skill for the 0.1.5-alpha.1 -> 0.1.5-rc.1 corridor: a bundled version card plus a zero-dependency seam scanner (11 seams, including the removed bare `conversation` client slot, the sidebar textpreview -> documentpreview rename, and the peer-range trap where >=0.1.2-rc.1 <0.2.0 alone rejects 0.1.5-rc.1) exposed as an npx CLI.",
+      "summary": "Superseded twice over: this was the original npm name for the 0.1.5-alpha.1 -> 0.1.5-rc.1 corridor card (11 seams). The package was renamed to dsh-plugin-upgrade-015, the repository was renamed with it, and both are now carried by dsh-plugin-upgrade 2.0.0.",
       "homepage": "https://github.com/PerryLink/dsh-plugin-upgrade-rc1#readme",
       "latestVersion": "0.1.0",
       "license": "Apache-2.0",
@@ -1158,7 +1158,7 @@
         "knowledge"
       ],
       "repository": {
-        "url": "https://github.com/PerryLink/dsh-plugin-upgrade-rc1"
+        "url": "https://github.com/PerryLink/dsh-plugin-upgrade-015"
       },
       "package": {
         "registry": "npm",
@@ -1270,7 +1270,7 @@
       "id": "dsh-plugin-upgrade-015",
       "name": "dsh-plugin-upgrade-015",
       "displayName": "Plugin Upgrade 0.1.5",
-      "summary": "Merged DSH plugin upgrade corridor: dsh-v0.1.3-alpha.1 -> dsh-v0.1.5-rc.1. Two-leg evidence-bound version card plus a zero-dependency seam scanner (npx dsh-plugin-upgrade-015-scan).",
+      "summary": "Superseded corridor, kept for the published 0.1.1: the merged dsh-v0.1.3-alpha.1 -> dsh-v0.1.5-rc.1 upgrade with a two-leg evidence-bound version card and a zero-dependency 20-seam scanner. dsh-plugin-upgrade 2.0.0 carries this corridor and the 0.1.5-rc.2 -> 0.1.6-alpha.2 one in a single package.",
       "homepage": "https://github.com/PerryLink/dsh-plugin-upgrade-015#readme",
       "latestVersion": "0.1.1",
       "license": "Apache-2.0",
