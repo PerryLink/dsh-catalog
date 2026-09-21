@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-20T12:06:21.199Z",
-  "revision": "perrylink-dsh-catalog-2026-09-20",
+  "generatedAt": "2026-09-21T16:42:01.203Z",
+  "revision": "perrylink-dsh-catalog-2026-09-21",
   "items": [
     {
       "id": "dsh-auto-review",
@@ -1234,9 +1234,40 @@
         }
       },
       "updatedAt": "2026-09-13T01:42:02.870Z"
+    },
+    {
+      "id": "dsh-laya",
+      "name": "dsh-laya",
+      "displayName": "Laya",
+      "summary": "Laya typed decisions — noul (yes/no), choice and score — as a first-class Cordis service and model-visible tools for DeepSeek Harness, backed by a locally hosted Laya decision sidecar.",
+      "homepage": "https://github.com/PerryLink/dsh-laya#readme",
+      "latestVersion": "0.1.3",
+      "license": "Apache-2.0",
+      "categories": [
+        "model",
+        "tools"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-laya"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-laya"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-laya.png",
+          "alt": "Laya"
+        }
+      },
+      "updatedAt": "2026-09-21T15:57:08.463Z"
     }
   ],
   "page": {
-    "total": 41
+    "total": 42
   }
 }
