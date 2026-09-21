@@ -83,7 +83,22 @@ jobs:
             fi
             cd ..
             echo "--- live smoke ---"
-            curl -fsS "$URL/catalog-source.json" -o /tmp/manifest.json
+            # The edge can still answer with the PREVIOUS worker version for a
+            # moment: the step above deploys a placeholder-origin manifest first,
+            # then this one rebuilds with the real origin and deploys again, and
+            # the smoke used to run ~75ms after that second upload. It then read
+            # the placeholder manifest, `grep` failed silently, and the job went
+            # red even though the correct manifest landed (verified live on
+            # 2026-09-21). Poll until the manifest naming this origin is the one
+            # being served; bounded, so a manifest that never updates still fails.
+            for attempt in $(seq 1 20); do
+              if curl -fsS "$URL/catalog-source.json" -o /tmp/manifest.json \
+                && grep -q "$URL/v1/plugins" /tmp/manifest.json; then
+                break
+              fi
+              echo "manifest not yet serving $URL (attempt $attempt/20), retrying in 3s"
+              sleep 3
+            done
             grep -q "$URL/v1/plugins" /tmp/manifest.json
             curl -fsS "$URL/v1/plugins" -o /tmp/plugins.json
             node -e "const j=require('/tmp/plugins.json');if(!Array.isArray(j.items)||j.items.length<34)throw new Error('unexpected items: '+(j.items&&j.items.length));if(!j.items.every(i=>i.media&&i.media.icon&&i.media.icon.url))throw new Error('missing media.icon');console.log('plugins ok:',j.items.length,'items, all with media.icon')"
