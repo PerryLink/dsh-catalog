@@ -367,5 +367,14 @@
     "repository": "git+https://github.com/PerryLink/dsh-plugin-doctor.git",
     "latest": "0.2.3",
     "updatedAt": "2026-09-13T01:42:02.870Z"
+  },
+  {
+    "name": "dsh-laya",
+    "description": "Laya typed decisions (noul / choice / score) as a first-class Cordis service and model-visible tools for DeepSeek Harness.",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-laya#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-laya.git",
+    "latest": "0.1.3",
+    "updatedAt": "2026-09-21T15:57:08.463Z"
   }
 ]
