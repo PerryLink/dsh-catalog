@@ -5,6 +5,7 @@
 [![Gitee](https://img.shields.io/badge/Gitee-mirror-c71d23?logo=gitee)](https://gitee.com/perrylink/dsh-catalog)
 [![npm version](https://img.shields.io/npm/v/dsh-catalog)](https://www.npmjs.com/package/dsh-catalog)
 [![npm downloads](https://img.shields.io/npm/dm/dsh-catalog)](https://www.npmjs.com/package/dsh-catalog)
+[![dshfind](https://dshfind.com/api/badge/PerryLink/dsh-catalog?metric=downloads)](https://dshfind.com/plugins/PerryLink/dsh-catalog?ref=badge)
 
 A [DSH Community Market](https://github.com/anywhere-labs/dsh-desktop/tree/main/dsh-community-market) **standard catalog source** for the PerryLink DeepSeek Harness plugin family: 42 packages, generated from the npm registry, validated against the public v1 contract schemas.
 
