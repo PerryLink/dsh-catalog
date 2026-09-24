@@ -101,7 +101,7 @@ PerryLink 全家桶的 [DSH Community Market](https://github.com/anywhere-labs/d
 
 Apache-2.0. Catalog data derives from the npm registry and the PerryLink plugin repositories.
 
-**DSH family line:** this repository belongs to the **PerryLink DeepSeek Harness plugin family**, whose current line is `dsh-v0.1.7-alpha.1`.
+**DSH family line:** this repository belongs to the **PerryLink DeepSeek Harness plugin family**, whose current line is `dsh-v0.1.7-rc.1`.
 
 
 ## PerryLink DSH Plugin Family
