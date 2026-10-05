@@ -15,6 +15,34 @@ A [DSH Community Market](https://github.com/anywhere-labs/dsh-desktop/tree/main/
 - Generator / validator: `scripts/build-catalog.mjs`, `scripts/validate.mjs`, `scripts/check-counts.mjs`
 - Deploy: live at `https://perrylink-dsh-catalog.perrylink.workers.dev` (Cloudflare Workers, automated via `deploy.yml`; Vercel static alternative in `vercel.json`; Deno unit `deploy/deno-worker.js` as manual alternative)
 
+## Maintenance status: family-internal tool
+
+> **Reclassified on 2026-10-05 — deliberately NOT retired.** A review of the whole
+> plugin family against the official harness and the wider ecosystem classified this
+> repository as **family-internal tooling** rather than a product. Its job is to
+> inventory this family for the DSH Desktop Community Market, so it does not compete
+> with third-party catalogs and needs no retirement. It stays maintained.
+
+### Why this file says 42 packages while a family table says 44
+
+Two different scopes, both correct:
+
+| Scope | Count | Meaning |
+|---|---|---|
+| **This catalog's inventory** | **42** | the packages published to npm from this family |
+| **The family rows in the per-plugin READMEs** | **44** | every repo listed in the roster, including the three **retired** packages (kept and annotated rather than deleted) |
+
+The two-item difference is deliberate:
+
+- **`dsh-catalog` itself is not in its own inventory** — it ships no Cordis plugin, so there is nothing for a market to install.
+- **`dsh-plugin-certification` is not in it either** — that repository ships no Cordis plugin and is not installable, as its own README states.
+
+The three **retired** packages (`dsh-background-agents`, `dsh-session-pin`,
+`dsh-team-rooms`) **remain in the inventory on purpose**: retirement here means
+*compatibility updates stopped because the official harness now implements the
+capability*, not that the package was withdrawn. Removing them from the catalog
+would hide them from anyone still running an older host.
+
 ## Compliance notes
 
 - Contract: [catalog-provider-contract.md](https://github.com/anywhere-labs/dsh-desktop/blob/main/dsh-community-market/docs/catalog-provider-contract.md) (v1, `manifestVersion`/`schemaVersion` `1.0.0`). The schemas are vendored nowhere in this repo; `scripts/validate.mjs` mirrors the structural rules of `catalog-source.schema.json` and `catalog-provider-page.schema.json` and the cross-field rules (unique item ids, npm name pattern, no install commands in items, HTTPS repository URLs, page shape).
