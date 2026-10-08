@@ -5,8 +5,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-auto-review#readme",
     "repository": "git+https://github.com/PerryLink/dsh-auto-review.git",
-    "latest": "0.12.6",
-    "updatedAt": "2026-09-19T12:27:53.395Z"
+    "latest": "0.12.15",
+    "updatedAt": "2026-10-05T17:33:28.826Z"
   },
   {
     "name": "dsh-permission-rules",
@@ -14,8 +14,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-permission-rules#readme",
     "repository": "git+https://github.com/PerryLink/dsh-permission-rules.git",
-    "latest": "0.7.4",
-    "updatedAt": "2026-09-19T11:34:25.732Z"
+    "latest": "0.7.14",
+    "updatedAt": "2026-10-05T11:03:40.463Z"
   },
   {
     "name": "dsh-doublecheck",
@@ -23,8 +23,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-doublecheck#readme",
     "repository": "git+https://github.com/PerryLink/dsh-doublecheck.git",
-    "latest": "0.9.13",
-    "updatedAt": "2026-09-19T12:21:12.072Z"
+    "latest": "0.9.23",
+    "updatedAt": "2026-10-05T17:32:07.383Z"
   },
   {
     "name": "dsh-memento",
@@ -32,8 +32,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-memento#readme",
     "repository": "git+https://github.com/PerryLink/dsh-memento.git",
-    "latest": "0.5.14",
-    "updatedAt": "2026-09-19T12:03:57.240Z"
+    "latest": "0.5.22",
+    "updatedAt": "2026-10-05T11:02:03.846Z"
   },
   {
     "name": "dsh-checkpoint-rewind",
@@ -41,8 +41,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-checkpoint-rewind#readme",
     "repository": "git+https://github.com/PerryLink/dsh-checkpoint-rewind.git",
-    "latest": "0.6.13",
-    "updatedAt": "2026-09-19T12:04:00.475Z"
+    "latest": "0.6.23",
+    "updatedAt": "2026-10-05T14:21:38.521Z"
   },
   {
     "name": "dsh-mcp-panel",
@@ -50,8 +50,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-mcp-panel#readme",
     "repository": "git+https://github.com/PerryLink/dsh-mcp-panel.git",
-    "latest": "0.6.16",
-    "updatedAt": "2026-09-19T13:41:50.759Z"
+    "latest": "0.6.22",
+    "updatedAt": "2026-10-05T11:01:44.054Z"
   },
   {
     "name": "dsh-composer-history",
@@ -59,8 +59,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-composer-history#readme",
     "repository": "https://github.com/PerryLink/dsh-composer-history.git",
-    "latest": "0.8.2",
-    "updatedAt": "2026-09-12T02:24:42.249Z"
+    "latest": "0.8.10",
+    "updatedAt": "2026-10-05T10:55:14.972Z"
   },
   {
     "name": "dsh-session-pin",
@@ -68,8 +68,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-session-pin#readme",
     "repository": "git+https://github.com/PerryLink/dsh-session-pin.git",
-    "latest": "0.7.11",
-    "updatedAt": "2026-09-12T02:33:52.376Z"
+    "latest": "0.7.19",
+    "updatedAt": "2026-10-05T11:10:37.203Z"
   },
   {
     "name": "dsh-session-sync",
@@ -77,8 +77,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-session-sync#readme",
     "repository": "git+https://github.com/PerryLink/dsh-session-sync.git",
-    "latest": "0.2.16",
-    "updatedAt": "2026-09-19T11:33:49.401Z"
+    "latest": "0.2.23",
+    "updatedAt": "2026-10-05T11:03:09.830Z"
   },
   {
     "name": "dsh-output-styles",
@@ -86,8 +86,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-output-styles#readme",
     "repository": "git+https://github.com/PerryLink/dsh-output-styles.git",
-    "latest": "0.6.16",
-    "updatedAt": "2026-09-12T02:29:34.901Z"
+    "latest": "0.6.25",
+    "updatedAt": "2026-10-05T10:59:43.608Z"
   },
   {
     "name": "dsh-lsp-actions",
@@ -95,8 +95,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-lsp-actions#readme",
     "repository": "git+https://github.com/PerryLink/dsh-lsp-actions.git",
-    "latest": "0.5.3",
-    "updatedAt": "2026-09-19T12:25:47.662Z"
+    "latest": "0.5.11",
+    "updatedAt": "2026-10-07T04:20:25.318Z"
   },
   {
     "name": "dsh-background-agents",
@@ -104,8 +104,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-background-agents#readme",
     "repository": "git+https://github.com/PerryLink/dsh-background-agents.git",
-    "latest": "0.9.7",
-    "updatedAt": "2026-09-12T02:22:57.632Z"
+    "latest": "0.10.2",
+    "updatedAt": "2026-10-05T11:06:26.408Z"
   },
   {
     "name": "dsh-claude-move",
@@ -113,8 +113,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-claude-move#readme",
     "repository": "git+https://github.com/PerryLink/dsh-claude-move.git",
-    "latest": "0.4.7",
-    "updatedAt": "2026-09-12T02:22:59.228Z"
+    "latest": "0.4.16",
+    "updatedAt": "2026-10-05T14:24:02.051Z"
   },
   {
     "name": "dsh-translate",
@@ -122,8 +122,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-translate#readme",
     "repository": "git+https://github.com/PerryLink/dsh-translate.git",
-    "latest": "0.2.12",
-    "updatedAt": "2026-09-19T12:20:46.041Z"
+    "latest": "0.2.20",
+    "updatedAt": "2026-10-05T11:12:44.872Z"
   },
   {
     "name": "dsh-local-ai",
@@ -131,8 +131,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-local-ai#readme",
     "repository": "git+https://github.com/PerryLink/dsh-local-ai.git",
-    "latest": "0.2.12",
-    "updatedAt": "2026-09-19T11:15:14.701Z"
+    "latest": "0.2.18",
+    "updatedAt": "2026-10-05T11:01:12.989Z"
   },
   {
     "name": "dsh-mask",
@@ -140,8 +140,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-mask#readme",
     "repository": "git+https://github.com/PerryLink/dsh-mask.git",
-    "latest": "0.2.12",
-    "updatedAt": "2026-09-19T11:30:03.116Z"
+    "latest": "0.2.19",
+    "updatedAt": "2026-10-05T11:01:48.393Z"
   },
   {
     "name": "dsh-data-quality",
@@ -149,8 +149,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-data-quality#readme",
     "repository": "git+https://github.com/PerryLink/dsh-data-quality.git",
-    "latest": "0.3.12",
-    "updatedAt": "2026-09-19T12:26:08.526Z"
+    "latest": "0.3.18",
+    "updatedAt": "2026-10-05T10:55:33.916Z"
   },
   {
     "name": "dsh-score",
@@ -158,8 +158,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-score#readme",
     "repository": "git+https://github.com/PerryLink/dsh-score.git",
-    "latest": "0.2.13",
-    "updatedAt": "2026-09-19T12:26:01.119Z"
+    "latest": "0.2.19",
+    "updatedAt": "2026-10-05T11:05:47.661Z"
   },
   {
     "name": "dsh-test-drive",
@@ -167,8 +167,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-test-drive#readme",
     "repository": "git+https://github.com/PerryLink/dsh-test-drive.git",
-    "latest": "0.3.12",
-    "updatedAt": "2026-09-12T02:32:18.207Z"
+    "latest": "0.3.14",
+    "updatedAt": "2026-10-04T17:31:33.035Z"
   },
   {
     "name": "dsh-defend",
@@ -176,8 +176,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-defend#readme",
     "repository": "git+https://github.com/PerryLink/dsh-defend.git",
-    "latest": "0.3.12",
-    "updatedAt": "2026-09-19T12:23:51.730Z"
+    "latest": "0.3.20",
+    "updatedAt": "2026-10-05T10:54:52.535Z"
   },
   {
     "name": "dsh-budget",
@@ -185,8 +185,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-budget#readme",
     "repository": "git+https://github.com/PerryLink/dsh-budget.git",
-    "latest": "0.4.9",
-    "updatedAt": "2026-09-12T02:22:26.565Z"
+    "latest": "0.4.16",
+    "updatedAt": "2026-10-05T10:54:28.995Z"
   },
   {
     "name": "dsh-fast",
@@ -194,8 +194,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-fast#readme",
     "repository": "git+https://github.com/PerryLink/dsh-fast.git",
-    "latest": "0.2.14",
-    "updatedAt": "2026-09-19T12:04:09.627Z"
+    "latest": "0.2.20",
+    "updatedAt": "2026-10-05T10:58:14.216Z"
   },
   {
     "name": "dsh-observe",
@@ -203,8 +203,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-observe#readme",
     "repository": "git+https://github.com/PerryLink/dsh-observe.git",
-    "latest": "0.2.14",
-    "updatedAt": "2026-09-19T12:04:20.914Z"
+    "latest": "0.2.21",
+    "updatedAt": "2026-10-05T11:03:16.416Z"
   },
   {
     "name": "dsh-click",
@@ -212,8 +212,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-click#readme",
     "repository": "git+https://github.com/PerryLink/dsh-click.git",
-    "latest": "0.3.12",
-    "updatedAt": "2026-09-19T12:21:30.503Z"
+    "latest": "0.3.18",
+    "updatedAt": "2026-10-05T10:55:32.756Z"
   },
   {
     "name": "dsh-talk",
@@ -221,8 +221,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-talk#readme",
     "repository": "git+https://github.com/PerryLink/dsh-talk.git",
-    "latest": "0.3.12",
-    "updatedAt": "2026-09-19T11:34:31.193Z"
+    "latest": "0.3.19",
+    "updatedAt": "2026-10-05T11:06:28.655Z"
   },
   {
     "name": "dsh-draw",
@@ -230,8 +230,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-draw#readme",
     "repository": "git+https://github.com/PerryLink/dsh-draw.git",
-    "latest": "0.2.15",
-    "updatedAt": "2026-09-19T14:02:32.586Z"
+    "latest": "0.2.21",
+    "updatedAt": "2026-10-05T10:59:12.144Z"
   },
   {
     "name": "dsh-industry-research",
@@ -239,8 +239,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-industry-research#readme",
     "repository": "git+https://github.com/PerryLink/dsh-industry-research.git",
-    "latest": "0.3.11",
-    "updatedAt": "2026-09-19T11:49:23.764Z"
+    "latest": "0.3.18",
+    "updatedAt": "2026-10-05T10:59:26.497Z"
   },
   {
     "name": "dsh-research-report",
@@ -248,8 +248,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-research-report#readme",
     "repository": "git+https://github.com/PerryLink/dsh-research-report.git",
-    "latest": "0.3.12",
-    "updatedAt": "2026-09-19T11:49:19.787Z"
+    "latest": "0.3.21",
+    "updatedAt": "2026-10-05T17:32:40.932Z"
   },
   {
     "name": "dsh-fund-research",
@@ -257,8 +257,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-fund-research#readme",
     "repository": "git+https://github.com/PerryLink/dsh-fund-research.git",
-    "latest": "0.4.13",
-    "updatedAt": "2026-09-19T12:21:41.108Z"
+    "latest": "0.4.19",
+    "updatedAt": "2026-10-05T10:56:35.823Z"
   },
   {
     "name": "dsh-library",
@@ -266,8 +266,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-library#readme",
     "repository": "git+https://github.com/PerryLink/dsh-library.git",
-    "latest": "0.2.13",
-    "updatedAt": "2026-09-19T11:49:55.622Z"
+    "latest": "0.2.19",
+    "updatedAt": "2026-10-05T11:03:24.157Z"
   },
   {
     "name": "dsh-plugin-guide",
@@ -275,8 +275,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-plugin-guide#readme",
     "repository": "git+https://github.com/PerryLink/dsh-plugin-guide.git",
-    "latest": "0.3.16",
-    "updatedAt": "2026-09-19T11:34:01.686Z"
+    "latest": "0.3.26",
+    "updatedAt": "2026-10-06T14:18:35.141Z"
   },
   {
     "name": "@perrylink/dsh-github",
@@ -284,8 +284,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-github#readme",
     "repository": "git+https://github.com/PerryLink/dsh-github.git",
-    "latest": "0.7.10",
-    "updatedAt": "2026-09-12T02:26:17.117Z"
+    "latest": "0.7.19",
+    "updatedAt": "2026-10-05T10:58:39.453Z"
   },
   {
     "name": "@perrylink/dsh-skill-pack-security-provider",
@@ -293,8 +293,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-skill-pack-security#readme",
     "repository": "git+https://github.com/PerryLink/dsh-skill-pack-security.git",
-    "latest": "2.2.16",
-    "updatedAt": "2026-09-12T02:43:48.998Z"
+    "latest": "2.2.22",
+    "updatedAt": "2026-10-05T11:39:41.864Z"
   },
   {
     "name": "@perrylink/dsh-ticktick",
@@ -302,8 +302,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-ticktick#readme",
     "repository": "git+https://github.com/PerryLink/dsh-ticktick.git",
-    "latest": "0.1.7",
-    "updatedAt": "2026-09-12T02:34:15.208Z"
+    "latest": "0.1.15",
+    "updatedAt": "2026-10-05T11:05:36.276Z"
   },
   {
     "name": "dsh-cert-mcp",
@@ -311,8 +311,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-cert-mcp#readme",
     "repository": "git+https://github.com/PerryLink/dsh-cert-mcp.git",
-    "latest": "0.2.2",
-    "updatedAt": "2026-09-19T13:15:20.368Z"
+    "latest": "0.2.4",
+    "updatedAt": "2026-10-05T17:31:34.025Z"
   },
   {
     "name": "dsh-reach",
@@ -320,8 +320,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-reach#readme",
     "repository": "git+https://github.com/PerryLink/dsh-reach.git",
-    "latest": "0.1.10",
-    "updatedAt": "2026-09-19T11:52:47.429Z"
+    "latest": "0.1.17",
+    "updatedAt": "2026-10-05T11:21:16.705Z"
   },
   {
     "name": "dsh-autotier",
@@ -329,8 +329,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-autotier#readme",
     "repository": "git+https://github.com/PerryLink/dsh-autotier.git",
-    "latest": "0.2.3",
-    "updatedAt": "2026-09-12T02:22:16.802Z"
+    "latest": "0.2.15",
+    "updatedAt": "2026-10-05T17:39:00.516Z"
   },
   {
     "name": "dsh-plugin-upgrade",
@@ -338,8 +338,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-plugin-upgrade#readme",
     "repository": "git+https://github.com/PerryLink/dsh-plugin-upgrade.git",
-    "latest": "2.0.1",
-    "updatedAt": "2026-09-20T02:29:27.831Z"
+    "latest": "2.0.7",
+    "updatedAt": "2026-10-05T17:32:08.714Z"
   },
   {
     "name": "dsh-team-rooms",
@@ -347,17 +347,17 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-team-rooms#readme",
     "repository": "git+https://github.com/PerryLink/dsh-team-rooms.git",
-    "latest": "1.0.1",
-    "updatedAt": "2026-09-12T02:35:13.018Z"
+    "latest": "1.0.8",
+    "updatedAt": "2026-10-05T11:09:10.561Z"
   },
   {
     "name": "@perrylink/dsh-plugin-kit",
     "description": "Shared zero-runtime-dependency toolkit for PerryLink DSH plugins: a pluggable Provider registry seam, fail-closed approval and adaptive session-event gates, mechanical verify scripts, shared sanitize/pricing/judge modules, and a new-plugin skeleton.",
     "license": "Apache-2.0",
-    "homepage": "https://github.com/PerryLink/dsh-plugin-kit#readme",
+    "homepage": "https://www.npmjs.com/package/@perrylink/dsh-plugin-kit",
     "repository": "git+https://github.com/PerryLink/dsh-plugin-kit.git",
-    "latest": "0.1.9",
-    "updatedAt": "2026-09-12T02:29:20.020Z"
+    "latest": "0.1.16",
+    "updatedAt": "2026-10-05T14:03:45.807Z"
   },
   {
     "name": "@perrylink/dsh-plugin-doctor",
@@ -365,8 +365,8 @@
     "license": "Apache-2.0",
     "homepage": "https://www.npmjs.com/package/@perrylink/dsh-plugin-doctor",
     "repository": "git+https://github.com/PerryLink/dsh-plugin-doctor.git",
-    "latest": "0.2.3",
-    "updatedAt": "2026-09-13T01:42:02.870Z"
+    "latest": "0.6.3",
+    "updatedAt": "2026-10-05T14:15:06.569Z"
   },
   {
     "name": "dsh-laya",
@@ -374,7 +374,511 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-laya#readme",
     "repository": "git+https://github.com/PerryLink/dsh-laya.git",
-    "latest": "0.1.3",
-    "updatedAt": "2026-09-21T15:57:08.463Z"
+    "latest": "0.1.4",
+    "updatedAt": "2026-09-22T10:34:30.572Z"
+  },
+  {
+    "name": "dsh-aqua-input-check",
+    "description": "水产养殖投入品记录核对（按投入品用量、休药期与起捕间隔核对记录自洽，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-aqua-input-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-aqua-input-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:00:59.702Z"
+  },
+  {
+    "name": "dsh-archive-check",
+    "description": "档案归档完整性与保管期限核对（依据《档案法》及配套规定，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-archive-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-archive-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:00:45.983Z"
+  },
+  {
+    "name": "dsh-bid-ca-precheck",
+    "description": "投标文件符合性预检（按招标文件逐条核对响应情况，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-bid-ca-precheck#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-bid-ca-precheck.git",
+    "latest": "0.2.2",
+    "updatedAt": "2026-10-08T05:08:39.974Z"
+  },
+  {
+    "name": "dsh-bid-qual-check",
+    "description": "投标人资格条件核对（按资格条件与证明材料核对逐条响应，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-bid-qual-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-bid-qual-check.git",
+    "latest": "0.2.2",
+    "updatedAt": "2026-10-08T05:08:59.630Z"
+  },
+  {
+    "name": "dsh-contract-stance",
+    "description": "合同条款立场台账核对（按立场、风险等级与退让底线核对台账自洽，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-contract-stance#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-contract-stance.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:02:04.107Z"
+  },
+  {
+    "name": "dsh-customs-doc-check",
+    "description": "报关单证一致性核对（按公开的报关单填制规范核对单证间字段一致性，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-customs-doc-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-customs-doc-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:01:10.843Z"
+  },
+  {
+    "name": "dsh-demurrage-ledger",
+    "description": "滞箱费台账核对（按免箱期与费率核对超期天数与金额的自洽性，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-demurrage-ledger#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-demurrage-ledger.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T04:59:51.636Z"
+  },
+  {
+    "name": "dsh-drill-script-check",
+    "description": "应急演练脚本核对（按阶段、响应分级、指挥与资源要素核对脚本齐备，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-drill-script-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-drill-script-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:06:09.365Z"
+  },
+  {
+    "name": "dsh-eia-guide-check",
+    "description": "环评导则适用性核对（按要素、导则名称与执行标准核对台账自洽，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-eia-guide-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-eia-guide-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:00:57.499Z"
+  },
+  {
+    "name": "dsh-emergency-plan",
+    "description": "应急预案要素齐备性与条款级页码定位（依据 GB/T 29639-2020 等公开文件，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-emergency-plan#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-emergency-plan.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:05:57.524Z"
+  },
+  {
+    "name": "dsh-essay-rubric-check",
+    "description": "作文量表评分核对（按评分项、原文定位与分值算术核对评分自洽，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-essay-rubric-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-essay-rubric-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:02:35.441Z"
+  },
+  {
+    "name": "dsh-evidence-check",
+    "description": "证据清单齐备性核对（按待证事实与证据要素核对清单自洽，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-evidence-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-evidence-check.git",
+    "latest": "0.2.2",
+    "updatedAt": "2026-10-08T05:09:59.929Z"
+  },
+  {
+    "name": "dsh-export-ctl-check",
+    "description": "出口管制物项核对（按管制清单、最终用途与许可证核对台账齐备，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-export-ctl-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-export-ctl-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:05:41.704Z"
+  },
+  {
+    "name": "dsh-fmea-table-check",
+    "description": "FMEA 分析表要素齐备性与风险顺序数一致性核对（按公开的 FMEA 方法标准核对表内自洽，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-fmea-table-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-fmea-table-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:07:20.758Z"
+  },
+  {
+    "name": "dsh-forecast-penalty",
+    "description": "预测准确率考核核对（按准确率、门槛与考核单价核对考核费用的算术自洽，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-forecast-penalty#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-forecast-penalty.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:00:31.638Z"
+  },
+  {
+    "name": "dsh-gongwen-flow-check",
+    "description": "公文流转与办理时限核对（按公开的公文处理规范核对环节完整性与时限，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-gongwen-flow-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-gongwen-flow-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:05:41.979Z"
+  },
+  {
+    "name": "dsh-gongwen-word-check",
+    "description": "公文格式要素核对（按公开的党政机关公文格式标准核对版头与主体要素，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-gongwen-word-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-gongwen-word-check.git",
+    "latest": "0.2.2",
+    "updatedAt": "2026-10-08T05:07:38.606Z"
+  },
+  {
+    "name": "dsh-guard-plan-qc",
+    "description": "劳动保护与安全防护用品配置表核对（按公开的配备标准核对品名规格与配置数量，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-guard-plan-qc#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-guard-plan-qc.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:00:12.455Z"
+  },
+  {
+    "name": "dsh-hazchem-check",
+    "description": "危险化学品临界量与重大危险源辨识核对（按储存量与临界量核对台账自洽，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-hazchem-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-hazchem-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:04:24.911Z"
+  },
+  {
+    "name": "dsh-hazplan-check",
+    "description": "HAZOP 分析表要素齐备性与偏差推导一致性核对（依据公开的危险与可操作性分析标准，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-hazplan-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-hazplan-check.git",
+    "latest": "0.2.2",
+    "updatedAt": "2026-10-08T05:08:00.266Z"
+  },
+  {
+    "name": "dsh-hidden-risk-map",
+    "description": "安全隐患台账→《工贸企业重大事故隐患判定标准》（应急管理部令第10号）条款映射提示（仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-hidden-risk-map#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-hidden-risk-map.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:02:09.128Z"
+  },
+  {
+    "name": "dsh-hs-classify",
+    "description": "商品归类层级一致性核对（按章、品目、子目与商品编号的层级关系核对自洽，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-hs-classify#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-hs-classify.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:05:01.068Z"
+  },
+  {
+    "name": "dsh-icd-rule-check",
+    "description": "ICD 合并编码与星剑号配对提示（依据 GB/T 14396-2016 与公开的 ICD 使用说明，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-icd-rule-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-icd-rule-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:00:28.762Z"
+  },
+  {
+    "name": "dsh-lawcite-adapter",
+    "description": "法条引用与文书要素核对（按名称、条号、原文与效力状态核对引用可核验性，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-lawcite-adapter#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-lawcite-adapter.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:10:28.169Z"
+  },
+  {
+    "name": "dsh-lc-doc-check",
+    "description": "信用证单据条款核对（按单据种类、份数、期限与不符点核对交单自洽，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-lc-doc-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-lc-doc-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:04:26.346Z"
+  },
+  {
+    "name": "dsh-learning-gap-check",
+    "description": "能力差距与培养计划核对（按能力等级差、培养措施与完成期限核对台账闭环，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-learning-gap-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-learning-gap-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:08:10.547Z"
+  },
+  {
+    "name": "dsh-medrec-qc",
+    "description": "病案首页形式质控与逻辑矛盾提示（依据国卫办医发〔2016〕24号等公开文件，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-medrec-qc#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-medrec-qc.git",
+    "latest": "0.2.2",
+    "updatedAt": "2026-10-08T05:08:07.581Z"
+  },
+  {
+    "name": "dsh-nsfc-form-check",
+    "description": "国家自然科学基金申请书形式审查与匿名化提示（依据《国家自然科学基金条例》与申请人导入的当年指南，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-nsfc-form-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-nsfc-form-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:02:10.195Z"
+  },
+  {
+    "name": "dsh-nurse-record-check",
+    "description": "护理记录时限、签名与评估表完整性校验（依据《病历书写基本规范》等公开文件，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-nurse-record-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-nurse-record-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:06:59.961Z"
+  },
+  {
+    "name": "dsh-origin-rvc-check",
+    "description": "原产地区域价值成分核对（按 RVC 定义式与门槛核对原产地判定自洽，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-origin-rvc-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-origin-rvc-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:05:14.405Z"
+  },
+  {
+    "name": "dsh-ota-review-check",
+    "description": "在线点评回复台账核对（按回复时限、问题分类与整改状态核对台账闭环，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-ota-review-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-ota-review-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:04:39.057Z"
+  },
+  {
+    "name": "dsh-paper-doc-adapter",
+    "description": "试卷解析结构核对（按题型、答案、分值与 yotta 标识核对试卷结构自洽，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-paper-doc-adapter#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-paper-doc-adapter.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:02:40.604Z"
+  },
+  {
+    "name": "dsh-permit-report-check",
+    "description": "行政许可办理核对（按申请材料、法定时限与决定记录核对台账闭环，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-permit-report-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-permit-report-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:04:30.462Z"
+  },
+  {
+    "name": "dsh-pipeline-check",
+    "description": "项目全流程文件链条核对（按环节先后与金额口径核对链条自洽，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-pipeline-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-pipeline-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:07:26.899Z"
+  },
+  {
+    "name": "dsh-pleading-draft",
+    "description": "起诉状要素齐备性核对（按诉请、事实、证据、法条四要素核对文书齐备，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-pleading-draft#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-pleading-draft.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:01:43.878Z"
+  },
+  {
+    "name": "dsh-policy-brief-draft",
+    "description": "政策专报要素核对（按观点、依据、出处与建议核对专报齐备，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-policy-brief-draft#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-policy-brief-draft.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:02:16.692Z"
+  },
+  {
+    "name": "dsh-power-loss-split",
+    "description": "线损电量拆分与考核表核对（依据公开的线损计算口径，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-power-loss-split#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-power-loss-split.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:03:37.532Z"
+  },
+  {
+    "name": "dsh-power-ticket-check",
+    "description": "电力工作票要素齐备性与签发许可顺序核对（依据现行电力安全工作规程，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-power-ticket-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-power-ticket-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:04:26.915Z"
+  },
+  {
+    "name": "dsh-ppap-check",
+    "description": "PPAP 提交要素齐备性核对（按公开的 PPAP 手册与提交等级核对要素齐备与版本填写，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-ppap-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-ppap-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:06:12.196Z"
+  },
+  {
+    "name": "dsh-protest-deadline",
+    "description": "质疑与投诉期限核对（按公开的政府采购质疑投诉规定核对期限与台账自洽，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-protest-deadline#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-protest-deadline.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:08:51.189Z"
+  },
+  {
+    "name": "dsh-railway-window",
+    "description": "铁路施工天窗台账核对（按时间窗、时长算术与命令号核对台账自洽，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-railway-window#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-railway-window.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:04:17.300Z"
+  },
+  {
+    "name": "dsh-repair-order-qc",
+    "description": "维修工单结算核对（按项目金额、配件工时合计与结算总额核对算术自洽，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-repair-order-qc#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-repair-order-qc.git",
+    "latest": "0.2.2",
+    "updatedAt": "2026-10-08T05:03:28.289Z"
+  },
+  {
+    "name": "dsh-review-reply-check",
+    "description": "审稿意见逐条回应覆盖核对（按意见与回应一一对应核对覆盖完整性，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-review-reply-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-review-reply-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:05:34.377Z"
+  },
+  {
+    "name": "dsh-rulefile-check",
+    "description": "规则库文件自检核对（按条款引用纪律与效力上限核对规则库自身合规，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-rulefile-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-rulefile-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:08:20.356Z"
+  },
+  {
+    "name": "dsh-safety-brief-check",
+    "description": "安全技术交底记录要素齐备性与签字闭环核对（依据公开的安全生产法规与检查标准，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-safety-brief-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-safety-brief-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:03:38.624Z"
+  },
+  {
+    "name": "dsh-site-log-check",
+    "description": "监理日志跨日连续性与旁站覆盖提示（依据 GB/T 50319-2013 等公开文件，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-site-log-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-site-log-check.git",
+    "latest": "0.2.2",
+    "updatedAt": "2026-10-08T05:04:40.142Z"
+  },
+  {
+    "name": "dsh-soe-decision-check",
+    "description": "三重一大决策台账核对（按前置研究、会议审议与决议记录核对程序留痕，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-soe-decision-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-soe-decision-check.git",
+    "latest": "0.2.2",
+    "updatedAt": "2026-10-08T05:05:59.576Z"
+  },
+  {
+    "name": "dsh-soilwater-check",
+    "description": "土壤与地下水监测台账核对（按点位、监测项目、限值与超标判定核对台账自洽，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-soilwater-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-soilwater-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:05:27.053Z"
+  },
+  {
+    "name": "dsh-sop-sync-check",
+    "description": "作业规程与 FMEA／控制计划一致性核对（按编号与版本核对三份文件是否同步，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-sop-sync-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-sop-sync-check.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:04:26.112Z"
+  },
+  {
+    "name": "dsh-spc-gbt-adapter",
+    "description": "控制图常数与过程能力指数核对（按 GB/T 4091 的常规控制图常数表核对控制限与 Cp/Cpk 的自洽性，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-spc-gbt-adapter#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-spc-gbt-adapter.git",
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-08T05:08:30.326Z"
+  },
+  {
+    "name": "dsh-tender-extract",
+    "description": "招标文件条款摘录核对（按出处与原文逐字核对摘录完整性，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-tender-extract#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-tender-extract.git",
+    "latest": "0.2.2",
+    "updatedAt": "2026-10-08T05:04:35.741Z"
+  },
+  {
+    "name": "dsh-tender-matrix",
+    "description": "评标因素评分矩阵核对（按分值上限与合计核对矩阵自洽，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-tender-matrix#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-tender-matrix.git",
+    "latest": "0.2.2",
+    "updatedAt": "2026-10-08T05:05:42.164Z"
+  },
+  {
+    "name": "dsh-warranty-calc",
+    "description": "质保期与索赔金额核对（按质保期月数与里程、索赔金额算式核对自洽，仅提示差异，不作出定性结论）",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-warranty-calc#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-warranty-calc.git",
+    "latest": "0.2.2",
+    "updatedAt": "2026-10-08T05:09:17.257Z"
+  },
+  {
+    "name": "dsh-phocinae",
+    "description": "Local non-generative decision layer for DeepSeek Harness: the phocinae_ask / phocinae_gate tools backed by a Phocinae-Largha-150M-v1 server, plus a fail-closed approval gate on tools/pre-execute with a calibrated-confidence escalation signal",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/Phocinae/dsh-phocinae#readme",
+    "repository": "git+https://github.com/Phocinae/dsh-phocinae.git",
+    "latest": "0.2.2",
+    "updatedAt": "2026-10-08T06:07:25.346Z"
+  },
+  {
+    "name": "dsh-ticktick",
+    "description": "TickTick / Dida365 (滴答清单) sync for DeepSeek Harness: official OAuth 2.0 Open API integration to pull tasks across lists, create, update, complete, delete tasks, and one-shot dedupe sync — with a web settings panel",
+    "license": "MIT",
+    "homepage": "https://github.com/zhengjy01/dsh-ticktick#readme",
+    "repository": "git+https://github.com/zhengjy01/dsh-ticktick.git",
+    "latest": "0.1.5",
+    "updatedAt": "2026-09-29T15:36:47.752Z"
+  },
+  {
+    "name": "dsh-github",
+    "description": "Abstract GitHub capability seam (ctx.github) for the DeepSeek Harness — provider registry, execution-time resolution, normalized read/write vocabulary, seam-enforced diff budgets, and the GitHubError taxonomy",
+    "license": "MIT",
+    "homepage": "https://github.com/kaziii/dsh-github-connector#readme",
+    "repository": "git+https://github.com/kaziii/dsh-github-connector.git",
+    "latest": "0.1.0",
+    "updatedAt": "2026-08-14T07:27:31.130Z"
   }
 ]

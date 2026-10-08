@@ -388,5 +388,843 @@
     ],
     "summary": "Laya typed decisions — noul (yes/no), choice and score — as a first-class Cordis service and model-visible tools for DeepSeek Harness, backed by a locally hosted Laya decision sidecar.",
     "summaryZh": "把 Laya 的定型决策（noul 是/否、choice 选择、score 打分）做成 DeepSeek Harness 的一等 Cordis 服务与模型可见工具，背后是本地运行的 Laya 决策 sidecar。"
+  },
+  {
+    "npm": "dsh-aqua-input-check",
+    "repo": "PerryLink/dsh-aqua-input-check",
+    "displayName": "Aquaculture Input Check",
+    "categories": [
+      "safety"
+    ],
+    "locale": "zh",
+    "summary": "水产养殖投入品记录核对（按投入品用量、休药期与起捕间隔核对记录自洽，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《水产养殖质量安全管理规定》",
+      "《绿色食品 渔药使用准则》",
+      "本机构养殖生产管理口径（本机构配置）",
+      "无统一标准"
+    ]
+  },
+  {
+    "npm": "dsh-archive-check",
+    "repo": "PerryLink/dsh-archive-check",
+    "displayName": "Archive Register Check",
+    "categories": [
+      "gongwen"
+    ],
+    "locale": "zh",
+    "summary": "档案归档完整性与保管期限核对（依据《档案法》及配套规定，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《归档文件整理规则》",
+      "《机关文件材料归档范围和文书档案保管期限规定》",
+      "《中华人民共和国档案法实施条例》",
+      "DA/T 22—2015",
+      "国务院令第772号",
+      "国家档案局令第8号",
+      "国家档案局令第10号",
+      "2020年修订"
+    ]
+  },
+  {
+    "npm": "dsh-bid-ca-precheck",
+    "repo": "PerryLink/dsh-bid-ca-precheck",
+    "displayName": "Bid Responsiveness Precheck",
+    "categories": [
+      "tender"
+    ],
+    "locale": "zh",
+    "summary": "投标文件符合性预检（按招标文件逐条核对响应情况，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《中华人民共和国招标投标法》",
+      "《中华人民共和国招标投标法实施条例》",
+      "1999年8月30日通过，2017年12月27日修正",
+      "国务院令第613号",
+      "1999年8月30日通过，2017年12月27日修正，自2000年1月1日起施行"
+    ]
+  },
+  {
+    "npm": "dsh-bid-qual-check",
+    "repo": "PerryLink/dsh-bid-qual-check",
+    "displayName": "Bidder Qualification Check",
+    "categories": [
+      "tender"
+    ],
+    "locale": "zh",
+    "summary": "投标人资格条件核对（按资格条件与证明材料核对逐条响应，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《中华人民共和国招标投标法》",
+      "《中华人民共和国招标投标法实施条例》",
+      "1999年8月30日通过，2017年12月27日修正",
+      "国务院令第613号"
+    ]
+  },
+  {
+    "npm": "dsh-contract-stance",
+    "repo": "PerryLink/dsh-contract-stance",
+    "displayName": "Contract Stance Reader",
+    "categories": [
+      "tender"
+    ],
+    "locale": "zh",
+    "summary": "合同条款立场台账核对（按立场、风险等级与退让底线核对台账自洽，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《中华人民共和国民法典》"
+    ]
+  },
+  {
+    "npm": "dsh-customs-doc-check",
+    "repo": "PerryLink/dsh-customs-doc-check",
+    "displayName": "Customs Document Check",
+    "categories": [
+      "customs"
+    ],
+    "locale": "zh",
+    "summary": "报关单证一致性核对（按公开的报关单填制规范核对单证间字段一致性，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《中华人民共和国海关进出口货物报关单填制规范》",
+      "《表示货币的代码》",
+      "《中华人民共和国海关进出口货物申报管理规定》"
+    ]
+  },
+  {
+    "npm": "dsh-demurrage-ledger",
+    "repo": "PerryLink/dsh-demurrage-ledger",
+    "displayName": "Demurrage Ledger Check",
+    "categories": [
+      "customs"
+    ],
+    "locale": "zh",
+    "summary": "滞箱费台账核对（按免箱期与费率核对超期天数与金额的自洽性，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "承运人运价本与运输合同（无国家标准）",
+      "《表示货币的代码》",
+      "无统一标准"
+    ]
+  },
+  {
+    "npm": "dsh-drill-script-check",
+    "repo": "PerryLink/dsh-drill-script-check",
+    "displayName": "Drill Script Check",
+    "categories": [
+      "safety"
+    ],
+    "locale": "zh",
+    "summary": "应急演练脚本核对（按阶段、响应分级、指挥与资源要素核对脚本齐备，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《生产安全事故应急演练基本规范》",
+      "本单位应急预案体系（本机构配置）",
+      "无统一标准"
+    ]
+  },
+  {
+    "npm": "dsh-eia-guide-check",
+    "repo": "PerryLink/dsh-eia-guide-check",
+    "displayName": "EIA Guideline Check",
+    "categories": [
+      "construction"
+    ],
+    "locale": "zh",
+    "summary": "环评导则适用性核对（按要素、导则名称与执行标准核对台账自洽，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《环境影响评价技术导则》系列",
+      "本机构环评质量管理口径（本机构配置）",
+      "《环境影响评价技术导则 总纲》",
+      "《建设项目环境影响评价分类管理名录》",
+      "各导则现行版本号本次未逐一核实",
+      "无统一标准"
+    ]
+  },
+  {
+    "npm": "dsh-emergency-plan",
+    "repo": "PerryLink/dsh-emergency-plan",
+    "displayName": "Emergency Plan Check",
+    "categories": [
+      "safety"
+    ],
+    "locale": "zh",
+    "summary": "应急预案要素齐备性与条款级页码定位（依据 GB/T 29639-2020 等公开文件，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《生产经营单位生产安全事故应急预案编制导则》",
+      "《生产安全事故应急预案管理办法》",
+      "GB/T 29639-2020",
+      "国家安全生产监督管理总局令第88号"
+    ]
+  },
+  {
+    "npm": "dsh-essay-rubric-check",
+    "repo": "PerryLink/dsh-essay-rubric-check",
+    "displayName": "Rubric Marking Check",
+    "categories": [
+      "research"
+    ],
+    "locale": "zh",
+    "summary": "作文量表评分核对（按评分项、原文定位与分值算术核对评分自洽，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《普通高中语文课程标准》",
+      "《普通高等学校招生全国统一考试评卷工作规定》"
+    ]
+  },
+  {
+    "npm": "dsh-evidence-check",
+    "repo": "PerryLink/dsh-evidence-check",
+    "displayName": "Evidence List Check",
+    "categories": [
+      "legal"
+    ],
+    "locale": "zh",
+    "summary": "证据清单齐备性核对（按待证事实与证据要素核对清单自洽，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《最高人民法院关于民事诉讼证据的若干规定》",
+      "法释〔2019〕19号"
+    ]
+  },
+  {
+    "npm": "dsh-export-ctl-check",
+    "repo": "PerryLink/dsh-export-ctl-check",
+    "displayName": "Export Control Check",
+    "categories": [
+      "customs"
+    ],
+    "locale": "zh",
+    "summary": "出口管制物项核对（按管制清单、最终用途与许可证核对台账齐备，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《中华人民共和国出口管制法》",
+      "2020 年 10 月 17 日第十三届全国人大常委会第二十二次会议通过，主席令第五十八号公布，自 2020 年 12 月 1 日起施行"
+    ]
+  },
+  {
+    "npm": "dsh-fmea-table-check",
+    "repo": "PerryLink/dsh-fmea-table-check",
+    "displayName": "FMEA Table Check",
+    "categories": [
+      "quality"
+    ],
+    "locale": "zh",
+    "summary": "FMEA 分析表要素齐备性与风险顺序数一致性核对（按公开的 FMEA 方法标准核对表内自洽，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《系统可靠性分析技术 失效模式和影响分析（FMEA）程序》"
+    ]
+  },
+  {
+    "npm": "dsh-forecast-penalty",
+    "repo": "PerryLink/dsh-forecast-penalty",
+    "displayName": "Forecast Penalty Check",
+    "categories": [
+      "customs"
+    ],
+    "locale": "zh",
+    "summary": "预测准确率考核核对（按准确率、门槛与考核单价核对考核费用的算术自洽，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "电力市场考核办法与并网调度协议（无国家标准）",
+      "《表示货币的代码》",
+      "无统一标准"
+    ]
+  },
+  {
+    "npm": "dsh-gongwen-flow-check",
+    "repo": "PerryLink/dsh-gongwen-flow-check",
+    "displayName": "Document Flow Check",
+    "categories": [
+      "gongwen"
+    ],
+    "locale": "zh",
+    "summary": "公文流转与办理时限核对（按公开的公文处理规范核对环节完整性与时限，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《党政机关公文处理工作条例》",
+      "中办发〔2012〕14号"
+    ]
+  },
+  {
+    "npm": "dsh-gongwen-word-check",
+    "repo": "PerryLink/dsh-gongwen-word-check",
+    "displayName": "Document Type & Number Check",
+    "categories": [
+      "gongwen"
+    ],
+    "locale": "zh",
+    "summary": "公文格式要素核对（按公开的党政机关公文格式标准核对版头与主体要素，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《党政机关公文格式》",
+      "《党政机关公文处理工作条例》",
+      "中办发〔2012〕14号"
+    ]
+  },
+  {
+    "npm": "dsh-guard-plan-qc",
+    "repo": "PerryLink/dsh-guard-plan-qc",
+    "displayName": "Guard Plan QC",
+    "categories": [
+      "construction"
+    ],
+    "locale": "zh",
+    "summary": "劳动保护与安全防护用品配置表核对（按公开的配备标准核对品名规格与配置数量，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《个体防护装备配备规范》"
+    ]
+  },
+  {
+    "npm": "dsh-hazchem-check",
+    "repo": "PerryLink/dsh-hazchem-check",
+    "displayName": "Hazardous Chemical Register Check",
+    "categories": [
+      "safety"
+    ],
+    "locale": "zh",
+    "summary": "危险化学品临界量与重大危险源辨识核对（按储存量与临界量核对台账自洽，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《危险化学品安全管理条例》",
+      "《危险化学品重大危险源辨识》",
+      "国务院令第591号",
+      "GB 18218—2018"
+    ]
+  },
+  {
+    "npm": "dsh-hazplan-check",
+    "repo": "PerryLink/dsh-hazplan-check",
+    "displayName": "HAZOP Worksheet Check",
+    "categories": [
+      "construction"
+    ],
+    "locale": "zh",
+    "summary": "HAZOP 分析表要素齐备性与偏差推导一致性核对（依据公开的危险与可操作性分析标准，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《危险与可操作性分析（HAZOP分析）应用指南》",
+      "GB/T 35320-2017",
+      "GB/T 27921-2023"
+    ]
+  },
+  {
+    "npm": "dsh-hidden-risk-map",
+    "repo": "PerryLink/dsh-hidden-risk-map",
+    "displayName": "Hidden Risk Map Check",
+    "categories": [
+      "safety"
+    ],
+    "locale": "zh",
+    "summary": "安全隐患台账→《工贸企业重大事故隐患判定标准》（应急管理部令第10号）条款映射提示（仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《工贸企业重大事故隐患判定标准》",
+      "应急管理部令第10号"
+    ]
+  },
+  {
+    "npm": "dsh-hs-classify",
+    "repo": "PerryLink/dsh-hs-classify",
+    "displayName": "HS Classification Check",
+    "categories": [
+      "customs"
+    ],
+    "locale": "zh",
+    "summary": "商品归类层级一致性核对（按章、品目、子目与商品编号的层级关系核对自洽，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《中华人民共和国进出口税则》",
+      "《商品名称及编码协调制度》",
+      "《中华人民共和国进出口关税条例》",
+      "国务院令第392号"
+    ]
+  },
+  {
+    "npm": "dsh-icd-rule-check",
+    "repo": "PerryLink/dsh-icd-rule-check",
+    "displayName": "ICD Coding Check",
+    "categories": [
+      "medical"
+    ],
+    "locale": "zh",
+    "summary": "ICD 合并编码与星剑号配对提示（依据 GB/T 14396-2016 与公开的 ICD 使用说明，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《住院病案首页数据填写质量规范（暂行）》",
+      "《疾病和有关健康问题的国际统计分类》第十次修订本 第二卷 指导手册",
+      "《医疗保障基金结算清单填写规范（试行）》",
+      "国卫办医发〔2016〕24号",
+      "WHO ICD-10 Volume 2",
+      "GB/T 14396-2016",
+      "国卫办医函〔2019〕371号 附件1",
+      "医保办发〔2020〕20号"
+    ]
+  },
+  {
+    "npm": "dsh-lawcite-adapter",
+    "repo": "PerryLink/dsh-lawcite-adapter",
+    "displayName": "Legal Citation Check",
+    "categories": [
+      "legal"
+    ],
+    "locale": "zh",
+    "summary": "法条引用与文书要素核对（按名称、条号、原文与效力状态核对引用可核验性，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "本机构法律文书审查口径（本机构配置）—— 原挂《中华人民共和国立法法》，已核实其第六十五条为立法技术条款",
+      "本机构法律文书审查口径（本机构配置）—— 原挂《党政机关公文格式》GB/T 9704—2012，已核实为版式标准",
+      "本机构法律文书审查办法（本机构配置）",
+      "无统一标准"
+    ]
+  },
+  {
+    "npm": "dsh-lc-doc-check",
+    "repo": "PerryLink/dsh-lc-doc-check",
+    "displayName": "Letter of Credit Check",
+    "categories": [
+      "customs"
+    ],
+    "locale": "zh",
+    "summary": "信用证单据条款核对（按单据种类、份数、期限与不符点核对交单自洽，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《跟单信用证统一惯例》（UCP600）",
+      "《表示货币的代码》"
+    ]
+  },
+  {
+    "npm": "dsh-learning-gap-check",
+    "repo": "PerryLink/dsh-learning-gap-check",
+    "displayName": "Learning Gap Check",
+    "categories": [
+      "research"
+    ],
+    "locale": "zh",
+    "summary": "能力差距与培养计划核对（按能力等级差、培养措施与完成期限核对台账闭环，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《质量管理 能力管理和人员发展指南》",
+      "本机构培训与发展管理口径（本机构配置）",
+      "无统一标准"
+    ]
+  },
+  {
+    "npm": "dsh-medrec-qc",
+    "repo": "PerryLink/dsh-medrec-qc",
+    "displayName": "Medical Record QC",
+    "categories": [
+      "medical"
+    ],
+    "locale": "zh",
+    "summary": "病案首页形式质控与逻辑矛盾提示（依据国卫办医发〔2016〕24号等公开文件，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《住院病案首页数据质量管理与控制指标（2016版）》",
+      "《住院病案首页数据填写质量规范（暂行）》",
+      "《卫生部关于修订住院病案首页的通知》",
+      "国家医疗保障局\"两库\"知识点（诊断与患者性别不符）",
+      "国卫办医发〔2016〕24号",
+      "卫医政发〔2011〕84号",
+      "国家医疗保障局公告"
+    ]
+  },
+  {
+    "npm": "dsh-nsfc-form-check",
+    "repo": "PerryLink/dsh-nsfc-form-check",
+    "displayName": "Grant Form Check",
+    "categories": [
+      "research"
+    ],
+    "locale": "zh",
+    "summary": "国家自然科学基金申请书形式审查与匿名化提示（依据《国家自然科学基金条例》与申请人导入的当年指南，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《国家自然科学基金条例》",
+      "《2026 年度国家自然科学基金项目指南·申请规定》",
+      "国务院令第796号",
+      "2026 年度"
+    ]
+  },
+  {
+    "npm": "dsh-nurse-record-check",
+    "repo": "PerryLink/dsh-nurse-record-check",
+    "displayName": "Nursing Record Check",
+    "categories": [
+      "medical"
+    ],
+    "locale": "zh",
+    "summary": "护理记录时限、签名与评估表完整性校验（依据《病历书写基本规范》等公开文件，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《电子病历应用管理规范（试行）》",
+      "《病历书写基本规范》",
+      "《护理分级标准》",
+      "《进一步改善护理服务行动计划（2023—2025年）》",
+      "《综合医院分级护理指导原则（试行）》",
+      "国卫办医发〔2017〕8号",
+      "卫医政发〔2010〕11号",
+      "国卫医发〔2018〕8号"
+    ]
+  },
+  {
+    "npm": "dsh-origin-rvc-check",
+    "repo": "PerryLink/dsh-origin-rvc-check",
+    "displayName": "Rules of Origin RVC Check",
+    "categories": [
+      "customs"
+    ],
+    "locale": "zh",
+    "summary": "原产地区域价值成分核对（按 RVC 定义式与门槛核对原产地判定自洽，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "各自由贸易协定原产地规则（协定文本，本次未取得）"
+    ]
+  },
+  {
+    "npm": "dsh-ota-review-check",
+    "repo": "PerryLink/dsh-ota-review-check",
+    "displayName": "OTA Review Check",
+    "categories": [
+      "quality"
+    ],
+    "locale": "zh",
+    "summary": "在线点评回复台账核对（按回复时限、问题分类与整改状态核对台账闭环，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《中华人民共和国电子商务法》与平台服务规则",
+      "《中华人民共和国电子商务法》",
+      "各在线旅游平台服务规则（本机构配置）",
+      "本机构点评管理办法（本机构配置）",
+      "无统一标准"
+    ]
+  },
+  {
+    "npm": "dsh-paper-doc-adapter",
+    "repo": "PerryLink/dsh-paper-doc-adapter",
+    "displayName": "Manuscript Format Check",
+    "categories": [
+      "research"
+    ],
+    "locale": "zh",
+    "summary": "试卷解析结构核对（按题型、答案、分值与 yotta 标识核对试卷结构自洽，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《试题元数据规范》",
+      "本机构题库与命题口径（本机构配置）",
+      "无统一标准"
+    ]
+  },
+  {
+    "npm": "dsh-permit-report-check",
+    "repo": "PerryLink/dsh-permit-report-check",
+    "displayName": "Permit Report Check",
+    "categories": [
+      "construction"
+    ],
+    "locale": "zh",
+    "summary": "行政许可办理核对（按申请材料、法定时限与决定记录核对台账闭环，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《中华人民共和国行政许可法》",
+      "各事项办事指南与承诺时限（本机构配置）",
+      "本机构许可办理管理口径（本机构配置）",
+      "无统一标准"
+    ]
+  },
+  {
+    "npm": "dsh-pipeline-check",
+    "repo": "PerryLink/dsh-pipeline-check",
+    "displayName": "Pipeline Inspection Check",
+    "categories": [
+      "quality"
+    ],
+    "locale": "zh",
+    "summary": "项目全流程文件链条核对（按环节先后与金额口径核对链条自洽，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "本机构项目管理办法与投资管理制度（无国家标准）",
+      "无统一标准"
+    ]
+  },
+  {
+    "npm": "dsh-pleading-draft",
+    "repo": "PerryLink/dsh-pleading-draft",
+    "displayName": "Pleading Draft Check",
+    "categories": [
+      "legal"
+    ],
+    "locale": "zh",
+    "summary": "起诉状要素齐备性核对（按诉请、事实、证据、法条四要素核对文书齐备，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《中华人民共和国民事诉讼法》",
+      "1991年通过，经 2007、2012、2017、2021、2023 年五次修正"
+    ]
+  },
+  {
+    "npm": "dsh-policy-brief-draft",
+    "repo": "PerryLink/dsh-policy-brief-draft",
+    "displayName": "Policy Brief Check",
+    "categories": [
+      "research"
+    ],
+    "locale": "zh",
+    "summary": "政策专报要素核对（按观点、依据、出处与建议核对专报齐备，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《党政机关公文处理工作条例》"
+    ]
+  },
+  {
+    "npm": "dsh-power-loss-split",
+    "repo": "PerryLink/dsh-power-loss-split",
+    "displayName": "Power Loss Split Check",
+    "categories": [
+      "safety"
+    ],
+    "locale": "zh",
+    "summary": "线损电量拆分与考核表核对（依据公开的线损计算口径，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《电力网电能损耗计算导则》",
+      "DL/T 686-2018",
+      "GB/T 8170-2008"
+    ]
+  },
+  {
+    "npm": "dsh-power-ticket-check",
+    "repo": "PerryLink/dsh-power-ticket-check",
+    "displayName": "Power Work Ticket Check",
+    "categories": [
+      "safety"
+    ],
+    "locale": "zh",
+    "summary": "电力工作票要素齐备性与签发许可顺序核对（依据现行电力安全工作规程，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《电力安全工作规程 发电厂和变电站电气部分》",
+      "GB 26860—2011"
+    ]
+  },
+  {
+    "npm": "dsh-ppap-check",
+    "repo": "PerryLink/dsh-ppap-check",
+    "displayName": "PPAP Submission Check",
+    "categories": [
+      "quality"
+    ],
+    "locale": "zh",
+    "summary": "PPAP 提交要素齐备性核对（按公开的 PPAP 手册与提交等级核对要素齐备与版本填写，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《生产件批准程序（PPAP）手册》"
+    ]
+  },
+  {
+    "npm": "dsh-protest-deadline",
+    "repo": "PerryLink/dsh-protest-deadline",
+    "displayName": "Protest Deadline Check",
+    "categories": [
+      "tender"
+    ],
+    "locale": "zh",
+    "summary": "质疑与投诉期限核对（按公开的政府采购质疑投诉规定核对期限与台账自洽，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《政府采购质疑和投诉办法》",
+      "财政部令第94号"
+    ]
+  },
+  {
+    "npm": "dsh-railway-window",
+    "repo": "PerryLink/dsh-railway-window",
+    "displayName": "Railway Window Check",
+    "categories": [
+      "customs"
+    ],
+    "locale": "zh",
+    "summary": "铁路施工天窗台账核对（按时间窗、时长算术与命令号核对台账自洽，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《铁路营业线施工安全管理办法》",
+      "各铁路局集团公司施工天窗管理办法（本机构配置）",
+      "无统一标准"
+    ]
+  },
+  {
+    "npm": "dsh-repair-order-qc",
+    "repo": "PerryLink/dsh-repair-order-qc",
+    "displayName": "Repair Order QC",
+    "categories": [
+      "quality"
+    ],
+    "locale": "zh",
+    "summary": "维修工单结算核对（按项目金额、配件工时合计与结算总额核对算术自洽，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《机动车维修管理规定》",
+      "交通运输部令2021年第18号"
+    ]
+  },
+  {
+    "npm": "dsh-review-reply-check",
+    "repo": "PerryLink/dsh-review-reply-check",
+    "displayName": "Review Reply Check",
+    "categories": [
+      "quality"
+    ],
+    "locale": "zh",
+    "summary": "审稿意见逐条回应覆盖核对（按意见与回应一一对应核对覆盖完整性，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《中国高校科技期刊编排规范》",
+      "本期刊同行评议与返修规定（本机构配置）",
+      "无统一标准"
+    ]
+  },
+  {
+    "npm": "dsh-rulefile-check",
+    "repo": "PerryLink/dsh-rulefile-check",
+    "displayName": "Rule File Check",
+    "categories": [
+      "tender"
+    ],
+    "locale": "zh",
+    "summary": "规则库文件自检核对（按条款引用纪律与效力上限核对规则库自身合规，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "本插件家族的条款引用纪律（自定纪律，非国家标准）",
+      "本插件家族的检查引擎契约（自定纪律，非国家标准）",
+      "本插件家族的规则库契约（自定纪律，非国家标准）",
+      "无编号"
+    ]
+  },
+  {
+    "npm": "dsh-safety-brief-check",
+    "repo": "PerryLink/dsh-safety-brief-check",
+    "displayName": "Safety Briefing Check",
+    "categories": [
+      "construction"
+    ],
+    "locale": "zh",
+    "summary": "安全技术交底记录要素齐备性与签字闭环核对（依据公开的安全生产法规与检查标准，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《建筑施工安全技术统一规范》",
+      "《建设工程安全生产管理条例》",
+      "《建筑施工安全检查标准》",
+      "GB 50870-2013",
+      "JGJ 59-2011",
+      "国务院令第393号"
+    ]
+  },
+  {
+    "npm": "dsh-site-log-check",
+    "repo": "PerryLink/dsh-site-log-check",
+    "displayName": "Supervision Log Check",
+    "categories": [
+      "construction"
+    ],
+    "locale": "zh",
+    "summary": "监理日志跨日连续性与旁站覆盖提示（依据 GB/T 50319-2013 等公开文件，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《建设工程监理规范》",
+      "《房屋建筑工程施工旁站监理管理办法（试行）》",
+      "GB/T 50319-2013",
+      "DBJT 13-144-2019",
+      "国务院令第279号",
+      "建市〔2002〕189号"
+    ]
+  },
+  {
+    "npm": "dsh-soe-decision-check",
+    "repo": "PerryLink/dsh-soe-decision-check",
+    "displayName": "SOE Decision Check",
+    "categories": [
+      "governance"
+    ],
+    "locale": "zh",
+    "summary": "三重一大决策台账核对（按前置研究、会议审议与决议记录核对程序留痕，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《关于进一步推进国有企业贯彻落实\"三重一大\"决策制度的意见》",
+      "中办发〔2010〕17号"
+    ]
+  },
+  {
+    "npm": "dsh-soilwater-check",
+    "repo": "PerryLink/dsh-soilwater-check",
+    "displayName": "Soil & Groundwater Check",
+    "categories": [
+      "construction"
+    ],
+    "locale": "zh",
+    "summary": "土壤与地下水监测台账核对（按点位、监测项目、限值与超标判定核对台账自洽，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《建设用地土壤污染状况调查技术导则》",
+      "《地下水环境监测技术规范》",
+      "《土壤环境质量 建设用地土壤污染风险管控标准（试行）》"
+    ]
+  },
+  {
+    "npm": "dsh-sop-sync-check",
+    "repo": "PerryLink/dsh-sop-sync-check",
+    "displayName": "SOP Sync Check",
+    "categories": [
+      "governance"
+    ],
+    "locale": "zh",
+    "summary": "作业规程与 FMEA／控制计划一致性核对（按编号与版本核对三份文件是否同步，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "IATF 16949／汽车行业核心工具手册"
+    ]
+  },
+  {
+    "npm": "dsh-spc-gbt-adapter",
+    "repo": "PerryLink/dsh-spc-gbt-adapter",
+    "displayName": "SPC Control Chart Check",
+    "categories": [
+      "quality"
+    ],
+    "locale": "zh",
+    "summary": "控制图常数与过程能力指数核对（按 GB/T 4091 的常规控制图常数表核对控制限与 Cp/Cpk 的自洽性，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《常规控制图》"
+    ]
+  },
+  {
+    "npm": "dsh-tender-extract",
+    "repo": "PerryLink/dsh-tender-extract",
+    "displayName": "Tender Requirement Extract",
+    "categories": [
+      "tender"
+    ],
+    "locale": "zh",
+    "summary": "招标文件条款摘录核对（按出处与原文逐字核对摘录完整性，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《中华人民共和国招标投标法》",
+      "1999年8月30日通过，2017年12月27日修正"
+    ]
+  },
+  {
+    "npm": "dsh-tender-matrix",
+    "repo": "PerryLink/dsh-tender-matrix",
+    "displayName": "Tender Scoring Matrix Check",
+    "categories": [
+      "tender"
+    ],
+    "locale": "zh",
+    "summary": "评标因素评分矩阵核对（按分值上限与合计核对矩阵自洽，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《中华人民共和国招标投标法》",
+      "1999年8月30日通过，2017年12月27日修正"
+    ]
+  },
+  {
+    "npm": "dsh-warranty-calc",
+    "repo": "PerryLink/dsh-warranty-calc",
+    "displayName": "Warranty Period Check",
+    "categories": [
+      "quality"
+    ],
+    "locale": "zh",
+    "summary": "质保期与索赔金额核对（按质保期月数与里程、索赔金额算式核对自洽，仅提示差异，不作出定性结论）",
+    "normativeBasis": [
+      "《家用汽车产品修理更换退货责任规定》",
+      "各厂商质保政策与三包规定（本机构配置）",
+      "各厂商质保政策（本机构配置）",
+      "市场监管总局令第43号",
+      "无统一标准"
+    ]
+  },
+  {
+    "npm": "dsh-phocinae",
+    "repo": "PerryLink/dsh-phocinae",
+    "displayName": "Phocinae",
+    "categories": [
+      "integration"
+    ],
+    "locale": "en",
+    "summary": "Local non-generative decision layer for DeepSeek Harness: phocinae_ask / phocinae_gate tools plus a fail-closed approval gate"
+  },
+  {
+    "npm": "dsh-ticktick",
+    "repo": "PerryLink/dsh-ticktick",
+    "displayName": "TickTick",
+    "categories": [
+      "integration"
+    ],
+    "locale": "en",
+    "summary": "TickTick (Dida365) task bridge for DeepSeek Harness: Session-header task panel (list filter, undone/completed views, search, drag reorder), 11 curated agent tools, settings card, over the official TickTick MCP endpoint."
+  },
+  {
+    "npm": "dsh-github",
+    "repo": "PerryLink/dsh-github",
+    "displayName": "GitHub",
+    "categories": [
+      "integration"
+    ],
+    "locale": "en",
+    "summary": "Official-grade GitHub CI for DeepSeek Harness: composite action.yml, PR review bot with idempotent inline comments and a status-check gate, plus PR/issues tools with every write gated by human approval (Apache-2.0, dsh-plugin)."
   }
 ]
