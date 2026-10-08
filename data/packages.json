@@ -1205,26 +1205,8 @@
       "integration"
     ],
     "locale": "en",
-    "summary": "Local non-generative decision layer for DeepSeek Harness: phocinae_ask / phocinae_gate tools plus a fail-closed approval gate"
-  },
-  {
-    "npm": "dsh-ticktick",
-    "repo": "PerryLink/dsh-ticktick",
-    "displayName": "TickTick",
-    "categories": [
-      "integration"
-    ],
-    "locale": "en",
-    "summary": "TickTick (Dida365) task bridge for DeepSeek Harness: Session-header task panel (list filter, undone/completed views, search, drag reorder), 11 curated agent tools, settings card, over the official TickTick MCP endpoint."
-  },
-  {
-    "npm": "dsh-github",
-    "repo": "PerryLink/dsh-github",
-    "displayName": "GitHub",
-    "categories": [
-      "integration"
-    ],
-    "locale": "en",
-    "summary": "Official-grade GitHub CI for DeepSeek Harness: composite action.yml, PR review bot with idempotent inline comments and a status-check gate, plus PR/issues tools with every write gated by human approval (Apache-2.0, dsh-plugin)."
+    "summary": "Local non-generative decision layer for DeepSeek Harness: phocinae_ask / phocinae_gate tools plus a fail-closed approval gate",
+    "npmRepository": "https://github.com/Phocinae/dsh-phocinae",
+    "note": "该 npm 包的 repository 字段指向 Phocinae/dsh-phocinae，与本目录记录的 PerryLink/dsh-phocinae 不一致；本目录按 GitHub 仓库归属，未改动该包自身声明。"
   }
 ]

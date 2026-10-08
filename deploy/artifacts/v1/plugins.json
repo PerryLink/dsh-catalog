@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-08T10:44:29.293Z",
+  "generatedAt": "2026-10-08T11:38:33.781Z",
   "revision": "perrylink-dsh-catalog-2026-10-08",
   "items": [
     {
@@ -2885,69 +2885,9 @@
         }
       },
       "updatedAt": "2026-10-08T06:07:25.346Z"
-    },
-    {
-      "id": "dsh-ticktick",
-      "name": "dsh-ticktick",
-      "displayName": "TickTick",
-      "summary": "TickTick (Dida365) task bridge for DeepSeek Harness: Session-header task panel (list filter, undone/completed views, search, drag reorder), 11 curated agent tools, settings card, over the official TickTick MCP endpoint.",
-      "homepage": "https://github.com/zhengjy01/dsh-ticktick#readme",
-      "latestVersion": "0.1.5",
-      "license": "MIT",
-      "categories": [
-        "integration"
-      ],
-      "repository": {
-        "url": "https://github.com/PerryLink/dsh-ticktick"
-      },
-      "package": {
-        "registry": "npm",
-        "name": "dsh-ticktick"
-      },
-      "publisher": {
-        "name": "PerryLink",
-        "url": "https://github.com/PerryLink"
-      },
-      "media": {
-        "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-ticktick.png",
-          "alt": "TickTick"
-        }
-      },
-      "updatedAt": "2026-09-29T15:36:47.752Z"
-    },
-    {
-      "id": "dsh-github",
-      "name": "dsh-github",
-      "displayName": "GitHub",
-      "summary": "Official-grade GitHub CI for DeepSeek Harness: composite action.yml, PR review bot with idempotent inline comments and a status-check gate, plus PR/issues tools with every write gated by human approval (Apache-2.0, dsh-plugin).",
-      "homepage": "https://github.com/kaziii/dsh-github-connector#readme",
-      "latestVersion": "0.1.0",
-      "license": "MIT",
-      "categories": [
-        "integration"
-      ],
-      "repository": {
-        "url": "https://github.com/PerryLink/dsh-github"
-      },
-      "package": {
-        "registry": "npm",
-        "name": "dsh-github"
-      },
-      "publisher": {
-        "name": "PerryLink",
-        "url": "https://github.com/PerryLink"
-      },
-      "media": {
-        "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-github.png",
-          "alt": "GitHub"
-        }
-      },
-      "updatedAt": "2026-08-14T07:27:31.130Z"
     }
   ],
   "page": {
-    "total": 98
+    "total": 96
   }
 }
