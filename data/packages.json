@@ -1199,14 +1199,13 @@
   },
   {
     "npm": "dsh-phocinae",
-    "repo": "PerryLink/dsh-phocinae",
+    "repo": "Phocinae/dsh-phocinae",
     "displayName": "Phocinae",
     "categories": [
       "integration"
     ],
     "locale": "en",
     "summary": "Local non-generative decision layer for DeepSeek Harness: phocinae_ask / phocinae_gate tools plus a fail-closed approval gate",
-    "npmRepository": "https://github.com/Phocinae/dsh-phocinae",
-    "note": "该 npm 包的 repository 字段指向 Phocinae/dsh-phocinae，与本目录记录的 PerryLink/dsh-phocinae 不一致；本目录按 GitHub 仓库归属，未改动该包自身声明。"
+    "npmRepository": "https://github.com/Phocinae/dsh-phocinae"
   }
 ]

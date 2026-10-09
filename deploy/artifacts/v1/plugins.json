@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-08T11:38:33.781Z",
-  "revision": "perrylink-dsh-catalog-2026-10-08",
+  "generatedAt": "2026-10-09T01:23:00.119Z",
+  "revision": "perrylink-dsh-catalog-2026-10-09",
   "items": [
     {
       "id": "dsh-auto-review",
@@ -2868,7 +2868,7 @@
         "integration"
       ],
       "repository": {
-        "url": "https://github.com/PerryLink/dsh-phocinae"
+        "url": "https://github.com/Phocinae/dsh-phocinae"
       },
       "package": {
         "registry": "npm",
