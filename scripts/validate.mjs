@@ -58,6 +58,18 @@ for (const item of page.items) {
   check(typeof item.name === 'string' && item.name.length >= 1 && item.name.length <= 160, `name bounds: ${item.id}`)
   check(typeof item.displayName === 'string' && item.displayName.length >= 1 && item.displayName.length <= 120, `displayName bounds: ${item.id}`)
   check(typeof item.summary === 'string' && item.summary.length >= 1 && item.summary.length <= 1000, `summary bounds: ${item.id}`)
+  // The market's schema extension for a Chinese reader. Optional on the wire, but the
+  // family's own rule since 2026-10-13 is that every item carries both: a Chinese name
+  // is the first thing a Chinese user reads, and 53 of these items are deterministic
+  // compliance checkers whose whole audience is Chinese-speaking. Enforcing it here is
+  // what stops a new row from shipping English-only.
+  check(typeof item.displayNameZh === 'string' && item.displayNameZh.length >= 1 && item.displayNameZh.length <= 120, `displayNameZh required, 1..120 chars: ${item.id}`)
+  check(typeof item.summaryZh === 'string' && item.summaryZh.length >= 1 && item.summaryZh.length <= 1000, `summaryZh required, 1..1000 chars: ${item.id}`)
+  // A Latin-only "Chinese" field is worse than an absent one: it renders as a second
+  // English name. Require at least one CJK ideograph.
+  check(/[\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]/u.test(item.displayNameZh ?? ''), `displayNameZh has no CJK character: ${item.id}`)
+  check(/[\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]/u.test(item.summaryZh ?? ''), `summaryZh has no CJK character: ${item.id}`)
+  check(!/[\u0000-\u001F\u007F-\u009F\u202A-\u202E\u2066-\u2069]/.test(`${item.displayNameZh ?? ''}${item.summaryZh ?? ''}`), `control characters in the Chinese fields: ${item.id}`)
   check(!/[\u0000-\u001F\u007F-\u009F\u202A-\u202E\u2066-\u2069]/.test(item.name + item.displayName + item.summary), `control characters: ${item.id}`)
   check(item.repository !== undefined || item.package !== undefined, `repository or package identity: ${item.id}`)
   if (item.package) {

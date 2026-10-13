@@ -41,7 +41,27 @@ if (page.page.total !== count) {
   failures.push(`deploy/artifacts/v1/plugins.json: page.total ${page.page.total} != ${count} rows in data/packages.json`)
 }
 
-// 2. The manifest description states the count in prose.
+// 2. The Chinese-name ratio has one source of truth too: a row in
+//    data/packages.json. Since 2026-10-13 every row carries both fields and the
+//    generator emits them, so the shipped page must be at 100 %. build-catalog.mjs
+//    silently dropped both fields for as long as they existed in data/ — that is
+//    exactly the "added to data, never reached the wire" drift this catches, and it
+//    is why the live endpoint served 0 Chinese names for 96 items.
+const hasZh = (row) =>
+  typeof row.displayNameZh === 'string' && row.displayNameZh.length > 0 &&
+  typeof row.summaryZh === 'string' && row.summaryZh.length > 0
+const zhRows = packages.filter(hasZh).length
+const zhItems = page.items.filter(hasZh).length
+if (zhRows !== count) {
+  failures.push(`data/packages.json: ${zhRows} of ${count} rows carry both displayNameZh and summaryZh; the family rule (2026-10-13) is all of them`)
+}
+if (zhItems !== zhRows) {
+  failures.push(
+    `deploy/artifacts/v1/plugins.json: ${zhItems} items carry both Chinese fields but data/packages.json has ${zhRows} — rebuild with node scripts/build-catalog.mjs <deployOrigin>`,
+  )
+}
+
+// 3. The manifest description states the count in prose.
 const manifest = await readJson('deploy/catalog-source.json')
 if (!new RegExp(`\\b${count}-package\\b`).test(manifest.description ?? '')) {
   failures.push(
