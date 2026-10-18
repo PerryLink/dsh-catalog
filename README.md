@@ -43,9 +43,10 @@ roster, collapsed.
 | **The family rows in the per-plugin READMEs** | **95** | the same roster, rendered inside a collapsed `<details>` block |
 
 Every non-active item also carries a structured `status` field (`frozen` or
-`retired`), and every family item carries its roster `group` (会话/安全/研究/
-招投标/外贸/…), emitted by `build-catalog.mjs` and checked by `validate.mjs`.
-A client can filter lifecycle state and task group without parsing prose.
+`retired`), every family item carries its roster `group` (会话/安全/研究/
+招投标/外贸/…), and 95 items carry `requires` (`dsh`/`node` ranges), emitted by
+`build-catalog.mjs` and checked by `validate.mjs`. A client can filter lifecycle
+state, task group, and host prerequisites without parsing prose.
 
 The three **retired** packages (`dsh-background-agents`, `dsh-session-pin`,
 `dsh-team-rooms`) **remain in the inventory on purpose**: retirement here means
