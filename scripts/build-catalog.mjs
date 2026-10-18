@@ -63,6 +63,7 @@ for (const pkg of packages) {
     ...(pkg.group === undefined ? {} : { group: pkg.group }),
     ...(pkg.requires === undefined ? {} : { requires: pkg.requires }),
     ...(pkg.difficulty === undefined ? {} : { difficulty: pkg.difficulty }),
+    ...(pkg.conflicts === undefined ? {} : { conflicts: pkg.conflicts }),
     categories: pkg.categories,
     repository: { url: repositoryUrl },
     package: { registry: 'npm', name: pkg.npm },

@@ -61,6 +61,10 @@ for (const item of page.items) {
   check(item.status === undefined || ['active', 'frozen', 'retired'].includes(item.status), `status vocabulary: ${item.id}`)
   check(item.group === undefined || (typeof item.group === 'string' && item.group.length >= 1 && item.group.length <= 40), `group bounds: ${item.id}`)
   check(item.difficulty === undefined || ['beginner', 'intermediate', 'advanced'].includes(item.difficulty), `difficulty vocabulary: ${item.id}`)
+  if (item.conflicts !== undefined) {
+    check(Array.isArray(item.conflicts) && item.conflicts.length >= 1 && item.conflicts.length <= 10, `conflicts bounds: ${item.id}`)
+    for (const c of item.conflicts) check(typeof c === 'string' && /^(?:@[a-z0-9][a-z0-9._-]*\/)?[a-z0-9][a-z0-9._-]*$/.test(c) && c !== item.package.name, `conflict package: ${item.id}`)
+  }
   if (item.requires !== undefined) {
     check(typeof item.requires === 'object' && item.requires !== null && Object.keys(item.requires).every(k => k === 'dsh' || k === 'node'), `requires keys: ${item.id}`)
     for (const v of Object.values(item.requires)) check(typeof v === 'string' && v.length > 0 && v.length <= 200, `requires values: ${item.id}`)

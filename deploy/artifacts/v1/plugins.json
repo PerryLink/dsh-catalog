@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-18T15:57:11.645Z",
+  "generatedAt": "2026-10-18T16:41:50.215Z",
   "revision": "perrylink-dsh-catalog-2026-10-18",
   "items": [
     {
@@ -358,6 +358,9 @@
         "node": "^22.19.0 || >=24.0.0"
       },
       "difficulty": "intermediate",
+      "conflicts": [
+        "dsh-team-rooms"
+      ],
       "categories": [
         "agent"
       ],
@@ -3545,6 +3548,9 @@
         "node": "^22.19.0 || >=24.0.0"
       },
       "difficulty": "intermediate",
+      "conflicts": [
+        "dsh-background-agents"
+      ],
       "categories": [
         "agent"
       ],

@@ -182,7 +182,10 @@
       "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
     },
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "conflicts": [
+      "dsh-team-rooms"
+    ]
   },
   {
     "npm": "dsh-bid-ca-precheck",
@@ -1907,7 +1910,10 @@
       "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
     },
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "conflicts": [
+      "dsh-background-agents"
+    ]
   },
   {
     "npm": "dsh-tender-extract",
