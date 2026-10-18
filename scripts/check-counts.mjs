@@ -46,7 +46,8 @@ if (page.page.total !== count) {
 //    generator emits them, so the shipped page must be at 100 %. build-catalog.mjs
 //    silently dropped both fields for as long as they existed in data/ — that is
 //    exactly the "added to data, never reached the wire" drift this catches, and it
-//    is why the live endpoint served 0 Chinese names for 96 items.
+//    is why the live endpoint served 0 Chinese names for 97 items.
+/** @param {{ displayNameZh?: string, summaryZh?: string }} row */
 const hasZh = (row) =>
   typeof row.displayNameZh === 'string' && row.displayNameZh.length > 0 &&
   typeof row.summaryZh === 'string' && row.summaryZh.length > 0
