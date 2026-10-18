@@ -1,346 +1,5 @@
 [
   {
-    "npm": "dsh-auto-review",
-    "repo": "PerryLink/dsh-auto-review",
-    "displayName": "Auto Review",
-    "displayNameZh": "自动复核",
-    "categories": [
-      "workflow"
-    ],
-    "summary": "Second-model AI auto-review for DeepSeek Harness approval requests: a read-only reviewer subagent decides allow/deny on the approval answerer chain, with fail-closed fallback and full session-log audit.",
-    "summaryZh": "审批链上的第二模型自动复核：只读复核子代理在审批应答链上给出允许/拒绝，失败即拒，全过程留痕在会话日志里。"
-  },
-  {
-    "npm": "dsh-permission-rules",
-    "repo": "PerryLink/dsh-permission-rules",
-    "displayName": "Permission Rules",
-    "displayNameZh": "权限规则",
-    "categories": [
-      "workflow"
-    ],
-    "summary": "Declarative, ordered allow/deny/ask permission rules for DeepSeek Harness: match tool names, arguments (glob/regex), workspace paths, and network targets (domain/IP/port/scheme), plus a Codex-style process-level network policy.",
-    "summaryZh": "声明式、有序的允许/拒绝/询问权限规则：匹配工具名、参数（glob/正则）、工作区路径与网络目标（域名/IP/端口/协议），并带进程级网络策略。"
-  },
-  {
-    "npm": "dsh-doublecheck",
-    "repo": "PerryLink/dsh-doublecheck",
-    "displayName": "DoubleCheck",
-    "displayNameZh": "交付质检",
-    "categories": [
-      "tools"
-    ],
-    "summary": "Delivery quality gate for DeepSeek Harness: grill the requirements, test the implementation, prove the delivery, and gate the handoff with a deliverable/rework decision.",
-    "summaryZh": "交付质量闸门：先盘问需求，再测实现，再举证交付，最后按可交付/返工给出交接裁决。"
-  },
-  {
-    "npm": "dsh-memento",
-    "repo": "PerryLink/dsh-memento",
-    "displayName": "Memento",
-    "displayNameZh": "跨会话记忆",
-    "categories": [
-      "memory"
-    ],
-    "summary": "Bounded, layered, approval-gated, auditable cross-session memory for DeepSeek Harness — a capability seam (ctx.memory service + local SQLite provider + memory tool + frozen snapshot injection), not another memory warehouse.",
-    "summaryZh": "有界、分层、审批门控、可审计的跨会话记忆：一条能力接缝（ctx.memory 服务 + 本地 SQLite provider + memory 工具 + 冻结快照注入），不是又一个记忆仓库。"
-  },
-  {
-    "npm": "dsh-checkpoint-rewind",
-    "repo": "PerryLink/dsh-checkpoint-rewind",
-    "displayName": "Checkpoint Rewind",
-    "displayNameZh": "检查点回滚",
-    "categories": [
-      "session"
-    ],
-    "summary": "Unified DSH checkpoints: session, workspace, and config three-state snapshots with one-shot /checkpoint and /rewind rollback, a checkpoint tool, automatic interval snapshots, a Settings-page timeline with pairwise diffs, and seed-replay session recovery.",
-    "summaryZh": "统一的 DSH 检查点：会话/工作区/配置三态快照，一条命令 /checkpoint 与 /rewind 回滚，附 checkpoint 工具、定时自动快照、带两两差异的设置页时间线与种子重放式会话恢复。"
-  },
-  {
-    "npm": "dsh-mcp-panel",
-    "repo": "PerryLink/dsh-mcp-panel",
-    "displayName": "MCP Panel",
-    "displayNameZh": "MCP 面板",
-    "categories": [
-      "integration"
-    ],
-    "summary": "Read-only MCP console for DeepSeek Harness: a /mcp command with health diagnostics and pipeline trial calls, a Settings MCP tab with server CRUD (approval-gated writes, automatic backups) and a tool trial console over the official tool pipeline.",
-    "summaryZh": "只读 MCP 控制台：/mcp 命令带健康诊断与管道试调，设置页 MCP 标签管理服务器（写入需审批、自动备份），并可在官方工具管道上试调工具。"
-  },
-  {
-    "npm": "dsh-composer-history",
-    "repo": "PerryLink/dsh-composer-history",
-    "displayName": "Composer History",
-    "displayNameZh": "输入历史",
-    "categories": [
-      "session"
-    ],
-    "summary": "Terminal-style input history for the DeepSeek Harness web composer: edge-first arrows with exact draft/caret restore, browser-local persisted history, Ctrl+R reverse search, workspace recall, and sliding-context awareness.",
-    "summaryZh": "Web 输入框的终端式历史：边缘优先的方向键与草稿/光标精确还原、浏览器本地持久化、Ctrl+R 反向搜索、工作区召回与滑动上下文感知。"
-  },
-  {
-    "npm": "dsh-session-pin",
-    "repo": "PerryLink/dsh-session-pin",
-    "displayName": "Session Pin",
-    "displayNameZh": "会话置顶",
-    "categories": [
-      "session"
-    ],
-    "summary": "RETIRED 2026-10-05 — the official DeepSeek Harness now ships session pinning natively (row menu and hover button in dsh-client-ui-workspace). Use the built-in session pin; this entry stays listed only so the name resolves.",
-    "summaryZh": "已于 2026-10-05 退役 —— 官方 DeepSeek Harness 已原生支持会话置顶（dsh-client-ui-workspace 的行菜单与悬停按钮）。请用内置置顶；本条目仅为让包名可解析而保留。"
-  },
-  {
-    "npm": "dsh-session-sync",
-    "repo": "PerryLink/dsh-session-sync",
-    "displayName": "Session Sync",
-    "displayNameZh": "会话同步",
-    "categories": [
-      "session"
-    ],
-    "summary": "Session synchronization for DeepSeek Harness: push/pull session logs to remote storage with configurable auto push/pull.",
-    "summaryZh": "会话日志同步：把会话记录推/拉到远端存储，自动推拉可配置。"
-  },
-  {
-    "npm": "dsh-output-styles",
-    "repo": "PerryLink/dsh-output-styles",
-    "displayName": "Output Styles",
-    "displayNameZh": "输出风格",
-    "categories": [
-      "interface"
-    ],
-    "summary": "Runtime-switchable model output styles for DeepSeek Harness: a Markdown style library (six built-ins, Claude Code-parity proactive/learning), /style command, session-scoped persistence, system-prompt injection, a plugin renderer registry, per-session/per-tool rules, and /export rendering.",
-    "summaryZh": "运行时可切换的模型输出风格：Markdown 风格库（六个内置，含 Claude Code 对等的 proactive/learning）、/style 命令、按会话持久化、系统提示注入、插件渲染器注册表、按会话与按工具的规则，以及 /export 渲染。"
-  },
-  {
-    "npm": "dsh-lsp-actions",
-    "repo": "PerryLink/dsh-lsp-actions",
-    "displayName": "LSP Actions",
-    "displayNameZh": "LSP 动作",
-    "categories": [
-      "tools"
-    ],
-    "summary": "LSP actions for DeepSeek Harness: the IDE-integration plugin that exposes language-server diagnostics, definitions, references, and fixes to the agent.",
-    "summaryZh": "把语言服务器的诊断、定义跳转、引用查找与修复暴露给 agent 的 IDE 集成插件。"
-  },
-  {
-    "npm": "dsh-background-agents",
-    "repo": "PerryLink/dsh-background-agents",
-    "displayName": "Background Agents",
-    "displayNameZh": "后台代理",
-    "categories": [
-      "agent"
-    ],
-    "summary": "RETIRED 2026-10-05 — the official DeepSeek Harness now ships native continuable subagents (subagent with backgroundMode: continuable, plus send_message). Use those instead; this entry stays listed only so the name resolves.",
-    "summaryZh": "已于 2026-10-05 退役 —— 官方 DeepSeek Harness 已原生提供可续接子代理（backgroundMode: continuable 的 subagent 加 send_message）。请改用原生能力；本条目仅为让包名可解析而保留。"
-  },
-  {
-    "npm": "dsh-claude-move",
-    "repo": "PerryLink/dsh-claude-move",
-    "displayName": "Claude Move",
-    "displayNameZh": "配置迁移",
-    "categories": [
-      "integration"
-    ],
-    "summary": "Claude Code to DeepSeek Harness migration: import CLAUDE.md/AGENTS.md, slash commands, and session history — approval-gated and idempotent.",
-    "summaryZh": "从 Claude Code 迁到 DeepSeek Harness：导入 CLAUDE.md/AGENTS.md、斜杠命令与会话历史，全程审批门控且可重复执行。"
-  },
-  {
-    "npm": "dsh-translate",
-    "repo": "PerryLink/dsh-translate",
-    "displayName": "Translate",
-    "displayNameZh": "翻译与 JSON 修复",
-    "categories": [
-      "tools"
-    ],
-    "summary": "Translate text and files inside DeepSeek Harness with quality checks; also fixes broken JSON output from models.",
-    "summaryZh": "在 DeepSeek Harness 内翻译文本与文件并做质量检查；同时修复模型输出的破损 JSON。"
-  },
-  {
-    "npm": "dsh-local-ai",
-    "repo": "PerryLink/dsh-local-ai",
-    "displayName": "Local AI",
-    "displayNameZh": "本地模型",
-    "categories": [
-      "model"
-    ],
-    "summary": "Run local AI models inside DeepSeek Harness: Ollama/LM Studio/local endpoints as drop-in model routes.",
-    "summaryZh": "在 DeepSeek Harness 内运行本地模型：把 Ollama / LM Studio / 本地端点接成可直接替换的模型路由。"
-  },
-  {
-    "npm": "dsh-mask",
-    "repo": "PerryLink/dsh-mask",
-    "displayName": "Mask",
-    "displayNameZh": "隐私脱敏",
-    "categories": [
-      "tools"
-    ],
-    "summary": "PII masking middleware for DeepSeek Harness: phones, emails, ID cards, bank cards and keys become placeholders before they reach the model, and a host-side restore table keeps them reversible. The plaintext never enters the session log.",
-    "summaryZh": "PII 脱敏中间件：手机号、邮箱、身份证、银行卡与密钥在到达模型前变成占位符，宿主侧还原表保证可逆，明文不进会话日志。"
-  },
-  {
-    "npm": "dsh-data-quality",
-    "repo": "PerryLink/dsh-data-quality",
-    "displayName": "Data Quality",
-    "displayNameZh": "数据质量",
-    "categories": [
-      "tools"
-    ],
-    "summary": "Deterministic data profiling, cleaning, and verification for DeepSeek Harness: DAMA scorecard, content-hash dedupe, metric expectations, and drift checks.",
-    "summaryZh": "确定性的数据画像、清洗与校验：DAMA 记分卡、内容哈希去重、指标期望与漂移检查。"
-  },
-  {
-    "npm": "dsh-score",
-    "repo": "PerryLink/dsh-score",
-    "displayName": "Score",
-    "displayNameZh": "插件评分",
-    "categories": [
-      "dev"
-    ],
-    "summary": "Plugin quality scoring for the DSH ecosystem: evaluate plugins against checks and produce evidence-backed compliance reports.",
-    "summaryZh": "DSH 生态的插件质量评分：按检查项评估插件并产出有证据支撑的合规报告。"
-  },
-  {
-    "npm": "dsh-test-drive",
-    "repo": "PerryLink/dsh-test-drive",
-    "displayName": "Test Drive",
-    "displayNameZh": "装机试驾",
-    "categories": [
-      "dev"
-    ],
-    "summary": "Test Drive: run plugins in a disposable sandbox environment (temporary DSH_HOME) and score the results as JSON/Markdown.",
-    "summaryZh": "在一次性沙箱环境（临时 DSH_HOME）里跑插件，并以 JSON/Markdown 给出结果。"
-  },
-  {
-    "npm": "dsh-defend",
-    "repo": "PerryLink/dsh-defend",
-    "displayName": "Defend",
-    "displayNameZh": "注入防御",
-    "categories": [
-      "dev"
-    ],
-    "summary": "Prompt-injection, jailbreak, and secret-leak defense for DeepSeek Harness: Aho-Corasick detection with allow/ask/block interception, sanitized audit events, and a recursive-delete pre-execution gate.",
-    "summaryZh": "面向 DeepSeek Harness 的提示注入、越狱与密钥泄漏防御：Aho-Corasick 检测配允许/询问/阻断拦截、脱敏审计事件，以及递归删除的执行前闸门。"
-  },
-  {
-    "npm": "dsh-budget",
-    "repo": "PerryLink/dsh-budget",
-    "displayName": "Budget",
-    "displayNameZh": "成本治理",
-    "categories": [
-      "tools"
-    ],
-    "summary": "Cost governance for DeepSeek Harness: aggregated token/cost metering per model, session and day, budget caps with threshold alerts and over-limit policies, carbon footprint estimation, per-model latency benchmarks, and the /budget command.",
-    "summaryZh": "成本治理：按模型/会话/天汇总 token 与费用，预算上限配阈值告警与超限策略，估算碳足迹，做按模型的延迟基准，并提供 /budget 命令。"
-  },
-  {
-    "npm": "dsh-fast",
-    "repo": "PerryLink/dsh-fast",
-    "displayName": "Fast",
-    "displayNameZh": "性能诊断",
-    "categories": [
-      "tools"
-    ],
-    "summary": "Read-only performance diagnostics for DeepSeek Harness: session load/restore timing, spill-hit counts, compaction count and trigger, context-injection volume (AGENTS.md/skills/tool-schema token share), and LLM cache hit rate — surfaced via /fast.",
-    "summaryZh": "只读性能诊断：会话加载/恢复耗时、落盘命中次数、压缩次数与触发原因、上下文注入量（AGENTS.md/技能/工具 schema 的 token 占比）与 LLM 缓存命中率，经 /fast 呈现。"
-  },
-  {
-    "npm": "dsh-observe",
-    "repo": "PerryLink/dsh-observe",
-    "displayName": "Observe",
-    "displayNameZh": "可观测性",
-    "categories": [
-      "dev"
-    ],
-    "summary": "Observability for DeepSeek Harness: request tracing, telemetry, log buffering, and retry visibility.",
-    "summaryZh": "可观测性：请求追踪、遥测上报、日志缓冲与重试可见性。"
-  },
-  {
-    "npm": "dsh-click",
-    "repo": "PerryLink/dsh-click",
-    "displayName": "Click",
-    "displayNameZh": "桌面控制",
-    "categories": [
-      "tools"
-    ],
-    "summary": "Cross-platform native desktop control for DeepSeek Harness (Windows first): screen_shot, screen_read, click/type/scroll/key, and app_list/app_launch — approval-gated, never stealing foreground focus.",
-    "summaryZh": "跨平台原生桌面控制（Windows 优先）：screen_shot、screen_read、点击/输入/滚动/按键与 app_list/app_launch，审批门控且不抢占前台焦点。"
-  },
-  {
-    "npm": "dsh-talk",
-    "repo": "PerryLink/dsh-talk",
-    "displayName": "Talk",
-    "displayNameZh": "语音对话",
-    "categories": [
-      "tools"
-    ],
-    "summary": "Voice for DeepSeek Harness: text-to-speech and speech-to-text with mute and speak-to-chat controls.",
-    "summaryZh": "给 DeepSeek Harness 加语音：文字转语音与语音转文字，含静音与\"说完即发\"开关。"
-  },
-  {
-    "npm": "dsh-draw",
-    "repo": "PerryLink/dsh-draw",
-    "displayName": "Draw",
-    "displayNameZh": "图像生成路由",
-    "categories": [
-      "tools"
-    ],
-    "summary": "Unified static-image generation router for DeepSeek Harness: one image_generate tool with standard parameters, config-driven engine routing (OpenAI Images, Zhipu CogView, and any compatible endpoint), health-aware fallback, durable workspace attachments, and per-session quota accounting.",
-    "summaryZh": "统一的静态图像生成路由：一个 image_generate 工具配标准参数，按配置路由引擎（OpenAI Images、智谱 CogView 及任何兼容端点），带健康感知回退、工作区持久附件与按会话配额记账。"
-  },
-  {
-    "npm": "dsh-industry-research",
-    "repo": "PerryLink/dsh-industry-research",
-    "displayName": "Industry Research",
-    "displayNameZh": "行业研究",
-    "categories": [
-      "knowledge"
-    ],
-    "summary": "Industry research toolkit: structured company/industry dives with source capture and auditable research trails.",
-    "summaryZh": "行业研究工具箱：结构化的公司与行业专题，附来源留档与可审计的研究轨迹。"
-  },
-  {
-    "npm": "dsh-research-report",
-    "repo": "PerryLink/dsh-research-report",
-    "displayName": "Research Report",
-    "displayNameZh": "研究报告",
-    "categories": [
-      "knowledge"
-    ],
-    "summary": "Research reports with integrity: evidence-linked reports whose content hash seals the directory of sources.",
-    "summaryZh": "带完整性的研究报告：报告与证据一一关联，内容哈希封住来源目录。"
-  },
-  {
-    "npm": "dsh-fund-research",
-    "repo": "PerryLink/dsh-fund-research",
-    "displayName": "Fund Research",
-    "displayNameZh": "基金研究",
-    "categories": [
-      "knowledge"
-    ],
-    "summary": "Fund research: analyze funds with returns, holdings, and performance decomposition.",
-    "summaryZh": "基金研究：分析基金的收益、持仓与业绩归因。"
-  },
-  {
-    "npm": "dsh-library",
-    "repo": "PerryLink/dsh-library",
-    "displayName": "Library",
-    "displayNameZh": "本地知识库",
-    "categories": [
-      "knowledge"
-    ],
-    "summary": "Local document knowledge base for DeepSeek Harness: library_add/remove/list, hybrid semantic+keyword library_search with diversity re-ranking and lost-in-the-middle avoidance, citation-aware injection, library_cite_check and library_diagnose — SQLite-backed index, local embedding, zero model downloads.",
-    "summaryZh": "本地文档知识库：library_add/remove/list，语义加关键词的混合检索 library_search（带多样性重排与防\"中间遗忘\"）、引用感知注入、library_cite_check 与 library_diagnose，SQLite 索引与本地嵌入，不下载模型。"
-  },
-  {
-    "npm": "dsh-plugin-guide",
-    "repo": "PerryLink/dsh-plugin-guide",
-    "displayName": "Plugin Guide",
-    "displayNameZh": "插件开发指南",
-    "categories": [
-      "knowledge"
-    ],
-    "summary": "The DSH plugin development guide as an installable skill: packaging, contracts, checks, and a pack verifier for builds.",
-    "summaryZh": "把 DSH 插件开发指南做成可安装技能：打包、契约、检查，以及构建用的包校验器。"
-  },
-  {
     "npm": "@perrylink/dsh-github",
     "repo": "PerryLink/dsh-github",
     "displayName": "GitHub",
@@ -350,6 +9,28 @@
     ],
     "summary": "GitHub for DeepSeek Harness: PR/issue/repo/file tools, reviews, and CI checks — every write gated by human approval, token never logged.",
     "summaryZh": "GitHub 集成：PR/issue/仓库/文件工具、评审与 CI 检查，每次写入都需人工审批，token 从不进日志。"
+  },
+  {
+    "npm": "@perrylink/dsh-plugin-doctor",
+    "repo": "PerryLink/dsh-plugin-doctor",
+    "displayName": "Plugin Doctor",
+    "displayNameZh": "插件医生",
+    "categories": [
+      "dev"
+    ],
+    "summary": "Zero-dependency static + sandbox smoke detector for DeepSeek Harness plugins: package-structure gates (R), cordis contract scans (K), keyless-headless sandbox smoke (D), and ecosystem-listing checks (CC).",
+    "summaryZh": "DeepSeek Harness 插件零依赖检测器：包结构静态检查（R）、cordis 契约扫描（K）、无键无头沙箱冒烟（D）与生态清单校验（CC）四层。"
+  },
+  {
+    "npm": "@perrylink/dsh-plugin-kit",
+    "repo": "PerryLink/dsh-plugin-kit",
+    "displayName": "Plugin Kit",
+    "displayNameZh": "插件工具包",
+    "categories": [
+      "dev"
+    ],
+    "summary": "Shared zero-runtime-dependency toolkit for PerryLink DSH plugins: a pluggable Provider registry seam, fail-closed approval and adaptive session-event gates, mechanical verify scripts, shared sanitize/pricing/judge modules, and a new-plugin skeleton.",
+    "summaryZh": "PerryLink DSH 插件共享零运行时依赖工具包：可插拔 Provider 注册表接缝、失效即拒的审批门与自适应会话事件门、机械校验脚本、共享的脱敏/计价/裁决模块，以及新插件骨架。"
   },
   {
     "npm": "@perrylink/dsh-skill-pack-security-provider",
@@ -372,97 +53,6 @@
     ],
     "summary": "TickTick (Dida365) task bridge for DeepSeek Harness: a session-header task panel (list filter, quick add, complete, delete, due dates, drag reorder), eleven curated ticktick_* tools, and a plugin settings card over the official TickTick MCP endpoint.",
     "summaryZh": "TickTick（滴答清单）任务桥：会话顶部任务面板（列表筛选、快速添加、完成、删除、截止日期、拖动排序）、十一个 ticktick_* 工具，以及基于官方 TickTick MCP 端点的插件设置卡。"
-  },
-  {
-    "npm": "dsh-cert-mcp",
-    "repo": "PerryLink/dsh-cert-mcp",
-    "displayName": "Certification MCP",
-    "displayNameZh": "认证 MCP",
-    "categories": [
-      "integration"
-    ],
-    "summary": "Read-only MCP server exposing the dsh-plugin-certification registry: certification grades, snapshots and five-dimension evidence for DeepSeek Harness plugins.",
-    "summaryZh": "只读 MCP 服务器，对外提供 dsh-plugin-certification 注册表：DSH 插件的认证等级、快照与五维证据。"
-  },
-  {
-    "npm": "dsh-reach",
-    "repo": "PerryLink/dsh-reach",
-    "displayName": "Reach",
-    "displayNameZh": "多渠道审批桥",
-    "categories": [
-      "integration"
-    ],
-    "summary": "Multi-channel decision and remote-control bridge for DeepSeek Harness: approval/question cards from any workspace mirrored to IM chat (WeChat iLink, Telegram, Feishu) with stable #token ids and P{n} numbering, answered from chat through the native pending waterfall — fail-closed sender ownership, session console, and proactive reach_send.",
-    "summaryZh": "多渠道决策与远程控制桥：任何工作区的审批卡与提问卡镜像到 IM（微信 iLink、Telegram、飞书），用稳定的 #token 标识与 P{n} 编号，在聊天里经原生 pending 瀑布作答；发送者归属失败即拒，另带会话控制台与主动 reach_send。"
-  },
-  {
-    "npm": "dsh-autotier",
-    "repo": "PerryLink/dsh-autotier",
-    "displayName": "Autotier",
-    "displayNameZh": "模型分层路由",
-    "categories": [
-      "model",
-      "agent"
-    ],
-    "summary": "Automatic strong/cheap model-tier routing for DeepSeek Harness: intent-gated tier landing on the agent/request waterfall, plan-mode handoff (strong plans, cheap implements), deterministic high-risk guards on tools/pre-execute, and failure escalation with TTL fallback.",
-    "summaryZh": "强/廉价模型档位的自动路由：在 agent/request 瀑布上按意图落档，plan 模式交棒（强模型规划、廉价模型实现），在 tools/pre-execute 上做确定性高风险守卫，失败升级并带 TTL 回退。"
-  },
-  {
-    "npm": "dsh-plugin-upgrade",
-    "repo": "PerryLink/dsh-plugin-upgrade",
-    "displayName": "Plugin Upgrade",
-    "displayNameZh": "插件升级技能",
-    "categories": [
-      "dev",
-      "knowledge"
-    ],
-    "summary": "Plugin-author upgrade skill for DeepSeek Harness, new-generation single package: one corridor index reads the caller peer band and routes it to the matching closed corridor card (dsh 0.1.3-alpha.1 -> 0.1.5-rc.1 and 0.1.5-rc.2 -> 0.1.6-alpha.2), with a zero-dependency seam scanner shipped as a bundle skill and an npx CLI.",
-    "summaryZh": "面向 DeepSeek Harness 插件作者的新一代单包升级技能：一份走廊索引读取调用方 peer 区间并路由到对应已封版升级卡片（dsh 0.1.3-alpha.1 → 0.1.5-rc.1 与 0.1.5-rc.2 → 0.1.6-alpha.2），零依赖接缝扫描器以 bundle 技能与 npx CLI 两种形态提供。"
-  },
-  {
-    "npm": "dsh-team-rooms",
-    "repo": "PerryLink/dsh-team-rooms",
-    "displayName": "Team Rooms",
-    "displayNameZh": "团队房间",
-    "categories": [
-      "agent"
-    ],
-    "summary": "RETIRED 2026-10-05 — the official DeepSeek Harness now ships the Agent Teams subsystem (dsh-experimental-agent-team). Use native Agent Teams, or a maintained alternative such as @nanmicoder/dsh-agent-teams.",
-    "summaryZh": "DeepSeek Harness 团队房间：跨独立会话的持久共享空间——消息总线、共享任务板与时间线。从 dsh-background-agents 拆分而来（其后台代理部分已被 DSH 原生可续接子代理取代）。"
-  },
-  {
-    "npm": "@perrylink/dsh-plugin-kit",
-    "repo": "PerryLink/dsh-plugin-kit",
-    "displayName": "Plugin Kit",
-    "displayNameZh": "插件工具包",
-    "categories": [
-      "dev"
-    ],
-    "summary": "Shared zero-runtime-dependency toolkit for PerryLink DSH plugins: a pluggable Provider registry seam, fail-closed approval and adaptive session-event gates, mechanical verify scripts, shared sanitize/pricing/judge modules, and a new-plugin skeleton.",
-    "summaryZh": "PerryLink DSH 插件共享零运行时依赖工具包：可插拔 Provider 注册表接缝、失效即拒的审批门与自适应会话事件门、机械校验脚本、共享的脱敏/计价/裁决模块，以及新插件骨架。"
-  },
-  {
-    "npm": "@perrylink/dsh-plugin-doctor",
-    "repo": "PerryLink/dsh-plugin-doctor",
-    "displayName": "Plugin Doctor",
-    "displayNameZh": "插件医生",
-    "categories": [
-      "dev"
-    ],
-    "summary": "Zero-dependency static + sandbox smoke detector for DeepSeek Harness plugins: package-structure gates (R), cordis contract scans (K), keyless-headless sandbox smoke (D), and ecosystem-listing checks (CC).",
-    "summaryZh": "DeepSeek Harness 插件零依赖检测器：包结构静态检查（R）、cordis 契约扫描（K）、无键无头沙箱冒烟（D）与生态清单校验（CC）四层。"
-  },
-  {
-    "npm": "dsh-laya",
-    "repo": "PerryLink/dsh-laya",
-    "displayName": "Laya",
-    "displayNameZh": "Laya 决策引擎",
-    "categories": [
-      "model",
-      "tools"
-    ],
-    "summary": "Laya typed decisions — noul (yes/no), choice and score — as a first-class Cordis service and model-visible tools for DeepSeek Harness, backed by a locally hosted Laya decision sidecar.",
-    "summaryZh": "把 Laya 的定型决策（noul 是/否、choice 选择、score 打分）做成 DeepSeek Harness 的一等 Cordis 服务与模型可见工具，背后是本地运行的 Laya 决策 sidecar。"
   },
   {
     "npm": "dsh-aqua-input-check",
@@ -505,6 +95,40 @@
     ]
   },
   {
+    "npm": "dsh-auto-review",
+    "repo": "PerryLink/dsh-auto-review",
+    "displayName": "Auto Review",
+    "displayNameZh": "自动复核",
+    "categories": [
+      "workflow"
+    ],
+    "summary": "Second-model AI auto-review for DeepSeek Harness approval requests: a read-only reviewer subagent decides allow/deny on the approval answerer chain, with fail-closed fallback and full session-log audit.",
+    "summaryZh": "审批链上的第二模型自动复核：只读复核子代理在审批应答链上给出允许/拒绝，失败即拒，全过程留痕在会话日志里。"
+  },
+  {
+    "npm": "dsh-autotier",
+    "repo": "PerryLink/dsh-autotier",
+    "displayName": "Autotier",
+    "displayNameZh": "模型分层路由",
+    "categories": [
+      "model",
+      "agent"
+    ],
+    "summary": "Automatic strong/cheap model-tier routing for DeepSeek Harness: intent-gated tier landing on the agent/request waterfall, plan-mode handoff (strong plans, cheap implements), deterministic high-risk guards on tools/pre-execute, and failure escalation with TTL fallback.",
+    "summaryZh": "强/廉价模型档位的自动路由：在 agent/request 瀑布上按意图落档，plan 模式交棒（强模型规划、廉价模型实现），在 tools/pre-execute 上做确定性高风险守卫，失败升级并带 TTL 回退。"
+  },
+  {
+    "npm": "dsh-background-agents",
+    "repo": "PerryLink/dsh-background-agents",
+    "displayName": "Background Agents",
+    "displayNameZh": "后台代理",
+    "categories": [
+      "agent"
+    ],
+    "summary": "RETIRED 2026-10-05 — the official DeepSeek Harness now ships native continuable subagents (subagent with backgroundMode: continuable, plus send_message). Use those instead; this entry stays listed only so the name resolves.",
+    "summaryZh": "已于 2026-10-05 退役 —— 官方 DeepSeek Harness 已原生提供可续接子代理（backgroundMode: continuable 的 subagent 加 send_message）。请改用原生能力；本条目仅为让包名可解析而保留。"
+  },
+  {
     "npm": "dsh-bid-ca-precheck",
     "repo": "PerryLink/dsh-bid-ca-precheck",
     "displayName": "Bid Responsiveness Precheck",
@@ -542,6 +166,85 @@
     ]
   },
   {
+    "npm": "dsh-budget",
+    "repo": "PerryLink/dsh-budget",
+    "displayName": "Budget",
+    "displayNameZh": "成本治理",
+    "categories": [
+      "tools"
+    ],
+    "summary": "Cost governance for DeepSeek Harness: aggregated token/cost metering per model, session and day, budget caps with threshold alerts and over-limit policies, carbon footprint estimation, per-model latency benchmarks, and the /budget command.",
+    "summaryZh": "成本治理：按模型/会话/天汇总 token 与费用，预算上限配阈值告警与超限策略，估算碳足迹，做按模型的延迟基准，并提供 /budget 命令。"
+  },
+  {
+    "npm": "dsh-cert-mcp",
+    "repo": "PerryLink/dsh-cert-mcp",
+    "displayName": "Certification MCP",
+    "displayNameZh": "认证 MCP",
+    "categories": [
+      "integration"
+    ],
+    "summary": "Read-only MCP server exposing the dsh-plugin-certification registry: certification grades, snapshots and five-dimension evidence for DeepSeek Harness plugins.",
+    "summaryZh": "只读 MCP 服务器，对外提供 dsh-plugin-certification 注册表：DSH 插件的认证等级、快照与五维证据。"
+  },
+  {
+    "npm": "dsh-checkpoint-rewind",
+    "repo": "PerryLink/dsh-checkpoint-rewind",
+    "displayName": "Checkpoint Rewind",
+    "displayNameZh": "检查点回滚",
+    "categories": [
+      "session"
+    ],
+    "summary": "Unified DSH checkpoints: session, workspace, and config three-state snapshots with one-shot /checkpoint and /rewind rollback, a checkpoint tool, automatic interval snapshots, a Settings-page timeline with pairwise diffs, and seed-replay session recovery.",
+    "summaryZh": "统一的 DSH 检查点：会话/工作区/配置三态快照，一条命令 /checkpoint 与 /rewind 回滚，附 checkpoint 工具、定时自动快照、带两两差异的设置页时间线与种子重放式会话恢复。"
+  },
+  {
+    "npm": "dsh-claude-move",
+    "repo": "PerryLink/dsh-claude-move",
+    "displayName": "Claude Move",
+    "displayNameZh": "配置迁移",
+    "categories": [
+      "integration"
+    ],
+    "summary": "Claude Code to DeepSeek Harness migration: import CLAUDE.md/AGENTS.md, slash commands, and session history — approval-gated and idempotent.",
+    "summaryZh": "从 Claude Code 迁到 DeepSeek Harness：导入 CLAUDE.md/AGENTS.md、斜杠命令与会话历史，全程审批门控且可重复执行。"
+  },
+  {
+    "npm": "dsh-click",
+    "repo": "PerryLink/dsh-click",
+    "displayName": "Click",
+    "displayNameZh": "桌面控制",
+    "categories": [
+      "tools"
+    ],
+    "summary": "Cross-platform native desktop control for DeepSeek Harness (Windows first): screen_shot, screen_read, click/type/scroll/key, and app_list/app_launch — approval-gated, never stealing foreground focus.",
+    "summaryZh": "跨平台原生桌面控制（Windows 优先）：screen_shot、screen_read、点击/输入/滚动/按键与 app_list/app_launch，审批门控且不抢占前台焦点。"
+  },
+  {
+    "npm": "dsh-community-bench",
+    "repo": "PerryLink/dsh-community-bench",
+    "displayName": "Community Bench",
+    "displayNameZh": "社区基准",
+    "categories": [
+      "interface",
+      "workflow"
+    ],
+    "locale": "en",
+    "summary": "In-app Community Bench tab for DeepSeek Harness: reads the public, task-conditioned registry and shows the same score everyone sees; no local scoring.",
+    "summaryZh": "DSH 应用内社区基准标签页：读取公开的、按任务条件计算的 registry，展示所有人看到的同一分数；不在本地算分。"
+  },
+  {
+    "npm": "dsh-composer-history",
+    "repo": "PerryLink/dsh-composer-history",
+    "displayName": "Composer History",
+    "displayNameZh": "输入历史",
+    "categories": [
+      "session"
+    ],
+    "summary": "Terminal-style input history for the DeepSeek Harness web composer: edge-first arrows with exact draft/caret restore, browser-local persisted history, Ctrl+R reverse search, workspace recall, and sliding-context awareness.",
+    "summaryZh": "Web 输入框的终端式历史：边缘优先的方向键与草稿/光标精确还原、浏览器本地持久化、Ctrl+R 反向搜索、工作区召回与滑动上下文感知。"
+  },
+  {
     "npm": "dsh-contract-stance",
     "repo": "PerryLink/dsh-contract-stance",
     "displayName": "Contract Stance Reader",
@@ -574,6 +277,28 @@
     ]
   },
   {
+    "npm": "dsh-data-quality",
+    "repo": "PerryLink/dsh-data-quality",
+    "displayName": "Data Quality",
+    "displayNameZh": "数据质量",
+    "categories": [
+      "tools"
+    ],
+    "summary": "Deterministic data profiling, cleaning, and verification for DeepSeek Harness: DAMA scorecard, content-hash dedupe, metric expectations, and drift checks.",
+    "summaryZh": "确定性的数据画像、清洗与校验：DAMA 记分卡、内容哈希去重、指标期望与漂移检查。"
+  },
+  {
+    "npm": "dsh-defend",
+    "repo": "PerryLink/dsh-defend",
+    "displayName": "Defend",
+    "displayNameZh": "注入防御",
+    "categories": [
+      "dev"
+    ],
+    "summary": "Prompt-injection, jailbreak, and secret-leak defense for DeepSeek Harness: Aho-Corasick detection with allow/ask/block interception, sanitized audit events, and a recursive-delete pre-execution gate.",
+    "summaryZh": "面向 DeepSeek Harness 的提示注入、越狱与密钥泄漏防御：Aho-Corasick 检测配允许/询问/阻断拦截、脱敏审计事件，以及递归删除的执行前闸门。"
+  },
+  {
     "npm": "dsh-demurrage-ledger",
     "repo": "PerryLink/dsh-demurrage-ledger",
     "displayName": "Demurrage Ledger Check",
@@ -589,6 +314,28 @@
       "《表示货币的代码》",
       "无统一标准"
     ]
+  },
+  {
+    "npm": "dsh-doublecheck",
+    "repo": "PerryLink/dsh-doublecheck",
+    "displayName": "DoubleCheck",
+    "displayNameZh": "交付质检",
+    "categories": [
+      "tools"
+    ],
+    "summary": "Delivery quality gate for DeepSeek Harness: grill the requirements, test the implementation, prove the delivery, and gate the handoff with a deliverable/rework decision.",
+    "summaryZh": "交付质量闸门：先盘问需求，再测实现，再举证交付，最后按可交付/返工给出交接裁决。"
+  },
+  {
+    "npm": "dsh-draw",
+    "repo": "PerryLink/dsh-draw",
+    "displayName": "Draw",
+    "displayNameZh": "图像生成路由",
+    "categories": [
+      "tools"
+    ],
+    "summary": "Unified static-image generation router for DeepSeek Harness: one image_generate tool with standard parameters, config-driven engine routing (OpenAI Images, Zhipu CogView, and any compatible endpoint), health-aware fallback, durable workspace attachments, and per-session quota accounting.",
+    "summaryZh": "统一的静态图像生成路由：一个 image_generate 工具配标准参数，按配置路由引擎（OpenAI Images、智谱 CogView 及任何兼容端点），带健康感知回退、工作区持久附件与按会话配额记账。"
   },
   {
     "npm": "dsh-drill-script-check",
@@ -694,6 +441,17 @@
     ]
   },
   {
+    "npm": "dsh-fast",
+    "repo": "PerryLink/dsh-fast",
+    "displayName": "Fast",
+    "displayNameZh": "性能诊断",
+    "categories": [
+      "tools"
+    ],
+    "summary": "Read-only performance diagnostics for DeepSeek Harness: session load/restore timing, spill-hit counts, compaction count and trigger, context-injection volume (AGENTS.md/skills/tool-schema token share), and LLM cache hit rate — surfaced via /fast.",
+    "summaryZh": "只读性能诊断：会话加载/恢复耗时、落盘命中次数、压缩次数与触发原因、上下文注入量（AGENTS.md/技能/工具 schema 的 token 占比）与 LLM 缓存命中率，经 /fast 呈现。"
+  },
+  {
     "npm": "dsh-fmea-table-check",
     "repo": "PerryLink/dsh-fmea-table-check",
     "displayName": "FMEA Table Check",
@@ -724,6 +482,17 @@
       "《表示货币的代码》",
       "无统一标准"
     ]
+  },
+  {
+    "npm": "dsh-fund-research",
+    "repo": "PerryLink/dsh-fund-research",
+    "displayName": "Fund Research",
+    "displayNameZh": "基金研究",
+    "categories": [
+      "knowledge"
+    ],
+    "summary": "Fund research: analyze funds with returns, holdings, and performance decomposition.",
+    "summaryZh": "基金研究：分析基金的收益、持仓与业绩归因。"
   },
   {
     "npm": "dsh-gongwen-flow-check",
@@ -865,6 +634,17 @@
     ]
   },
   {
+    "npm": "dsh-industry-research",
+    "repo": "PerryLink/dsh-industry-research",
+    "displayName": "Industry Research",
+    "displayNameZh": "行业研究",
+    "categories": [
+      "knowledge"
+    ],
+    "summary": "Industry research toolkit: structured company/industry dives with source capture and auditable research trails.",
+    "summaryZh": "行业研究工具箱：结构化的公司与行业专题，附来源留档与可审计的研究轨迹。"
+  },
+  {
     "npm": "dsh-lawcite-adapter",
     "repo": "PerryLink/dsh-lawcite-adapter",
     "displayName": "Legal Citation Check",
@@ -881,6 +661,18 @@
       "本机构法律文书审查办法（本机构配置）",
       "无统一标准"
     ]
+  },
+  {
+    "npm": "dsh-laya",
+    "repo": "PerryLink/dsh-laya",
+    "displayName": "Laya",
+    "displayNameZh": "Laya 决策引擎",
+    "categories": [
+      "model",
+      "tools"
+    ],
+    "summary": "Laya typed decisions — noul (yes/no), choice and score — as a first-class Cordis service and model-visible tools for DeepSeek Harness, backed by a locally hosted Laya decision sidecar.",
+    "summaryZh": "把 Laya 的定型决策（noul 是/否、choice 选择、score 打分）做成 DeepSeek Harness 的一等 Cordis 服务与模型可见工具，背后是本地运行的 Laya 决策 sidecar。"
   },
   {
     "npm": "dsh-lc-doc-check",
@@ -916,6 +708,61 @@
     ]
   },
   {
+    "npm": "dsh-library",
+    "repo": "PerryLink/dsh-library",
+    "displayName": "Library",
+    "displayNameZh": "本地知识库",
+    "categories": [
+      "knowledge"
+    ],
+    "summary": "Local document knowledge base for DeepSeek Harness: library_add/remove/list, hybrid semantic+keyword library_search with diversity re-ranking and lost-in-the-middle avoidance, citation-aware injection, library_cite_check and library_diagnose — SQLite-backed index, local embedding, zero model downloads.",
+    "summaryZh": "本地文档知识库：library_add/remove/list，语义加关键词的混合检索 library_search（带多样性重排与防\"中间遗忘\"）、引用感知注入、library_cite_check 与 library_diagnose，SQLite 索引与本地嵌入，不下载模型。"
+  },
+  {
+    "npm": "dsh-local-ai",
+    "repo": "PerryLink/dsh-local-ai",
+    "displayName": "Local AI",
+    "displayNameZh": "本地模型",
+    "categories": [
+      "model"
+    ],
+    "summary": "Run local AI models inside DeepSeek Harness: Ollama/LM Studio/local endpoints as drop-in model routes.",
+    "summaryZh": "在 DeepSeek Harness 内运行本地模型：把 Ollama / LM Studio / 本地端点接成可直接替换的模型路由。"
+  },
+  {
+    "npm": "dsh-lsp-actions",
+    "repo": "PerryLink/dsh-lsp-actions",
+    "displayName": "LSP Actions",
+    "displayNameZh": "LSP 动作",
+    "categories": [
+      "tools"
+    ],
+    "summary": "LSP actions for DeepSeek Harness: the IDE-integration plugin that exposes language-server diagnostics, definitions, references, and fixes to the agent.",
+    "summaryZh": "把语言服务器的诊断、定义跳转、引用查找与修复暴露给 agent 的 IDE 集成插件。"
+  },
+  {
+    "npm": "dsh-mask",
+    "repo": "PerryLink/dsh-mask",
+    "displayName": "Mask",
+    "displayNameZh": "隐私脱敏",
+    "categories": [
+      "tools"
+    ],
+    "summary": "PII masking middleware for DeepSeek Harness: phones, emails, ID cards, bank cards and keys become placeholders before they reach the model, and a host-side restore table keeps them reversible. The plaintext never enters the session log.",
+    "summaryZh": "PII 脱敏中间件：手机号、邮箱、身份证、银行卡与密钥在到达模型前变成占位符，宿主侧还原表保证可逆，明文不进会话日志。"
+  },
+  {
+    "npm": "dsh-mcp-panel",
+    "repo": "PerryLink/dsh-mcp-panel",
+    "displayName": "MCP Panel",
+    "displayNameZh": "MCP 面板",
+    "categories": [
+      "integration"
+    ],
+    "summary": "Read-only MCP console for DeepSeek Harness: a /mcp command with health diagnostics and pipeline trial calls, a Settings MCP tab with server CRUD (approval-gated writes, automatic backups) and a tool trial console over the official tool pipeline.",
+    "summaryZh": "只读 MCP 控制台：/mcp 命令带健康诊断与管道试调，设置页 MCP 标签管理服务器（写入需审批、自动备份），并可在官方工具管道上试调工具。"
+  },
+  {
     "npm": "dsh-medrec-qc",
     "repo": "PerryLink/dsh-medrec-qc",
     "displayName": "Medical Record QC",
@@ -935,6 +782,17 @@
       "卫医政发〔2011〕84号",
       "国家医疗保障局公告"
     ]
+  },
+  {
+    "npm": "dsh-memento",
+    "repo": "PerryLink/dsh-memento",
+    "displayName": "Memento",
+    "displayNameZh": "跨会话记忆",
+    "categories": [
+      "memory"
+    ],
+    "summary": "Bounded, layered, approval-gated, auditable cross-session memory for DeepSeek Harness — a capability seam (ctx.memory service + local SQLite provider + memory tool + frozen snapshot injection), not another memory warehouse.",
+    "summaryZh": "有界、分层、审批门控、可审计的跨会话记忆：一条能力接缝（ctx.memory 服务 + 本地 SQLite provider + memory 工具 + 冻结快照注入），不是又一个记忆仓库。"
   },
   {
     "npm": "dsh-nsfc-form-check",
@@ -977,6 +835,17 @@
     ]
   },
   {
+    "npm": "dsh-observe",
+    "repo": "PerryLink/dsh-observe",
+    "displayName": "Observe",
+    "displayNameZh": "可观测性",
+    "categories": [
+      "dev"
+    ],
+    "summary": "Observability for DeepSeek Harness: request tracing, telemetry, log buffering, and retry visibility.",
+    "summaryZh": "可观测性：请求追踪、遥测上报、日志缓冲与重试可见性。"
+  },
+  {
     "npm": "dsh-origin-rvc-check",
     "repo": "PerryLink/dsh-origin-rvc-check",
     "displayName": "Rules of Origin RVC Check",
@@ -1011,6 +880,17 @@
     ]
   },
   {
+    "npm": "dsh-output-styles",
+    "repo": "PerryLink/dsh-output-styles",
+    "displayName": "Output Styles",
+    "displayNameZh": "输出风格",
+    "categories": [
+      "interface"
+    ],
+    "summary": "Runtime-switchable model output styles for DeepSeek Harness: a Markdown style library (six built-ins, Claude Code-parity proactive/learning), /style command, session-scoped persistence, system-prompt injection, a plugin renderer registry, per-session/per-tool rules, and /export rendering.",
+    "summaryZh": "运行时可切换的模型输出风格：Markdown 风格库（六个内置，含 Claude Code 对等的 proactive/learning）、/style 命令、按会话持久化、系统提示注入、插件渲染器注册表、按会话与按工具的规则，以及 /export 渲染。"
+  },
+  {
     "npm": "dsh-paper-doc-adapter",
     "repo": "PerryLink/dsh-paper-doc-adapter",
     "displayName": "Manuscript Format Check",
@@ -1026,6 +906,17 @@
       "本机构题库与命题口径（本机构配置）",
       "无统一标准"
     ]
+  },
+  {
+    "npm": "dsh-permission-rules",
+    "repo": "PerryLink/dsh-permission-rules",
+    "displayName": "Permission Rules",
+    "displayNameZh": "权限规则",
+    "categories": [
+      "workflow"
+    ],
+    "summary": "Declarative, ordered allow/deny/ask permission rules for DeepSeek Harness: match tool names, arguments (glob/regex), workspace paths, and network targets (domain/IP/port/scheme), plus a Codex-style process-level network policy.",
+    "summaryZh": "声明式、有序的允许/拒绝/询问权限规则：匹配工具名、参数（glob/正则）、工作区路径与网络目标（域名/IP/端口/协议），并带进程级网络策略。"
   },
   {
     "npm": "dsh-permit-report-check",
@@ -1044,6 +935,46 @@
       "本机构许可办理管理口径（本机构配置）",
       "无统一标准"
     ]
+  },
+  {
+    "npm": "dsh-personal-directive",
+    "repo": "PerryLink/dsh-personal-directive",
+    "displayName": "Personal Directive",
+    "displayNameZh": "个人指令",
+    "categories": [
+      "workflow"
+    ],
+    "locale": "en",
+    "summary": "Repository prompt plugin with a live top-bar enable/disable switch; the framework edition ships a neutral placeholder directive.",
+    "summaryZh": "仓库提示词插件，带顶栏实时开关；框架版附带中性占位指令。",
+    "npmRepository": "https://github.com/PerryLink/dsh-personal-directive"
+  },
+  {
+    "npm": "dsh-phocinae",
+    "repo": "Phocinae/dsh-phocinae",
+    "displayName": "Phocinae",
+    "displayNameZh": "Phocinae 决策层",
+    "categories": [
+      "integration"
+    ],
+    "locale": "en",
+    "summary": "Local non-generative decision layer for DeepSeek Harness: phocinae_ask / phocinae_gate tools plus a fail-closed approval gate",
+    "summaryZh": "本地的非生成式决策层：phocinae_ask / phocinae_gate 两个工具，外加一个失效即拒的审批闸门。",
+    "npmRepository": "https://github.com/Phocinae/dsh-phocinae"
+  },
+  {
+    "npm": "dsh-phone-inbox",
+    "repo": "PerryLink/dsh-phone-inbox",
+    "displayName": "Phone Inbox",
+    "displayNameZh": "手机收件箱",
+    "categories": [
+      "interface",
+      "integration"
+    ],
+    "locale": "en",
+    "summary": "The session's inbound phone (WeChat bridge) attachment inbox: list the attachments this conversation actually received and adopt one into the workspace on demand.",
+    "summaryZh": "会话的手机（微信桥）入站附件收件箱：列出本会话实际收到的附件，并按需采纳到工作区。",
+    "npmRepository": "https://github.com/PerryLink/dsh-phone-inbox"
   },
   {
     "npm": "dsh-pipeline-check",
@@ -1076,6 +1007,29 @@
       "《中华人民共和国民事诉讼法》",
       "1991年通过，经 2007、2012、2017、2021、2023 年五次修正"
     ]
+  },
+  {
+    "npm": "dsh-plugin-guide",
+    "repo": "PerryLink/dsh-plugin-guide",
+    "displayName": "Plugin Guide",
+    "displayNameZh": "插件开发指南",
+    "categories": [
+      "knowledge"
+    ],
+    "summary": "The DSH plugin development guide as an installable skill: packaging, contracts, checks, and a pack verifier for builds.",
+    "summaryZh": "把 DSH 插件开发指南做成可安装技能：打包、契约、检查，以及构建用的包校验器。"
+  },
+  {
+    "npm": "dsh-plugin-upgrade",
+    "repo": "PerryLink/dsh-plugin-upgrade",
+    "displayName": "Plugin Upgrade",
+    "displayNameZh": "插件升级技能",
+    "categories": [
+      "dev",
+      "knowledge"
+    ],
+    "summary": "Plugin-author upgrade skill for DeepSeek Harness, new-generation single package: one corridor index reads the caller peer band and routes it to the matching closed corridor card (dsh 0.1.3-alpha.1 -> 0.1.5-rc.1 and 0.1.5-rc.2 -> 0.1.6-alpha.2), with a zero-dependency seam scanner shipped as a bundle skill and an npx CLI.",
+    "summaryZh": "面向 DeepSeek Harness 插件作者的新一代单包升级技能：一份走廊索引读取调用方 peer 区间并路由到对应已封版升级卡片（dsh 0.1.3-alpha.1 → 0.1.5-rc.1 与 0.1.5-rc.2 → 0.1.6-alpha.2），零依赖接缝扫描器以 bundle 技能与 npx CLI 两种形态提供。"
   },
   {
     "npm": "dsh-policy-brief-draft",
@@ -1174,6 +1128,17 @@
     ]
   },
   {
+    "npm": "dsh-reach",
+    "repo": "PerryLink/dsh-reach",
+    "displayName": "Reach",
+    "displayNameZh": "多渠道审批桥",
+    "categories": [
+      "integration"
+    ],
+    "summary": "Multi-channel decision and remote-control bridge for DeepSeek Harness: approval/question cards from any workspace mirrored to IM chat (WeChat iLink, Telegram, Feishu) with stable #token ids and P{n} numbering, answered from chat through the native pending waterfall — fail-closed sender ownership, session console, and proactive reach_send.",
+    "summaryZh": "多渠道决策与远程控制桥：任何工作区的审批卡与提问卡镜像到 IM（微信 iLink、Telegram、飞书），用稳定的 #token 标识与 P{n} 编号，在聊天里经原生 pending 瀑布作答；发送者归属失败即拒，另带会话控制台与主动 reach_send。"
+  },
+  {
     "npm": "dsh-repair-order-qc",
     "repo": "PerryLink/dsh-repair-order-qc",
     "displayName": "Repair Order QC",
@@ -1188,6 +1153,17 @@
       "《机动车维修管理规定》",
       "交通运输部令2021年第18号"
     ]
+  },
+  {
+    "npm": "dsh-research-report",
+    "repo": "PerryLink/dsh-research-report",
+    "displayName": "Research Report",
+    "displayNameZh": "研究报告",
+    "categories": [
+      "knowledge"
+    ],
+    "summary": "Research reports with integrity: evidence-linked reports whose content hash seals the directory of sources.",
+    "summaryZh": "带完整性的研究报告：报告与证据一一关联，内容哈希封住来源目录。"
   },
   {
     "npm": "dsh-review-reply-check",
@@ -1243,6 +1219,39 @@
       "JGJ 59-2011",
       "国务院令第393号"
     ]
+  },
+  {
+    "npm": "dsh-score",
+    "repo": "PerryLink/dsh-score",
+    "displayName": "Score",
+    "displayNameZh": "插件评分",
+    "categories": [
+      "dev"
+    ],
+    "summary": "Plugin quality scoring for the DSH ecosystem: evaluate plugins against checks and produce evidence-backed compliance reports.",
+    "summaryZh": "DSH 生态的插件质量评分：按检查项评估插件并产出有证据支撑的合规报告。"
+  },
+  {
+    "npm": "dsh-session-pin",
+    "repo": "PerryLink/dsh-session-pin",
+    "displayName": "Session Pin",
+    "displayNameZh": "会话置顶",
+    "categories": [
+      "session"
+    ],
+    "summary": "RETIRED 2026-10-05 — the official DeepSeek Harness now ships session pinning natively (row menu and hover button in dsh-client-ui-workspace). Use the built-in session pin; this entry stays listed only so the name resolves.",
+    "summaryZh": "已于 2026-10-05 退役 —— 官方 DeepSeek Harness 已原生支持会话置顶（dsh-client-ui-workspace 的行菜单与悬停按钮）。请用内置置顶；本条目仅为让包名可解析而保留。"
+  },
+  {
+    "npm": "dsh-session-sync",
+    "repo": "PerryLink/dsh-session-sync",
+    "displayName": "Session Sync",
+    "displayNameZh": "会话同步",
+    "categories": [
+      "session"
+    ],
+    "summary": "Session synchronization for DeepSeek Harness: push/pull session logs to remote storage with configurable auto push/pull.",
+    "summaryZh": "会话日志同步：把会话记录推/拉到远端存储，自动推拉可配置。"
   },
   {
     "npm": "dsh-site-log-check",
@@ -1328,6 +1337,28 @@
     ]
   },
   {
+    "npm": "dsh-talk",
+    "repo": "PerryLink/dsh-talk",
+    "displayName": "Talk",
+    "displayNameZh": "语音对话",
+    "categories": [
+      "tools"
+    ],
+    "summary": "Voice for DeepSeek Harness: text-to-speech and speech-to-text with mute and speak-to-chat controls.",
+    "summaryZh": "给 DeepSeek Harness 加语音：文字转语音与语音转文字，含静音与\"说完即发\"开关。"
+  },
+  {
+    "npm": "dsh-team-rooms",
+    "repo": "PerryLink/dsh-team-rooms",
+    "displayName": "Team Rooms",
+    "displayNameZh": "团队房间",
+    "categories": [
+      "agent"
+    ],
+    "summary": "RETIRED 2026-10-05 — the official DeepSeek Harness now ships the Agent Teams subsystem (dsh-experimental-agent-team). Use native Agent Teams, or a maintained alternative such as @nanmicoder/dsh-agent-teams.",
+    "summaryZh": "DeepSeek Harness 团队房间：跨独立会话的持久共享空间——消息总线、共享任务板与时间线。从 dsh-background-agents 拆分而来（其后台代理部分已被 DSH 原生可续接子代理取代）。"
+  },
+  {
     "npm": "dsh-tender-extract",
     "repo": "PerryLink/dsh-tender-extract",
     "displayName": "Tender Requirement Extract",
@@ -1360,6 +1391,28 @@
     ]
   },
   {
+    "npm": "dsh-test-drive",
+    "repo": "PerryLink/dsh-test-drive",
+    "displayName": "Test Drive",
+    "displayNameZh": "装机试驾",
+    "categories": [
+      "dev"
+    ],
+    "summary": "Test Drive: run plugins in a disposable sandbox environment (temporary DSH_HOME) and score the results as JSON/Markdown.",
+    "summaryZh": "在一次性沙箱环境（临时 DSH_HOME）里跑插件，并以 JSON/Markdown 给出结果。"
+  },
+  {
+    "npm": "dsh-translate",
+    "repo": "PerryLink/dsh-translate",
+    "displayName": "Translate",
+    "displayNameZh": "翻译与 JSON 修复",
+    "categories": [
+      "tools"
+    ],
+    "summary": "Translate text and files inside DeepSeek Harness with quality checks; also fixes broken JSON output from models.",
+    "summaryZh": "在 DeepSeek Harness 内翻译文本与文件并做质量检查；同时修复模型输出的破损 JSON。"
+  },
+  {
     "npm": "dsh-warranty-calc",
     "repo": "PerryLink/dsh-warranty-calc",
     "displayName": "Warranty Period Check",
@@ -1377,31 +1430,5 @@
       "市场监管总局令第43号",
       "无统一标准"
     ]
-  },
-  {
-    "npm": "dsh-phocinae",
-    "repo": "Phocinae/dsh-phocinae",
-    "displayName": "Phocinae",
-    "displayNameZh": "Phocinae 决策层",
-    "categories": [
-      "integration"
-    ],
-    "locale": "en",
-    "summary": "Local non-generative decision layer for DeepSeek Harness: phocinae_ask / phocinae_gate tools plus a fail-closed approval gate",
-    "summaryZh": "本地的非生成式决策层：phocinae_ask / phocinae_gate 两个工具，外加一个失效即拒的审批闸门。",
-    "npmRepository": "https://github.com/Phocinae/dsh-phocinae"
-  },
-  {
-    "npm": "dsh-community-bench",
-    "repo": "PerryLink/dsh-community-bench",
-    "displayName": "Community Bench",
-    "displayNameZh": "社区基准",
-    "categories": [
-      "interface",
-      "workflow"
-    ],
-    "locale": "en",
-    "summary": "In-app Community Bench tab for DeepSeek Harness: reads the public, task-conditioned registry and shows the same score everyone sees; no local scoring.",
-    "summaryZh": "DSH 应用内社区基准标签页：读取公开的、按任务条件计算的 registry，展示所有人看到的同一分数；不在本地算分。"
   }
 ]
