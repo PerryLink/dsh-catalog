@@ -862,5 +862,14 @@
     "repository": "git+https://github.com/Phocinae/dsh-phocinae.git",
     "latest": "0.2.4",
     "updatedAt": "2026-10-09T01:29:34.556Z"
+  },
+  {
+    "name": "dsh-community-bench",
+    "description": "In-app Community Bench tab for DeepSeek Harness: reads the public, task-conditioned registry and shows the same score everyone sees. No local scoring.",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-community-bench#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-community-bench.git",
+    "latest": "0.1.0",
+    "updatedAt": "2026-10-18T09:45:10.090Z"
   }
 ]

@@ -1390,5 +1390,18 @@
     "summary": "Local non-generative decision layer for DeepSeek Harness: phocinae_ask / phocinae_gate tools plus a fail-closed approval gate",
     "summaryZh": "本地的非生成式决策层：phocinae_ask / phocinae_gate 两个工具，外加一个失效即拒的审批闸门。",
     "npmRepository": "https://github.com/Phocinae/dsh-phocinae"
+  },
+  {
+    "npm": "dsh-community-bench",
+    "repo": "PerryLink/dsh-community-bench",
+    "displayName": "Community Bench",
+    "displayNameZh": "社区基准",
+    "categories": [
+      "interface",
+      "workflow"
+    ],
+    "locale": "en",
+    "summary": "In-app Community Bench tab for DeepSeek Harness: reads the public, task-conditioned registry and shows the same score everyone sees; no local scoring.",
+    "summaryZh": "DSH 应用内社区基准标签页：读取公开的、按任务条件计算的 registry，展示所有人看到的同一分数；不在本地算分。"
   }
 ]
