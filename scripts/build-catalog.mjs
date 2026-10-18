@@ -60,6 +60,7 @@ for (const pkg of packages) {
     latestVersion: npm.latest,
     license: typeof npm.license === 'string' && npm.license.length <= 80 ? npm.license : undefined,
     ...(pkg.status === undefined ? {} : { status: pkg.status }),
+    ...(pkg.group === undefined ? {} : { group: pkg.group }),
     categories: pkg.categories,
     repository: { url: repositoryUrl },
     package: { registry: 'npm', name: pkg.npm },

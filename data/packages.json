@@ -8,7 +8,8 @@
       "integration"
     ],
     "summary": "GitHub for DeepSeek Harness: PR/issue/repo/file tools, reviews, and CI checks — every write gated by human approval, token never logged.",
-    "summaryZh": "GitHub 集成：PR/issue/仓库/文件工具、评审与 CI 检查，每次写入都需人工审批，token 从不进日志。"
+    "summaryZh": "GitHub 集成：PR/issue/仓库/文件工具、评审与 CI 检查，每次写入都需人工审批，token 从不进日志。",
+    "group": "集成"
   },
   {
     "npm": "@perrylink/dsh-plugin-doctor",
@@ -19,7 +20,8 @@
       "dev"
     ],
     "summary": "Zero-dependency static + sandbox smoke detector for DeepSeek Harness plugins: package-structure gates (R), cordis contract scans (K), keyless-headless sandbox smoke (D), and ecosystem-listing checks (CC).",
-    "summaryZh": "DeepSeek Harness 插件零依赖检测器：包结构静态检查（R）、cordis 契约扫描（K）、无键无头沙箱冒烟（D）与生态清单校验（CC）四层。"
+    "summaryZh": "DeepSeek Harness 插件零依赖检测器：包结构静态检查（R）、cordis 契约扫描（K）、无键无头沙箱冒烟（D）与生态清单校验（CC）四层。",
+    "group": "生态"
   },
   {
     "npm": "@perrylink/dsh-plugin-kit",
@@ -30,7 +32,8 @@
       "dev"
     ],
     "summary": "Shared zero-runtime-dependency toolkit for PerryLink DSH plugins: a pluggable Provider registry seam, fail-closed approval and adaptive session-event gates, mechanical verify scripts, shared sanitize/pricing/judge modules, and a new-plugin skeleton.",
-    "summaryZh": "PerryLink DSH 插件共享零运行时依赖工具包：可插拔 Provider 注册表接缝、失效即拒的审批门与自适应会话事件门、机械校验脚本、共享的脱敏/计价/裁决模块，以及新插件骨架。"
+    "summaryZh": "PerryLink DSH 插件共享零运行时依赖工具包：可插拔 Provider 注册表接缝、失效即拒的审批门与自适应会话事件门、机械校验脚本、共享的脱敏/计价/裁决模块，以及新插件骨架。",
+    "group": "基建"
   },
   {
     "npm": "@perrylink/dsh-skill-pack-security-provider",
@@ -52,7 +55,8 @@
       "integration"
     ],
     "summary": "TickTick (Dida365) task bridge for DeepSeek Harness: a session-header task panel (list filter, quick add, complete, delete, due dates, drag reorder), eleven curated ticktick_* tools, and a plugin settings card over the official TickTick MCP endpoint.",
-    "summaryZh": "TickTick（滴答清单）任务桥：会话顶部任务面板（列表筛选、快速添加、完成、删除、截止日期、拖动排序）、十一个 ticktick_* 工具，以及基于官方 TickTick MCP 端点的插件设置卡。"
+    "summaryZh": "TickTick（滴答清单）任务桥：会话顶部任务面板（列表筛选、快速添加、完成、删除、截止日期、拖动排序）、十一个 ticktick_* 工具，以及基于官方 TickTick MCP 端点的插件设置卡。",
+    "group": "集成"
   },
   {
     "npm": "dsh-aqua-input-check",
@@ -70,7 +74,8 @@
       "《绿色食品 渔药使用准则》",
       "本机构养殖生产管理口径（本机构配置）",
       "无统一标准"
-    ]
+    ],
+    "group": "安全"
   },
   {
     "npm": "dsh-archive-check",
@@ -92,7 +97,8 @@
       "国家档案局令第8号",
       "国家档案局令第10号",
       "2020年修订"
-    ]
+    ],
+    "group": "公文"
   },
   {
     "npm": "dsh-auto-review",
@@ -103,7 +109,8 @@
       "workflow"
     ],
     "summary": "Second-model AI auto-review for DeepSeek Harness approval requests: a read-only reviewer subagent decides allow/deny on the approval answerer chain, with fail-closed fallback and full session-log audit.",
-    "summaryZh": "审批链上的第二模型自动复核：只读复核子代理在审批应答链上给出允许/拒绝，失败即拒，全过程留痕在会话日志里。"
+    "summaryZh": "审批链上的第二模型自动复核：只读复核子代理在审批应答链上给出允许/拒绝，失败即拒，全过程留痕在会话日志里。",
+    "group": "安全"
   },
   {
     "npm": "dsh-autotier",
@@ -115,7 +122,8 @@
       "agent"
     ],
     "summary": "Automatic strong/cheap model-tier routing for DeepSeek Harness: intent-gated tier landing on the agent/request waterfall, plan-mode handoff (strong plans, cheap implements), deterministic high-risk guards on tools/pre-execute, and failure escalation with TTL fallback.",
-    "summaryZh": "强/廉价模型档位的自动路由：在 agent/request 瀑布上按意图落档，plan 模式交棒（强模型规划、廉价模型实现），在 tools/pre-execute 上做确定性高风险守卫，失败升级并带 TTL 回退。"
+    "summaryZh": "强/廉价模型档位的自动路由：在 agent/request 瀑布上按意图落档，plan 模式交棒（强模型规划、廉价模型实现），在 tools/pre-execute 上做确定性高风险守卫，失败升级并带 TTL 回退。",
+    "group": "集成"
   },
   {
     "npm": "dsh-background-agents",
@@ -127,7 +135,8 @@
     ],
     "summary": "RETIRED 2026-10-05 — the official DeepSeek Harness now ships native continuable subagents (subagent with backgroundMode: continuable, plus send_message). Use those instead; this entry stays listed only so the name resolves.",
     "summaryZh": "已于 2026-10-05 退役 —— 官方 DeepSeek Harness 已原生提供可续接子代理（backgroundMode: continuable 的 subagent 加 send_message）。请改用原生能力；本条目仅为让包名可解析而保留。",
-    "status": "retired"
+    "status": "retired",
+    "group": "会话"
   },
   {
     "npm": "dsh-bid-ca-precheck",
@@ -146,7 +155,8 @@
       "1999年8月30日通过，2017年12月27日修正",
       "国务院令第613号",
       "1999年8月30日通过，2017年12月27日修正，自2000年1月1日起施行"
-    ]
+    ],
+    "group": "招投标"
   },
   {
     "npm": "dsh-bid-qual-check",
@@ -164,7 +174,8 @@
       "《中华人民共和国招标投标法实施条例》",
       "1999年8月30日通过，2017年12月27日修正",
       "国务院令第613号"
-    ]
+    ],
+    "group": "招投标"
   },
   {
     "npm": "dsh-budget",
@@ -176,7 +187,8 @@
     ],
     "summary": "Cost governance for DeepSeek Harness: aggregated token/cost metering per model, session and day, budget caps with threshold alerts and over-limit policies, carbon footprint estimation, per-model latency benchmarks, and the /budget command.",
     "summaryZh": "成本治理：按模型/会话/天汇总 token 与费用，预算上限配阈值告警与超限策略，估算碳足迹，做按模型的延迟基准，并提供 /budget 命令。",
-    "status": "frozen"
+    "status": "frozen",
+    "group": "观测"
   },
   {
     "npm": "dsh-cert-mcp",
@@ -187,7 +199,8 @@
       "integration"
     ],
     "summary": "Read-only MCP server exposing the dsh-plugin-certification registry: certification grades, snapshots and five-dimension evidence for DeepSeek Harness plugins.",
-    "summaryZh": "只读 MCP 服务器，对外提供 dsh-plugin-certification 注册表：DSH 插件的认证等级、快照与五维证据。"
+    "summaryZh": "只读 MCP 服务器，对外提供 dsh-plugin-certification 注册表：DSH 插件的认证等级、快照与五维证据。",
+    "group": "生态"
   },
   {
     "npm": "dsh-checkpoint-rewind",
@@ -198,7 +211,8 @@
       "session"
     ],
     "summary": "Unified DSH checkpoints: session, workspace, and config three-state snapshots with one-shot /checkpoint and /rewind rollback, a checkpoint tool, automatic interval snapshots, a Settings-page timeline with pairwise diffs, and seed-replay session recovery.",
-    "summaryZh": "统一的 DSH 检查点：会话/工作区/配置三态快照，一条命令 /checkpoint 与 /rewind 回滚，附 checkpoint 工具、定时自动快照、带两两差异的设置页时间线与种子重放式会话恢复。"
+    "summaryZh": "统一的 DSH 检查点：会话/工作区/配置三态快照，一条命令 /checkpoint 与 /rewind 回滚，附 checkpoint 工具、定时自动快照、带两两差异的设置页时间线与种子重放式会话恢复。",
+    "group": "会话"
   },
   {
     "npm": "dsh-claude-move",
@@ -210,7 +224,8 @@
     ],
     "summary": "Claude Code to DeepSeek Harness migration: import CLAUDE.md/AGENTS.md, slash commands, and session history — approval-gated and idempotent.",
     "summaryZh": "从 Claude Code 迁到 DeepSeek Harness：导入 CLAUDE.md/AGENTS.md、斜杠命令与会话历史，全程审批门控且可重复执行。",
-    "status": "frozen"
+    "status": "frozen",
+    "group": "集成"
   },
   {
     "npm": "dsh-click",
@@ -221,7 +236,8 @@
       "tools"
     ],
     "summary": "Cross-platform native desktop control for DeepSeek Harness (Windows first): screen_shot, screen_read, click/type/scroll/key, and app_list/app_launch — approval-gated, never stealing foreground focus.",
-    "summaryZh": "跨平台原生桌面控制（Windows 优先）：screen_shot、screen_read、点击/输入/滚动/按键与 app_list/app_launch，审批门控且不抢占前台焦点。"
+    "summaryZh": "跨平台原生桌面控制（Windows 优先）：screen_shot、screen_read、点击/输入/滚动/按键与 app_list/app_launch，审批门控且不抢占前台焦点。",
+    "group": "桌面"
   },
   {
     "npm": "dsh-community-bench",
@@ -245,7 +261,8 @@
       "session"
     ],
     "summary": "Terminal-style input history for the DeepSeek Harness web composer: edge-first arrows with exact draft/caret restore, browser-local persisted history, Ctrl+R reverse search, workspace recall, and sliding-context awareness.",
-    "summaryZh": "Web 输入框的终端式历史：边缘优先的方向键与草稿/光标精确还原、浏览器本地持久化、Ctrl+R 反向搜索、工作区召回与滑动上下文感知。"
+    "summaryZh": "Web 输入框的终端式历史：边缘优先的方向键与草稿/光标精确还原、浏览器本地持久化、Ctrl+R 反向搜索、工作区召回与滑动上下文感知。",
+    "group": "会话"
   },
   {
     "npm": "dsh-contract-stance",
@@ -260,7 +277,8 @@
     "summaryZh": "合同条款立场台账核对（按立场、风险等级与退让底线核对台账自洽，仅提示差异，不作出定性结论）",
     "normativeBasis": [
       "《中华人民共和国民法典》"
-    ]
+    ],
+    "group": "招投标"
   },
   {
     "npm": "dsh-customs-doc-check",
@@ -277,7 +295,8 @@
       "《中华人民共和国海关进出口货物报关单填制规范》",
       "《表示货币的代码》",
       "《中华人民共和国海关进出口货物申报管理规定》"
-    ]
+    ],
+    "group": "外贸"
   },
   {
     "npm": "dsh-data-quality",
@@ -288,7 +307,8 @@
       "tools"
     ],
     "summary": "Deterministic data profiling, cleaning, and verification for DeepSeek Harness: DAMA scorecard, content-hash dedupe, metric expectations, and drift checks.",
-    "summaryZh": "确定性的数据画像、清洗与校验：DAMA 记分卡、内容哈希去重、指标期望与漂移检查。"
+    "summaryZh": "确定性的数据画像、清洗与校验：DAMA 记分卡、内容哈希去重、指标期望与漂移检查。",
+    "group": "质量"
   },
   {
     "npm": "dsh-defend",
@@ -300,7 +320,8 @@
     ],
     "summary": "Prompt-injection, jailbreak, and secret-leak defense for DeepSeek Harness: Aho-Corasick detection with allow/ask/block interception, sanitized audit events, and a recursive-delete pre-execution gate.",
     "summaryZh": "面向 DeepSeek Harness 的提示注入、越狱与密钥泄漏防御：Aho-Corasick 检测配允许/询问/阻断拦截、脱敏审计事件，以及递归删除的执行前闸门。",
-    "status": "frozen"
+    "status": "frozen",
+    "group": "安全"
   },
   {
     "npm": "dsh-demurrage-ledger",
@@ -317,7 +338,8 @@
       "承运人运价本与运输合同（无国家标准）",
       "《表示货币的代码》",
       "无统一标准"
-    ]
+    ],
+    "group": "外贸"
   },
   {
     "npm": "dsh-doublecheck",
@@ -328,7 +350,8 @@
       "tools"
     ],
     "summary": "Delivery quality gate for DeepSeek Harness: grill the requirements, test the implementation, prove the delivery, and gate the handoff with a deliverable/rework decision.",
-    "summaryZh": "交付质量闸门：先盘问需求，再测实现，再举证交付，最后按可交付/返工给出交接裁决。"
+    "summaryZh": "交付质量闸门：先盘问需求，再测实现，再举证交付，最后按可交付/返工给出交接裁决。",
+    "group": "质量"
   },
   {
     "npm": "dsh-draw",
@@ -340,7 +363,8 @@
     ],
     "summary": "Unified static-image generation router for DeepSeek Harness: one image_generate tool with standard parameters, config-driven engine routing (OpenAI Images, Zhipu CogView, and any compatible endpoint), health-aware fallback, durable workspace attachments, and per-session quota accounting.",
     "summaryZh": "统一的静态图像生成路由：一个 image_generate 工具配标准参数，按配置路由引擎（OpenAI Images、智谱 CogView 及任何兼容端点），带健康感知回退、工作区持久附件与按会话配额记账。",
-    "status": "frozen"
+    "status": "frozen",
+    "group": "桌面"
   },
   {
     "npm": "dsh-drill-script-check",
@@ -357,7 +381,8 @@
       "《生产安全事故应急演练基本规范》",
       "本单位应急预案体系（本机构配置）",
       "无统一标准"
-    ]
+    ],
+    "group": "安全"
   },
   {
     "npm": "dsh-eia-guide-check",
@@ -377,7 +402,8 @@
       "《建设项目环境影响评价分类管理名录》",
       "各导则现行版本号本次未逐一核实",
       "无统一标准"
-    ]
+    ],
+    "group": "工程建设"
   },
   {
     "npm": "dsh-emergency-plan",
@@ -395,7 +421,8 @@
       "《生产安全事故应急预案管理办法》",
       "GB/T 29639-2020",
       "国家安全生产监督管理总局令第88号"
-    ]
+    ],
+    "group": "安全"
   },
   {
     "npm": "dsh-essay-rubric-check",
@@ -411,7 +438,8 @@
     "normativeBasis": [
       "《普通高中语文课程标准》",
       "《普通高等学校招生全国统一考试评卷工作规定》"
-    ]
+    ],
+    "group": "研究"
   },
   {
     "npm": "dsh-evidence-check",
@@ -427,7 +455,8 @@
     "normativeBasis": [
       "《最高人民法院关于民事诉讼证据的若干规定》",
       "法释〔2019〕19号"
-    ]
+    ],
+    "group": "法律"
   },
   {
     "npm": "dsh-export-ctl-check",
@@ -443,7 +472,8 @@
     "normativeBasis": [
       "《中华人民共和国出口管制法》",
       "2020 年 10 月 17 日第十三届全国人大常委会第二十二次会议通过，主席令第五十八号公布，自 2020 年 12 月 1 日起施行"
-    ]
+    ],
+    "group": "外贸"
   },
   {
     "npm": "dsh-fast",
@@ -454,7 +484,8 @@
       "tools"
     ],
     "summary": "Read-only performance diagnostics for DeepSeek Harness: session load/restore timing, spill-hit counts, compaction count and trigger, context-injection volume (AGENTS.md/skills/tool-schema token share), and LLM cache hit rate — surfaced via /fast.",
-    "summaryZh": "只读性能诊断：会话加载/恢复耗时、落盘命中次数、压缩次数与触发原因、上下文注入量（AGENTS.md/技能/工具 schema 的 token 占比）与 LLM 缓存命中率，经 /fast 呈现。"
+    "summaryZh": "只读性能诊断：会话加载/恢复耗时、落盘命中次数、压缩次数与触发原因、上下文注入量（AGENTS.md/技能/工具 schema 的 token 占比）与 LLM 缓存命中率，经 /fast 呈现。",
+    "group": "观测"
   },
   {
     "npm": "dsh-fmea-table-check",
@@ -469,7 +500,8 @@
     "summaryZh": "FMEA 分析表要素齐备性与风险顺序数一致性核对（按公开的 FMEA 方法标准核对表内自洽，仅提示差异，不作出定性结论）",
     "normativeBasis": [
       "《系统可靠性分析技术 失效模式和影响分析（FMEA）程序》"
-    ]
+    ],
+    "group": "质量"
   },
   {
     "npm": "dsh-forecast-penalty",
@@ -486,7 +518,8 @@
       "电力市场考核办法与并网调度协议（无国家标准）",
       "《表示货币的代码》",
       "无统一标准"
-    ]
+    ],
+    "group": "外贸"
   },
   {
     "npm": "dsh-fund-research",
@@ -497,7 +530,8 @@
       "knowledge"
     ],
     "summary": "Fund research: analyze funds with returns, holdings, and performance decomposition.",
-    "summaryZh": "基金研究：分析基金的收益、持仓与业绩归因。"
+    "summaryZh": "基金研究：分析基金的收益、持仓与业绩归因。",
+    "group": "研究"
   },
   {
     "npm": "dsh-gongwen-flow-check",
@@ -513,7 +547,8 @@
     "normativeBasis": [
       "《党政机关公文处理工作条例》",
       "中办发〔2012〕14号"
-    ]
+    ],
+    "group": "公文"
   },
   {
     "npm": "dsh-gongwen-word-check",
@@ -530,7 +565,8 @@
       "《党政机关公文格式》",
       "《党政机关公文处理工作条例》",
       "中办发〔2012〕14号"
-    ]
+    ],
+    "group": "公文"
   },
   {
     "npm": "dsh-guard-plan-qc",
@@ -545,7 +581,8 @@
     "summaryZh": "劳动保护与安全防护用品配置表核对（按公开的配备标准核对品名规格与配置数量，仅提示差异，不作出定性结论）",
     "normativeBasis": [
       "《个体防护装备配备规范》"
-    ]
+    ],
+    "group": "工程建设"
   },
   {
     "npm": "dsh-hazchem-check",
@@ -563,7 +600,8 @@
       "《危险化学品重大危险源辨识》",
       "国务院令第591号",
       "GB 18218—2018"
-    ]
+    ],
+    "group": "安全"
   },
   {
     "npm": "dsh-hazplan-check",
@@ -580,7 +618,8 @@
       "《危险与可操作性分析（HAZOP分析）应用指南》",
       "GB/T 35320-2017",
       "GB/T 27921-2023"
-    ]
+    ],
+    "group": "工程建设"
   },
   {
     "npm": "dsh-hidden-risk-map",
@@ -596,7 +635,8 @@
     "normativeBasis": [
       "《工贸企业重大事故隐患判定标准》",
       "应急管理部令第10号"
-    ]
+    ],
+    "group": "安全"
   },
   {
     "npm": "dsh-hs-classify",
@@ -614,7 +654,8 @@
       "《商品名称及编码协调制度》",
       "《中华人民共和国进出口关税条例》",
       "国务院令第392号"
-    ]
+    ],
+    "group": "外贸"
   },
   {
     "npm": "dsh-icd-rule-check",
@@ -636,7 +677,8 @@
       "GB/T 14396-2016",
       "国卫办医函〔2019〕371号 附件1",
       "医保办发〔2020〕20号"
-    ]
+    ],
+    "group": "医疗"
   },
   {
     "npm": "dsh-industry-research",
@@ -647,7 +689,8 @@
       "knowledge"
     ],
     "summary": "Industry research toolkit: structured company/industry dives with source capture and auditable research trails.",
-    "summaryZh": "行业研究工具箱：结构化的公司与行业专题，附来源留档与可审计的研究轨迹。"
+    "summaryZh": "行业研究工具箱：结构化的公司与行业专题，附来源留档与可审计的研究轨迹。",
+    "group": "研究"
   },
   {
     "npm": "dsh-lawcite-adapter",
@@ -665,7 +708,8 @@
       "本机构法律文书审查口径（本机构配置）—— 原挂《党政机关公文格式》GB/T 9704—2012，已核实为版式标准",
       "本机构法律文书审查办法（本机构配置）",
       "无统一标准"
-    ]
+    ],
+    "group": "法律"
   },
   {
     "npm": "dsh-laya",
@@ -677,7 +721,8 @@
       "tools"
     ],
     "summary": "Laya typed decisions — noul (yes/no), choice and score — as a first-class Cordis service and model-visible tools for DeepSeek Harness, backed by a locally hosted Laya decision sidecar.",
-    "summaryZh": "把 Laya 的定型决策（noul 是/否、choice 选择、score 打分）做成 DeepSeek Harness 的一等 Cordis 服务与模型可见工具，背后是本地运行的 Laya 决策 sidecar。"
+    "summaryZh": "把 Laya 的定型决策（noul 是/否、choice 选择、score 打分）做成 DeepSeek Harness 的一等 Cordis 服务与模型可见工具，背后是本地运行的 Laya 决策 sidecar。",
+    "group": "集成"
   },
   {
     "npm": "dsh-lc-doc-check",
@@ -693,7 +738,8 @@
     "normativeBasis": [
       "《跟单信用证统一惯例》（UCP600）",
       "《表示货币的代码》"
-    ]
+    ],
+    "group": "外贸"
   },
   {
     "npm": "dsh-learning-gap-check",
@@ -710,7 +756,8 @@
       "《质量管理 能力管理和人员发展指南》",
       "本机构培训与发展管理口径（本机构配置）",
       "无统一标准"
-    ]
+    ],
+    "group": "研究"
   },
   {
     "npm": "dsh-library",
@@ -721,7 +768,8 @@
       "knowledge"
     ],
     "summary": "Local document knowledge base for DeepSeek Harness: library_add/remove/list, hybrid semantic+keyword library_search with diversity re-ranking and lost-in-the-middle avoidance, citation-aware injection, library_cite_check and library_diagnose — SQLite-backed index, local embedding, zero model downloads.",
-    "summaryZh": "本地文档知识库：library_add/remove/list，语义加关键词的混合检索 library_search（带多样性重排与防\"中间遗忘\"）、引用感知注入、library_cite_check 与 library_diagnose，SQLite 索引与本地嵌入，不下载模型。"
+    "summaryZh": "本地文档知识库：library_add/remove/list，语义加关键词的混合检索 library_search（带多样性重排与防\"中间遗忘\"）、引用感知注入、library_cite_check 与 library_diagnose，SQLite 索引与本地嵌入，不下载模型。",
+    "group": "研究"
   },
   {
     "npm": "dsh-local-ai",
@@ -732,7 +780,8 @@
       "model"
     ],
     "summary": "Run local AI models inside DeepSeek Harness: Ollama/LM Studio/local endpoints as drop-in model routes.",
-    "summaryZh": "在 DeepSeek Harness 内运行本地模型：把 Ollama / LM Studio / 本地端点接成可直接替换的模型路由。"
+    "summaryZh": "在 DeepSeek Harness 内运行本地模型：把 Ollama / LM Studio / 本地端点接成可直接替换的模型路由。",
+    "group": "集成"
   },
   {
     "npm": "dsh-lsp-actions",
@@ -743,7 +792,8 @@
       "tools"
     ],
     "summary": "LSP actions for DeepSeek Harness: the IDE-integration plugin that exposes language-server diagnostics, definitions, references, and fixes to the agent.",
-    "summaryZh": "把语言服务器的诊断、定义跳转、引用查找与修复暴露给 agent 的 IDE 集成插件。"
+    "summaryZh": "把语言服务器的诊断、定义跳转、引用查找与修复暴露给 agent 的 IDE 集成插件。",
+    "group": "集成"
   },
   {
     "npm": "dsh-mask",
@@ -754,7 +804,8 @@
       "tools"
     ],
     "summary": "PII masking middleware for DeepSeek Harness: phones, emails, ID cards, bank cards and keys become placeholders before they reach the model, and a host-side restore table keeps them reversible. The plaintext never enters the session log.",
-    "summaryZh": "PII 脱敏中间件：手机号、邮箱、身份证、银行卡与密钥在到达模型前变成占位符，宿主侧还原表保证可逆，明文不进会话日志。"
+    "summaryZh": "PII 脱敏中间件：手机号、邮箱、身份证、银行卡与密钥在到达模型前变成占位符，宿主侧还原表保证可逆，明文不进会话日志。",
+    "group": "安全"
   },
   {
     "npm": "dsh-mcp-panel",
@@ -765,7 +816,8 @@
       "integration"
     ],
     "summary": "Read-only MCP console for DeepSeek Harness: a /mcp command with health diagnostics and pipeline trial calls, a Settings MCP tab with server CRUD (approval-gated writes, automatic backups) and a tool trial console over the official tool pipeline.",
-    "summaryZh": "只读 MCP 控制台：/mcp 命令带健康诊断与管道试调，设置页 MCP 标签管理服务器（写入需审批、自动备份），并可在官方工具管道上试调工具。"
+    "summaryZh": "只读 MCP 控制台：/mcp 命令带健康诊断与管道试调，设置页 MCP 标签管理服务器（写入需审批、自动备份），并可在官方工具管道上试调工具。",
+    "group": "集成"
   },
   {
     "npm": "dsh-medrec-qc",
@@ -786,7 +838,8 @@
       "国卫办医发〔2016〕24号",
       "卫医政发〔2011〕84号",
       "国家医疗保障局公告"
-    ]
+    ],
+    "group": "医疗"
   },
   {
     "npm": "dsh-memento",
@@ -797,7 +850,8 @@
       "memory"
     ],
     "summary": "Bounded, layered, approval-gated, auditable cross-session memory for DeepSeek Harness — a capability seam (ctx.memory service + local SQLite provider + memory tool + frozen snapshot injection), not another memory warehouse.",
-    "summaryZh": "有界、分层、审批门控、可审计的跨会话记忆：一条能力接缝（ctx.memory 服务 + 本地 SQLite provider + memory 工具 + 冻结快照注入），不是又一个记忆仓库。"
+    "summaryZh": "有界、分层、审批门控、可审计的跨会话记忆：一条能力接缝（ctx.memory 服务 + 本地 SQLite provider + memory 工具 + 冻结快照注入），不是又一个记忆仓库。",
+    "group": "会话"
   },
   {
     "npm": "dsh-nsfc-form-check",
@@ -815,7 +869,8 @@
       "《2026 年度国家自然科学基金项目指南·申请规定》",
       "国务院令第796号",
       "2026 年度"
-    ]
+    ],
+    "group": "研究"
   },
   {
     "npm": "dsh-nurse-record-check",
@@ -837,7 +892,8 @@
       "国卫办医发〔2017〕8号",
       "卫医政发〔2010〕11号",
       "国卫医发〔2018〕8号"
-    ]
+    ],
+    "group": "医疗"
   },
   {
     "npm": "dsh-observe",
@@ -848,7 +904,8 @@
       "dev"
     ],
     "summary": "Observability for DeepSeek Harness: request tracing, telemetry, log buffering, and retry visibility.",
-    "summaryZh": "可观测性：请求追踪、遥测上报、日志缓冲与重试可见性。"
+    "summaryZh": "可观测性：请求追踪、遥测上报、日志缓冲与重试可见性。",
+    "group": "观测"
   },
   {
     "npm": "dsh-origin-rvc-check",
@@ -863,7 +920,8 @@
     "summaryZh": "原产地区域价值成分核对（按 RVC 定义式与门槛核对原产地判定自洽，仅提示差异，不作出定性结论）",
     "normativeBasis": [
       "各自由贸易协定原产地规则（协定文本，本次未取得）"
-    ]
+    ],
+    "group": "外贸"
   },
   {
     "npm": "dsh-ota-review-check",
@@ -882,7 +940,8 @@
       "各在线旅游平台服务规则（本机构配置）",
       "本机构点评管理办法（本机构配置）",
       "无统一标准"
-    ]
+    ],
+    "group": "质量"
   },
   {
     "npm": "dsh-output-styles",
@@ -893,7 +952,8 @@
       "interface"
     ],
     "summary": "Runtime-switchable model output styles for DeepSeek Harness: a Markdown style library (six built-ins, Claude Code-parity proactive/learning), /style command, session-scoped persistence, system-prompt injection, a plugin renderer registry, per-session/per-tool rules, and /export rendering.",
-    "summaryZh": "运行时可切换的模型输出风格：Markdown 风格库（六个内置，含 Claude Code 对等的 proactive/learning）、/style 命令、按会话持久化、系统提示注入、插件渲染器注册表、按会话与按工具的规则，以及 /export 渲染。"
+    "summaryZh": "运行时可切换的模型输出风格：Markdown 风格库（六个内置，含 Claude Code 对等的 proactive/learning）、/style 命令、按会话持久化、系统提示注入、插件渲染器注册表、按会话与按工具的规则，以及 /export 渲染。",
+    "group": "UX"
   },
   {
     "npm": "dsh-paper-doc-adapter",
@@ -910,7 +970,8 @@
       "《试题元数据规范》",
       "本机构题库与命题口径（本机构配置）",
       "无统一标准"
-    ]
+    ],
+    "group": "研究"
   },
   {
     "npm": "dsh-permission-rules",
@@ -921,7 +982,8 @@
       "workflow"
     ],
     "summary": "Declarative, ordered allow/deny/ask permission rules for DeepSeek Harness: match tool names, arguments (glob/regex), workspace paths, and network targets (domain/IP/port/scheme), plus a Codex-style process-level network policy.",
-    "summaryZh": "声明式、有序的允许/拒绝/询问权限规则：匹配工具名、参数（glob/正则）、工作区路径与网络目标（域名/IP/端口/协议），并带进程级网络策略。"
+    "summaryZh": "声明式、有序的允许/拒绝/询问权限规则：匹配工具名、参数（glob/正则）、工作区路径与网络目标（域名/IP/端口/协议），并带进程级网络策略。",
+    "group": "安全"
   },
   {
     "npm": "dsh-permit-report-check",
@@ -939,7 +1001,8 @@
       "各事项办事指南与承诺时限（本机构配置）",
       "本机构许可办理管理口径（本机构配置）",
       "无统一标准"
-    ]
+    ],
+    "group": "工程建设"
   },
   {
     "npm": "dsh-personal-directive",
@@ -995,7 +1058,8 @@
     "normativeBasis": [
       "本机构项目管理办法与投资管理制度（无国家标准）",
       "无统一标准"
-    ]
+    ],
+    "group": "质量"
   },
   {
     "npm": "dsh-pleading-draft",
@@ -1011,7 +1075,8 @@
     "normativeBasis": [
       "《中华人民共和国民事诉讼法》",
       "1991年通过，经 2007、2012、2017、2021、2023 年五次修正"
-    ]
+    ],
+    "group": "法律"
   },
   {
     "npm": "dsh-plugin-guide",
@@ -1022,7 +1087,8 @@
       "knowledge"
     ],
     "summary": "The DSH plugin development guide as an installable skill: packaging, contracts, checks, and a pack verifier for builds.",
-    "summaryZh": "把 DSH 插件开发指南做成可安装技能：打包、契约、检查，以及构建用的包校验器。"
+    "summaryZh": "把 DSH 插件开发指南做成可安装技能：打包、契约、检查，以及构建用的包校验器。",
+    "group": "生态"
   },
   {
     "npm": "dsh-plugin-upgrade",
@@ -1034,7 +1100,8 @@
       "knowledge"
     ],
     "summary": "Plugin-author upgrade skill for DeepSeek Harness, new-generation single package: one corridor index reads the caller peer band and routes it to the matching closed corridor card (dsh 0.1.3-alpha.1 -> 0.1.5-rc.1 and 0.1.5-rc.2 -> 0.1.6-alpha.2), with a zero-dependency seam scanner shipped as a bundle skill and an npx CLI.",
-    "summaryZh": "面向 DeepSeek Harness 插件作者的新一代单包升级技能：一份走廊索引读取调用方 peer 区间并路由到对应已封版升级卡片（dsh 0.1.3-alpha.1 → 0.1.5-rc.1 与 0.1.5-rc.2 → 0.1.6-alpha.2），零依赖接缝扫描器以 bundle 技能与 npx CLI 两种形态提供。"
+    "summaryZh": "面向 DeepSeek Harness 插件作者的新一代单包升级技能：一份走廊索引读取调用方 peer 区间并路由到对应已封版升级卡片（dsh 0.1.3-alpha.1 → 0.1.5-rc.1 与 0.1.5-rc.2 → 0.1.6-alpha.2），零依赖接缝扫描器以 bundle 技能与 npx CLI 两种形态提供。",
+    "group": "生态"
   },
   {
     "npm": "dsh-policy-brief-draft",
@@ -1049,7 +1116,8 @@
     "summaryZh": "政策专报要素核对（按观点、依据、出处与建议核对专报齐备，仅提示差异，不作出定性结论）",
     "normativeBasis": [
       "《党政机关公文处理工作条例》"
-    ]
+    ],
+    "group": "研究"
   },
   {
     "npm": "dsh-power-loss-split",
@@ -1066,7 +1134,8 @@
       "《电力网电能损耗计算导则》",
       "DL/T 686-2018",
       "GB/T 8170-2008"
-    ]
+    ],
+    "group": "安全"
   },
   {
     "npm": "dsh-power-ticket-check",
@@ -1082,7 +1151,8 @@
     "normativeBasis": [
       "《电力安全工作规程 发电厂和变电站电气部分》",
       "GB 26860—2011"
-    ]
+    ],
+    "group": "安全"
   },
   {
     "npm": "dsh-ppap-check",
@@ -1097,7 +1167,8 @@
     "summaryZh": "PPAP 提交要素齐备性核对（按公开的 PPAP 手册与提交等级核对要素齐备与版本填写，仅提示差异，不作出定性结论）",
     "normativeBasis": [
       "《生产件批准程序（PPAP）手册》"
-    ]
+    ],
+    "group": "质量"
   },
   {
     "npm": "dsh-protest-deadline",
@@ -1113,7 +1184,8 @@
     "normativeBasis": [
       "《政府采购质疑和投诉办法》",
       "财政部令第94号"
-    ]
+    ],
+    "group": "招投标"
   },
   {
     "npm": "dsh-railway-window",
@@ -1130,7 +1202,8 @@
       "《铁路营业线施工安全管理办法》",
       "各铁路局集团公司施工天窗管理办法（本机构配置）",
       "无统一标准"
-    ]
+    ],
+    "group": "外贸"
   },
   {
     "npm": "dsh-reach",
@@ -1142,7 +1215,8 @@
     ],
     "summary": "Multi-channel decision and remote-control bridge for DeepSeek Harness: approval/question cards from any workspace mirrored to IM chat (WeChat iLink, Telegram, Feishu) with stable #token ids and P{n} numbering, answered from chat through the native pending waterfall — fail-closed sender ownership, session console, and proactive reach_send.",
     "summaryZh": "多渠道决策与远程控制桥：任何工作区的审批卡与提问卡镜像到 IM（微信 iLink、Telegram、飞书），用稳定的 #token 标识与 P{n} 编号，在聊天里经原生 pending 瀑布作答；发送者归属失败即拒，另带会话控制台与主动 reach_send。",
-    "status": "frozen"
+    "status": "frozen",
+    "group": "集成"
   },
   {
     "npm": "dsh-repair-order-qc",
@@ -1158,7 +1232,8 @@
     "normativeBasis": [
       "《机动车维修管理规定》",
       "交通运输部令2021年第18号"
-    ]
+    ],
+    "group": "质量"
   },
   {
     "npm": "dsh-research-report",
@@ -1169,7 +1244,8 @@
       "knowledge"
     ],
     "summary": "Research reports with integrity: evidence-linked reports whose content hash seals the directory of sources.",
-    "summaryZh": "带完整性的研究报告：报告与证据一一关联，内容哈希封住来源目录。"
+    "summaryZh": "带完整性的研究报告：报告与证据一一关联，内容哈希封住来源目录。",
+    "group": "研究"
   },
   {
     "npm": "dsh-review-reply-check",
@@ -1186,7 +1262,8 @@
       "《中国高校科技期刊编排规范》",
       "本期刊同行评议与返修规定（本机构配置）",
       "无统一标准"
-    ]
+    ],
+    "group": "质量"
   },
   {
     "npm": "dsh-rulefile-check",
@@ -1204,7 +1281,8 @@
       "本插件家族的检查引擎契约（自定纪律，非国家标准）",
       "本插件家族的规则库契约（自定纪律，非国家标准）",
       "无编号"
-    ]
+    ],
+    "group": "招投标"
   },
   {
     "npm": "dsh-safety-brief-check",
@@ -1224,7 +1302,8 @@
       "GB 50870-2013",
       "JGJ 59-2011",
       "国务院令第393号"
-    ]
+    ],
+    "group": "工程建设"
   },
   {
     "npm": "dsh-score",
@@ -1235,7 +1314,8 @@
       "dev"
     ],
     "summary": "Plugin quality scoring for the DSH ecosystem: evaluate plugins against checks and produce evidence-backed compliance reports.",
-    "summaryZh": "DSH 生态的插件质量评分：按检查项评估插件并产出有证据支撑的合规报告。"
+    "summaryZh": "DSH 生态的插件质量评分：按检查项评估插件并产出有证据支撑的合规报告。",
+    "group": "质量"
   },
   {
     "npm": "dsh-session-pin",
@@ -1247,7 +1327,8 @@
     ],
     "summary": "RETIRED 2026-10-05 — the official DeepSeek Harness now ships session pinning natively (row menu and hover button in dsh-client-ui-workspace). Use the built-in session pin; this entry stays listed only so the name resolves.",
     "summaryZh": "已于 2026-10-05 退役 —— 官方 DeepSeek Harness 已原生支持会话置顶（dsh-client-ui-workspace 的行菜单与悬停按钮）。请用内置置顶；本条目仅为让包名可解析而保留。",
-    "status": "retired"
+    "status": "retired",
+    "group": "会话"
   },
   {
     "npm": "dsh-session-sync",
@@ -1258,7 +1339,8 @@
       "session"
     ],
     "summary": "Session synchronization for DeepSeek Harness: push/pull session logs to remote storage with configurable auto push/pull.",
-    "summaryZh": "会话日志同步：把会话记录推/拉到远端存储，自动推拉可配置。"
+    "summaryZh": "会话日志同步：把会话记录推/拉到远端存储，自动推拉可配置。",
+    "group": "会话"
   },
   {
     "npm": "dsh-site-log-check",
@@ -1278,7 +1360,8 @@
       "DBJT 13-144-2019",
       "国务院令第279号",
       "建市〔2002〕189号"
-    ]
+    ],
+    "group": "工程建设"
   },
   {
     "npm": "dsh-soe-decision-check",
@@ -1294,7 +1377,8 @@
     "normativeBasis": [
       "《关于进一步推进国有企业贯彻落实\"三重一大\"决策制度的意见》",
       "中办发〔2010〕17号"
-    ]
+    ],
+    "group": "治理"
   },
   {
     "npm": "dsh-soilwater-check",
@@ -1311,7 +1395,8 @@
       "《建设用地土壤污染状况调查技术导则》",
       "《地下水环境监测技术规范》",
       "《土壤环境质量 建设用地土壤污染风险管控标准（试行）》"
-    ]
+    ],
+    "group": "工程建设"
   },
   {
     "npm": "dsh-sop-sync-check",
@@ -1326,7 +1411,8 @@
     "summaryZh": "作业规程与 FMEA／控制计划一致性核对（按编号与版本核对三份文件是否同步，仅提示差异，不作出定性结论）",
     "normativeBasis": [
       "IATF 16949／汽车行业核心工具手册"
-    ]
+    ],
+    "group": "治理"
   },
   {
     "npm": "dsh-spc-gbt-adapter",
@@ -1341,7 +1427,8 @@
     "summaryZh": "控制图常数与过程能力指数核对（按 GB/T 4091 的常规控制图常数表核对控制限与 Cp/Cpk 的自洽性，仅提示差异，不作出定性结论）",
     "normativeBasis": [
       "《常规控制图》"
-    ]
+    ],
+    "group": "质量"
   },
   {
     "npm": "dsh-talk",
@@ -1352,7 +1439,8 @@
       "tools"
     ],
     "summary": "Voice for DeepSeek Harness: text-to-speech and speech-to-text with mute and speak-to-chat controls.",
-    "summaryZh": "给 DeepSeek Harness 加语音：文字转语音与语音转文字，含静音与\"说完即发\"开关。"
+    "summaryZh": "给 DeepSeek Harness 加语音：文字转语音与语音转文字，含静音与\"说完即发\"开关。",
+    "group": "桌面"
   },
   {
     "npm": "dsh-team-rooms",
@@ -1364,7 +1452,8 @@
     ],
     "summary": "RETIRED 2026-10-05 — the official DeepSeek Harness now ships the Agent Teams subsystem (dsh-experimental-agent-team). Use native Agent Teams, or a maintained alternative such as @nanmicoder/dsh-agent-teams.",
     "summaryZh": "DeepSeek Harness 团队房间：跨独立会话的持久共享空间——消息总线、共享任务板与时间线。从 dsh-background-agents 拆分而来（其后台代理部分已被 DSH 原生可续接子代理取代）。",
-    "status": "retired"
+    "status": "retired",
+    "group": "会话"
   },
   {
     "npm": "dsh-tender-extract",
@@ -1380,7 +1469,8 @@
     "normativeBasis": [
       "《中华人民共和国招标投标法》",
       "1999年8月30日通过，2017年12月27日修正"
-    ]
+    ],
+    "group": "招投标"
   },
   {
     "npm": "dsh-tender-matrix",
@@ -1396,7 +1486,8 @@
     "normativeBasis": [
       "《中华人民共和国招标投标法》",
       "1999年8月30日通过，2017年12月27日修正"
-    ]
+    ],
+    "group": "招投标"
   },
   {
     "npm": "dsh-test-drive",
@@ -1407,7 +1498,8 @@
       "dev"
     ],
     "summary": "Test Drive: run plugins in a disposable sandbox environment (temporary DSH_HOME) and score the results as JSON/Markdown.",
-    "summaryZh": "在一次性沙箱环境（临时 DSH_HOME）里跑插件，并以 JSON/Markdown 给出结果。"
+    "summaryZh": "在一次性沙箱环境（临时 DSH_HOME）里跑插件，并以 JSON/Markdown 给出结果。",
+    "group": "质量"
   },
   {
     "npm": "dsh-translate",
@@ -1418,7 +1510,8 @@
       "tools"
     ],
     "summary": "Translate text and files inside DeepSeek Harness with quality checks; also fixes broken JSON output from models.",
-    "summaryZh": "在 DeepSeek Harness 内翻译文本与文件并做质量检查；同时修复模型输出的破损 JSON。"
+    "summaryZh": "在 DeepSeek Harness 内翻译文本与文件并做质量检查；同时修复模型输出的破损 JSON。",
+    "group": "集成"
   },
   {
     "npm": "dsh-warranty-calc",
@@ -1437,6 +1530,7 @@
       "各厂商质保政策（本机构配置）",
       "市场监管总局令第43号",
       "无统一标准"
-    ]
+    ],
+    "group": "质量"
   }
 ]

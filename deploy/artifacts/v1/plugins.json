@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-18T14:51:22.732Z",
+  "generatedAt": "2026-10-18T14:57:03.885Z",
   "revision": "perrylink-dsh-catalog-2026-10-18",
   "items": [
     {
@@ -13,6 +13,7 @@
       "homepage": "https://github.com/PerryLink/dsh-github#readme",
       "latestVersion": "0.7.24",
       "license": "Apache-2.0",
+      "group": "集成",
       "categories": [
         "integration"
       ],
@@ -45,6 +46,7 @@
       "homepage": "https://www.npmjs.com/package/@perrylink/dsh-plugin-doctor",
       "latestVersion": "0.7.4",
       "license": "Apache-2.0",
+      "group": "生态",
       "categories": [
         "dev"
       ],
@@ -77,6 +79,7 @@
       "homepage": "https://www.npmjs.com/package/@perrylink/dsh-plugin-kit",
       "latestVersion": "0.1.20",
       "license": "Apache-2.0",
+      "group": "基建",
       "categories": [
         "dev"
       ],
@@ -141,6 +144,7 @@
       "homepage": "https://github.com/PerryLink/dsh-ticktick#readme",
       "latestVersion": "0.1.20",
       "license": "Apache-2.0",
+      "group": "集成",
       "categories": [
         "integration"
       ],
@@ -173,6 +177,7 @@
       "homepage": "https://github.com/PerryLink/dsh-aqua-input-check#readme",
       "latestVersion": "0.2.11",
       "license": "Apache-2.0",
+      "group": "安全",
       "categories": [
         "safety"
       ],
@@ -205,6 +210,7 @@
       "homepage": "https://github.com/PerryLink/dsh-archive-check#readme",
       "latestVersion": "0.2.9",
       "license": "Apache-2.0",
+      "group": "公文",
       "categories": [
         "gongwen"
       ],
@@ -237,6 +243,7 @@
       "homepage": "https://github.com/PerryLink/dsh-auto-review#readme",
       "latestVersion": "0.13.4",
       "license": "Apache-2.0",
+      "group": "安全",
       "categories": [
         "workflow"
       ],
@@ -269,6 +276,7 @@
       "homepage": "https://github.com/PerryLink/dsh-autotier#readme",
       "latestVersion": "0.2.19",
       "license": "Apache-2.0",
+      "group": "集成",
       "categories": [
         "model",
         "agent"
@@ -303,6 +311,7 @@
       "latestVersion": "0.10.2",
       "license": "Apache-2.0",
       "status": "retired",
+      "group": "会话",
       "categories": [
         "agent"
       ],
@@ -335,6 +344,7 @@
       "homepage": "https://github.com/PerryLink/dsh-bid-ca-precheck#readme",
       "latestVersion": "0.2.11",
       "license": "Apache-2.0",
+      "group": "招投标",
       "categories": [
         "tender"
       ],
@@ -367,6 +377,7 @@
       "homepage": "https://github.com/PerryLink/dsh-bid-qual-check#readme",
       "latestVersion": "0.2.10",
       "license": "Apache-2.0",
+      "group": "招投标",
       "categories": [
         "tender"
       ],
@@ -400,6 +411,7 @@
       "latestVersion": "0.4.19",
       "license": "Apache-2.0",
       "status": "frozen",
+      "group": "观测",
       "categories": [
         "tools"
       ],
@@ -432,6 +444,7 @@
       "homepage": "https://github.com/PerryLink/dsh-cert-mcp#readme",
       "latestVersion": "0.2.9",
       "license": "Apache-2.0",
+      "group": "生态",
       "categories": [
         "integration"
       ],
@@ -464,6 +477,7 @@
       "homepage": "https://github.com/PerryLink/dsh-checkpoint-rewind#readme",
       "latestVersion": "0.6.29",
       "license": "Apache-2.0",
+      "group": "会话",
       "categories": [
         "session"
       ],
@@ -497,6 +511,7 @@
       "latestVersion": "0.4.18",
       "license": "Apache-2.0",
       "status": "frozen",
+      "group": "集成",
       "categories": [
         "integration"
       ],
@@ -529,6 +544,7 @@
       "homepage": "https://github.com/PerryLink/dsh-click#readme",
       "latestVersion": "0.3.22",
       "license": "Apache-2.0",
+      "group": "桌面",
       "categories": [
         "tools"
       ],
@@ -594,6 +610,7 @@
       "homepage": "https://github.com/PerryLink/dsh-composer-history#readme",
       "latestVersion": "0.8.15",
       "license": "Apache-2.0",
+      "group": "会话",
       "categories": [
         "session"
       ],
@@ -626,6 +643,7 @@
       "homepage": "https://github.com/PerryLink/dsh-contract-stance#readme",
       "latestVersion": "0.2.9",
       "license": "Apache-2.0",
+      "group": "招投标",
       "categories": [
         "tender"
       ],
@@ -658,6 +676,7 @@
       "homepage": "https://github.com/PerryLink/dsh-customs-doc-check#readme",
       "latestVersion": "0.2.8",
       "license": "Apache-2.0",
+      "group": "外贸",
       "categories": [
         "customs"
       ],
@@ -690,6 +709,7 @@
       "homepage": "https://github.com/PerryLink/dsh-data-quality#readme",
       "latestVersion": "0.3.23",
       "license": "Apache-2.0",
+      "group": "质量",
       "categories": [
         "tools"
       ],
@@ -723,6 +743,7 @@
       "latestVersion": "0.3.23",
       "license": "Apache-2.0",
       "status": "frozen",
+      "group": "安全",
       "categories": [
         "dev"
       ],
@@ -755,6 +776,7 @@
       "homepage": "https://github.com/PerryLink/dsh-demurrage-ledger#readme",
       "latestVersion": "0.2.9",
       "license": "Apache-2.0",
+      "group": "外贸",
       "categories": [
         "customs"
       ],
@@ -787,6 +809,7 @@
       "homepage": "https://github.com/PerryLink/dsh-doublecheck#readme",
       "latestVersion": "0.9.28",
       "license": "Apache-2.0",
+      "group": "质量",
       "categories": [
         "tools"
       ],
@@ -820,6 +843,7 @@
       "latestVersion": "0.2.24",
       "license": "Apache-2.0",
       "status": "frozen",
+      "group": "桌面",
       "categories": [
         "tools"
       ],
@@ -852,6 +876,7 @@
       "homepage": "https://github.com/PerryLink/dsh-drill-script-check#readme",
       "latestVersion": "0.2.8",
       "license": "Apache-2.0",
+      "group": "安全",
       "categories": [
         "safety"
       ],
@@ -884,6 +909,7 @@
       "homepage": "https://github.com/PerryLink/dsh-eia-guide-check#readme",
       "latestVersion": "0.2.9",
       "license": "Apache-2.0",
+      "group": "工程建设",
       "categories": [
         "construction"
       ],
@@ -916,6 +942,7 @@
       "homepage": "https://github.com/PerryLink/dsh-emergency-plan#readme",
       "latestVersion": "0.2.8",
       "license": "Apache-2.0",
+      "group": "安全",
       "categories": [
         "safety"
       ],
@@ -948,6 +975,7 @@
       "homepage": "https://github.com/PerryLink/dsh-essay-rubric-check#readme",
       "latestVersion": "0.2.8",
       "license": "Apache-2.0",
+      "group": "研究",
       "categories": [
         "research"
       ],
@@ -980,6 +1008,7 @@
       "homepage": "https://github.com/PerryLink/dsh-evidence-check#readme",
       "latestVersion": "0.2.11",
       "license": "Apache-2.0",
+      "group": "法律",
       "categories": [
         "legal"
       ],
@@ -1012,6 +1041,7 @@
       "homepage": "https://github.com/PerryLink/dsh-export-ctl-check#readme",
       "latestVersion": "0.2.11",
       "license": "Apache-2.0",
+      "group": "外贸",
       "categories": [
         "customs"
       ],
@@ -1044,6 +1074,7 @@
       "homepage": "https://github.com/PerryLink/dsh-fast#readme",
       "latestVersion": "0.2.25",
       "license": "Apache-2.0",
+      "group": "观测",
       "categories": [
         "tools"
       ],
@@ -1076,6 +1107,7 @@
       "homepage": "https://github.com/PerryLink/dsh-fmea-table-check#readme",
       "latestVersion": "0.2.8",
       "license": "Apache-2.0",
+      "group": "质量",
       "categories": [
         "quality"
       ],
@@ -1108,6 +1140,7 @@
       "homepage": "https://github.com/PerryLink/dsh-forecast-penalty#readme",
       "latestVersion": "0.2.8",
       "license": "Apache-2.0",
+      "group": "外贸",
       "categories": [
         "customs"
       ],
@@ -1140,6 +1173,7 @@
       "homepage": "https://github.com/PerryLink/dsh-fund-research#readme",
       "latestVersion": "0.4.25",
       "license": "Apache-2.0",
+      "group": "研究",
       "categories": [
         "knowledge"
       ],
@@ -1172,6 +1206,7 @@
       "homepage": "https://github.com/PerryLink/dsh-gongwen-flow-check#readme",
       "latestVersion": "0.2.9",
       "license": "Apache-2.0",
+      "group": "公文",
       "categories": [
         "gongwen"
       ],
@@ -1204,6 +1239,7 @@
       "homepage": "https://github.com/PerryLink/dsh-gongwen-word-check#readme",
       "latestVersion": "0.2.10",
       "license": "Apache-2.0",
+      "group": "公文",
       "categories": [
         "gongwen"
       ],
@@ -1236,6 +1272,7 @@
       "homepage": "https://github.com/PerryLink/dsh-guard-plan-qc#readme",
       "latestVersion": "0.2.8",
       "license": "Apache-2.0",
+      "group": "工程建设",
       "categories": [
         "construction"
       ],
@@ -1268,6 +1305,7 @@
       "homepage": "https://github.com/PerryLink/dsh-hazchem-check#readme",
       "latestVersion": "0.2.11",
       "license": "Apache-2.0",
+      "group": "安全",
       "categories": [
         "safety"
       ],
@@ -1300,6 +1338,7 @@
       "homepage": "https://github.com/PerryLink/dsh-hazplan-check#readme",
       "latestVersion": "0.2.10",
       "license": "Apache-2.0",
+      "group": "工程建设",
       "categories": [
         "construction"
       ],
@@ -1332,6 +1371,7 @@
       "homepage": "https://github.com/PerryLink/dsh-hidden-risk-map#readme",
       "latestVersion": "0.2.8",
       "license": "Apache-2.0",
+      "group": "安全",
       "categories": [
         "safety"
       ],
@@ -1364,6 +1404,7 @@
       "homepage": "https://github.com/PerryLink/dsh-hs-classify#readme",
       "latestVersion": "0.2.10",
       "license": "Apache-2.0",
+      "group": "外贸",
       "categories": [
         "customs"
       ],
@@ -1396,6 +1437,7 @@
       "homepage": "https://github.com/PerryLink/dsh-icd-rule-check#readme",
       "latestVersion": "0.2.10",
       "license": "Apache-2.0",
+      "group": "医疗",
       "categories": [
         "medical"
       ],
@@ -1428,6 +1470,7 @@
       "homepage": "https://github.com/PerryLink/dsh-industry-research#readme",
       "latestVersion": "0.3.22",
       "license": "Apache-2.0",
+      "group": "研究",
       "categories": [
         "knowledge"
       ],
@@ -1460,6 +1503,7 @@
       "homepage": "https://github.com/PerryLink/dsh-lawcite-adapter#readme",
       "latestVersion": "0.2.10",
       "license": "Apache-2.0",
+      "group": "法律",
       "categories": [
         "legal"
       ],
@@ -1492,6 +1536,7 @@
       "homepage": "https://github.com/PerryLink/dsh-laya#readme",
       "latestVersion": "0.1.4",
       "license": "Apache-2.0",
+      "group": "集成",
       "categories": [
         "model",
         "tools"
@@ -1525,6 +1570,7 @@
       "homepage": "https://github.com/PerryLink/dsh-lc-doc-check#readme",
       "latestVersion": "0.2.9",
       "license": "Apache-2.0",
+      "group": "外贸",
       "categories": [
         "customs"
       ],
@@ -1557,6 +1603,7 @@
       "homepage": "https://github.com/PerryLink/dsh-learning-gap-check#readme",
       "latestVersion": "0.2.8",
       "license": "Apache-2.0",
+      "group": "研究",
       "categories": [
         "research"
       ],
@@ -1589,6 +1636,7 @@
       "homepage": "https://github.com/PerryLink/dsh-library#readme",
       "latestVersion": "0.2.24",
       "license": "Apache-2.0",
+      "group": "研究",
       "categories": [
         "knowledge"
       ],
@@ -1621,6 +1669,7 @@
       "homepage": "https://github.com/PerryLink/dsh-local-ai#readme",
       "latestVersion": "0.2.23",
       "license": "Apache-2.0",
+      "group": "集成",
       "categories": [
         "model"
       ],
@@ -1653,6 +1702,7 @@
       "homepage": "https://github.com/PerryLink/dsh-lsp-actions#readme",
       "latestVersion": "0.5.15",
       "license": "Apache-2.0",
+      "group": "集成",
       "categories": [
         "tools"
       ],
@@ -1685,6 +1735,7 @@
       "homepage": "https://github.com/PerryLink/dsh-mask#readme",
       "latestVersion": "0.2.22",
       "license": "Apache-2.0",
+      "group": "安全",
       "categories": [
         "tools"
       ],
@@ -1717,6 +1768,7 @@
       "homepage": "https://github.com/PerryLink/dsh-mcp-panel#readme",
       "latestVersion": "0.6.28",
       "license": "Apache-2.0",
+      "group": "集成",
       "categories": [
         "integration"
       ],
@@ -1749,6 +1801,7 @@
       "homepage": "https://github.com/PerryLink/dsh-medrec-qc#readme",
       "latestVersion": "0.2.11",
       "license": "Apache-2.0",
+      "group": "医疗",
       "categories": [
         "medical"
       ],
@@ -1781,6 +1834,7 @@
       "homepage": "https://github.com/PerryLink/dsh-memento#readme",
       "latestVersion": "0.5.27",
       "license": "Apache-2.0",
+      "group": "会话",
       "categories": [
         "memory"
       ],
@@ -1813,6 +1867,7 @@
       "homepage": "https://github.com/PerryLink/dsh-nsfc-form-check#readme",
       "latestVersion": "0.2.10",
       "license": "Apache-2.0",
+      "group": "研究",
       "categories": [
         "research"
       ],
@@ -1845,6 +1900,7 @@
       "homepage": "https://github.com/PerryLink/dsh-nurse-record-check#readme",
       "latestVersion": "0.2.10",
       "license": "Apache-2.0",
+      "group": "医疗",
       "categories": [
         "medical"
       ],
@@ -1877,6 +1933,7 @@
       "homepage": "https://github.com/PerryLink/dsh-observe#readme",
       "latestVersion": "0.2.25",
       "license": "Apache-2.0",
+      "group": "观测",
       "categories": [
         "dev"
       ],
@@ -1909,6 +1966,7 @@
       "homepage": "https://github.com/PerryLink/dsh-origin-rvc-check#readme",
       "latestVersion": "0.2.9",
       "license": "Apache-2.0",
+      "group": "外贸",
       "categories": [
         "customs"
       ],
@@ -1941,6 +1999,7 @@
       "homepage": "https://github.com/PerryLink/dsh-ota-review-check#readme",
       "latestVersion": "0.2.10",
       "license": "Apache-2.0",
+      "group": "质量",
       "categories": [
         "quality"
       ],
@@ -1973,6 +2032,7 @@
       "homepage": "https://github.com/PerryLink/dsh-output-styles#readme",
       "latestVersion": "0.8.1",
       "license": "Apache-2.0",
+      "group": "UX",
       "categories": [
         "interface"
       ],
@@ -2005,6 +2065,7 @@
       "homepage": "https://github.com/PerryLink/dsh-paper-doc-adapter#readme",
       "latestVersion": "0.2.8",
       "license": "Apache-2.0",
+      "group": "研究",
       "categories": [
         "research"
       ],
@@ -2037,6 +2098,7 @@
       "homepage": "https://github.com/PerryLink/dsh-permission-rules#readme",
       "latestVersion": "0.7.20",
       "license": "Apache-2.0",
+      "group": "安全",
       "categories": [
         "workflow"
       ],
@@ -2069,6 +2131,7 @@
       "homepage": "https://github.com/PerryLink/dsh-permit-report-check#readme",
       "latestVersion": "0.2.10",
       "license": "Apache-2.0",
+      "group": "工程建设",
       "categories": [
         "construction"
       ],
@@ -2198,6 +2261,7 @@
       "homepage": "https://github.com/PerryLink/dsh-pipeline-check#readme",
       "latestVersion": "0.2.8",
       "license": "Apache-2.0",
+      "group": "质量",
       "categories": [
         "quality"
       ],
@@ -2230,6 +2294,7 @@
       "homepage": "https://github.com/PerryLink/dsh-pleading-draft#readme",
       "latestVersion": "0.2.10",
       "license": "Apache-2.0",
+      "group": "法律",
       "categories": [
         "legal"
       ],
@@ -2262,6 +2327,7 @@
       "homepage": "https://github.com/PerryLink/dsh-plugin-guide#readme",
       "latestVersion": "0.3.35",
       "license": "Apache-2.0",
+      "group": "生态",
       "categories": [
         "knowledge"
       ],
@@ -2294,6 +2360,7 @@
       "homepage": "https://github.com/PerryLink/dsh-plugin-upgrade#readme",
       "latestVersion": "2.1.1",
       "license": "Apache-2.0",
+      "group": "生态",
       "categories": [
         "dev",
         "knowledge"
@@ -2327,6 +2394,7 @@
       "homepage": "https://github.com/PerryLink/dsh-policy-brief-draft#readme",
       "latestVersion": "0.2.10",
       "license": "Apache-2.0",
+      "group": "研究",
       "categories": [
         "research"
       ],
@@ -2359,6 +2427,7 @@
       "homepage": "https://github.com/PerryLink/dsh-power-loss-split#readme",
       "latestVersion": "0.2.9",
       "license": "Apache-2.0",
+      "group": "安全",
       "categories": [
         "safety"
       ],
@@ -2391,6 +2460,7 @@
       "homepage": "https://github.com/PerryLink/dsh-power-ticket-check#readme",
       "latestVersion": "0.2.9",
       "license": "Apache-2.0",
+      "group": "安全",
       "categories": [
         "safety"
       ],
@@ -2423,6 +2493,7 @@
       "homepage": "https://github.com/PerryLink/dsh-ppap-check#readme",
       "latestVersion": "0.2.8",
       "license": "Apache-2.0",
+      "group": "质量",
       "categories": [
         "quality"
       ],
@@ -2455,6 +2526,7 @@
       "homepage": "https://github.com/PerryLink/dsh-protest-deadline#readme",
       "latestVersion": "0.2.10",
       "license": "Apache-2.0",
+      "group": "招投标",
       "categories": [
         "tender"
       ],
@@ -2487,6 +2559,7 @@
       "homepage": "https://github.com/PerryLink/dsh-railway-window#readme",
       "latestVersion": "0.2.8",
       "license": "Apache-2.0",
+      "group": "外贸",
       "categories": [
         "customs"
       ],
@@ -2520,6 +2593,7 @@
       "latestVersion": "0.1.22",
       "license": "Apache-2.0",
       "status": "frozen",
+      "group": "集成",
       "categories": [
         "integration"
       ],
@@ -2552,6 +2626,7 @@
       "homepage": "https://github.com/PerryLink/dsh-repair-order-qc#readme",
       "latestVersion": "0.2.10",
       "license": "Apache-2.0",
+      "group": "质量",
       "categories": [
         "quality"
       ],
@@ -2584,6 +2659,7 @@
       "homepage": "https://github.com/PerryLink/dsh-research-report#readme",
       "latestVersion": "0.3.24",
       "license": "Apache-2.0",
+      "group": "研究",
       "categories": [
         "knowledge"
       ],
@@ -2616,6 +2692,7 @@
       "homepage": "https://github.com/PerryLink/dsh-review-reply-check#readme",
       "latestVersion": "0.2.8",
       "license": "Apache-2.0",
+      "group": "质量",
       "categories": [
         "quality"
       ],
@@ -2648,6 +2725,7 @@
       "homepage": "https://github.com/PerryLink/dsh-rulefile-check#readme",
       "latestVersion": "0.2.8",
       "license": "Apache-2.0",
+      "group": "招投标",
       "categories": [
         "tender"
       ],
@@ -2680,6 +2758,7 @@
       "homepage": "https://github.com/PerryLink/dsh-safety-brief-check#readme",
       "latestVersion": "0.2.9",
       "license": "Apache-2.0",
+      "group": "工程建设",
       "categories": [
         "construction"
       ],
@@ -2712,6 +2791,7 @@
       "homepage": "https://github.com/PerryLink/dsh-score#readme",
       "latestVersion": "0.2.25",
       "license": "Apache-2.0",
+      "group": "质量",
       "categories": [
         "dev"
       ],
@@ -2745,6 +2825,7 @@
       "latestVersion": "0.7.19",
       "license": "Apache-2.0",
       "status": "retired",
+      "group": "会话",
       "categories": [
         "session"
       ],
@@ -2777,6 +2858,7 @@
       "homepage": "https://github.com/PerryLink/dsh-session-sync#readme",
       "latestVersion": "0.2.26",
       "license": "Apache-2.0",
+      "group": "会话",
       "categories": [
         "session"
       ],
@@ -2809,6 +2891,7 @@
       "homepage": "https://github.com/PerryLink/dsh-site-log-check#readme",
       "latestVersion": "0.2.11",
       "license": "Apache-2.0",
+      "group": "工程建设",
       "categories": [
         "construction"
       ],
@@ -2841,6 +2924,7 @@
       "homepage": "https://github.com/PerryLink/dsh-soe-decision-check#readme",
       "latestVersion": "0.2.13",
       "license": "Apache-2.0",
+      "group": "治理",
       "categories": [
         "governance"
       ],
@@ -2873,6 +2957,7 @@
       "homepage": "https://github.com/PerryLink/dsh-soilwater-check#readme",
       "latestVersion": "0.2.8",
       "license": "Apache-2.0",
+      "group": "工程建设",
       "categories": [
         "construction"
       ],
@@ -2905,6 +2990,7 @@
       "homepage": "https://github.com/PerryLink/dsh-sop-sync-check#readme",
       "latestVersion": "0.2.8",
       "license": "Apache-2.0",
+      "group": "治理",
       "categories": [
         "governance"
       ],
@@ -2937,6 +3023,7 @@
       "homepage": "https://github.com/PerryLink/dsh-spc-gbt-adapter#readme",
       "latestVersion": "0.2.8",
       "license": "Apache-2.0",
+      "group": "质量",
       "categories": [
         "quality"
       ],
@@ -2969,6 +3056,7 @@
       "homepage": "https://github.com/PerryLink/dsh-talk#readme",
       "latestVersion": "0.3.24",
       "license": "Apache-2.0",
+      "group": "桌面",
       "categories": [
         "tools"
       ],
@@ -3002,6 +3090,7 @@
       "latestVersion": "1.0.8",
       "license": "Apache-2.0",
       "status": "retired",
+      "group": "会话",
       "categories": [
         "agent"
       ],
@@ -3034,6 +3123,7 @@
       "homepage": "https://github.com/PerryLink/dsh-tender-extract#readme",
       "latestVersion": "0.2.11",
       "license": "Apache-2.0",
+      "group": "招投标",
       "categories": [
         "tender"
       ],
@@ -3066,6 +3156,7 @@
       "homepage": "https://github.com/PerryLink/dsh-tender-matrix#readme",
       "latestVersion": "0.2.12",
       "license": "Apache-2.0",
+      "group": "招投标",
       "categories": [
         "tender"
       ],
@@ -3098,6 +3189,7 @@
       "homepage": "https://github.com/PerryLink/dsh-test-drive#readme",
       "latestVersion": "0.3.20",
       "license": "Apache-2.0",
+      "group": "质量",
       "categories": [
         "dev"
       ],
@@ -3130,6 +3222,7 @@
       "homepage": "https://github.com/PerryLink/dsh-translate#readme",
       "latestVersion": "0.2.24",
       "license": "Apache-2.0",
+      "group": "集成",
       "categories": [
         "tools"
       ],
@@ -3162,6 +3255,7 @@
       "homepage": "https://github.com/PerryLink/dsh-warranty-calc#readme",
       "latestVersion": "0.2.10",
       "license": "Apache-2.0",
+      "group": "质量",
       "categories": [
         "quality"
       ],
