@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-18T09:46:50.032Z",
+  "generatedAt": "2026-10-18T10:01:18.506Z",
   "revision": "perrylink-dsh-catalog-2026-10-18",
   "items": [
     {
@@ -3086,7 +3086,7 @@
       "summary": "In-app Community Bench tab for DeepSeek Harness: reads the public, task-conditioned registry and shows the same score everyone sees; no local scoring.",
       "summaryZh": "DSH 应用内社区基准标签页：读取公开的、按任务条件计算的 registry，展示所有人看到的同一分数；不在本地算分。",
       "homepage": "https://github.com/PerryLink/dsh-community-bench#readme",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.1.1",
       "license": "Apache-2.0",
       "categories": [
         "interface",
@@ -3109,7 +3109,7 @@
           "alt": "Community Bench"
         }
       },
-      "updatedAt": "2026-10-18T09:45:10.090Z"
+      "updatedAt": "2026-10-18T09:59:17.000Z"
     }
   ],
   "page": {
