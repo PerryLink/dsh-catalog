@@ -46,7 +46,8 @@ Every non-active item also carries a structured `status` field (`frozen` or
 `retired`), every family item carries its roster `group` (会话/安全/研究/
 招投标/外贸/…), and 95 items carry `requires` (`dsh`/`node` ranges), emitted by
 `build-catalog.mjs` and checked by `validate.mjs`. A client can filter lifecycle
-state, task group, and host prerequisites without parsing prose.
+state, task group, host prerequisites, and difficulty (`beginner` /
+`intermediate` / `advanced`, a coarse heuristic) without parsing prose.
 
 The three **retired** packages (`dsh-background-agents`, `dsh-session-pin`,
 `dsh-team-rooms`) **remain in the inventory on purpose**: retirement here means

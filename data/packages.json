@@ -13,7 +13,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "@perrylink/dsh-plugin-doctor",
@@ -29,7 +30,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "advanced"
   },
   {
     "npm": "@perrylink/dsh-plugin-kit",
@@ -45,7 +47,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "advanced"
   },
   {
     "npm": "@perrylink/dsh-skill-pack-security-provider",
@@ -56,7 +59,8 @@
       "agent"
     ],
     "summary": "Security skill-pack provider: pre-packaged security review skills with a risk card; ships both host and client faces.",
-    "summaryZh": "安全技能包 provider：预置带风险卡的安全评审技能，同时提供宿主侧与客户端侧两个面。"
+    "summaryZh": "安全技能包 provider：预置带风险卡的安全评审技能，同时提供宿主侧与客户端侧两个面。",
+    "difficulty": "advanced"
   },
   {
     "npm": "@perrylink/dsh-ticktick",
@@ -72,7 +76,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-aqua-input-check",
@@ -95,7 +100,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-archive-check",
@@ -122,7 +128,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-auto-review",
@@ -138,7 +145,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-autotier",
@@ -155,7 +163,8 @@
     "requires": {
       "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-background-agents",
@@ -172,7 +181,8 @@
     "requires": {
       "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-bid-ca-precheck",
@@ -196,7 +206,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-bid-qual-check",
@@ -219,7 +230,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-budget",
@@ -236,7 +248,8 @@
     "requires": {
       "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-cert-mcp",
@@ -252,7 +265,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-checkpoint-rewind",
@@ -268,7 +282,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-claude-move",
@@ -285,7 +300,8 @@
     "requires": {
       "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-click",
@@ -301,7 +317,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-community-bench",
@@ -314,7 +331,8 @@
     ],
     "locale": "en",
     "summary": "In-app Community Bench tab for DeepSeek Harness: reads the public, task-conditioned registry and shows the same score everyone sees; no local scoring.",
-    "summaryZh": "DSH 应用内社区基准标签页：读取公开的、按任务条件计算的 registry，展示所有人看到的同一分数；不在本地算分。"
+    "summaryZh": "DSH 应用内社区基准标签页：读取公开的、按任务条件计算的 registry，展示所有人看到的同一分数；不在本地算分。",
+    "difficulty": "advanced"
   },
   {
     "npm": "dsh-composer-history",
@@ -330,7 +348,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-contract-stance",
@@ -350,7 +369,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-customs-doc-check",
@@ -372,7 +392,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-data-quality",
@@ -388,7 +409,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-defend",
@@ -405,7 +427,8 @@
     "requires": {
       "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-demurrage-ledger",
@@ -427,7 +450,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-doublecheck",
@@ -443,7 +467,8 @@
     "requires": {
       "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-draw",
@@ -460,7 +485,8 @@
     "requires": {
       "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-drill-script-check",
@@ -482,7 +508,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-eia-guide-check",
@@ -507,7 +534,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-emergency-plan",
@@ -530,7 +558,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-essay-rubric-check",
@@ -551,7 +580,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-evidence-check",
@@ -572,7 +602,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-export-ctl-check",
@@ -593,7 +624,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-fast",
@@ -609,7 +641,8 @@
     "requires": {
       "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-fmea-table-check",
@@ -629,7 +662,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-forecast-penalty",
@@ -651,7 +685,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-fund-research",
@@ -667,7 +702,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-gongwen-flow-check",
@@ -688,7 +724,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-gongwen-word-check",
@@ -710,7 +747,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-guard-plan-qc",
@@ -730,7 +768,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-hazchem-check",
@@ -753,7 +792,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-hazplan-check",
@@ -775,7 +815,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-hidden-risk-map",
@@ -796,7 +837,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-hs-classify",
@@ -819,7 +861,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-icd-rule-check",
@@ -846,7 +889,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-industry-research",
@@ -862,7 +906,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-lawcite-adapter",
@@ -885,7 +930,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-laya",
@@ -898,7 +944,8 @@
     ],
     "summary": "Laya typed decisions — noul (yes/no), choice and score — as a first-class Cordis service and model-visible tools for DeepSeek Harness, backed by a locally hosted Laya decision sidecar.",
     "summaryZh": "把 Laya 的定型决策（noul 是/否、choice 选择、score 打分）做成 DeepSeek Harness 的一等 Cordis 服务与模型可见工具，背后是本地运行的 Laya 决策 sidecar。",
-    "group": "集成"
+    "group": "集成",
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-lc-doc-check",
@@ -919,7 +966,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-learning-gap-check",
@@ -941,7 +989,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-library",
@@ -957,7 +1006,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-local-ai",
@@ -973,7 +1023,8 @@
     "requires": {
       "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-lsp-actions",
@@ -989,7 +1040,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-mask",
@@ -1005,7 +1057,8 @@
     "requires": {
       "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-mcp-panel",
@@ -1021,7 +1074,8 @@
     "requires": {
       "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-medrec-qc",
@@ -1047,7 +1101,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-memento",
@@ -1063,7 +1118,8 @@
     "requires": {
       "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-nsfc-form-check",
@@ -1086,7 +1142,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-nurse-record-check",
@@ -1113,7 +1170,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-observe",
@@ -1129,7 +1187,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-origin-rvc-check",
@@ -1149,7 +1208,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-ota-review-check",
@@ -1173,7 +1233,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-output-styles",
@@ -1189,7 +1250,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-paper-doc-adapter",
@@ -1211,7 +1273,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-permission-rules",
@@ -1227,7 +1290,8 @@
     "requires": {
       "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-permit-report-check",
@@ -1250,7 +1314,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-personal-directive",
@@ -1267,7 +1332,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-phocinae",
@@ -1280,7 +1346,8 @@
     "locale": "en",
     "summary": "Local non-generative decision layer for DeepSeek Harness: phocinae_ask / phocinae_gate tools plus a fail-closed approval gate",
     "summaryZh": "本地的非生成式决策层：phocinae_ask / phocinae_gate 两个工具，外加一个失效即拒的审批闸门。",
-    "npmRepository": "https://github.com/Phocinae/dsh-phocinae"
+    "npmRepository": "https://github.com/Phocinae/dsh-phocinae",
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-phone-inbox",
@@ -1298,7 +1365,8 @@
     "requires": {
       "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-pipeline-check",
@@ -1319,7 +1387,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-pleading-draft",
@@ -1340,7 +1409,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-plugin-guide",
@@ -1356,7 +1426,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-plugin-upgrade",
@@ -1373,7 +1444,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "advanced"
   },
   {
     "npm": "dsh-policy-brief-draft",
@@ -1393,7 +1465,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-power-loss-split",
@@ -1415,7 +1488,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-power-ticket-check",
@@ -1436,7 +1510,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-ppap-check",
@@ -1456,7 +1531,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-protest-deadline",
@@ -1477,7 +1553,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-railway-window",
@@ -1499,7 +1576,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-reach",
@@ -1516,7 +1594,8 @@
     "requires": {
       "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-repair-order-qc",
@@ -1537,7 +1616,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-research-report",
@@ -1553,7 +1633,8 @@
     "requires": {
       "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-review-reply-check",
@@ -1575,7 +1656,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-rulefile-check",
@@ -1598,7 +1680,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-safety-brief-check",
@@ -1623,7 +1706,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-score",
@@ -1639,7 +1723,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-session-pin",
@@ -1656,7 +1741,8 @@
     "requires": {
       "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-session-sync",
@@ -1672,7 +1758,8 @@
     "requires": {
       "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-site-log-check",
@@ -1697,7 +1784,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-soe-decision-check",
@@ -1718,7 +1806,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-soilwater-check",
@@ -1740,7 +1829,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-sop-sync-check",
@@ -1760,7 +1850,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-spc-gbt-adapter",
@@ -1780,7 +1871,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-talk",
@@ -1796,7 +1888,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-team-rooms",
@@ -1813,7 +1906,8 @@
     "requires": {
       "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-tender-extract",
@@ -1834,7 +1928,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-tender-matrix",
@@ -1855,7 +1950,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   },
   {
     "npm": "dsh-test-drive",
@@ -1871,7 +1967,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-translate",
@@ -1887,7 +1984,8 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "intermediate"
   },
   {
     "npm": "dsh-warranty-calc",
@@ -1911,6 +2009,7 @@
     "requires": {
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
-    }
+    },
+    "difficulty": "beginner"
   }
 ]

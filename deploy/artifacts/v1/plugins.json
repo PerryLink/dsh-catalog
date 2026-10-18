@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-18T15:48:05.782Z",
+  "generatedAt": "2026-10-18T15:57:11.645Z",
   "revision": "perrylink-dsh-catalog-2026-10-18",
   "items": [
     {
@@ -18,6 +18,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "integration"
       ],
@@ -55,6 +56,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "advanced",
       "categories": [
         "dev"
       ],
@@ -92,6 +94,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "advanced",
       "categories": [
         "dev"
       ],
@@ -124,6 +127,7 @@
       "homepage": "https://github.com/PerryLink/dsh-skill-pack-security#readme",
       "latestVersion": "2.2.24",
       "license": "Apache-2.0",
+      "difficulty": "advanced",
       "categories": [
         "agent"
       ],
@@ -161,6 +165,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "integration"
       ],
@@ -198,6 +203,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "safety"
       ],
@@ -235,6 +241,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "gongwen"
       ],
@@ -272,6 +279,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "workflow"
       ],
@@ -309,6 +317,7 @@
         "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "model",
         "agent"
@@ -348,6 +357,7 @@
         "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "agent"
       ],
@@ -385,6 +395,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "tender"
       ],
@@ -422,6 +433,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "tender"
       ],
@@ -460,6 +472,7 @@
         "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "tools"
       ],
@@ -497,6 +510,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "integration"
       ],
@@ -534,6 +548,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "session"
       ],
@@ -572,6 +587,7 @@
         "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "integration"
       ],
@@ -609,6 +625,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "tools"
       ],
@@ -641,6 +658,7 @@
       "homepage": "https://github.com/PerryLink/dsh-community-bench#readme",
       "latestVersion": "0.2.5",
       "license": "Apache-2.0",
+      "difficulty": "advanced",
       "categories": [
         "interface",
         "workflow"
@@ -679,6 +697,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "session"
       ],
@@ -716,6 +735,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "tender"
       ],
@@ -753,6 +773,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "customs"
       ],
@@ -790,6 +811,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "tools"
       ],
@@ -828,6 +850,7 @@
         "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "dev"
       ],
@@ -865,6 +888,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "customs"
       ],
@@ -902,6 +926,7 @@
         "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "tools"
       ],
@@ -940,6 +965,7 @@
         "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "tools"
       ],
@@ -977,6 +1003,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "safety"
       ],
@@ -1014,6 +1041,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "construction"
       ],
@@ -1051,6 +1079,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "safety"
       ],
@@ -1088,6 +1117,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "research"
       ],
@@ -1125,6 +1155,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "legal"
       ],
@@ -1162,6 +1193,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "customs"
       ],
@@ -1199,6 +1231,7 @@
         "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "tools"
       ],
@@ -1236,6 +1269,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "quality"
       ],
@@ -1273,6 +1307,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "customs"
       ],
@@ -1310,6 +1345,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "knowledge"
       ],
@@ -1347,6 +1383,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "gongwen"
       ],
@@ -1384,6 +1421,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "gongwen"
       ],
@@ -1421,6 +1459,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "construction"
       ],
@@ -1458,6 +1497,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "safety"
       ],
@@ -1495,6 +1535,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "construction"
       ],
@@ -1532,6 +1573,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "safety"
       ],
@@ -1569,6 +1611,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "customs"
       ],
@@ -1606,6 +1649,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "medical"
       ],
@@ -1643,6 +1687,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "knowledge"
       ],
@@ -1680,6 +1725,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "legal"
       ],
@@ -1713,6 +1759,7 @@
       "latestVersion": "0.1.4",
       "license": "Apache-2.0",
       "group": "集成",
+      "difficulty": "intermediate",
       "categories": [
         "model",
         "tools"
@@ -1751,6 +1798,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "customs"
       ],
@@ -1788,6 +1836,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "research"
       ],
@@ -1825,6 +1874,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "knowledge"
       ],
@@ -1862,6 +1912,7 @@
         "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "model"
       ],
@@ -1899,6 +1950,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "tools"
       ],
@@ -1936,6 +1988,7 @@
         "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "tools"
       ],
@@ -1973,6 +2026,7 @@
         "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "integration"
       ],
@@ -2010,6 +2064,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "medical"
       ],
@@ -2047,6 +2102,7 @@
         "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "memory"
       ],
@@ -2084,6 +2140,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "research"
       ],
@@ -2121,6 +2178,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "medical"
       ],
@@ -2158,6 +2216,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "dev"
       ],
@@ -2195,6 +2254,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "customs"
       ],
@@ -2232,6 +2292,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "quality"
       ],
@@ -2269,6 +2330,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "interface"
       ],
@@ -2306,6 +2368,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "research"
       ],
@@ -2343,6 +2406,7 @@
         "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "workflow"
       ],
@@ -2380,6 +2444,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "construction"
       ],
@@ -2416,6 +2481,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "workflow"
       ],
@@ -2448,6 +2514,7 @@
       "homepage": "https://github.com/Phocinae/dsh-phocinae#readme",
       "latestVersion": "0.2.5",
       "license": "Apache-2.0",
+      "difficulty": "intermediate",
       "categories": [
         "integration"
       ],
@@ -2484,6 +2551,7 @@
         "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "interface",
         "integration"
@@ -2522,6 +2590,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "quality"
       ],
@@ -2559,6 +2628,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "legal"
       ],
@@ -2596,6 +2666,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "knowledge"
       ],
@@ -2633,6 +2704,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "advanced",
       "categories": [
         "dev",
         "knowledge"
@@ -2671,6 +2743,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "research"
       ],
@@ -2708,6 +2781,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "safety"
       ],
@@ -2745,6 +2819,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "safety"
       ],
@@ -2782,6 +2857,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "quality"
       ],
@@ -2819,6 +2895,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "tender"
       ],
@@ -2856,6 +2933,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "customs"
       ],
@@ -2894,6 +2972,7 @@
         "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "integration"
       ],
@@ -2931,6 +3010,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "quality"
       ],
@@ -2968,6 +3048,7 @@
         "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "knowledge"
       ],
@@ -3005,6 +3086,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "quality"
       ],
@@ -3042,6 +3124,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "tender"
       ],
@@ -3079,6 +3162,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "construction"
       ],
@@ -3116,6 +3200,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "dev"
       ],
@@ -3154,6 +3239,7 @@
         "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "session"
       ],
@@ -3191,6 +3277,7 @@
         "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "session"
       ],
@@ -3228,6 +3315,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "construction"
       ],
@@ -3265,6 +3353,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "governance"
       ],
@@ -3302,6 +3391,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "construction"
       ],
@@ -3339,6 +3429,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "governance"
       ],
@@ -3376,6 +3467,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "quality"
       ],
@@ -3413,6 +3505,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "tools"
       ],
@@ -3451,6 +3544,7 @@
         "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "agent"
       ],
@@ -3488,6 +3582,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "tender"
       ],
@@ -3525,6 +3620,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "tender"
       ],
@@ -3562,6 +3658,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "dev"
       ],
@@ -3599,6 +3696,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "intermediate",
       "categories": [
         "tools"
       ],
@@ -3636,6 +3734,7 @@
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
       },
+      "difficulty": "beginner",
       "categories": [
         "quality"
       ],

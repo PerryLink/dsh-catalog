@@ -60,6 +60,7 @@ for (const item of page.items) {
   check(typeof item.summary === 'string' && item.summary.length >= 1 && item.summary.length <= 1000, `summary bounds: ${item.id}`)
   check(item.status === undefined || ['active', 'frozen', 'retired'].includes(item.status), `status vocabulary: ${item.id}`)
   check(item.group === undefined || (typeof item.group === 'string' && item.group.length >= 1 && item.group.length <= 40), `group bounds: ${item.id}`)
+  check(item.difficulty === undefined || ['beginner', 'intermediate', 'advanced'].includes(item.difficulty), `difficulty vocabulary: ${item.id}`)
   if (item.requires !== undefined) {
     check(typeof item.requires === 'object' && item.requires !== null && Object.keys(item.requires).every(k => k === 'dsh' || k === 'node'), `requires keys: ${item.id}`)
     for (const v of Object.values(item.requires)) check(typeof v === 'string' && v.length > 0 && v.length <= 200, `requires values: ${item.id}`)
