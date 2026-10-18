@@ -27,34 +27,26 @@ A [DSH Community Market](https://github.com/anywhere-labs/dsh-desktop/tree/main/
 > inventory this family for the DSH Desktop Community Market, so it does not compete
 > with third-party catalogs and needs no retirement. It stays maintained.
 
-### One roster, three counts: 42 packages = 42 repos, and 45 table rows
+### One roster, three counts: 97 catalog packages, 95 family repos, 95 README rows
 
-The catalog's inventory and the family roster are **the same 42 repositories**, and that is
-verifiable rather than asserted: subtract the two retired corridor legs
-(`dsh-plugin-upgrade-015`, `dsh-plugin-upgrade-016`) from the 44 repositories that declare
-`dsh.bundle.patch`, and both counts come out at **42** — 34 active + 5 frozen + 3 retired.
+The catalog is the discoverability surface, not a 1:1 projection of the family
+roster. It carries **97 npm records** in `data/packages.json` (including
+community/third-party records and the three retired names kept for older
+installs), while the family roster has **95 repositories** — **87 active,
+5 frozen, 3 retired**. Every per-plugin README carries the same **95-row**
+roster, collapsed.
 
 | Scope | Count | Meaning |
 |---|---|---|
-| **This catalog's inventory** | **42** | the npm packages published from this family — every roster repository, because every one of them publishes |
-| **The family roster** | **42** | the same repositories, in `dsh-kit/plugins.txt` + the retired ones its gate keeps out |
-| **The family rows in the per-plugin READMEs** | **45** | those 42, plus three rows that are not catalog items |
-
-The three extra rows are deliberate:
-
-- **`dsh-plugin-upgrade-015`** — a retired corridor leg, kept as a row so the package stays findable and its retirement stays explained.
-- **`dsh-catalog`** itself — it ships no Cordis plugin, so there is nothing for a market to install.
-- **`dsh-plugin-certification`** — that repository ships no Cordis plugin and is not installable, as its own README states.
-
-The maintenance state of every family repository (`active`, `frozen` or `retired`) is recorded
-once, in `dsh-plugin-kit/data/repos.json`.
+| **This catalog's inventory** | **97** | npm packages in `data/packages.json`; generated from the registry and validated against the v1 contract |
+| **The family roster** | **95** | the count of record in `dsh-plugin-kit/data/repos.json`: 87 active + 5 frozen + 3 retired |
+| **The family rows in the per-plugin READMEs** | **95** | the same roster, rendered inside a collapsed `<details>` block |
 
 The three **retired** packages (`dsh-background-agents`, `dsh-session-pin`,
 `dsh-team-rooms`) **remain in the inventory on purpose**: retirement here means
 *compatibility updates stopped because the official harness now implements the
-capability*, not that the package was withdrawn. Removing them from the catalog
-would hide them from anyone still running an older host. They are npm-deprecated and
-are **not** in `dsh-kit`'s one-command install; the market keeps them browsable for
+capability*, not that the package was withdrawn. They are npm-deprecated and are
+**not** in `dsh-kit`'s one-command install; the market keeps them browsable for
 existing installs.
 
 ## Compliance notes

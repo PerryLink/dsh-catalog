@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-18T10:01:18.506Z",
+  "generatedAt": "2026-10-18T12:44:05.303Z",
   "revision": "perrylink-dsh-catalog-2026-10-18",
   "items": [
     {
@@ -29,7 +29,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-auto-review.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-auto-review.png",
           "alt": "Auto Review"
         }
       },
@@ -61,7 +61,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-permission-rules.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-permission-rules.png",
           "alt": "Permission Rules"
         }
       },
@@ -93,7 +93,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-doublecheck.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-doublecheck.png",
           "alt": "DoubleCheck"
         }
       },
@@ -125,7 +125,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-memento.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-memento.png",
           "alt": "Memento"
         }
       },
@@ -157,7 +157,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-checkpoint-rewind.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-checkpoint-rewind.png",
           "alt": "Checkpoint Rewind"
         }
       },
@@ -189,7 +189,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-mcp-panel.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-mcp-panel.png",
           "alt": "MCP Panel"
         }
       },
@@ -221,7 +221,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-composer-history.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-composer-history.png",
           "alt": "Composer History"
         }
       },
@@ -253,7 +253,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-session-pin.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-session-pin.png",
           "alt": "Session Pin"
         }
       },
@@ -285,7 +285,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-session-sync.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-session-sync.png",
           "alt": "Session Sync"
         }
       },
@@ -317,7 +317,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-output-styles.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-output-styles.png",
           "alt": "Output Styles"
         }
       },
@@ -349,7 +349,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-lsp-actions.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-lsp-actions.png",
           "alt": "LSP Actions"
         }
       },
@@ -381,7 +381,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-background-agents.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-background-agents.png",
           "alt": "Background Agents"
         }
       },
@@ -413,7 +413,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-claude-move.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-claude-move.png",
           "alt": "Claude Move"
         }
       },
@@ -445,7 +445,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-translate.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-translate.png",
           "alt": "Translate"
         }
       },
@@ -477,7 +477,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-local-ai.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-local-ai.png",
           "alt": "Local AI"
         }
       },
@@ -509,7 +509,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-mask.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-mask.png",
           "alt": "Mask"
         }
       },
@@ -541,7 +541,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-data-quality.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-data-quality.png",
           "alt": "Data Quality"
         }
       },
@@ -573,7 +573,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-score.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-score.png",
           "alt": "Score"
         }
       },
@@ -605,7 +605,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-test-drive.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-test-drive.png",
           "alt": "Test Drive"
         }
       },
@@ -637,7 +637,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-defend.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-defend.png",
           "alt": "Defend"
         }
       },
@@ -669,7 +669,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-budget.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-budget.png",
           "alt": "Budget"
         }
       },
@@ -701,7 +701,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-fast.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-fast.png",
           "alt": "Fast"
         }
       },
@@ -733,7 +733,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-observe.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-observe.png",
           "alt": "Observe"
         }
       },
@@ -765,7 +765,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-click.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-click.png",
           "alt": "Click"
         }
       },
@@ -797,7 +797,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-talk.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-talk.png",
           "alt": "Talk"
         }
       },
@@ -829,7 +829,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-draw.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-draw.png",
           "alt": "Draw"
         }
       },
@@ -861,7 +861,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-industry-research.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-industry-research.png",
           "alt": "Industry Research"
         }
       },
@@ -893,7 +893,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-research-report.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-research-report.png",
           "alt": "Research Report"
         }
       },
@@ -925,7 +925,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-fund-research.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-fund-research.png",
           "alt": "Fund Research"
         }
       },
@@ -957,7 +957,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-library.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-library.png",
           "alt": "Library"
         }
       },
@@ -989,7 +989,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-plugin-guide.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-plugin-guide.png",
           "alt": "Plugin Guide"
         }
       },
@@ -1021,7 +1021,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/perrylink-dsh-github.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/perrylink-dsh-github.png",
           "alt": "GitHub"
         }
       },
@@ -1053,7 +1053,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/perrylink-dsh-skill-pack-security-provider.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/perrylink-dsh-skill-pack-security-provider.png",
           "alt": "Skill Pack Security Provider"
         }
       },
@@ -1085,7 +1085,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/perrylink-dsh-ticktick.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/perrylink-dsh-ticktick.png",
           "alt": "TickTick"
         }
       },
@@ -1117,7 +1117,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-cert-mcp.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-cert-mcp.png",
           "alt": "Certification MCP"
         }
       },
@@ -1149,7 +1149,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-reach.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-reach.png",
           "alt": "Reach"
         }
       },
@@ -1182,7 +1182,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-autotier.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-autotier.png",
           "alt": "Autotier"
         }
       },
@@ -1215,7 +1215,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-plugin-upgrade.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-plugin-upgrade.png",
           "alt": "Plugin Upgrade"
         }
       },
@@ -1247,7 +1247,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-team-rooms.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-team-rooms.png",
           "alt": "Team Rooms"
         }
       },
@@ -1279,7 +1279,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/perrylink-dsh-plugin-kit.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/perrylink-dsh-plugin-kit.png",
           "alt": "Plugin Kit"
         }
       },
@@ -1311,7 +1311,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/perrylink-dsh-plugin-doctor.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/perrylink-dsh-plugin-doctor.png",
           "alt": "Plugin Doctor"
         }
       },
@@ -1344,7 +1344,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-laya.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-laya.png",
           "alt": "Laya"
         }
       },
@@ -1376,7 +1376,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-aqua-input-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-aqua-input-check.png",
           "alt": "Aquaculture Input Check"
         }
       },
@@ -1408,7 +1408,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-archive-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-archive-check.png",
           "alt": "Archive Register Check"
         }
       },
@@ -1440,7 +1440,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-bid-ca-precheck.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-bid-ca-precheck.png",
           "alt": "Bid Responsiveness Precheck"
         }
       },
@@ -1472,7 +1472,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-bid-qual-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-bid-qual-check.png",
           "alt": "Bidder Qualification Check"
         }
       },
@@ -1504,7 +1504,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-contract-stance.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-contract-stance.png",
           "alt": "Contract Stance Reader"
         }
       },
@@ -1536,7 +1536,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-customs-doc-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-customs-doc-check.png",
           "alt": "Customs Document Check"
         }
       },
@@ -1568,7 +1568,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-demurrage-ledger.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-demurrage-ledger.png",
           "alt": "Demurrage Ledger Check"
         }
       },
@@ -1600,7 +1600,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-drill-script-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-drill-script-check.png",
           "alt": "Drill Script Check"
         }
       },
@@ -1632,7 +1632,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-eia-guide-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-eia-guide-check.png",
           "alt": "EIA Guideline Check"
         }
       },
@@ -1664,7 +1664,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-emergency-plan.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-emergency-plan.png",
           "alt": "Emergency Plan Check"
         }
       },
@@ -1696,7 +1696,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-essay-rubric-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-essay-rubric-check.png",
           "alt": "Rubric Marking Check"
         }
       },
@@ -1728,7 +1728,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-evidence-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-evidence-check.png",
           "alt": "Evidence List Check"
         }
       },
@@ -1760,7 +1760,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-export-ctl-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-export-ctl-check.png",
           "alt": "Export Control Check"
         }
       },
@@ -1792,7 +1792,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-fmea-table-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-fmea-table-check.png",
           "alt": "FMEA Table Check"
         }
       },
@@ -1824,7 +1824,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-forecast-penalty.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-forecast-penalty.png",
           "alt": "Forecast Penalty Check"
         }
       },
@@ -1856,7 +1856,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-gongwen-flow-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-gongwen-flow-check.png",
           "alt": "Document Flow Check"
         }
       },
@@ -1888,7 +1888,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-gongwen-word-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-gongwen-word-check.png",
           "alt": "Document Type & Number Check"
         }
       },
@@ -1920,7 +1920,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-guard-plan-qc.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-guard-plan-qc.png",
           "alt": "Guard Plan QC"
         }
       },
@@ -1952,7 +1952,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-hazchem-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-hazchem-check.png",
           "alt": "Hazardous Chemical Register Check"
         }
       },
@@ -1984,7 +1984,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-hazplan-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-hazplan-check.png",
           "alt": "HAZOP Worksheet Check"
         }
       },
@@ -2016,7 +2016,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-hidden-risk-map.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-hidden-risk-map.png",
           "alt": "Hidden Risk Map Check"
         }
       },
@@ -2048,7 +2048,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-hs-classify.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-hs-classify.png",
           "alt": "HS Classification Check"
         }
       },
@@ -2080,7 +2080,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-icd-rule-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-icd-rule-check.png",
           "alt": "ICD Coding Check"
         }
       },
@@ -2112,7 +2112,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-lawcite-adapter.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-lawcite-adapter.png",
           "alt": "Legal Citation Check"
         }
       },
@@ -2144,7 +2144,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-lc-doc-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-lc-doc-check.png",
           "alt": "Letter of Credit Check"
         }
       },
@@ -2176,7 +2176,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-learning-gap-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-learning-gap-check.png",
           "alt": "Learning Gap Check"
         }
       },
@@ -2208,7 +2208,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-medrec-qc.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-medrec-qc.png",
           "alt": "Medical Record QC"
         }
       },
@@ -2240,7 +2240,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-nsfc-form-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-nsfc-form-check.png",
           "alt": "Grant Form Check"
         }
       },
@@ -2272,7 +2272,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-nurse-record-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-nurse-record-check.png",
           "alt": "Nursing Record Check"
         }
       },
@@ -2304,7 +2304,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-origin-rvc-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-origin-rvc-check.png",
           "alt": "Rules of Origin RVC Check"
         }
       },
@@ -2336,7 +2336,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-ota-review-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-ota-review-check.png",
           "alt": "OTA Review Check"
         }
       },
@@ -2368,7 +2368,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-paper-doc-adapter.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-paper-doc-adapter.png",
           "alt": "Manuscript Format Check"
         }
       },
@@ -2400,7 +2400,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-permit-report-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-permit-report-check.png",
           "alt": "Permit Report Check"
         }
       },
@@ -2432,7 +2432,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-pipeline-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-pipeline-check.png",
           "alt": "Pipeline Inspection Check"
         }
       },
@@ -2464,7 +2464,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-pleading-draft.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-pleading-draft.png",
           "alt": "Pleading Draft Check"
         }
       },
@@ -2496,7 +2496,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-policy-brief-draft.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-policy-brief-draft.png",
           "alt": "Policy Brief Check"
         }
       },
@@ -2528,7 +2528,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-power-loss-split.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-power-loss-split.png",
           "alt": "Power Loss Split Check"
         }
       },
@@ -2560,7 +2560,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-power-ticket-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-power-ticket-check.png",
           "alt": "Power Work Ticket Check"
         }
       },
@@ -2592,7 +2592,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-ppap-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-ppap-check.png",
           "alt": "PPAP Submission Check"
         }
       },
@@ -2624,7 +2624,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-protest-deadline.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-protest-deadline.png",
           "alt": "Protest Deadline Check"
         }
       },
@@ -2656,7 +2656,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-railway-window.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-railway-window.png",
           "alt": "Railway Window Check"
         }
       },
@@ -2688,7 +2688,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-repair-order-qc.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-repair-order-qc.png",
           "alt": "Repair Order QC"
         }
       },
@@ -2720,7 +2720,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-review-reply-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-review-reply-check.png",
           "alt": "Review Reply Check"
         }
       },
@@ -2752,7 +2752,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-rulefile-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-rulefile-check.png",
           "alt": "Rule File Check"
         }
       },
@@ -2784,7 +2784,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-safety-brief-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-safety-brief-check.png",
           "alt": "Safety Briefing Check"
         }
       },
@@ -2816,7 +2816,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-site-log-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-site-log-check.png",
           "alt": "Supervision Log Check"
         }
       },
@@ -2848,7 +2848,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-soe-decision-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-soe-decision-check.png",
           "alt": "SOE Decision Check"
         }
       },
@@ -2880,7 +2880,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-soilwater-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-soilwater-check.png",
           "alt": "Soil & Groundwater Check"
         }
       },
@@ -2912,7 +2912,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-sop-sync-check.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-sop-sync-check.png",
           "alt": "SOP Sync Check"
         }
       },
@@ -2944,7 +2944,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-spc-gbt-adapter.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-spc-gbt-adapter.png",
           "alt": "SPC Control Chart Check"
         }
       },
@@ -2976,7 +2976,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-tender-extract.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-tender-extract.png",
           "alt": "Tender Requirement Extract"
         }
       },
@@ -3008,7 +3008,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-tender-matrix.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-tender-matrix.png",
           "alt": "Tender Scoring Matrix Check"
         }
       },
@@ -3040,7 +3040,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-warranty-calc.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-warranty-calc.png",
           "alt": "Warranty Period Check"
         }
       },
@@ -3072,7 +3072,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-phocinae.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-phocinae.png",
           "alt": "Phocinae"
         }
       },
@@ -3086,7 +3086,7 @@
       "summary": "In-app Community Bench tab for DeepSeek Harness: reads the public, task-conditioned registry and shows the same score everyone sees; no local scoring.",
       "summaryZh": "DSH 应用内社区基准标签页：读取公开的、按任务条件计算的 registry，展示所有人看到的同一分数；不在本地算分。",
       "homepage": "https://github.com/PerryLink/dsh-community-bench#readme",
-      "latestVersion": "0.1.1",
+      "latestVersion": "0.2.3",
       "license": "Apache-2.0",
       "categories": [
         "interface",
@@ -3105,11 +3105,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-community-bench.png",
+          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-community-bench.png",
           "alt": "Community Bench"
         }
       },
-      "updatedAt": "2026-10-18T09:59:17.000Z"
+      "updatedAt": "2026-10-18T12:23:06.381Z"
     }
   ],
   "page": {

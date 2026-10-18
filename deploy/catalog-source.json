@@ -10,7 +10,7 @@
   },
   "transport": {
     "kind": "https-json",
-    "endpoint": "https://replace-with-deploy-origin.invalid/v1/plugins",
+    "endpoint": "https://perrylink-dsh-catalog.perrylink.workers.dev/v1/plugins",
     "method": "GET"
   },
   "query": {
