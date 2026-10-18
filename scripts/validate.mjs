@@ -58,6 +58,7 @@ for (const item of page.items) {
   check(typeof item.name === 'string' && item.name.length >= 1 && item.name.length <= 160, `name bounds: ${item.id}`)
   check(typeof item.displayName === 'string' && item.displayName.length >= 1 && item.displayName.length <= 120, `displayName bounds: ${item.id}`)
   check(typeof item.summary === 'string' && item.summary.length >= 1 && item.summary.length <= 1000, `summary bounds: ${item.id}`)
+  check(item.status === undefined || ['active', 'frozen', 'retired'].includes(item.status), `status vocabulary: ${item.id}`)
   // The market's schema extension for a Chinese reader. Optional on the wire, but the
   // family's own rule since 2026-10-13 is that every item carries both: a Chinese name
   // is the first thing a Chinese user reads, and 53 of these items are deterministic

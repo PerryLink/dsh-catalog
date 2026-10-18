@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-18T14:36:17.852Z",
+  "generatedAt": "2026-10-18T14:51:22.732Z",
   "revision": "perrylink-dsh-catalog-2026-10-18",
   "items": [
     {
@@ -302,6 +302,7 @@
       "homepage": "https://github.com/PerryLink/dsh-background-agents#readme",
       "latestVersion": "0.10.2",
       "license": "Apache-2.0",
+      "status": "retired",
       "categories": [
         "agent"
       ],
@@ -398,6 +399,7 @@
       "homepage": "https://github.com/PerryLink/dsh-budget#readme",
       "latestVersion": "0.4.19",
       "license": "Apache-2.0",
+      "status": "frozen",
       "categories": [
         "tools"
       ],
@@ -494,6 +496,7 @@
       "homepage": "https://github.com/PerryLink/dsh-claude-move#readme",
       "latestVersion": "0.4.18",
       "license": "Apache-2.0",
+      "status": "frozen",
       "categories": [
         "integration"
       ],
@@ -719,6 +722,7 @@
       "homepage": "https://github.com/PerryLink/dsh-defend#readme",
       "latestVersion": "0.3.23",
       "license": "Apache-2.0",
+      "status": "frozen",
       "categories": [
         "dev"
       ],
@@ -815,6 +819,7 @@
       "homepage": "https://github.com/PerryLink/dsh-draw#readme",
       "latestVersion": "0.2.24",
       "license": "Apache-2.0",
+      "status": "frozen",
       "categories": [
         "tools"
       ],
@@ -2514,6 +2519,7 @@
       "homepage": "https://github.com/PerryLink/dsh-reach#readme",
       "latestVersion": "0.1.22",
       "license": "Apache-2.0",
+      "status": "frozen",
       "categories": [
         "integration"
       ],
@@ -2738,6 +2744,7 @@
       "homepage": "https://github.com/PerryLink/dsh-session-pin#readme",
       "latestVersion": "0.7.19",
       "license": "Apache-2.0",
+      "status": "retired",
       "categories": [
         "session"
       ],
@@ -2994,6 +3001,7 @@
       "homepage": "https://github.com/PerryLink/dsh-team-rooms#readme",
       "latestVersion": "1.0.8",
       "license": "Apache-2.0",
+      "status": "retired",
       "categories": [
         "agent"
       ],

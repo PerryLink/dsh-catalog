@@ -42,6 +42,10 @@ roster, collapsed.
 | **The family roster** | **95** | the count of record in `dsh-plugin-kit/data/repos.json`: 87 active + 5 frozen + 3 retired |
 | **The family rows in the per-plugin READMEs** | **95** | the same roster, rendered inside a collapsed `<details>` block |
 
+Every non-active item also carries a structured `status` field (`frozen` or
+`retired`), emitted by `build-catalog.mjs` and checked by `validate.mjs`, so a
+client can filter lifecycle state without parsing prose.
+
 The three **retired** packages (`dsh-background-agents`, `dsh-session-pin`,
 `dsh-team-rooms`) **remain in the inventory on purpose**: retirement here means
 *compatibility updates stopped because the official harness now implements the

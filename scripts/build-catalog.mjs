@@ -23,7 +23,6 @@ const deployOrigin = process.argv[2] ?? 'https://replace-with-deploy-origin.inva
 
 /** @param {string} value */
 const stripBom = (value) => value.replace(/^\uFEFF/, '')
-/** @type {Array<{ npm: string, repo: string, displayName: string, displayNameZh?: string, summary?: string, summaryZh?: string, categories: string[], locale?: string, npmRepository?: string }>} */
 const packages = JSON.parse(stripBom(await readFile(`${base}/data/packages.json`, 'utf8')))
 const snapshot = JSON.parse(stripBom(await readFile(`${base}/data/npm-snapshot.json`, 'utf8')))
 const byName = new Map(snapshot.map((/** @type {SnapshotRow} */ entry) => [entry.name, entry]))
@@ -60,6 +59,7 @@ for (const pkg of packages) {
     homepage: npm.homepage && /^https:/.test(npm.homepage) ? npm.homepage : repositoryUrl,
     latestVersion: npm.latest,
     license: typeof npm.license === 'string' && npm.license.length <= 80 ? npm.license : undefined,
+    ...(pkg.status === undefined ? {} : { status: pkg.status }),
     categories: pkg.categories,
     repository: { url: repositoryUrl },
     package: { registry: 'npm', name: pkg.npm },
@@ -81,9 +81,9 @@ const page = {
 // The manifest description states the count in prose, so it must also state what the
 // count is OF: `check-counts.mjs` holds the `N-package` token to data/packages.json's
 // row count, and the composition is derived here rather than typed, because one row in
-// this table is a third-party package (`Phocinae/dsh-phocinae`) and calling all 97
+// this table is a third-party package (`Phocinae/dsh-phocinae`) and calling all 96
 // "PerryLink" would overstate the family.
-const familyRows = packages.filter((pkg) => pkg.repo.startsWith('PerryLink/')).length
+const familyRows = packages.filter((/** @type {{ repo: string }} */ pkg) => pkg.repo.startsWith('PerryLink/')).length
 const thirdPartyRows = packages.length - familyRows
 
 const manifest = {
