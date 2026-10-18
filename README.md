@@ -49,6 +49,9 @@ Every non-active item also carries a structured `status` field (`frozen` or
 state, task group, host prerequisites, and difficulty (`beginner` /
 `intermediate` / `advanced`, a coarse heuristic) without parsing prose.
 
+The two retired room packages also carry a machine-readable `conflicts` array, so a
+client can warn before installing both `dsh-background-agents` and `dsh-team-rooms`.
+
 The three **retired** packages (`dsh-background-agents`, `dsh-session-pin`,
 `dsh-team-rooms`) **remain in the inventory on purpose**: retirement here means
 *compatibility updates stopped because the official harness now implements the
