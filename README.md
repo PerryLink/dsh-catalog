@@ -15,9 +15,10 @@ A [DSH Community Market](https://github.com/anywhere-labs/dsh-desktop/tree/main/
 - Generator / validator: `scripts/build-catalog.mjs`, `scripts/validate.mjs`, `scripts/check-counts.mjs`
 - Deploy: live at `https://perrylink-dsh-catalog.perrylink.workers.dev` (Cloudflare Workers, automated via `deploy.yml`; Vercel static alternative in `vercel.json`; Deno unit `deploy/deno-worker.js` as manual alternative)
 
-![Terminal demo of dsh-catalog](docs/assets/dsh-catalog-hero.png)
+![Workflow diagram for dsh-catalog](docs/assets/dsh-catalog-flow.svg)
 
-![Animated terminal demo of dsh-catalog](docs/assets/dsh-catalog-demo.gif)
+*Workflow overview: install → open panel → act. The catalog is the discovery surface.*
+
 
 ## Maintenance status: family-internal tool
 
