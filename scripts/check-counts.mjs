@@ -20,6 +20,7 @@ import { fileURLToPath } from 'node:url'
 
 const base = fileURLToPath(new URL('..', import.meta.url))
 const write = process.argv.includes('--write')
+const asJson = process.argv.includes('--json')
 /** @param {string} value */
 const stripBom = (value) => value.replace(/^\uFEFF/, '')
 /** @param {string} relative */
@@ -46,8 +47,8 @@ if (page.page.total !== count) {
 //    generator emits them, so the shipped page must be at 100 %. build-catalog.mjs
 //    silently dropped both fields for as long as they existed in data/ — that is
 //    exactly the "added to data, never reached the wire" drift this catches, and it
-//    is why the live endpoint served 0 Chinese names for 97 items.
-/** @param {{ displayNameZh?: string, summaryZh?: string }} row */
+//    is why the live endpoint served 0 Chinese names for 96 items.
+/** @param {{ displayNameZh?: unknown, summaryZh?: unknown }} row */
 const hasZh = (row) =>
   typeof row.displayNameZh === 'string' && row.displayNameZh.length > 0 &&
   typeof row.summaryZh === 'string' && row.summaryZh.length > 0
@@ -84,20 +85,11 @@ if (!new RegExp(`\\b${count}-package\\b`).test(manifest.description ?? '')) {
 /** @type {CountSite[]} */
 const readmeSites = [
   {
-    name: 'README.md family summary (EN)',
-    pattern: /(plugin family: )(\d+)( packages)/,
-    replace: (match, before, _stale, after) => `${before}${count}${after}`,
-  },
-  {
     name: 'README.md bounded page note (EN)',
     pattern: /(complete bounded page \()(\d+)( items)/,
     replace: (match, before, _stale, after) => `${before}${count}${after}`,
   },
-  {
-    name: 'README.md family summary (ZH)',
-    pattern: /(标准目录源：)(\d+)( 个 npm 包)/,
-    replace: (match, before, _stale, after) => `${before}${count}${after}`,
-  },
+
 ]
 
 let readme = await readText('README.md')
@@ -140,7 +132,9 @@ if (failures.length) {
   process.exit(1)
 }
 
-if (write && rewritten) {
+if (asJson && failures.length === 0) {
+  console.log(JSON.stringify({ items: count, zh: zhRows }, null, 2))
+} else if (write && rewritten) {
   await writeFile(`${base}/README.md`, readme)
   console.log(`counts written: README count sites now state ${count} (source: data/packages.json)`)
 } else {
