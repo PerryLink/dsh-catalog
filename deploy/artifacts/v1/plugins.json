@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-18T16:41:50.215Z",
-  "revision": "perrylink-dsh-catalog-2026-10-18",
+  "generatedAt": "2026-10-23T04:51:22.373Z",
+  "revision": "perrylink-dsh-catalog-2026-10-23",
   "items": [
     {
       "id": "perrylink/dsh-github",
@@ -11,7 +11,7 @@
       "summary": "GitHub for DeepSeek Harness: PR/issue/repo/file tools, reviews, and CI checks — every write gated by human approval, token never logged.",
       "summaryZh": "GitHub 集成：PR/issue/仓库/文件工具、评审与 CI 检查，每次写入都需人工审批，token 从不进日志。",
       "homepage": "https://github.com/PerryLink/dsh-github#readme",
-      "latestVersion": "0.7.24",
+      "latestVersion": "0.7.26",
       "license": "Apache-2.0",
       "group": "集成",
       "requires": {
@@ -35,11 +35,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/perrylink-dsh-github.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/perrylink-dsh-github.png",
           "alt": "GitHub"
         }
       },
-      "updatedAt": "2026-10-18T12:55:12.629Z"
+      "updatedAt": "2026-10-22T13:49:42.615Z"
     },
     {
       "id": "perrylink/dsh-plugin-doctor",
@@ -73,7 +73,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/perrylink-dsh-plugin-doctor.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/perrylink-dsh-plugin-doctor.png",
           "alt": "Plugin Doctor"
         }
       },
@@ -111,7 +111,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/perrylink-dsh-plugin-kit.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/perrylink-dsh-plugin-kit.png",
           "alt": "Plugin Kit"
         }
       },
@@ -144,7 +144,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/perrylink-dsh-skill-pack-security-provider.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/perrylink-dsh-skill-pack-security-provider.png",
           "alt": "Skill Pack Security Provider"
         }
       },
@@ -158,7 +158,7 @@
       "summary": "TickTick (Dida365) task bridge for DeepSeek Harness: a session-header task panel (list filter, quick add, complete, delete, due dates, drag reorder), eleven curated ticktick_* tools, and a plugin settings card over the official TickTick MCP endpoint.",
       "summaryZh": "TickTick（滴答清单）任务桥：会话顶部任务面板（列表筛选、快速添加、完成、删除、截止日期、拖动排序）、十一个 ticktick_* 工具，以及基于官方 TickTick MCP 端点的插件设置卡。",
       "homepage": "https://github.com/PerryLink/dsh-ticktick#readme",
-      "latestVersion": "0.1.20",
+      "latestVersion": "0.1.22",
       "license": "Apache-2.0",
       "group": "集成",
       "requires": {
@@ -182,11 +182,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/perrylink-dsh-ticktick.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/perrylink-dsh-ticktick.png",
           "alt": "TickTick"
         }
       },
-      "updatedAt": "2026-10-18T14:19:53.584Z"
+      "updatedAt": "2026-10-23T04:44:59.582Z"
     },
     {
       "id": "dsh-aqua-input-check",
@@ -220,7 +220,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-aqua-input-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-aqua-input-check.png",
           "alt": "Aquaculture Input Check"
         }
       },
@@ -258,7 +258,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-archive-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-archive-check.png",
           "alt": "Archive Register Check"
         }
       },
@@ -272,7 +272,7 @@
       "summary": "Second-model AI auto-review for DeepSeek Harness approval requests: a read-only reviewer subagent decides allow/deny on the approval answerer chain, with fail-closed fallback and full session-log audit.",
       "summaryZh": "审批链上的第二模型自动复核：只读复核子代理在审批应答链上给出允许/拒绝，失败即拒，全过程留痕在会话日志里。",
       "homepage": "https://github.com/PerryLink/dsh-auto-review#readme",
-      "latestVersion": "0.13.4",
+      "latestVersion": "0.13.8",
       "license": "Apache-2.0",
       "group": "安全",
       "requires": {
@@ -296,11 +296,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-auto-review.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-auto-review.png",
           "alt": "Auto Review"
         }
       },
-      "updatedAt": "2026-10-18T14:10:39.760Z"
+      "updatedAt": "2026-10-22T05:21:10.293Z"
     },
     {
       "id": "dsh-autotier",
@@ -335,7 +335,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-autotier.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-autotier.png",
           "alt": "Autotier"
         }
       },
@@ -377,7 +377,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-background-agents.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-background-agents.png",
           "alt": "Background Agents"
         }
       },
@@ -415,7 +415,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-bid-ca-precheck.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-bid-ca-precheck.png",
           "alt": "Bid Responsiveness Precheck"
         }
       },
@@ -453,7 +453,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-bid-qual-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-bid-qual-check.png",
           "alt": "Bidder Qualification Check"
         }
       },
@@ -467,7 +467,7 @@
       "summary": "Cost governance for DeepSeek Harness: aggregated token/cost metering per model, session and day, budget caps with threshold alerts and over-limit policies, carbon footprint estimation, per-model latency benchmarks, and the /budget command.",
       "summaryZh": "成本治理：按模型/会话/天汇总 token 与费用，预算上限配阈值告警与超限策略，估算碳足迹，做按模型的延迟基准，并提供 /budget 命令。",
       "homepage": "https://github.com/PerryLink/dsh-budget#readme",
-      "latestVersion": "0.4.19",
+      "latestVersion": "0.4.20",
       "license": "Apache-2.0",
       "status": "frozen",
       "group": "观测",
@@ -492,11 +492,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-budget.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-budget.png",
           "alt": "Budget"
         }
       },
-      "updatedAt": "2026-10-18T14:08:54.750Z"
+      "updatedAt": "2026-10-19T10:23:08.168Z"
     },
     {
       "id": "dsh-cert-mcp",
@@ -506,7 +506,7 @@
       "summary": "Read-only MCP server exposing the dsh-plugin-certification registry: certification grades, snapshots and five-dimension evidence for DeepSeek Harness plugins.",
       "summaryZh": "只读 MCP 服务器，对外提供 dsh-plugin-certification 注册表：DSH 插件的认证等级、快照与五维证据。",
       "homepage": "https://github.com/PerryLink/dsh-cert-mcp#readme",
-      "latestVersion": "0.2.9",
+      "latestVersion": "0.2.10",
       "license": "Apache-2.0",
       "group": "生态",
       "requires": {
@@ -530,11 +530,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-cert-mcp.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-cert-mcp.png",
           "alt": "Certification MCP"
         }
       },
-      "updatedAt": "2026-10-18T08:29:33.236Z"
+      "updatedAt": "2026-10-21T13:15:30.677Z"
     },
     {
       "id": "dsh-checkpoint-rewind",
@@ -544,7 +544,7 @@
       "summary": "Unified DSH checkpoints: session, workspace, and config three-state snapshots with one-shot /checkpoint and /rewind rollback, a checkpoint tool, automatic interval snapshots, a Settings-page timeline with pairwise diffs, and seed-replay session recovery.",
       "summaryZh": "统一的 DSH 检查点：会话/工作区/配置三态快照，一条命令 /checkpoint 与 /rewind 回滚，附 checkpoint 工具、定时自动快照、带两两差异的设置页时间线与种子重放式会话恢复。",
       "homepage": "https://github.com/PerryLink/dsh-checkpoint-rewind#readme",
-      "latestVersion": "0.6.29",
+      "latestVersion": "0.6.33",
       "license": "Apache-2.0",
       "group": "会话",
       "requires": {
@@ -568,11 +568,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-checkpoint-rewind.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-checkpoint-rewind.png",
           "alt": "Checkpoint Rewind"
         }
       },
-      "updatedAt": "2026-10-18T09:28:53.262Z"
+      "updatedAt": "2026-10-19T13:49:13.217Z"
     },
     {
       "id": "dsh-claude-move",
@@ -607,7 +607,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-claude-move.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-claude-move.png",
           "alt": "Claude Move"
         }
       },
@@ -621,7 +621,7 @@
       "summary": "Cross-platform native desktop control for DeepSeek Harness (Windows first): screen_shot, screen_read, click/type/scroll/key, and app_list/app_launch — approval-gated, never stealing foreground focus.",
       "summaryZh": "跨平台原生桌面控制（Windows 优先）：screen_shot、screen_read、点击/输入/滚动/按键与 app_list/app_launch，审批门控且不抢占前台焦点。",
       "homepage": "https://github.com/PerryLink/dsh-click#readme",
-      "latestVersion": "0.3.22",
+      "latestVersion": "0.3.24",
       "license": "Apache-2.0",
       "group": "桌面",
       "requires": {
@@ -645,11 +645,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-click.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-click.png",
           "alt": "Click"
         }
       },
-      "updatedAt": "2026-10-18T14:10:52.862Z"
+      "updatedAt": "2026-10-19T05:12:25.689Z"
     },
     {
       "id": "dsh-community-bench",
@@ -679,7 +679,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-community-bench.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-community-bench.png",
           "alt": "Community Bench"
         }
       },
@@ -717,7 +717,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-composer-history.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-composer-history.png",
           "alt": "Composer History"
         }
       },
@@ -755,7 +755,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-contract-stance.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-contract-stance.png",
           "alt": "Contract Stance Reader"
         }
       },
@@ -793,7 +793,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-customs-doc-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-customs-doc-check.png",
           "alt": "Customs Document Check"
         }
       },
@@ -831,7 +831,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-data-quality.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-data-quality.png",
           "alt": "Data Quality"
         }
       },
@@ -845,7 +845,7 @@
       "summary": "Prompt-injection, jailbreak, and secret-leak defense for DeepSeek Harness: Aho-Corasick detection with allow/ask/block interception, sanitized audit events, and a recursive-delete pre-execution gate.",
       "summaryZh": "面向 DeepSeek Harness 的提示注入、越狱与密钥泄漏防御：Aho-Corasick 检测配允许/询问/阻断拦截、脱敏审计事件，以及递归删除的执行前闸门。",
       "homepage": "https://github.com/PerryLink/dsh-defend#readme",
-      "latestVersion": "0.3.23",
+      "latestVersion": "0.3.24",
       "license": "Apache-2.0",
       "status": "frozen",
       "group": "安全",
@@ -870,11 +870,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-defend.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-defend.png",
           "alt": "Defend"
         }
       },
-      "updatedAt": "2026-10-18T14:09:32.675Z"
+      "updatedAt": "2026-10-18T18:37:33.192Z"
     },
     {
       "id": "dsh-demurrage-ledger",
@@ -908,7 +908,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-demurrage-ledger.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-demurrage-ledger.png",
           "alt": "Demurrage Ledger Check"
         }
       },
@@ -922,7 +922,7 @@
       "summary": "Delivery quality gate for DeepSeek Harness: grill the requirements, test the implementation, prove the delivery, and gate the handoff with a deliverable/rework decision.",
       "summaryZh": "交付质量闸门：先盘问需求，再测实现，再举证交付，最后按可交付/返工给出交接裁决。",
       "homepage": "https://github.com/PerryLink/dsh-doublecheck#readme",
-      "latestVersion": "0.9.28",
+      "latestVersion": "0.9.29",
       "license": "Apache-2.0",
       "group": "质量",
       "requires": {
@@ -946,11 +946,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-doublecheck.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-doublecheck.png",
           "alt": "DoubleCheck"
         }
       },
-      "updatedAt": "2026-10-18T14:12:04.548Z"
+      "updatedAt": "2026-10-19T10:16:11.350Z"
     },
     {
       "id": "dsh-draw",
@@ -985,7 +985,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-draw.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-draw.png",
           "alt": "Draw"
         }
       },
@@ -1023,7 +1023,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-drill-script-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-drill-script-check.png",
           "alt": "Drill Script Check"
         }
       },
@@ -1061,7 +1061,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-eia-guide-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-eia-guide-check.png",
           "alt": "EIA Guideline Check"
         }
       },
@@ -1099,7 +1099,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-emergency-plan.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-emergency-plan.png",
           "alt": "Emergency Plan Check"
         }
       },
@@ -1137,7 +1137,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-essay-rubric-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-essay-rubric-check.png",
           "alt": "Rubric Marking Check"
         }
       },
@@ -1175,7 +1175,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-evidence-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-evidence-check.png",
           "alt": "Evidence List Check"
         }
       },
@@ -1213,7 +1213,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-export-ctl-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-export-ctl-check.png",
           "alt": "Export Control Check"
         }
       },
@@ -1227,7 +1227,7 @@
       "summary": "Read-only performance diagnostics for DeepSeek Harness: session load/restore timing, spill-hit counts, compaction count and trigger, context-injection volume (AGENTS.md/skills/tool-schema token share), and LLM cache hit rate — surfaced via /fast.",
       "summaryZh": "只读性能诊断：会话加载/恢复耗时、落盘命中次数、压缩次数与触发原因、上下文注入量（AGENTS.md/技能/工具 schema 的 token 占比）与 LLM 缓存命中率，经 /fast 呈现。",
       "homepage": "https://github.com/PerryLink/dsh-fast#readme",
-      "latestVersion": "0.2.25",
+      "latestVersion": "0.2.26",
       "license": "Apache-2.0",
       "group": "观测",
       "requires": {
@@ -1251,11 +1251,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-fast.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-fast.png",
           "alt": "Fast"
         }
       },
-      "updatedAt": "2026-10-18T14:22:55.137Z"
+      "updatedAt": "2026-10-18T18:49:48.982Z"
     },
     {
       "id": "dsh-fmea-table-check",
@@ -1289,7 +1289,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-fmea-table-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-fmea-table-check.png",
           "alt": "FMEA Table Check"
         }
       },
@@ -1327,7 +1327,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-forecast-penalty.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-forecast-penalty.png",
           "alt": "Forecast Penalty Check"
         }
       },
@@ -1365,7 +1365,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-fund-research.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-fund-research.png",
           "alt": "Fund Research"
         }
       },
@@ -1403,7 +1403,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-gongwen-flow-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-gongwen-flow-check.png",
           "alt": "Document Flow Check"
         }
       },
@@ -1441,7 +1441,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-gongwen-word-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-gongwen-word-check.png",
           "alt": "Document Type & Number Check"
         }
       },
@@ -1479,7 +1479,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-guard-plan-qc.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-guard-plan-qc.png",
           "alt": "Guard Plan QC"
         }
       },
@@ -1517,7 +1517,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-hazchem-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-hazchem-check.png",
           "alt": "Hazardous Chemical Register Check"
         }
       },
@@ -1555,7 +1555,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-hazplan-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-hazplan-check.png",
           "alt": "HAZOP Worksheet Check"
         }
       },
@@ -1593,7 +1593,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-hidden-risk-map.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-hidden-risk-map.png",
           "alt": "Hidden Risk Map Check"
         }
       },
@@ -1631,7 +1631,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-hs-classify.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-hs-classify.png",
           "alt": "HS Classification Check"
         }
       },
@@ -1669,7 +1669,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-icd-rule-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-icd-rule-check.png",
           "alt": "ICD Coding Check"
         }
       },
@@ -1683,7 +1683,7 @@
       "summary": "Industry research toolkit: structured company/industry dives with source capture and auditable research trails.",
       "summaryZh": "行业研究工具箱：结构化的公司与行业专题，附来源留档与可审计的研究轨迹。",
       "homepage": "https://github.com/PerryLink/dsh-industry-research#readme",
-      "latestVersion": "0.3.22",
+      "latestVersion": "0.3.23",
       "license": "Apache-2.0",
       "group": "研究",
       "requires": {
@@ -1707,11 +1707,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-industry-research.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-industry-research.png",
           "alt": "Industry Research"
         }
       },
-      "updatedAt": "2026-10-18T14:21:22.117Z"
+      "updatedAt": "2026-10-18T18:22:47.617Z"
     },
     {
       "id": "dsh-lawcite-adapter",
@@ -1745,7 +1745,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-lawcite-adapter.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-lawcite-adapter.png",
           "alt": "Legal Citation Check"
         }
       },
@@ -1780,7 +1780,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-laya.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-laya.png",
           "alt": "Laya"
         }
       },
@@ -1818,7 +1818,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-lc-doc-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-lc-doc-check.png",
           "alt": "Letter of Credit Check"
         }
       },
@@ -1856,7 +1856,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-learning-gap-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-learning-gap-check.png",
           "alt": "Learning Gap Check"
         }
       },
@@ -1894,7 +1894,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-library.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-library.png",
           "alt": "Library"
         }
       },
@@ -1932,7 +1932,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-local-ai.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-local-ai.png",
           "alt": "Local AI"
         }
       },
@@ -1946,7 +1946,7 @@
       "summary": "LSP actions for DeepSeek Harness: the IDE-integration plugin that exposes language-server diagnostics, definitions, references, and fixes to the agent.",
       "summaryZh": "把语言服务器的诊断、定义跳转、引用查找与修复暴露给 agent 的 IDE 集成插件。",
       "homepage": "https://github.com/PerryLink/dsh-lsp-actions#readme",
-      "latestVersion": "0.5.15",
+      "latestVersion": "0.5.16",
       "license": "Apache-2.0",
       "group": "集成",
       "requires": {
@@ -1970,11 +1970,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-lsp-actions.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-lsp-actions.png",
           "alt": "LSP Actions"
         }
       },
-      "updatedAt": "2026-10-18T09:30:50.091Z"
+      "updatedAt": "2026-10-22T14:10:26.456Z"
     },
     {
       "id": "dsh-mask",
@@ -2008,7 +2008,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-mask.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-mask.png",
           "alt": "Mask"
         }
       },
@@ -2022,7 +2022,7 @@
       "summary": "Read-only MCP console for DeepSeek Harness: a /mcp command with health diagnostics and pipeline trial calls, a Settings MCP tab with server CRUD (approval-gated writes, automatic backups) and a tool trial console over the official tool pipeline.",
       "summaryZh": "只读 MCP 控制台：/mcp 命令带健康诊断与管道试调，设置页 MCP 标签管理服务器（写入需审批、自动备份），并可在官方工具管道上试调工具。",
       "homepage": "https://github.com/PerryLink/dsh-mcp-panel#readme",
-      "latestVersion": "0.6.28",
+      "latestVersion": "0.6.29",
       "license": "Apache-2.0",
       "group": "集成",
       "requires": {
@@ -2046,11 +2046,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-mcp-panel.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-mcp-panel.png",
           "alt": "MCP Panel"
         }
       },
-      "updatedAt": "2026-10-18T12:55:44.315Z"
+      "updatedAt": "2026-10-18T17:10:31.529Z"
     },
     {
       "id": "dsh-medrec-qc",
@@ -2084,7 +2084,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-medrec-qc.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-medrec-qc.png",
           "alt": "Medical Record QC"
         }
       },
@@ -2098,7 +2098,7 @@
       "summary": "Bounded, layered, approval-gated, auditable cross-session memory for DeepSeek Harness — a capability seam (ctx.memory service + local SQLite provider + memory tool + frozen snapshot injection), not another memory warehouse.",
       "summaryZh": "有界、分层、审批门控、可审计的跨会话记忆：一条能力接缝（ctx.memory 服务 + 本地 SQLite provider + memory 工具 + 冻结快照注入），不是又一个记忆仓库。",
       "homepage": "https://github.com/PerryLink/dsh-memento#readme",
-      "latestVersion": "0.5.27",
+      "latestVersion": "0.5.28",
       "license": "Apache-2.0",
       "group": "会话",
       "requires": {
@@ -2122,11 +2122,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-memento.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-memento.png",
           "alt": "Memento"
         }
       },
-      "updatedAt": "2026-10-18T09:31:21.248Z"
+      "updatedAt": "2026-10-22T14:46:26.657Z"
     },
     {
       "id": "dsh-nsfc-form-check",
@@ -2160,7 +2160,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-nsfc-form-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-nsfc-form-check.png",
           "alt": "Grant Form Check"
         }
       },
@@ -2174,7 +2174,7 @@
       "summary": "护理记录时限、签名与评估表完整性校验（依据《病历书写基本规范》等公开文件，仅提示差异，不作出定性结论）",
       "summaryZh": "护理记录时限、签名与评估表完整性校验（依据《病历书写基本规范》等公开文件，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-nurse-record-check#readme",
-      "latestVersion": "0.2.10",
+      "latestVersion": "0.2.11",
       "license": "Apache-2.0",
       "group": "医疗",
       "requires": {
@@ -2198,11 +2198,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-nurse-record-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-nurse-record-check.png",
           "alt": "Nursing Record Check"
         }
       },
-      "updatedAt": "2026-10-18T13:14:52.214Z"
+      "updatedAt": "2026-10-19T04:27:37.155Z"
     },
     {
       "id": "dsh-observe",
@@ -2236,7 +2236,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-observe.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-observe.png",
           "alt": "Observe"
         }
       },
@@ -2274,7 +2274,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-origin-rvc-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-origin-rvc-check.png",
           "alt": "Rules of Origin RVC Check"
         }
       },
@@ -2312,7 +2312,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-ota-review-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-ota-review-check.png",
           "alt": "OTA Review Check"
         }
       },
@@ -2350,7 +2350,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-output-styles.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-output-styles.png",
           "alt": "Output Styles"
         }
       },
@@ -2388,7 +2388,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-paper-doc-adapter.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-paper-doc-adapter.png",
           "alt": "Manuscript Format Check"
         }
       },
@@ -2426,7 +2426,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-permission-rules.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-permission-rules.png",
           "alt": "Permission Rules"
         }
       },
@@ -2464,7 +2464,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-permit-report-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-permit-report-check.png",
           "alt": "Permit Report Check"
         }
       },
@@ -2478,8 +2478,8 @@
       "summary": "Repository prompt plugin with a live top-bar enable/disable switch; the framework edition ships a neutral placeholder directive.",
       "summaryZh": "仓库提示词插件，带顶栏实时开关；框架版附带中性占位指令。",
       "homepage": "https://github.com/PerryLink/dsh-personal-directive#readme",
-      "latestVersion": "0.2.10",
-      "license": "MIT",
+      "latestVersion": "0.2.11",
+      "license": "Apache-2.0",
       "requires": {
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
@@ -2501,11 +2501,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-personal-directive.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-personal-directive.png",
           "alt": "Personal Directive"
         }
       },
-      "updatedAt": "2026-10-18T13:24:15.572Z"
+      "updatedAt": "2026-10-19T04:28:22.316Z"
     },
     {
       "id": "dsh-phocinae",
@@ -2534,7 +2534,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-phocinae.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-phocinae.png",
           "alt": "Phocinae"
         }
       },
@@ -2572,7 +2572,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-phone-inbox.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-phone-inbox.png",
           "alt": "Phone Inbox"
         }
       },
@@ -2610,7 +2610,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-pipeline-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-pipeline-check.png",
           "alt": "Pipeline Inspection Check"
         }
       },
@@ -2648,7 +2648,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-pleading-draft.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-pleading-draft.png",
           "alt": "Pleading Draft Check"
         }
       },
@@ -2662,7 +2662,7 @@
       "summary": "The DSH plugin development guide as an installable skill: packaging, contracts, checks, and a pack verifier for builds.",
       "summaryZh": "把 DSH 插件开发指南做成可安装技能：打包、契约、检查，以及构建用的包校验器。",
       "homepage": "https://github.com/PerryLink/dsh-plugin-guide#readme",
-      "latestVersion": "0.3.35",
+      "latestVersion": "0.3.39",
       "license": "Apache-2.0",
       "group": "生态",
       "requires": {
@@ -2686,11 +2686,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-plugin-guide.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-plugin-guide.png",
           "alt": "Plugin Guide"
         }
       },
-      "updatedAt": "2026-10-18T09:37:18.300Z"
+      "updatedAt": "2026-10-19T11:04:51.612Z"
     },
     {
       "id": "dsh-plugin-upgrade",
@@ -2725,7 +2725,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-plugin-upgrade.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-plugin-upgrade.png",
           "alt": "Plugin Upgrade"
         }
       },
@@ -2763,7 +2763,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-policy-brief-draft.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-policy-brief-draft.png",
           "alt": "Policy Brief Check"
         }
       },
@@ -2801,7 +2801,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-power-loss-split.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-power-loss-split.png",
           "alt": "Power Loss Split Check"
         }
       },
@@ -2839,7 +2839,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-power-ticket-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-power-ticket-check.png",
           "alt": "Power Work Ticket Check"
         }
       },
@@ -2877,7 +2877,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-ppap-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-ppap-check.png",
           "alt": "PPAP Submission Check"
         }
       },
@@ -2915,7 +2915,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-protest-deadline.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-protest-deadline.png",
           "alt": "Protest Deadline Check"
         }
       },
@@ -2953,7 +2953,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-railway-window.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-railway-window.png",
           "alt": "Railway Window Check"
         }
       },
@@ -2967,7 +2967,7 @@
       "summary": "Multi-channel decision and remote-control bridge for DeepSeek Harness: approval/question cards from any workspace mirrored to IM chat (WeChat iLink, Telegram, Feishu) with stable #token ids and P{n} numbering, answered from chat through the native pending waterfall — fail-closed sender ownership, session console, and proactive reach_send.",
       "summaryZh": "多渠道决策与远程控制桥：任何工作区的审批卡与提问卡镜像到 IM（微信 iLink、Telegram、飞书），用稳定的 #token 标识与 P{n} 编号，在聊天里经原生 pending 瀑布作答；发送者归属失败即拒，另带会话控制台与主动 reach_send。",
       "homepage": "https://github.com/PerryLink/dsh-reach#readme",
-      "latestVersion": "0.1.22",
+      "latestVersion": "0.1.23",
       "license": "Apache-2.0",
       "status": "frozen",
       "group": "集成",
@@ -2992,11 +2992,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-reach.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-reach.png",
           "alt": "Reach"
         }
       },
-      "updatedAt": "2026-10-18T14:32:42.959Z"
+      "updatedAt": "2026-10-22T15:58:06.245Z"
     },
     {
       "id": "dsh-repair-order-qc",
@@ -3030,7 +3030,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-repair-order-qc.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-repair-order-qc.png",
           "alt": "Repair Order QC"
         }
       },
@@ -3044,7 +3044,7 @@
       "summary": "Research reports with integrity: evidence-linked reports whose content hash seals the directory of sources.",
       "summaryZh": "带完整性的研究报告：报告与证据一一关联，内容哈希封住来源目录。",
       "homepage": "https://github.com/PerryLink/dsh-research-report#readme",
-      "latestVersion": "0.3.24",
+      "latestVersion": "0.3.30",
       "license": "Apache-2.0",
       "group": "研究",
       "requires": {
@@ -3068,11 +3068,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-research-report.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-research-report.png",
           "alt": "Research Report"
         }
       },
-      "updatedAt": "2026-10-18T14:24:32.208Z"
+      "updatedAt": "2026-10-22T13:55:45.613Z"
     },
     {
       "id": "dsh-review-reply-check",
@@ -3106,7 +3106,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-review-reply-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-review-reply-check.png",
           "alt": "Review Reply Check"
         }
       },
@@ -3144,7 +3144,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-rulefile-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-rulefile-check.png",
           "alt": "Rule File Check"
         }
       },
@@ -3182,7 +3182,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-safety-brief-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-safety-brief-check.png",
           "alt": "Safety Briefing Check"
         }
       },
@@ -3220,7 +3220,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-score.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-score.png",
           "alt": "Score"
         }
       },
@@ -3259,7 +3259,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-session-pin.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-session-pin.png",
           "alt": "Session Pin"
         }
       },
@@ -3273,7 +3273,7 @@
       "summary": "Session synchronization for DeepSeek Harness: push/pull session logs to remote storage with configurable auto push/pull.",
       "summaryZh": "会话日志同步：把会话记录推/拉到远端存储，自动推拉可配置。",
       "homepage": "https://github.com/PerryLink/dsh-session-sync#readme",
-      "latestVersion": "0.2.26",
+      "latestVersion": "0.2.30",
       "license": "Apache-2.0",
       "group": "会话",
       "requires": {
@@ -3297,11 +3297,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-session-sync.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-session-sync.png",
           "alt": "Session Sync"
         }
       },
-      "updatedAt": "2026-10-18T09:43:28.872Z"
+      "updatedAt": "2026-10-19T10:18:40.784Z"
     },
     {
       "id": "dsh-site-log-check",
@@ -3335,7 +3335,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-site-log-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-site-log-check.png",
           "alt": "Supervision Log Check"
         }
       },
@@ -3349,7 +3349,7 @@
       "summary": "三重一大决策台账核对（按前置研究、会议审议与决议记录核对程序留痕，仅提示差异，不作出定性结论）",
       "summaryZh": "三重一大决策台账核对（按前置研究、会议审议与决议记录核对程序留痕，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-soe-decision-check#readme",
-      "latestVersion": "0.2.13",
+      "latestVersion": "0.2.14",
       "license": "Apache-2.0",
       "group": "治理",
       "requires": {
@@ -3373,11 +3373,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-soe-decision-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-soe-decision-check.png",
           "alt": "SOE Decision Check"
         }
       },
-      "updatedAt": "2026-10-18T13:46:33.277Z"
+      "updatedAt": "2026-10-20T15:06:15.841Z"
     },
     {
       "id": "dsh-soilwater-check",
@@ -3411,7 +3411,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-soilwater-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-soilwater-check.png",
           "alt": "Soil & Groundwater Check"
         }
       },
@@ -3449,7 +3449,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-sop-sync-check.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-sop-sync-check.png",
           "alt": "SOP Sync Check"
         }
       },
@@ -3487,7 +3487,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-spc-gbt-adapter.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-spc-gbt-adapter.png",
           "alt": "SPC Control Chart Check"
         }
       },
@@ -3501,7 +3501,7 @@
       "summary": "Voice for DeepSeek Harness: text-to-speech and speech-to-text with mute and speak-to-chat controls.",
       "summaryZh": "给 DeepSeek Harness 加语音：文字转语音与语音转文字，含静音与\"说完即发\"开关。",
       "homepage": "https://github.com/PerryLink/dsh-talk#readme",
-      "latestVersion": "0.3.24",
+      "latestVersion": "0.3.25",
       "license": "Apache-2.0",
       "group": "桌面",
       "requires": {
@@ -3525,11 +3525,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-talk.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-talk.png",
           "alt": "Talk"
         }
       },
-      "updatedAt": "2026-10-18T14:14:58.997Z"
+      "updatedAt": "2026-10-18T17:01:26.607Z"
     },
     {
       "id": "dsh-team-rooms",
@@ -3567,7 +3567,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-team-rooms.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-team-rooms.png",
           "alt": "Team Rooms"
         }
       },
@@ -3605,7 +3605,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-tender-extract.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-tender-extract.png",
           "alt": "Tender Requirement Extract"
         }
       },
@@ -3619,7 +3619,7 @@
       "summary": "评标因素评分矩阵核对（按分值上限与合计核对矩阵自洽，仅提示差异，不作出定性结论）",
       "summaryZh": "评标因素评分矩阵核对（按分值上限与合计核对矩阵自洽，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-tender-matrix#readme",
-      "latestVersion": "0.2.12",
+      "latestVersion": "0.2.14",
       "license": "Apache-2.0",
       "group": "招投标",
       "requires": {
@@ -3643,11 +3643,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-tender-matrix.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-tender-matrix.png",
           "alt": "Tender Scoring Matrix Check"
         }
       },
-      "updatedAt": "2026-10-18T13:43:28.812Z"
+      "updatedAt": "2026-10-21T13:09:47.720Z"
     },
     {
       "id": "dsh-test-drive",
@@ -3657,7 +3657,7 @@
       "summary": "Test Drive: run plugins in a disposable sandbox environment (temporary DSH_HOME) and score the results as JSON/Markdown.",
       "summaryZh": "在一次性沙箱环境（临时 DSH_HOME）里跑插件，并以 JSON/Markdown 给出结果。",
       "homepage": "https://github.com/PerryLink/dsh-test-drive#readme",
-      "latestVersion": "0.3.20",
+      "latestVersion": "0.3.23",
       "license": "Apache-2.0",
       "group": "质量",
       "requires": {
@@ -3681,11 +3681,11 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-test-drive.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-test-drive.png",
           "alt": "Test Drive"
         }
       },
-      "updatedAt": "2026-10-18T14:16:29.622Z"
+      "updatedAt": "2026-10-22T15:59:59.571Z"
     },
     {
       "id": "dsh-translate",
@@ -3719,7 +3719,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-translate.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-translate.png",
           "alt": "Translate"
         }
       },
@@ -3757,7 +3757,7 @@
       },
       "media": {
         "icon": {
-          "url": "https://perrylink-dsh-catalog.perrylink.workers.dev/icons/dsh-warranty-calc.png",
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-warranty-calc.png",
           "alt": "Warranty Period Check"
         }
       },
