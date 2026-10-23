@@ -1,0 +1,82 @@
+name: refresh-catalog
+
+# Keep the npm snapshot current without manual polling. The job only opens a
+# PR when the registry actually moved, and it runs the same data/artifact/type
+# gates as CI before opening it. Merging the PR triggers the deploy workflow.
+#
+# Why a PR instead of a direct commit: the committed manifest must keep the
+# placeholder origin (CI rebuilds it and diffs), while the deploy workflow
+# rebuilds it with the live origin. A human merge keeps that boundary and the
+# normal deploy path intact.
+
+on:
+  schedule:
+    - cron: '17 2 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Refresh the npm snapshot
+        run: node scripts/refresh-snapshot.mjs
+
+      - name: Did the registry change?
+        id: changed
+        run: |
+          if git diff --quiet -- data/npm-snapshot.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Rebuild deploy artifacts with the placeholder origin
+        if: steps.changed.outputs.changed == 'true'
+        run: node scripts/build-catalog.mjs
+
+      - name: Run the CI data and artifact gates
+        if: steps.changed.outputs.changed == 'true'
+        run: |
+          node scripts/check-data.mjs
+          node scripts/check-counts.mjs
+          node scripts/validate.mjs
+          node scripts/build-catalog.mjs
+          git diff --exit-code -- deploy/catalog-source.json
+
+      - name: Typecheck the published line
+        if: steps.changed.outputs.changed == 'true'
+        run: |
+          npm install --no-audit --no-fund
+          npm run typecheck:ci
+
+      - name: Open or update the refresh PR
+        if: steps.changed.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ github.token }}
+          commit-message: 'data: refresh npm snapshot'
+          title: 'data: refresh npm snapshot'
+          body: |
+            Automated refresh of `data/npm-snapshot.json` and the rebuilt
+            `deploy/` artifacts.
+
+            The scheduled workflow ran `check-data`, `check-counts`,
+            `validate`, the fresh-build diff and `typecheck:ci` before opening
+            this PR. The committed manifest keeps the placeholder origin; the
+            deploy workflow rebuilds it with the live origin.
+          branch: chore/catalog-refresh
+          delete-branch: true
+          add-paths: |
+            data/npm-snapshot.json
+            deploy/artifacts/v1/plugins.json
+            deploy/catalog-source.json
