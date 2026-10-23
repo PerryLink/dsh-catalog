@@ -59,6 +59,12 @@ node scripts/build-catalog.mjs https://<your-project>.deno.dev   # real origin
 node scripts/refresh-snapshot.mjs   # re-fetch every package from registry.npmjs.org
 ```
 
+> A scheduled workflow (`.github/workflows/refresh-catalog.yml`) runs this daily
+> and opens one PR on `chore/catalog-refresh` only when the registry changed.
+> It runs the data/artifact/type gates before opening the PR; merging the PR
+> triggers the deploy workflow. The manual command above is for a forced
+> refresh.
+
 ### Maintaining `data/`
 
 `data/packages.json` and `data/npm-snapshot.json` are **one unit**: a new or renamed package
