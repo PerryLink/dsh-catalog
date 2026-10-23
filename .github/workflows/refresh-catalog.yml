@@ -12,16 +12,7 @@ name: refresh-catalog
 on:
   schedule:
     - cron: '17 2 * * *'
-  workflow_dispatch:
-    inputs:
-      force:
-        description: 'Run the changed path even when npm did not move (testing)'
-        type: boolean
-        default: false
-      dry_run:
-        description: 'Validate the PR step without creating a PR (testing)'
-        type: boolean
-        default: false
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -43,10 +34,10 @@ jobs:
       - name: Did the registry change?
         id: changed
         run: |
-          if [ "${{ inputs.force }}" = "true" ] || ! git diff --quiet -- data/npm-snapshot.json; then
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          else
+          if git diff --quiet -- data/npm-snapshot.json; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Rebuild deploy artifacts with the placeholder origin
@@ -73,7 +64,6 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ github.token }}
-          dry-run: ${{ inputs.dry_run }}
           commit-message: 'data: refresh npm snapshot'
           title: 'data: refresh npm snapshot'
           body: |
