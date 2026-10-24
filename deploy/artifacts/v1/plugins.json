@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-23T04:51:22.373Z",
-  "revision": "perrylink-dsh-catalog-2026-10-23",
+  "generatedAt": "2026-10-24T07:22:26.989Z",
+  "revision": "perrylink-dsh-catalog-2026-10-24",
   "items": [
     {
       "id": "perrylink/dsh-github",
@@ -11,7 +11,7 @@
       "summary": "GitHub for DeepSeek Harness: PR/issue/repo/file tools, reviews, and CI checks — every write gated by human approval, token never logged.",
       "summaryZh": "GitHub 集成：PR/issue/仓库/文件工具、评审与 CI 检查，每次写入都需人工审批，token 从不进日志。",
       "homepage": "https://github.com/PerryLink/dsh-github#readme",
-      "latestVersion": "0.7.26",
+      "latestVersion": "0.7.27",
       "license": "Apache-2.0",
       "group": "集成",
       "requires": {
@@ -39,7 +39,7 @@
           "alt": "GitHub"
         }
       },
-      "updatedAt": "2026-10-22T13:49:42.615Z"
+      "updatedAt": "2026-10-23T13:26:11.254Z"
     },
     {
       "id": "perrylink/dsh-plugin-doctor",
@@ -845,7 +845,7 @@
       "summary": "Prompt-injection, jailbreak, and secret-leak defense for DeepSeek Harness: Aho-Corasick detection with allow/ask/block interception, sanitized audit events, and a recursive-delete pre-execution gate.",
       "summaryZh": "面向 DeepSeek Harness 的提示注入、越狱与密钥泄漏防御：Aho-Corasick 检测配允许/询问/阻断拦截、脱敏审计事件，以及递归删除的执行前闸门。",
       "homepage": "https://github.com/PerryLink/dsh-defend#readme",
-      "latestVersion": "0.3.24",
+      "latestVersion": "0.3.25",
       "license": "Apache-2.0",
       "status": "frozen",
       "group": "安全",
@@ -874,7 +874,7 @@
           "alt": "Defend"
         }
       },
-      "updatedAt": "2026-10-18T18:37:33.192Z"
+      "updatedAt": "2026-10-23T13:27:52.092Z"
     },
     {
       "id": "dsh-demurrage-ledger",
@@ -1341,7 +1341,7 @@
       "summary": "Fund research: analyze funds with returns, holdings, and performance decomposition.",
       "summaryZh": "基金研究：分析基金的收益、持仓与业绩归因。",
       "homepage": "https://github.com/PerryLink/dsh-fund-research#readme",
-      "latestVersion": "0.4.25",
+      "latestVersion": "0.5.0",
       "license": "Apache-2.0",
       "group": "研究",
       "requires": {
@@ -1369,7 +1369,7 @@
           "alt": "Fund Research"
         }
       },
-      "updatedAt": "2026-10-18T14:11:51.354Z"
+      "updatedAt": "2026-10-23T14:35:42.188Z"
     },
     {
       "id": "dsh-gongwen-flow-check",
@@ -1946,7 +1946,7 @@
       "summary": "LSP actions for DeepSeek Harness: the IDE-integration plugin that exposes language-server diagnostics, definitions, references, and fixes to the agent.",
       "summaryZh": "把语言服务器的诊断、定义跳转、引用查找与修复暴露给 agent 的 IDE 集成插件。",
       "homepage": "https://github.com/PerryLink/dsh-lsp-actions#readme",
-      "latestVersion": "0.5.16",
+      "latestVersion": "0.5.17",
       "license": "Apache-2.0",
       "group": "集成",
       "requires": {
@@ -1974,7 +1974,7 @@
           "alt": "LSP Actions"
         }
       },
-      "updatedAt": "2026-10-22T14:10:26.456Z"
+      "updatedAt": "2026-10-23T14:35:33.138Z"
     },
     {
       "id": "dsh-mask",
@@ -3311,7 +3311,7 @@
       "summary": "监理日志跨日连续性与旁站覆盖提示（依据 GB/T 50319-2013 等公开文件，仅提示差异，不作出定性结论）",
       "summaryZh": "监理日志跨日连续性与旁站覆盖提示（依据 GB/T 50319-2013 等公开文件，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-site-log-check#readme",
-      "latestVersion": "0.2.11",
+      "latestVersion": "0.3.0",
       "license": "Apache-2.0",
       "group": "工程建设",
       "requires": {
@@ -3339,7 +3339,7 @@
           "alt": "Supervision Log Check"
         }
       },
-      "updatedAt": "2026-10-18T13:39:26.949Z"
+      "updatedAt": "2026-10-23T19:29:03.684Z"
     },
     {
       "id": "dsh-soe-decision-check",
