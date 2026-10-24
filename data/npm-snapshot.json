@@ -5,8 +5,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-github#readme",
     "repository": "git+https://github.com/PerryLink/dsh-github.git",
-    "latest": "0.7.26",
-    "updatedAt": "2026-10-22T13:49:42.615Z"
+    "latest": "0.7.27",
+    "updatedAt": "2026-10-23T13:26:11.254Z"
   },
   {
     "name": "@perrylink/dsh-plugin-doctor",
@@ -203,8 +203,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-defend#readme",
     "repository": "git+https://github.com/PerryLink/dsh-defend.git",
-    "latest": "0.3.24",
-    "updatedAt": "2026-10-18T18:37:33.192Z"
+    "latest": "0.3.25",
+    "updatedAt": "2026-10-23T13:27:52.092Z"
   },
   {
     "name": "dsh-demurrage-ledger",
@@ -320,8 +320,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-fund-research#readme",
     "repository": "git+https://github.com/PerryLink/dsh-fund-research.git",
-    "latest": "0.4.25",
-    "updatedAt": "2026-10-18T14:11:51.354Z"
+    "latest": "0.5.0",
+    "updatedAt": "2026-10-23T14:35:42.188Z"
   },
   {
     "name": "dsh-gongwen-flow-check",
@@ -464,8 +464,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-lsp-actions#readme",
     "repository": "git+https://github.com/PerryLink/dsh-lsp-actions.git",
-    "latest": "0.5.16",
-    "updatedAt": "2026-10-22T14:10:26.456Z"
+    "latest": "0.5.17",
+    "updatedAt": "2026-10-23T14:35:33.138Z"
   },
   {
     "name": "dsh-mask",
@@ -788,8 +788,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-site-log-check#readme",
     "repository": "git+https://github.com/PerryLink/dsh-site-log-check.git",
-    "latest": "0.2.11",
-    "updatedAt": "2026-10-18T13:39:26.949Z"
+    "latest": "0.3.0",
+    "updatedAt": "2026-10-23T19:29:03.684Z"
   },
   {
     "name": "dsh-soe-decision-check",
