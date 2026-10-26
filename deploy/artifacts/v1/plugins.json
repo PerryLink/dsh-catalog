@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-24T07:22:26.989Z",
-  "revision": "perrylink-dsh-catalog-2026-10-24",
+  "generatedAt": "2026-10-26T14:30:15.943Z",
+  "revision": "perrylink-dsh-catalog-2026-10-26",
   "items": [
     {
       "id": "perrylink/dsh-github",
@@ -158,7 +158,7 @@
       "summary": "TickTick (Dida365) task bridge for DeepSeek Harness: a session-header task panel (list filter, quick add, complete, delete, due dates, drag reorder), eleven curated ticktick_* tools, and a plugin settings card over the official TickTick MCP endpoint.",
       "summaryZh": "TickTick（滴答清单）任务桥：会话顶部任务面板（列表筛选、快速添加、完成、删除、截止日期、拖动排序）、十一个 ticktick_* 工具，以及基于官方 TickTick MCP 端点的插件设置卡。",
       "homepage": "https://github.com/PerryLink/dsh-ticktick#readme",
-      "latestVersion": "0.1.22",
+      "latestVersion": "0.1.23",
       "license": "Apache-2.0",
       "group": "集成",
       "requires": {
@@ -186,7 +186,7 @@
           "alt": "TickTick"
         }
       },
-      "updatedAt": "2026-10-23T04:44:59.582Z"
+      "updatedAt": "2026-10-26T12:29:04.932Z"
     },
     {
       "id": "dsh-aqua-input-check",
@@ -272,7 +272,7 @@
       "summary": "Second-model AI auto-review for DeepSeek Harness approval requests: a read-only reviewer subagent decides allow/deny on the approval answerer chain, with fail-closed fallback and full session-log audit.",
       "summaryZh": "审批链上的第二模型自动复核：只读复核子代理在审批应答链上给出允许/拒绝，失败即拒，全过程留痕在会话日志里。",
       "homepage": "https://github.com/PerryLink/dsh-auto-review#readme",
-      "latestVersion": "0.13.8",
+      "latestVersion": "0.14.1",
       "license": "Apache-2.0",
       "group": "安全",
       "requires": {
@@ -300,7 +300,7 @@
           "alt": "Auto Review"
         }
       },
-      "updatedAt": "2026-10-22T05:21:10.293Z"
+      "updatedAt": "2026-10-26T12:43:52.185Z"
     },
     {
       "id": "dsh-autotier",
@@ -544,7 +544,7 @@
       "summary": "Unified DSH checkpoints: session, workspace, and config three-state snapshots with one-shot /checkpoint and /rewind rollback, a checkpoint tool, automatic interval snapshots, a Settings-page timeline with pairwise diffs, and seed-replay session recovery.",
       "summaryZh": "统一的 DSH 检查点：会话/工作区/配置三态快照，一条命令 /checkpoint 与 /rewind 回滚，附 checkpoint 工具、定时自动快照、带两两差异的设置页时间线与种子重放式会话恢复。",
       "homepage": "https://github.com/PerryLink/dsh-checkpoint-rewind#readme",
-      "latestVersion": "0.6.33",
+      "latestVersion": "0.6.34",
       "license": "Apache-2.0",
       "group": "会话",
       "requires": {
@@ -572,7 +572,7 @@
           "alt": "Checkpoint Rewind"
         }
       },
-      "updatedAt": "2026-10-19T13:49:13.217Z"
+      "updatedAt": "2026-10-24T12:34:43.051Z"
     },
     {
       "id": "dsh-claude-move",
@@ -807,7 +807,7 @@
       "summary": "Deterministic data profiling, cleaning, and verification for DeepSeek Harness: DAMA scorecard, content-hash dedupe, metric expectations, and drift checks.",
       "summaryZh": "确定性的数据画像、清洗与校验：DAMA 记分卡、内容哈希去重、指标期望与漂移检查。",
       "homepage": "https://github.com/PerryLink/dsh-data-quality#readme",
-      "latestVersion": "0.3.23",
+      "latestVersion": "0.3.24",
       "license": "Apache-2.0",
       "group": "质量",
       "requires": {
@@ -835,7 +835,7 @@
           "alt": "Data Quality"
         }
       },
-      "updatedAt": "2026-10-18T14:10:56.666Z"
+      "updatedAt": "2026-10-24T15:10:32.590Z"
     },
     {
       "id": "dsh-defend",
@@ -1227,7 +1227,7 @@
       "summary": "Read-only performance diagnostics for DeepSeek Harness: session load/restore timing, spill-hit counts, compaction count and trigger, context-injection volume (AGENTS.md/skills/tool-schema token share), and LLM cache hit rate — surfaced via /fast.",
       "summaryZh": "只读性能诊断：会话加载/恢复耗时、落盘命中次数、压缩次数与触发原因、上下文注入量（AGENTS.md/技能/工具 schema 的 token 占比）与 LLM 缓存命中率，经 /fast 呈现。",
       "homepage": "https://github.com/PerryLink/dsh-fast#readme",
-      "latestVersion": "0.2.26",
+      "latestVersion": "0.2.27",
       "license": "Apache-2.0",
       "group": "观测",
       "requires": {
@@ -1255,7 +1255,7 @@
           "alt": "Fast"
         }
       },
-      "updatedAt": "2026-10-18T18:49:48.982Z"
+      "updatedAt": "2026-10-24T15:06:55.731Z"
     },
     {
       "id": "dsh-fmea-table-check",
@@ -1341,7 +1341,7 @@
       "summary": "Fund research: analyze funds with returns, holdings, and performance decomposition.",
       "summaryZh": "基金研究：分析基金的收益、持仓与业绩归因。",
       "homepage": "https://github.com/PerryLink/dsh-fund-research#readme",
-      "latestVersion": "0.5.0",
+      "latestVersion": "0.5.1",
       "license": "Apache-2.0",
       "group": "研究",
       "requires": {
@@ -1369,7 +1369,7 @@
           "alt": "Fund Research"
         }
       },
-      "updatedAt": "2026-10-23T14:35:42.188Z"
+      "updatedAt": "2026-10-24T14:08:28.984Z"
     },
     {
       "id": "dsh-gongwen-flow-check",
@@ -1870,7 +1870,7 @@
       "summary": "Local document knowledge base for DeepSeek Harness: library_add/remove/list, hybrid semantic+keyword library_search with diversity re-ranking and lost-in-the-middle avoidance, citation-aware injection, library_cite_check and library_diagnose — SQLite-backed index, local embedding, zero model downloads.",
       "summaryZh": "本地文档知识库：library_add/remove/list，语义加关键词的混合检索 library_search（带多样性重排与防\"中间遗忘\"）、引用感知注入、library_cite_check 与 library_diagnose，SQLite 索引与本地嵌入，不下载模型。",
       "homepage": "https://github.com/PerryLink/dsh-library#readme",
-      "latestVersion": "0.2.24",
+      "latestVersion": "0.2.25",
       "license": "Apache-2.0",
       "group": "研究",
       "requires": {
@@ -1898,7 +1898,7 @@
           "alt": "Library"
         }
       },
-      "updatedAt": "2026-10-18T14:14:40.860Z"
+      "updatedAt": "2026-10-24T14:49:57.142Z"
     },
     {
       "id": "dsh-local-ai",
@@ -1984,7 +1984,7 @@
       "summary": "PII masking middleware for DeepSeek Harness: phones, emails, ID cards, bank cards and keys become placeholders before they reach the model, and a host-side restore table keeps them reversible. The plaintext never enters the session log.",
       "summaryZh": "PII 脱敏中间件：手机号、邮箱、身份证、银行卡与密钥在到达模型前变成占位符，宿主侧还原表保证可逆，明文不进会话日志。",
       "homepage": "https://github.com/PerryLink/dsh-mask#readme",
-      "latestVersion": "0.2.22",
+      "latestVersion": "0.2.23",
       "license": "Apache-2.0",
       "group": "安全",
       "requires": {
@@ -2012,7 +2012,7 @@
           "alt": "Mask"
         }
       },
-      "updatedAt": "2026-10-18T09:30:34.665Z"
+      "updatedAt": "2026-10-24T15:02:08.566Z"
     },
     {
       "id": "dsh-mcp-panel",
@@ -2212,7 +2212,7 @@
       "summary": "Observability for DeepSeek Harness: request tracing, telemetry, log buffering, and retry visibility.",
       "summaryZh": "可观测性：请求追踪、遥测上报、日志缓冲与重试可见性。",
       "homepage": "https://github.com/PerryLink/dsh-observe#readme",
-      "latestVersion": "0.2.25",
+      "latestVersion": "0.2.26",
       "license": "Apache-2.0",
       "group": "观测",
       "requires": {
@@ -2240,7 +2240,7 @@
           "alt": "Observe"
         }
       },
-      "updatedAt": "2026-10-18T14:21:46.007Z"
+      "updatedAt": "2026-10-24T14:01:53.051Z"
     },
     {
       "id": "dsh-origin-rvc-check",
@@ -2326,7 +2326,7 @@
       "summary": "Runtime-switchable model output styles for DeepSeek Harness: a Markdown style library (six built-ins, Claude Code-parity proactive/learning), /style command, session-scoped persistence, system-prompt injection, a plugin renderer registry, per-session/per-tool rules, and /export rendering.",
       "summaryZh": "运行时可切换的模型输出风格：Markdown 风格库（六个内置，含 Claude Code 对等的 proactive/learning）、/style 命令、按会话持久化、系统提示注入、插件渲染器注册表、按会话与按工具的规则，以及 /export 渲染。",
       "homepage": "https://github.com/PerryLink/dsh-output-styles#readme",
-      "latestVersion": "0.8.1",
+      "latestVersion": "0.8.2",
       "license": "Apache-2.0",
       "group": "UX",
       "requires": {
@@ -2354,7 +2354,7 @@
           "alt": "Output Styles"
         }
       },
-      "updatedAt": "2026-10-18T09:33:29.928Z"
+      "updatedAt": "2026-10-24T11:27:40.967Z"
     },
     {
       "id": "dsh-paper-doc-adapter",
@@ -3196,7 +3196,7 @@
       "summary": "Plugin quality scoring for the DSH ecosystem: evaluate plugins against checks and produce evidence-backed compliance reports.",
       "summaryZh": "DSH 生态的插件质量评分：按检查项评估插件并产出有证据支撑的合规报告。",
       "homepage": "https://github.com/PerryLink/dsh-score#readme",
-      "latestVersion": "0.2.25",
+      "latestVersion": "0.2.26",
       "license": "Apache-2.0",
       "group": "质量",
       "requires": {
@@ -3224,7 +3224,7 @@
           "alt": "Score"
         }
       },
-      "updatedAt": "2026-10-18T14:15:02.846Z"
+      "updatedAt": "2026-10-24T15:03:52.635Z"
     },
     {
       "id": "dsh-session-pin",
@@ -3273,7 +3273,7 @@
       "summary": "Session synchronization for DeepSeek Harness: push/pull session logs to remote storage with configurable auto push/pull.",
       "summaryZh": "会话日志同步：把会话记录推/拉到远端存储，自动推拉可配置。",
       "homepage": "https://github.com/PerryLink/dsh-session-sync#readme",
-      "latestVersion": "0.2.30",
+      "latestVersion": "0.2.31",
       "license": "Apache-2.0",
       "group": "会话",
       "requires": {
@@ -3301,7 +3301,7 @@
           "alt": "Session Sync"
         }
       },
-      "updatedAt": "2026-10-19T10:18:40.784Z"
+      "updatedAt": "2026-10-24T12:38:49.636Z"
     },
     {
       "id": "dsh-site-log-check",
@@ -3501,7 +3501,7 @@
       "summary": "Voice for DeepSeek Harness: text-to-speech and speech-to-text with mute and speak-to-chat controls.",
       "summaryZh": "给 DeepSeek Harness 加语音：文字转语音与语音转文字，含静音与\"说完即发\"开关。",
       "homepage": "https://github.com/PerryLink/dsh-talk#readme",
-      "latestVersion": "0.3.25",
+      "latestVersion": "0.3.26",
       "license": "Apache-2.0",
       "group": "桌面",
       "requires": {
@@ -3529,7 +3529,7 @@
           "alt": "Talk"
         }
       },
-      "updatedAt": "2026-10-18T17:01:26.607Z"
+      "updatedAt": "2026-10-24T14:52:58.297Z"
     },
     {
       "id": "dsh-team-rooms",
@@ -3657,7 +3657,7 @@
       "summary": "Test Drive: run plugins in a disposable sandbox environment (temporary DSH_HOME) and score the results as JSON/Markdown.",
       "summaryZh": "在一次性沙箱环境（临时 DSH_HOME）里跑插件，并以 JSON/Markdown 给出结果。",
       "homepage": "https://github.com/PerryLink/dsh-test-drive#readme",
-      "latestVersion": "0.3.23",
+      "latestVersion": "0.3.24",
       "license": "Apache-2.0",
       "group": "质量",
       "requires": {
@@ -3685,7 +3685,7 @@
           "alt": "Test Drive"
         }
       },
-      "updatedAt": "2026-10-22T15:59:59.571Z"
+      "updatedAt": "2026-10-24T14:54:21.633Z"
     },
     {
       "id": "dsh-translate",
@@ -3762,9 +3762,394 @@
         }
       },
       "updatedAt": "2026-10-18T13:34:36.340Z"
+    },
+    {
+      "id": "dsh-bid-health-check",
+      "name": "dsh-bid-health-check",
+      "displayName": "Bid Health Check",
+      "displayNameZh": "投标响应健检",
+      "summary": "Locate, requirement by requirement, where a bid appears to answer a tender pack, and where it does not; weak matches and non-located items are reported without judging substantive compliance.",
+      "summaryZh": "按招标要求逐条定位投标文件的响应位置，标出应答、弱匹配与未定位项；只报差异，不判断是否实质满足。",
+      "homepage": "https://github.com/PerryLink/dsh-bid-health-check#readme",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "group": "招投标",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner",
+      "categories": [
+        "tender"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-bid-health-check"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-bid-health-check"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-bid-health-check.png",
+          "alt": "Bid Health Check"
+        }
+      },
+      "updatedAt": "2026-10-23T19:09:29.132Z"
+    },
+    {
+      "id": "dsh-canteen-retention-check",
+      "name": "dsh-canteen-retention-check",
+      "displayName": "Canteen Retention Check",
+      "displayNameZh": "食堂留样核对",
+      "summary": "Canteen food-retention ledger: the four required record elements, the 125 g minimum, the 48-hour cold-storage window and template placeholders left in a cell.",
+      "summaryZh": "食堂留样台账核对：四个记录要素、125g 下限、48 小时冷藏窗口与模板占位符。",
+      "homepage": "https://github.com/PerryLink/dsh-canteen-retention-check#readme",
+      "latestVersion": "0.2.0",
+      "license": "Apache-2.0",
+      "group": "安全",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner",
+      "categories": [
+        "safety"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-canteen-retention-check"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-canteen-retention-check"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-canteen-retention-check.png",
+          "alt": "Canteen Retention Check"
+        }
+      },
+      "updatedAt": "2026-10-23T19:46:38.086Z"
+    },
+    {
+      "id": "dsh-construction-doc-check",
+      "name": "dsh-construction-doc-check",
+      "displayName": "Construction Document Check",
+      "displayNameZh": "工程资料完整性核对",
+      "summary": "Project document archive: missing required document types, stale revisions and empty files, read from names rather than contents.",
+      "summaryZh": "项目资料归档核对：缺失的必需资料类型、过期版本与空文件；只读文件名，不读内容。",
+      "homepage": "https://github.com/PerryLink/dsh-construction-doc-check#readme",
+      "latestVersion": "0.1.1",
+      "license": "Apache-2.0",
+      "group": "工程建设",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner",
+      "categories": [
+        "construction"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-construction-doc-check"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-construction-doc-check"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-construction-doc-check.png",
+          "alt": "Construction Document Check"
+        }
+      },
+      "updatedAt": "2026-10-23T19:34:08.457Z"
+    },
+    {
+      "id": "dsh-excel-reconcile",
+      "name": "dsh-excel-reconcile",
+      "displayName": "Excel Reconcile",
+      "displayNameZh": "Excel 双表核对",
+      "summary": "Join two spreadsheets on a declared key and compare declared fields within declared tolerances; it reconciles and reports differences rather than adjudicating them.",
+      "summaryZh": "两张表按声明主键连接，按声明字段与容差比对，输出 Markdown、JSON 与差异工作簿；只报差异，不裁决。",
+      "homepage": "https://github.com/PerryLink/dsh-excel-reconcile#readme",
+      "latestVersion": "0.1.1",
+      "license": "Apache-2.0",
+      "group": "质量",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate",
+      "categories": [
+        "tools",
+        "quality"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-excel-reconcile"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-excel-reconcile"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-excel-reconcile.png",
+          "alt": "Excel Reconcile"
+        }
+      },
+      "updatedAt": "2026-10-23T17:56:51.771Z"
+    },
+    {
+      "id": "dsh-invoice-ledger",
+      "name": "dsh-invoice-ledger",
+      "displayName": "Invoice Ledger",
+      "displayNameZh": "发票台账核对",
+      "summary": "Invoice ledger: duplicates keyed on code + number, arithmetic, payer mismatch, date anomalies and template placeholders left in a cell.",
+      "summaryZh": "发票台账核对：按代码+号码识别重复、算式、付款方不一致、日期异常与模板占位符，输出差异清单与工作簿。",
+      "homepage": "https://github.com/PerryLink/dsh-invoice-ledger#readme",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "group": "质量",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner",
+      "categories": [
+        "quality"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-invoice-ledger"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-invoice-ledger"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-invoice-ledger.png",
+          "alt": "Invoice Ledger"
+        }
+      },
+      "updatedAt": "2026-10-23T17:12:29.876Z"
+    },
+    {
+      "id": "dsh-payroll-audit",
+      "name": "dsh-payroll-audit",
+      "displayName": "Payroll Audit",
+      "displayNameZh": "工资表核对",
+      "summary": "Payroll against published social-insurance, housing-fund and individual-income-tax parameters, with four-valued outcomes and parameters that carry their own review date.",
+      "summaryZh": "工资表核对：按社保、公积金、个税参数逐项比对，四值结果（pass/pass_with_gaps/review/fail），参数过期降级为复核。",
+      "homepage": "https://github.com/PerryLink/dsh-payroll-audit#readme",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "group": "治理",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate",
+      "categories": [
+        "quality",
+        "governance"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-payroll-audit"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-payroll-audit"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-payroll-audit.png",
+          "alt": "Payroll Audit"
+        }
+      },
+      "updatedAt": "2026-10-23T17:04:07.867Z"
+    },
+    {
+      "id": "dsh-safety-ledger-check",
+      "name": "dsh-safety-ledger-check",
+      "displayName": "Safety Ledger Check",
+      "displayNameZh": "施工安全资格台账核对",
+      "summary": "Site safety-qualification ledger: training hours, the four record elements, and special-operation certificate validity against the dates the person worked.",
+      "summaryZh": "施工安全资格台账核对：培训学时、四个记录要素、特种作业证有效期与作业时间匹配。",
+      "homepage": "https://github.com/PerryLink/dsh-safety-ledger-check#readme",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "group": "工程建设",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner",
+      "categories": [
+        "construction",
+        "safety"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-safety-ledger-check"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-safety-ledger-check"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-safety-ledger-check.png",
+          "alt": "Safety Ledger Check"
+        }
+      },
+      "updatedAt": "2026-10-23T19:21:52.054Z"
+    },
+    {
+      "id": "dsh-table-ingest",
+      "name": "dsh-table-ingest",
+      "displayName": "Table Ingest",
+      "displayNameZh": "表格摄取",
+      "summary": "Convert .docx/.xlsx/.xlsm/.csv/.tsv tables into the table JSON the rule checkers consume, and say when it could not rather than guessing.",
+      "summaryZh": "把 .docx/.xlsx/.xlsm/.csv/.tsv 中的表格转成规则核查器可读的 table JSON；识别不了时明确报错，不猜。",
+      "homepage": "https://github.com/PerryLink/dsh-table-ingest#readme",
+      "latestVersion": "0.2.0",
+      "license": "Apache-2.0",
+      "group": "生态",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate",
+      "categories": [
+        "tools",
+        "dev"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-table-ingest"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-table-ingest"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-table-ingest.png",
+          "alt": "Table Ingest"
+        }
+      },
+      "updatedAt": "2026-10-23T16:41:14.173Z"
+    },
+    {
+      "id": "dsh-tender-requirements",
+      "name": "dsh-tender-requirements",
+      "displayName": "Tender Requirements",
+      "displayNameZh": "招标要求提取",
+      "summary": "Extract deadlines, deposit, validity, ceiling, bid composition and copy counts from a tender document; items that were not found are printed too, rather than silently omitted.",
+      "summaryZh": "从招标文件提取截止时间、保证金、有效期、最高限价、投标文件组成与正副本份数；未找到的项也逐条列出。",
+      "homepage": "https://github.com/PerryLink/dsh-tender-requirements#readme",
+      "latestVersion": "0.2.0",
+      "license": "Apache-2.0",
+      "group": "招投标",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner",
+      "categories": [
+        "tender"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-tender-requirements"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-tender-requirements"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-tender-requirements.png",
+          "alt": "Tender Requirements"
+        }
+      },
+      "updatedAt": "2026-10-23T19:02:09.681Z"
+    },
+    {
+      "id": "perrylink/dsh-checkers-suite",
+      "name": "@perrylink/dsh-checkers-suite",
+      "displayName": "Compliance Suite",
+      "displayNameZh": "合规核查套件",
+      "summary": "One-command installer for the 53-plugin PerryLink compliance suite: installs every checker and inserts all 53 Cordis rows through one bundle layer.",
+      "summaryZh": "53 个合规核查插件的一键安装入口：一次插入全部 53 条 Cordis 行，每个 checker 仍保留自己的 npm 包、规则包与版本。",
+      "homepage": "https://github.com/PerryLink/dsh-checkers#readme",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "group": "质量",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner",
+      "categories": [
+        "tools",
+        "quality"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-checkers"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "@perrylink/dsh-checkers-suite"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/perrylink-dsh-checkers-suite.png",
+          "alt": "Compliance Suite"
+        }
+      },
+      "updatedAt": "2026-10-18T15:20:06.222Z"
     }
   ],
   "page": {
-    "total": 99
+    "total": 109
   }
 }

@@ -2017,5 +2017,190 @@
       "node": "^22.19.0 || >=24.0.0"
     },
     "difficulty": "beginner"
+  },
+  {
+    "npm": "dsh-bid-health-check",
+    "repo": "PerryLink/dsh-bid-health-check",
+    "displayName": "Bid Health Check",
+    "displayNameZh": "投标响应健检",
+    "categories": [
+      "tender"
+    ],
+    "locale": "zh",
+    "summary": "Locate, requirement by requirement, where a bid appears to answer a tender pack, and where it does not; weak matches and non-located items are reported without judging substantive compliance.",
+    "summaryZh": "按招标要求逐条定位投标文件的响应位置，标出应答、弱匹配与未定位项；只报差异，不判断是否实质满足。",
+    "group": "招投标",
+    "requires": {
+      "dsh": ">=0.2.1-0 <0.3.0",
+      "node": "^22.19.0 || >=24.0.0"
+    },
+    "difficulty": "beginner"
+  },
+  {
+    "npm": "dsh-canteen-retention-check",
+    "repo": "PerryLink/dsh-canteen-retention-check",
+    "displayName": "Canteen Retention Check",
+    "displayNameZh": "食堂留样核对",
+    "categories": [
+      "safety"
+    ],
+    "locale": "zh",
+    "summary": "Canteen food-retention ledger: the four required record elements, the 125 g minimum, the 48-hour cold-storage window and template placeholders left in a cell.",
+    "summaryZh": "食堂留样台账核对：四个记录要素、125g 下限、48 小时冷藏窗口与模板占位符。",
+    "group": "安全",
+    "requires": {
+      "dsh": ">=0.2.1-0 <0.3.0",
+      "node": "^22.19.0 || >=24.0.0"
+    },
+    "difficulty": "beginner"
+  },
+  {
+    "npm": "dsh-construction-doc-check",
+    "repo": "PerryLink/dsh-construction-doc-check",
+    "displayName": "Construction Document Check",
+    "displayNameZh": "工程资料完整性核对",
+    "categories": [
+      "construction"
+    ],
+    "locale": "zh",
+    "summary": "Project document archive: missing required document types, stale revisions and empty files, read from names rather than contents.",
+    "summaryZh": "项目资料归档核对：缺失的必需资料类型、过期版本与空文件；只读文件名，不读内容。",
+    "group": "工程建设",
+    "requires": {
+      "dsh": ">=0.2.1-0 <0.3.0",
+      "node": "^22.19.0 || >=24.0.0"
+    },
+    "difficulty": "beginner"
+  },
+  {
+    "npm": "dsh-excel-reconcile",
+    "repo": "PerryLink/dsh-excel-reconcile",
+    "displayName": "Excel Reconcile",
+    "displayNameZh": "Excel 双表核对",
+    "categories": [
+      "tools",
+      "quality"
+    ],
+    "locale": "zh",
+    "summary": "Join two spreadsheets on a declared key and compare declared fields within declared tolerances; it reconciles and reports differences rather than adjudicating them.",
+    "summaryZh": "两张表按声明主键连接，按声明字段与容差比对，输出 Markdown、JSON 与差异工作簿；只报差异，不裁决。",
+    "group": "质量",
+    "requires": {
+      "dsh": ">=0.2.1-0 <0.3.0",
+      "node": "^22.19.0 || >=24.0.0"
+    },
+    "difficulty": "intermediate"
+  },
+  {
+    "npm": "dsh-invoice-ledger",
+    "repo": "PerryLink/dsh-invoice-ledger",
+    "displayName": "Invoice Ledger",
+    "displayNameZh": "发票台账核对",
+    "categories": [
+      "quality"
+    ],
+    "locale": "zh",
+    "summary": "Invoice ledger: duplicates keyed on code + number, arithmetic, payer mismatch, date anomalies and template placeholders left in a cell.",
+    "summaryZh": "发票台账核对：按代码+号码识别重复、算式、付款方不一致、日期异常与模板占位符，输出差异清单与工作簿。",
+    "group": "质量",
+    "requires": {
+      "dsh": ">=0.2.1-0 <0.3.0",
+      "node": "^22.19.0 || >=24.0.0"
+    },
+    "difficulty": "beginner"
+  },
+  {
+    "npm": "dsh-payroll-audit",
+    "repo": "PerryLink/dsh-payroll-audit",
+    "displayName": "Payroll Audit",
+    "displayNameZh": "工资表核对",
+    "categories": [
+      "quality",
+      "governance"
+    ],
+    "locale": "zh",
+    "summary": "Payroll against published social-insurance, housing-fund and individual-income-tax parameters, with four-valued outcomes and parameters that carry their own review date.",
+    "summaryZh": "工资表核对：按社保、公积金、个税参数逐项比对，四值结果（pass/pass_with_gaps/review/fail），参数过期降级为复核。",
+    "group": "治理",
+    "requires": {
+      "dsh": ">=0.2.1-0 <0.3.0",
+      "node": "^22.19.0 || >=24.0.0"
+    },
+    "difficulty": "intermediate"
+  },
+  {
+    "npm": "dsh-safety-ledger-check",
+    "repo": "PerryLink/dsh-safety-ledger-check",
+    "displayName": "Safety Ledger Check",
+    "displayNameZh": "施工安全资格台账核对",
+    "categories": [
+      "construction",
+      "safety"
+    ],
+    "locale": "zh",
+    "summary": "Site safety-qualification ledger: training hours, the four record elements, and special-operation certificate validity against the dates the person worked.",
+    "summaryZh": "施工安全资格台账核对：培训学时、四个记录要素、特种作业证有效期与作业时间匹配。",
+    "group": "工程建设",
+    "requires": {
+      "dsh": ">=0.2.1-0 <0.3.0",
+      "node": "^22.19.0 || >=24.0.0"
+    },
+    "difficulty": "beginner"
+  },
+  {
+    "npm": "dsh-table-ingest",
+    "repo": "PerryLink/dsh-table-ingest",
+    "displayName": "Table Ingest",
+    "displayNameZh": "表格摄取",
+    "categories": [
+      "tools",
+      "dev"
+    ],
+    "locale": "zh",
+    "summary": "Convert .docx/.xlsx/.xlsm/.csv/.tsv tables into the table JSON the rule checkers consume, and say when it could not rather than guessing.",
+    "summaryZh": "把 .docx/.xlsx/.xlsm/.csv/.tsv 中的表格转成规则核查器可读的 table JSON；识别不了时明确报错，不猜。",
+    "group": "生态",
+    "requires": {
+      "dsh": ">=0.2.1-0 <0.3.0",
+      "node": "^22.19.0 || >=24.0.0"
+    },
+    "difficulty": "intermediate"
+  },
+  {
+    "npm": "dsh-tender-requirements",
+    "repo": "PerryLink/dsh-tender-requirements",
+    "displayName": "Tender Requirements",
+    "displayNameZh": "招标要求提取",
+    "categories": [
+      "tender"
+    ],
+    "locale": "zh",
+    "summary": "Extract deadlines, deposit, validity, ceiling, bid composition and copy counts from a tender document; items that were not found are printed too, rather than silently omitted.",
+    "summaryZh": "从招标文件提取截止时间、保证金、有效期、最高限价、投标文件组成与正副本份数；未找到的项也逐条列出。",
+    "group": "招投标",
+    "requires": {
+      "dsh": ">=0.2.1-0 <0.3.0",
+      "node": "^22.19.0 || >=24.0.0"
+    },
+    "difficulty": "beginner"
+  },
+  {
+    "npm": "@perrylink/dsh-checkers-suite",
+    "repo": "PerryLink/dsh-checkers",
+    "displayName": "Compliance Suite",
+    "displayNameZh": "合规核查套件",
+    "categories": [
+      "tools",
+      "quality"
+    ],
+    "locale": "zh",
+    "summary": "One-command installer for the 53-plugin PerryLink compliance suite: installs every checker and inserts all 53 Cordis rows through one bundle layer.",
+    "summaryZh": "53 个合规核查插件的一键安装入口：一次插入全部 53 条 Cordis 行，每个 checker 仍保留自己的 npm 包、规则包与版本。",
+    "group": "质量",
+    "requires": {
+      "dsh": ">=0.2.1-0 <0.3.0",
+      "node": "^22.19.0 || >=24.0.0"
+    },
+    "difficulty": "beginner"
   }
 ]
