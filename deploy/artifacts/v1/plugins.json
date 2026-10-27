@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-26T14:30:15.943Z",
-  "revision": "perrylink-dsh-catalog-2026-10-26",
+  "generatedAt": "2026-10-27T07:57:45.998Z",
+  "revision": "perrylink-dsh-catalog-2026-10-27",
   "items": [
     {
       "id": "perrylink/dsh-github",
@@ -621,7 +621,7 @@
       "summary": "Cross-platform native desktop control for DeepSeek Harness (Windows first): screen_shot, screen_read, click/type/scroll/key, and app_list/app_launch — approval-gated, never stealing foreground focus.",
       "summaryZh": "跨平台原生桌面控制（Windows 优先）：screen_shot、screen_read、点击/输入/滚动/按键与 app_list/app_launch，审批门控且不抢占前台焦点。",
       "homepage": "https://github.com/PerryLink/dsh-click#readme",
-      "latestVersion": "0.3.24",
+      "latestVersion": "0.3.25",
       "license": "Apache-2.0",
       "group": "桌面",
       "requires": {
@@ -649,7 +649,7 @@
           "alt": "Click"
         }
       },
-      "updatedAt": "2026-10-19T05:12:25.689Z"
+      "updatedAt": "2026-10-26T15:26:56.599Z"
     },
     {
       "id": "dsh-community-bench",
