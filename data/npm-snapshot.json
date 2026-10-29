@@ -68,8 +68,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-auto-review#readme",
     "repository": "git+https://github.com/PerryLink/dsh-auto-review.git",
-    "latest": "0.14.1",
-    "updatedAt": "2026-10-26T12:43:52.185Z"
+    "latest": "0.15.0",
+    "updatedAt": "2026-10-28T12:08:56.359Z"
   },
   {
     "name": "dsh-autotier",
@@ -896,8 +896,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-bid-health-check#readme",
     "repository": "git+https://github.com/PerryLink/dsh-bid-health-check.git",
-    "latest": "0.1.0",
-    "updatedAt": "2026-10-23T19:09:29.132Z"
+    "latest": "0.1.1",
+    "updatedAt": "2026-10-28T12:10:46.726Z"
   },
   {
     "name": "dsh-canteen-retention-check",
@@ -923,8 +923,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-excel-reconcile#readme",
     "repository": "git+https://github.com/PerryLink/dsh-excel-reconcile.git",
-    "latest": "0.1.1",
-    "updatedAt": "2026-10-23T17:56:51.771Z"
+    "latest": "0.1.2",
+    "updatedAt": "2026-10-28T12:10:42.498Z"
   },
   {
     "name": "dsh-invoice-ledger",
@@ -932,8 +932,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-invoice-ledger#readme",
     "repository": "git+https://github.com/PerryLink/dsh-invoice-ledger.git",
-    "latest": "0.1.0",
-    "updatedAt": "2026-10-23T17:12:29.876Z"
+    "latest": "0.1.1",
+    "updatedAt": "2026-10-28T12:11:05.113Z"
   },
   {
     "name": "dsh-payroll-audit",
@@ -941,8 +941,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-payroll-audit#readme",
     "repository": "git+https://github.com/PerryLink/dsh-payroll-audit.git",
-    "latest": "0.1.0",
-    "updatedAt": "2026-10-23T17:04:07.867Z"
+    "latest": "0.1.1",
+    "updatedAt": "2026-10-28T12:12:04.680Z"
   },
   {
     "name": "dsh-safety-ledger-check",
@@ -968,8 +968,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-tender-requirements#readme",
     "repository": "git+https://github.com/PerryLink/dsh-tender-requirements.git",
-    "latest": "0.2.0",
-    "updatedAt": "2026-10-23T19:02:09.681Z"
+    "latest": "0.2.1",
+    "updatedAt": "2026-10-28T12:10:51.157Z"
   },
   {
     "name": "@perrylink/dsh-checkers-suite",

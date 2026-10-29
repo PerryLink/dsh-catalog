@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-28T08:40:09.521Z",
-  "revision": "perrylink-dsh-catalog-2026-10-28",
+  "generatedAt": "2026-10-29T08:36:50.943Z",
+  "revision": "perrylink-dsh-catalog-2026-10-29",
   "items": [
     {
       "id": "perrylink/dsh-github",
@@ -272,7 +272,7 @@
       "summary": "Second-model AI auto-review for DeepSeek Harness approval requests: a read-only reviewer subagent decides allow/deny on the approval answerer chain, with fail-closed fallback and full session-log audit.",
       "summaryZh": "审批链上的第二模型自动复核：只读复核子代理在审批应答链上给出允许/拒绝，失败即拒，全过程留痕在会话日志里。",
       "homepage": "https://github.com/PerryLink/dsh-auto-review#readme",
-      "latestVersion": "0.14.1",
+      "latestVersion": "0.15.0",
       "license": "Apache-2.0",
       "group": "安全",
       "requires": {
@@ -300,7 +300,7 @@
           "alt": "Auto Review"
         }
       },
-      "updatedAt": "2026-10-26T12:43:52.185Z"
+      "updatedAt": "2026-10-28T12:08:56.359Z"
     },
     {
       "id": "dsh-autotier",
@@ -3771,7 +3771,7 @@
       "summary": "Locate, requirement by requirement, where a bid appears to answer a tender pack, and where it does not; weak matches and non-located items are reported without judging substantive compliance.",
       "summaryZh": "按招标要求逐条定位投标文件的响应位置，标出应答、弱匹配与未定位项；只报差异，不判断是否实质满足。",
       "homepage": "https://github.com/PerryLink/dsh-bid-health-check#readme",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.1.1",
       "license": "Apache-2.0",
       "group": "招投标",
       "requires": {
@@ -3799,7 +3799,7 @@
           "alt": "Bid Health Check"
         }
       },
-      "updatedAt": "2026-10-23T19:09:29.132Z"
+      "updatedAt": "2026-10-28T12:10:46.726Z"
     },
     {
       "id": "dsh-canteen-retention-check",
@@ -3885,7 +3885,7 @@
       "summary": "Join two spreadsheets on a declared key and compare declared fields within declared tolerances; it reconciles and reports differences rather than adjudicating them.",
       "summaryZh": "两张表按声明主键连接，按声明字段与容差比对，输出 Markdown、JSON 与差异工作簿；只报差异，不裁决。",
       "homepage": "https://github.com/PerryLink/dsh-excel-reconcile#readme",
-      "latestVersion": "0.1.1",
+      "latestVersion": "0.1.2",
       "license": "Apache-2.0",
       "group": "质量",
       "requires": {
@@ -3914,7 +3914,7 @@
           "alt": "Excel Reconcile"
         }
       },
-      "updatedAt": "2026-10-23T17:56:51.771Z"
+      "updatedAt": "2026-10-28T12:10:42.498Z"
     },
     {
       "id": "dsh-invoice-ledger",
@@ -3924,7 +3924,7 @@
       "summary": "Invoice ledger: duplicates keyed on code + number, arithmetic, payer mismatch, date anomalies and template placeholders left in a cell.",
       "summaryZh": "发票台账核对：按代码+号码识别重复、算式、付款方不一致、日期异常与模板占位符，输出差异清单与工作簿。",
       "homepage": "https://github.com/PerryLink/dsh-invoice-ledger#readme",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.1.1",
       "license": "Apache-2.0",
       "group": "质量",
       "requires": {
@@ -3952,7 +3952,7 @@
           "alt": "Invoice Ledger"
         }
       },
-      "updatedAt": "2026-10-23T17:12:29.876Z"
+      "updatedAt": "2026-10-28T12:11:05.113Z"
     },
     {
       "id": "dsh-payroll-audit",
@@ -3962,7 +3962,7 @@
       "summary": "Payroll against published social-insurance, housing-fund and individual-income-tax parameters, with four-valued outcomes and parameters that carry their own review date.",
       "summaryZh": "工资表核对：按社保、公积金、个税参数逐项比对，四值结果（pass/pass_with_gaps/review/fail），参数过期降级为复核。",
       "homepage": "https://github.com/PerryLink/dsh-payroll-audit#readme",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.1.1",
       "license": "Apache-2.0",
       "group": "治理",
       "requires": {
@@ -3991,7 +3991,7 @@
           "alt": "Payroll Audit"
         }
       },
-      "updatedAt": "2026-10-23T17:04:07.867Z"
+      "updatedAt": "2026-10-28T12:12:04.680Z"
     },
     {
       "id": "dsh-safety-ledger-check",
@@ -4079,7 +4079,7 @@
       "summary": "Extract deadlines, deposit, validity, ceiling, bid composition and copy counts from a tender document; items that were not found are printed too, rather than silently omitted.",
       "summaryZh": "从招标文件提取截止时间、保证金、有效期、最高限价、投标文件组成与正副本份数；未找到的项也逐条列出。",
       "homepage": "https://github.com/PerryLink/dsh-tender-requirements#readme",
-      "latestVersion": "0.2.0",
+      "latestVersion": "0.2.1",
       "license": "Apache-2.0",
       "group": "招投标",
       "requires": {
@@ -4107,7 +4107,7 @@
           "alt": "Tender Requirements"
         }
       },
-      "updatedAt": "2026-10-23T19:02:09.681Z"
+      "updatedAt": "2026-10-28T12:10:51.157Z"
     },
     {
       "id": "perrylink/dsh-checkers-suite",
