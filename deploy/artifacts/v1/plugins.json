@@ -339,7 +339,8 @@
           "alt": "Autotier"
         }
       },
-      "updatedAt": "2026-10-18T14:08:48.953Z"
+      "updatedAt": "2026-10-18T14:08:48.953Z",
+      "status": "frozen"
     },
     {
       "id": "dsh-background-agents",
@@ -534,7 +535,8 @@
           "alt": "Certification MCP"
         }
       },
-      "updatedAt": "2026-10-21T13:15:30.677Z"
+      "updatedAt": "2026-10-21T13:15:30.677Z",
+      "status": "frozen"
     },
     {
       "id": "dsh-checkpoint-rewind",
@@ -683,7 +685,8 @@
           "alt": "Community Bench"
         }
       },
-      "updatedAt": "2026-10-18T13:04:57.496Z"
+      "updatedAt": "2026-10-18T13:04:57.496Z",
+      "status": "frozen"
     },
     {
       "id": "dsh-composer-history",
