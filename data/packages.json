@@ -164,7 +164,8 @@
       "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
     },
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "status": "frozen"
   },
   {
     "npm": "dsh-background-agents",
@@ -269,7 +270,8 @@
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
     },
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "status": "frozen"
   },
   {
     "npm": "dsh-checkpoint-rewind",
@@ -335,7 +337,8 @@
     "locale": "en",
     "summary": "In-app Community Bench tab for DeepSeek Harness: reads the public, task-conditioned registry and shows the same score everyone sees; no local scoring.",
     "summaryZh": "DSH 应用内社区基准标签页：读取公开的、按任务条件计算的 registry，展示所有人看到的同一分数；不在本地算分。",
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "status": "frozen"
   },
   {
     "npm": "dsh-composer-history",
