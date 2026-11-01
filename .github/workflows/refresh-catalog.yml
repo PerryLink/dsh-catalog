@@ -79,4 +79,5 @@ jobs:
           add-paths: |
             data/npm-snapshot.json
             deploy/artifacts/v1/plugins.json
+            deploy/artifacts/v1/taxonomy.json
             deploy/catalog-source.json
