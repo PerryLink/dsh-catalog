@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-29T08:36:50.943Z",
-  "revision": "perrylink-dsh-catalog-2026-10-29",
+  "generatedAt": "2026-11-01T05:24:11.802Z",
+  "revision": "perrylink-dsh-catalog-2026-11-01",
   "items": [
     {
       "id": "perrylink/dsh-github",
@@ -312,6 +312,7 @@
       "homepage": "https://github.com/PerryLink/dsh-autotier#readme",
       "latestVersion": "0.2.19",
       "license": "Apache-2.0",
+      "status": "frozen",
       "group": "集成",
       "requires": {
         "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
@@ -339,8 +340,7 @@
           "alt": "Autotier"
         }
       },
-      "updatedAt": "2026-10-18T14:08:48.953Z",
-      "status": "frozen"
+      "updatedAt": "2026-10-18T14:08:48.953Z"
     },
     {
       "id": "dsh-background-agents",
@@ -509,6 +509,7 @@
       "homepage": "https://github.com/PerryLink/dsh-cert-mcp#readme",
       "latestVersion": "0.2.10",
       "license": "Apache-2.0",
+      "status": "frozen",
       "group": "生态",
       "requires": {
         "dsh": ">=0.2.1-0 <0.3.0",
@@ -535,8 +536,7 @@
           "alt": "Certification MCP"
         }
       },
-      "updatedAt": "2026-10-21T13:15:30.677Z",
-      "status": "frozen"
+      "updatedAt": "2026-10-21T13:15:30.677Z"
     },
     {
       "id": "dsh-checkpoint-rewind",
@@ -663,6 +663,7 @@
       "homepage": "https://github.com/PerryLink/dsh-community-bench#readme",
       "latestVersion": "0.2.5",
       "license": "Apache-2.0",
+      "status": "frozen",
       "difficulty": "advanced",
       "categories": [
         "interface",
@@ -685,8 +686,7 @@
           "alt": "Community Bench"
         }
       },
-      "updatedAt": "2026-10-18T13:04:57.496Z",
-      "status": "frozen"
+      "updatedAt": "2026-10-18T13:04:57.496Z"
     },
     {
       "id": "dsh-composer-history",

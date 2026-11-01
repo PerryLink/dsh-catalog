@@ -1,9 +1,15 @@
 // Build the DSH Community Market standard-source artifacts from the npm
 // snapshot (data/npm-snapshot.json) and the local table (data/packages.json).
 // Usage: node scripts/build-catalog.mjs [deployOrigin]
-// Outputs: artifacts/v1/plugins.json (provider page), catalog-source.json
-// (manifest; endpoint = deployOrigin/v1/plugins, or an explicit placeholder
-// when deployOrigin is omitted).
+// Outputs: artifacts/v1/plugins.json (provider page), artifacts/v1/levels.json
+// (read-only level sidecar), catalog-source.json (manifest; endpoint =
+// deployOrigin/v1/plugins, or an explicit placeholder when deployOrigin is
+// omitted). All three artifacts are mirrored into deploy/.
+//
+// The sidecar exists because the v1 item contract has no `levels` member: the
+// provider page keeps its v1 field set, and level references live beside it
+// under the sidecar schema. It is generated from the same page, so
+// `revision`/`generatedAt` always agree with the page it describes.
 //
 // ⚠️ Every item also carries the Chinese pair (`displayNameZh` / `summaryZh`) when
 // data/packages.json declares it, so the market can render a Chinese name for a
@@ -74,12 +80,45 @@ for (const pkg of packages) {
   items.push(item)
 }
 
+// One timestamp for the page and its sidecar. Two independent `new Date()`
+// calls could straddle midnight and emit a revision that disagrees with
+// generatedAt; the sidecar is held to the page's revision by check-levels.mjs.
+const generatedAt = new Date().toISOString()
+const revision = `perrylink-dsh-catalog-${generatedAt.slice(0, 10)}`
 const page = {
   schemaVersion: '1.0.0',
-  generatedAt: new Date().toISOString(),
-  revision: `perrylink-dsh-catalog-${new Date().toISOString().slice(0, 10)}`,
+  generatedAt,
+  revision,
   items,
   page: { total: items.length },
+}
+
+// A read-only projection, not a field on any item: adding `levels` to an item
+// would violate the v1 contract. Every catalog row is listed; with no level
+// evidence record the three statuses stay at the honest "did not run" values.
+// `source` is a provenance pointer, not a join performed by this build — the
+// standard project is a separate private repository, and copying a status out
+// of its A-D attestations would conflate two orthogonal schemes. A-D grades
+// must never be translated into ENTRY/FLOW/BOOST.
+const LEVELS_SOURCE = 'https://github.com/PerryLink/dsh-standards/blob/main/publish/attestations/index.json'
+const levels = {
+  schema: 'dsh-levels-sidecar/1',
+  revision,
+  generatedAt,
+  source: LEVELS_SOURCE,
+  disclaimer:
+    'Non-official; not a certification or security audit. ENTRY/FLOW/BOOST are read-only, revocable statuses: no evidence means not-run / not-measured. A-D grades are orthogonal to the three levels. 非官方、非认证、非安全审计；三层状态是可撤回的只读引用，无证据即 not-run / not-measured。',
+  packages: items.map((item) => ({
+    name: item.name,
+    entry: 'not-run',
+    flow: 'not-run',
+    boost: 'not-measured',
+    ...(item.requires?.dsh === undefined ? {} : { peerRange: item.requires.dsh }),
+    // `retired` is the catalog's own lifecycle marker; it is surfaced here so
+    // a consumer can drop the row from a default view. Frozen packages are
+    // still usable and are not marked withdrawn.
+    ...(item.status === 'retired' ? { withdrawn: true } : {}),
+  })),
 }
 
 // The manifest description states the count in prose, so it must also state what the
@@ -105,12 +144,14 @@ const manifest = {
 
 await mkdir(`${base}/artifacts/v1`, { recursive: true })
 await writeFile(`${base}/artifacts/v1/plugins.json`, `${JSON.stringify(page, null, 2)}\n`)
+await writeFile(`${base}/artifacts/v1/levels.json`, `${JSON.stringify(levels, null, 2)}\n`)
 await writeFile(`${base}/catalog-source.json`, `${JSON.stringify(manifest, null, 2)}\n`)
 // The deploy unit (deploy/deno-worker.js) imports its payload with
-// ./-relative specifiers, so it must be self-contained: mirror both
+// ./-relative specifiers, so it must be self-contained: mirror all three
 // artifacts into deploy/ so any Deno Deploy project rooted at deploy/
 // (or the whole repo) serves the same content.
 await mkdir(`${base}/deploy/artifacts/v1`, { recursive: true })
 await writeFile(`${base}/deploy/artifacts/v1/plugins.json`, `${JSON.stringify(page, null, 2)}\n`)
+await writeFile(`${base}/deploy/artifacts/v1/levels.json`, `${JSON.stringify(levels, null, 2)}\n`)
 await writeFile(`${base}/deploy/catalog-source.json`, `${JSON.stringify(manifest, null, 2)}\n`)
-console.log(`built ${items.length} items -> artifacts/v1/plugins.json + deploy/ copies (endpoint ${deployOrigin}/v1/plugins)`)
+console.log(`built ${items.length} items -> artifacts/v1/plugins.json + artifacts/v1/levels.json + deploy/ copies (endpoint ${deployOrigin}/v1/plugins)`)

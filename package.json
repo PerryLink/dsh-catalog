@@ -9,7 +9,9 @@
     "build": "node scripts/build-catalog.mjs",
     "validate": "node scripts/validate.mjs",
     "check:counts": "node scripts/check-counts.mjs",
-    "build:check": "node scripts/check-counts.mjs && node scripts/build-catalog.mjs && node scripts/validate.mjs",
+    "check:levels": "node scripts/check-levels.mjs",
+    "test": "node scripts/check-data.mjs && node scripts/check-counts.mjs && node scripts/validate.mjs && node scripts/check-levels.mjs",
+    "build:check": "node scripts/check-counts.mjs && node scripts/build-catalog.mjs && node scripts/validate.mjs && node scripts/check-levels.mjs",
     "check": "tsc -p tsconfig.check.json",
     "typecheck:ci": "tsc -p tsconfig.check.ci.json"
   },
