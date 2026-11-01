@@ -2205,5 +2205,461 @@
       "node": "^22.19.0 || >=24.0.0"
     },
     "difficulty": "beginner"
+  },
+  {
+    "npm": "dsh-einvoice",
+    "repo": "PerryLink/dsh-einvoice",
+    "displayName": "China e-invoice (file-level)",
+    "displayNameZh": "中国电子发票（文件级）",
+    "categories": [
+      "finance"
+    ],
+    "locale": "zh",
+    "summary": "文件级中国电子发票（OFD/XML）入库、解析、去重与本地归档。",
+    "summaryZh": "文件级中国电子发票（OFD/XML）入库、解析、去重与本地归档。",
+    "group": "财务运营",
+    "requires": {
+      "dsh": ">=0.2.1-rc.3 <0.3.0",
+      "node": ">=24.9.0 <25"
+    },
+    "difficulty": "beginner",
+    "status": "active",
+    "taxonomy": {
+      "category": "business-ops",
+      "archetype": "ingest",
+      "domains": [
+        "finance",
+        "china-einvoice"
+      ]
+    }
+  },
+  {
+    "npm": "dsh-bankrec",
+    "repo": "PerryLink/dsh-bankrec",
+    "displayName": "Bank statement reconciliation",
+    "displayNameZh": "银行流水对账",
+    "categories": [
+      "finance"
+    ],
+    "locale": "zh",
+    "summary": "银行流水/GL/CAMT.053/MT940 入库、对账与三表底稿。",
+    "summaryZh": "银行流水/GL/CAMT.053/MT940 入库、对账与三表底稿。",
+    "group": "财务运营",
+    "requires": {
+      "dsh": ">=0.2.1-rc.3 <0.3.0",
+      "node": ">=24.9.0 <25"
+    },
+    "difficulty": "intermediate",
+    "status": "active",
+    "taxonomy": {
+      "category": "business-ops",
+      "archetype": "reconciler",
+      "domains": [
+        "finance",
+        "banking"
+      ]
+    }
+  },
+  {
+    "npm": "dsh-ap-three-way",
+    "repo": "PerryLink/dsh-ap-three-way",
+    "displayName": "AP three-way match",
+    "displayNameZh": "AP 三单匹配",
+    "categories": [
+      "finance"
+    ],
+    "locale": "zh",
+    "summary": "发票/PO/GRN 三单匹配、容差与例外底稿。",
+    "summaryZh": "发票/PO/GRN 三单匹配、容差与例外底稿。",
+    "group": "财务运营",
+    "requires": {
+      "dsh": ">=0.2.1-rc.3 <0.3.0",
+      "node": ">=24.9.0 <25"
+    },
+    "difficulty": "intermediate",
+    "status": "active",
+    "taxonomy": {
+      "category": "business-ops",
+      "archetype": "reconciler",
+      "domains": [
+        "finance",
+        "accounts-payable"
+      ]
+    }
+  },
+  {
+    "npm": "dsh-travel-recon",
+    "repo": "PerryLink/dsh-travel-recon",
+    "displayName": "Travel reconciliation & policy check",
+    "displayNameZh": "差旅对账与政策检查",
+    "categories": [
+      "finance"
+    ],
+    "locale": "zh",
+    "summary": "差旅订单/发票/卡流水对账、去重与只读政策检查。",
+    "summaryZh": "差旅订单/发票/卡流水对账、去重与只读政策检查。",
+    "group": "财务运营",
+    "requires": {
+      "dsh": ">=0.2.1-rc.3 <0.3.0",
+      "node": ">=24.9.0 <25"
+    },
+    "difficulty": "intermediate",
+    "status": "active",
+    "taxonomy": {
+      "category": "business-ops",
+      "archetype": "reconciler",
+      "domains": [
+        "finance",
+        "travel-expense"
+      ]
+    }
+  },
+  {
+    "npm": "dsh-legal-intake",
+    "repo": "PerryLink/dsh-legal-intake",
+    "displayName": "Legal request intake",
+    "displayNameZh": "法务需求收件",
+    "categories": [
+      "legal"
+    ],
+    "locale": "zh",
+    "summary": "法务需求 EML 收件、线程去重与台账导出。",
+    "summaryZh": "法务需求 EML 收件、线程去重与台账导出。",
+    "group": "法务运营",
+    "requires": {
+      "dsh": ">=0.2.1-rc.3 <0.3.0",
+      "node": ">=24.9.0 <25"
+    },
+    "difficulty": "beginner",
+    "status": "active",
+    "taxonomy": {
+      "category": "business-ops",
+      "archetype": "ingest",
+      "domains": [
+        "legal",
+        "intake"
+      ]
+    }
+  },
+  {
+    "npm": "dsh-legal-clause",
+    "repo": "PerryLink/dsh-legal-clause",
+    "displayName": "Contract clause & playbook review",
+    "displayNameZh": "合同条款与 playbook 审查",
+    "categories": [
+      "legal"
+    ],
+    "locale": "zh",
+    "summary": "合同条款树、playbook 映射与未解决报告。",
+    "summaryZh": "合同条款树、playbook 映射与未解决报告。",
+    "group": "法务运营",
+    "requires": {
+      "dsh": ">=0.2.1-rc.3 <0.3.0",
+      "node": ">=24.9.0 <25"
+    },
+    "difficulty": "intermediate",
+    "status": "active",
+    "taxonomy": {
+      "category": "business-ops",
+      "archetype": "checker",
+      "domains": [
+        "legal",
+        "contracts"
+      ]
+    }
+  },
+  {
+    "npm": "dsh-ghg",
+    "repo": "PerryLink/dsh-ghg",
+    "displayName": "Electricity GHG (Scope 2)",
+    "displayNameZh": "用电碳排放（范围二）",
+    "categories": [
+      "esg"
+    ],
+    "locale": "zh",
+    "summary": "用电活动入库、GHG 计算、逐行复算、底稿与部分 ESRS 包。",
+    "summaryZh": "用电活动入库、GHG 计算、逐行复算、底稿与部分 ESRS 包。",
+    "group": "可持续与质量",
+    "requires": {
+      "dsh": ">=0.2.1-rc.3 <0.3.0",
+      "node": ">=24.9.0 <25"
+    },
+    "difficulty": "intermediate",
+    "status": "frozen",
+    "taxonomy": {
+      "category": "business-ops",
+      "archetype": "calculator",
+      "domains": [
+        "esg",
+        "emissions",
+        "energy"
+      ]
+    }
+  },
+  {
+    "npm": "dsh-qms-capa",
+    "repo": "PerryLink/dsh-qms-capa",
+    "displayName": "QMS NCR, CAPA & 8D",
+    "displayNameZh": "QMS NCR、CAPA 与 8D",
+    "categories": [
+      "quality"
+    ],
+    "locale": "zh",
+    "summary": "QMS NCR 入库、批次别名、影响评估、CAPA 与 8D。",
+    "summaryZh": "QMS NCR 入库、批次别名、影响评估、CAPA 与 8D。",
+    "group": "可持续与质量",
+    "requires": {
+      "dsh": ">=0.2.1-rc.3 <0.3.0",
+      "node": ">=24.9.0 <25"
+    },
+    "difficulty": "intermediate",
+    "status": "frozen",
+    "taxonomy": {
+      "category": "business-ops",
+      "archetype": "ledger",
+      "domains": [
+        "quality",
+        "manufacturing"
+      ]
+    }
+  },
+  {
+    "npm": "dsh-hs-candidate",
+    "repo": "PerryLink/dsh-hs-candidate",
+    "displayName": "HS candidate precheck",
+    "displayNameZh": "HS 候选预检",
+    "categories": [
+      "trade"
+    ],
+    "locale": "zh",
+    "summary": "HS Top3 候选、12 要素完整性、RVC 与税则版本门。",
+    "summaryZh": "HS Top3 候选、12 要素完整性、RVC 与税则版本门。",
+    "group": "关务与物流",
+    "requires": {
+      "dsh": ">=0.2.1-rc.3 <0.3.0",
+      "node": ">=24.9.0 <25"
+    },
+    "difficulty": "intermediate",
+    "status": "frozen",
+    "taxonomy": {
+      "category": "business-ops",
+      "archetype": "checker",
+      "domains": [
+        "trade",
+        "customs"
+      ]
+    }
+  },
+  {
+    "npm": "dsh-freight-audit",
+    "repo": "PerryLink/dsh-freight-audit",
+    "displayName": "Freight bill audit",
+    "displayNameZh": "运费账单审计",
+    "categories": [
+      "logistics"
+    ],
+    "locale": "zh",
+    "summary": "运费 ratecard 版本、账单审计、recovery 汇总与差异导出。",
+    "summaryZh": "运费 ratecard 版本、账单审计、recovery 汇总与差异导出。",
+    "group": "关务与物流",
+    "requires": {
+      "dsh": ">=0.2.1-rc.3 <0.3.0",
+      "node": ">=24.9.0 <25"
+    },
+    "difficulty": "intermediate",
+    "status": "frozen",
+    "taxonomy": {
+      "category": "business-ops",
+      "archetype": "checker",
+      "domains": [
+        "logistics",
+        "freight"
+      ]
+    }
+  },
+  {
+    "npm": "dsh-docx-redline",
+    "repo": "PerryLink/dsh-docx-redline",
+    "displayName": "DOCX inspect & text diff",
+    "displayNameZh": "DOCX 检查与文本差异",
+    "categories": [
+      "documents"
+    ],
+    "locale": "zh",
+    "summary": "DOCX 结构检查、逐字节 roundtrip 与单 run 文本替换。",
+    "summaryZh": "DOCX 结构检查、逐字节 roundtrip 与单 run 文本替换。",
+    "group": "文档与模型",
+    "requires": {
+      "dsh": ">=0.2.1-rc.3 <0.3.0",
+      "node": ">=24.9.0 <25"
+    },
+    "difficulty": "intermediate",
+    "status": "frozen",
+    "taxonomy": {
+      "category": "content",
+      "archetype": "inspector",
+      "domains": [
+        "documents"
+      ]
+    }
+  },
+  {
+    "npm": "dsh-ifc-qto",
+    "repo": "PerryLink/dsh-ifc-qto",
+    "displayName": "IFC quantity takeoff",
+    "displayNameZh": "IFC 工程量清单",
+    "categories": [
+      "construction"
+    ],
+    "locale": "zh",
+    "summary": "IFC 构件/工程量清单与 CSV 导出。",
+    "summaryZh": "IFC 构件/工程量清单与 CSV 导出。",
+    "group": "文档与模型",
+    "requires": {
+      "dsh": ">=0.2.1-rc.3 <0.3.0",
+      "node": ">=24.9.0 <25"
+    },
+    "difficulty": "intermediate",
+    "status": "frozen",
+    "taxonomy": {
+      "category": "data",
+      "archetype": "extractor",
+      "domains": [
+        "construction",
+        "bim"
+      ]
+    }
+  },
+  {
+    "npm": "dsh-policy-ledger",
+    "repo": "PerryLink/dsh-policy-ledger",
+    "displayName": "Install doctor",
+    "displayNameZh": "安装诊断",
+    "categories": [
+      "developer-tools"
+    ],
+    "locale": "zh",
+    "summary": "只读安装诊断：能力快照、tarball 断言与安装日志分类。",
+    "summaryZh": "只读安装诊断：能力快照、tarball 断言与安装日志分类。",
+    "group": "校验工具",
+    "requires": {
+      "dsh": ">=0.2.1-rc.3 <0.3.0",
+      "node": ">=24.9.0 <25"
+    },
+    "difficulty": "beginner",
+    "status": "active",
+    "taxonomy": {
+      "category": "developer-tools",
+      "archetype": "doctor",
+      "domains": [
+        "plugin-install",
+        "supply-chain"
+      ]
+    }
+  },
+  {
+    "npm": "dsh-pim-lint",
+    "repo": "PerryLink/dsh-pim-lint",
+    "displayName": "PIM catalog lint",
+    "displayNameZh": "PIM 目录 lint",
+    "categories": [
+      "data"
+    ],
+    "locale": "zh",
+    "summary": "PIM 目录 lint：必填、重复 SKU、GTIN 校验位与价格。",
+    "summaryZh": "PIM 目录 lint：必填、重复 SKU、GTIN 校验位与价格。",
+    "group": "校验工具",
+    "requires": {
+      "dsh": ">=0.2.1-rc.3 <0.3.0",
+      "node": ">=24.9.0 <25"
+    },
+    "difficulty": "beginner",
+    "status": "frozen",
+    "taxonomy": {
+      "category": "data",
+      "archetype": "validator",
+      "domains": [
+        "retail",
+        "pim"
+      ]
+    }
+  },
+  {
+    "npm": "dsh-eval-pack",
+    "repo": "PerryLink/dsh-eval-pack",
+    "displayName": "Eval pack lint & grader",
+    "displayNameZh": "Eval pack 校验与评分",
+    "categories": [
+      "developer-tools"
+    ],
+    "locale": "zh",
+    "summary": "公开/合成 eval-pack lint 与确定性 JSON 评分。",
+    "summaryZh": "公开/合成 eval-pack lint 与确定性 JSON 评分。",
+    "group": "校验工具",
+    "requires": {
+      "dsh": ">=0.2.1-rc.3 <0.3.0",
+      "node": ">=24.9.0 <25"
+    },
+    "difficulty": "beginner",
+    "status": "active",
+    "taxonomy": {
+      "category": "developer-tools",
+      "archetype": "validator",
+      "domains": [
+        "evaluation"
+      ]
+    }
+  },
+  {
+    "npm": "dsh-finops-suite",
+    "repo": "PerryLink/dsh-finops-suite",
+    "displayName": "Finance ops suite",
+    "displayNameZh": "财务运营套件",
+    "categories": [
+      "finance"
+    ],
+    "locale": "zh",
+    "summary": "One-command install for dsh-einvoice, dsh-bankrec, dsh-ap-three-way and dsh-travel-recon.",
+    "summaryZh": "一键安装 dsh-einvoice、dsh-bankrec、dsh-ap-three-way 与 dsh-travel-recon 的财务运营套件。",
+    "group": "财务运营",
+    "requires": {
+      "dsh": ">=0.2.1-rc.3 <0.3.0",
+      "node": ">=24.9.0 <25"
+    },
+    "difficulty": "beginner",
+    "status": "active",
+    "taxonomy": {
+      "category": "business-ops",
+      "archetype": "suite",
+      "domains": [
+        "finance"
+      ]
+    }
+  },
+  {
+    "npm": "dsh-contract-suite",
+    "repo": "PerryLink/dsh-contract-suite",
+    "displayName": "Contract ops suite",
+    "displayNameZh": "合同法务套件",
+    "categories": [
+      "legal"
+    ],
+    "locale": "zh",
+    "summary": "One-command install for dsh-legal-intake and dsh-legal-clause.",
+    "summaryZh": "一键安装 dsh-legal-intake 与 dsh-legal-clause 的合同法务套件。",
+    "group": "法务运营",
+    "requires": {
+      "dsh": ">=0.2.1-rc.3 <0.3.0",
+      "node": ">=24.9.0 <25"
+    },
+    "difficulty": "beginner",
+    "status": "active",
+    "taxonomy": {
+      "category": "business-ops",
+      "archetype": "suite",
+      "domains": [
+        "legal"
+      ]
+    }
   }
 ]

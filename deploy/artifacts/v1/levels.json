@@ -1,7 +1,7 @@
 {
   "schema": "dsh-levels-sidecar/1",
   "revision": "perrylink-dsh-catalog-2026-11-01",
-  "generatedAt": "2026-11-01T05:56:54.504Z",
+  "generatedAt": "2026-11-01T06:52:13.992Z",
   "source": "https://github.com/PerryLink/dsh-standards/blob/main/publish/attestations/index.json",
   "disclaimer": "Non-official; not a certification or security audit. ENTRY/FLOW/BOOST are read-only, revocable statuses: no evidence means not-run / not-measured. A-D grades are orthogonal to the three levels. 非官方、非认证、非安全审计；三层状态是可撤回的只读引用，无证据即 not-run / not-measured。",
   "packages": [
@@ -875,6 +875,142 @@
       "boost": "not-measured",
       "dshVersion": ">=0.2.1-0 <0.3.0",
       "peerRange": ">=0.2.1-0 <0.3.0"
+    },
+    {
+      "name": "dsh-einvoice",
+      "entry": "not-run",
+      "flow": "not-run",
+      "boost": "not-measured",
+      "dshVersion": ">=0.2.1-rc.3 <0.3.0",
+      "peerRange": ">=0.2.1-rc.3 <0.3.0"
+    },
+    {
+      "name": "dsh-bankrec",
+      "entry": "not-run",
+      "flow": "not-run",
+      "boost": "not-measured",
+      "dshVersion": ">=0.2.1-rc.3 <0.3.0",
+      "peerRange": ">=0.2.1-rc.3 <0.3.0"
+    },
+    {
+      "name": "dsh-ap-three-way",
+      "entry": "not-run",
+      "flow": "not-run",
+      "boost": "not-measured",
+      "dshVersion": ">=0.2.1-rc.3 <0.3.0",
+      "peerRange": ">=0.2.1-rc.3 <0.3.0"
+    },
+    {
+      "name": "dsh-travel-recon",
+      "entry": "not-run",
+      "flow": "not-run",
+      "boost": "not-measured",
+      "dshVersion": ">=0.2.1-rc.3 <0.3.0",
+      "peerRange": ">=0.2.1-rc.3 <0.3.0"
+    },
+    {
+      "name": "dsh-legal-intake",
+      "entry": "not-run",
+      "flow": "not-run",
+      "boost": "not-measured",
+      "dshVersion": ">=0.2.1-rc.3 <0.3.0",
+      "peerRange": ">=0.2.1-rc.3 <0.3.0"
+    },
+    {
+      "name": "dsh-legal-clause",
+      "entry": "not-run",
+      "flow": "not-run",
+      "boost": "not-measured",
+      "dshVersion": ">=0.2.1-rc.3 <0.3.0",
+      "peerRange": ">=0.2.1-rc.3 <0.3.0"
+    },
+    {
+      "name": "dsh-ghg",
+      "entry": "not-run",
+      "flow": "not-run",
+      "boost": "not-measured",
+      "dshVersion": ">=0.2.1-rc.3 <0.3.0",
+      "peerRange": ">=0.2.1-rc.3 <0.3.0"
+    },
+    {
+      "name": "dsh-qms-capa",
+      "entry": "not-run",
+      "flow": "not-run",
+      "boost": "not-measured",
+      "dshVersion": ">=0.2.1-rc.3 <0.3.0",
+      "peerRange": ">=0.2.1-rc.3 <0.3.0"
+    },
+    {
+      "name": "dsh-hs-candidate",
+      "entry": "not-run",
+      "flow": "not-run",
+      "boost": "not-measured",
+      "dshVersion": ">=0.2.1-rc.3 <0.3.0",
+      "peerRange": ">=0.2.1-rc.3 <0.3.0"
+    },
+    {
+      "name": "dsh-freight-audit",
+      "entry": "not-run",
+      "flow": "not-run",
+      "boost": "not-measured",
+      "dshVersion": ">=0.2.1-rc.3 <0.3.0",
+      "peerRange": ">=0.2.1-rc.3 <0.3.0"
+    },
+    {
+      "name": "dsh-docx-redline",
+      "entry": "not-run",
+      "flow": "not-run",
+      "boost": "not-measured",
+      "dshVersion": ">=0.2.1-rc.3 <0.3.0",
+      "peerRange": ">=0.2.1-rc.3 <0.3.0"
+    },
+    {
+      "name": "dsh-ifc-qto",
+      "entry": "not-run",
+      "flow": "not-run",
+      "boost": "not-measured",
+      "dshVersion": ">=0.2.1-rc.3 <0.3.0",
+      "peerRange": ">=0.2.1-rc.3 <0.3.0"
+    },
+    {
+      "name": "dsh-policy-ledger",
+      "entry": "not-run",
+      "flow": "not-run",
+      "boost": "not-measured",
+      "dshVersion": ">=0.2.1-rc.3 <0.3.0",
+      "peerRange": ">=0.2.1-rc.3 <0.3.0"
+    },
+    {
+      "name": "dsh-pim-lint",
+      "entry": "not-run",
+      "flow": "not-run",
+      "boost": "not-measured",
+      "dshVersion": ">=0.2.1-rc.3 <0.3.0",
+      "peerRange": ">=0.2.1-rc.3 <0.3.0"
+    },
+    {
+      "name": "dsh-eval-pack",
+      "entry": "not-run",
+      "flow": "not-run",
+      "boost": "not-measured",
+      "dshVersion": ">=0.2.1-rc.3 <0.3.0",
+      "peerRange": ">=0.2.1-rc.3 <0.3.0"
+    },
+    {
+      "name": "dsh-finops-suite",
+      "entry": "not-run",
+      "flow": "not-run",
+      "boost": "not-measured",
+      "dshVersion": ">=0.2.1-rc.3 <0.3.0",
+      "peerRange": ">=0.2.1-rc.3 <0.3.0"
+    },
+    {
+      "name": "dsh-contract-suite",
+      "entry": "not-run",
+      "flow": "not-run",
+      "boost": "not-measured",
+      "dshVersion": ">=0.2.1-rc.3 <0.3.0",
+      "peerRange": ">=0.2.1-rc.3 <0.3.0"
     }
   ]
 }
