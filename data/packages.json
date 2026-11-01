@@ -2375,7 +2375,7 @@
       "node": ">=24.9.0 <25"
     },
     "difficulty": "intermediate",
-    "status": "frozen",
+    "status": "active",
     "taxonomy": {
       "category": "business-ops",
       "archetype": "calculator",
@@ -2403,7 +2403,7 @@
       "node": ">=24.9.0 <25"
     },
     "difficulty": "intermediate",
-    "status": "frozen",
+    "status": "active",
     "taxonomy": {
       "category": "business-ops",
       "archetype": "ledger",
@@ -2430,7 +2430,7 @@
       "node": ">=24.9.0 <25"
     },
     "difficulty": "intermediate",
-    "status": "frozen",
+    "status": "active",
     "taxonomy": {
       "category": "business-ops",
       "archetype": "checker",
@@ -2457,7 +2457,7 @@
       "node": ">=24.9.0 <25"
     },
     "difficulty": "intermediate",
-    "status": "frozen",
+    "status": "active",
     "taxonomy": {
       "category": "business-ops",
       "archetype": "checker",
@@ -2484,7 +2484,7 @@
       "node": ">=24.9.0 <25"
     },
     "difficulty": "intermediate",
-    "status": "frozen",
+    "status": "active",
     "taxonomy": {
       "category": "content",
       "archetype": "inspector",
@@ -2510,7 +2510,7 @@
       "node": ">=24.9.0 <25"
     },
     "difficulty": "intermediate",
-    "status": "frozen",
+    "status": "active",
     "taxonomy": {
       "category": "data",
       "archetype": "extractor",
@@ -2564,7 +2564,7 @@
       "node": ">=24.9.0 <25"
     },
     "difficulty": "beginner",
-    "status": "frozen",
+    "status": "active",
     "taxonomy": {
       "category": "data",
       "archetype": "validator",
