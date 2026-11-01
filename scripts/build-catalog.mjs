@@ -113,6 +113,7 @@ const levels = {
     entry: 'not-run',
     flow: 'not-run',
     boost: 'not-measured',
+    dshVersion: item.requires?.dsh ?? null,
     ...(item.requires?.dsh === undefined ? {} : { peerRange: item.requires.dsh }),
     // `retired` is the catalog's own lifecycle marker; it is surfaced here so
     // a consumer can drop the row from a default view. Frozen packages are

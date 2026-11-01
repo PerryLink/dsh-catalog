@@ -139,7 +139,7 @@ for (const [index, pkg] of packages.entries()) {
   if (pkg.withdrawn !== undefined) check(typeof pkg.withdrawn === 'boolean', `${where}.withdrawn must be boolean when present`)
   if (pkg.deprecated !== undefined) check(typeof pkg.deprecated === 'boolean', `${where}.deprecated must be boolean when present`)
   if (pkg.peerRange !== undefined) check(typeof pkg.peerRange === 'string' && pkg.peerRange.length > 0, `${where}.peerRange must be a non-empty string when present`)
-  if (pkg.dshVersion !== undefined) check(typeof pkg.dshVersion === 'string' && pkg.dshVersion.length > 0, `${where}.dshVersion must be a non-empty string when present`)
+  if (pkg.dshVersion !== undefined) check(pkg.dshVersion === null || (typeof pkg.dshVersion === 'string' && pkg.dshVersion.length > 0), `${where}.dshVersion must be null or a non-empty string`)
   if (pkg.evidenceUrl !== undefined) {
     check(typeof pkg.evidenceUrl === 'string' && /^https:\/\/\S+$/.test(pkg.evidenceUrl), `${where}.evidenceUrl must be an https URL when present`)
   }
