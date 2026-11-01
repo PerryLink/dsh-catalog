@@ -1,7 +1,7 @@
 {
   "schema": "dsh-levels-sidecar/1",
   "revision": "perrylink-dsh-catalog-2026-11-01",
-  "generatedAt": "2026-11-01T07:30:15.177Z",
+  "generatedAt": "2026-11-01T07:30:54.261Z",
   "source": "https://github.com/PerryLink/dsh-standards/blob/main/publish/attestations/index.json",
   "disclaimer": "Non-official; not a certification or security audit. ENTRY/FLOW/BOOST are read-only, revocable statuses: no evidence means not-run / not-measured. A-D grades are orthogonal to the three levels. 非官方、非认证、非安全审计；三层状态是可撤回的只读引用，无证据即 not-run / not-measured。",
   "packages": [

@@ -32,9 +32,11 @@ const stripBom = (value) => value.replace(/^\uFEFF/, '')
 const packages = JSON.parse(stripBom(await readFile(`${base}/data/packages.json`, 'utf8')))
 const snapshot = JSON.parse(stripBom(await readFile(`${base}/data/npm-snapshot.json`, 'utf8')))
 const byName = new Map(snapshot.map((/** @type {SnapshotRow} */ entry) => [entry.name, entry]))
-/** @type {Array<{name: string, category: string, archetype: string, domains?: string[], status?: string}>} */
+/** @typedef {{name: string, category: string, archetype: string, domains?: string[], status?: string}} TaxonomyRow */
+/** @type {TaxonomyRow[]} */
 const taxonomyRows = JSON.parse(stripBom(await readFile(`${base}/data/taxonomy.json`, 'utf8')))
-const taxonomyByName = new Map(taxonomyRows.map((/** @type {{name: string}} */ entry) => [entry.name, entry]))
+/** @type {Map<string, TaxonomyRow>} */
+const taxonomyByName = new Map(taxonomyRows.map((entry) => [entry.name, entry]))
 
 // Strip control characters and bidi controls: the wire schema rejects them.
 // Every call site passes a string (the `??` chain always ends in a literal);
