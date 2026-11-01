@@ -1,0 +1,14 @@
+[
+  {
+    "path": "docs/assets/dsh-catalog-hero.png",
+    "kind": "hero",
+    "alt": "dsh-catalog count check output",
+    "caption": "Real count check: 96 items, 96 Chinese rows."
+  },
+  {
+    "path": "docs/assets/dsh-catalog-demo.gif",
+    "kind": "demo",
+    "alt": "Animated dsh-catalog terminal session",
+    "caption": "The same run, assembled line by line."
+  }
+]
