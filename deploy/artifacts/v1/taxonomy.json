@@ -1,0 +1,1265 @@
+{
+  "schema": "dsh-taxonomy-sidecar/1",
+  "revision": "perrylink-dsh-catalog-2026-11-01",
+  "generatedAt": "2026-11-01T07:29:23.130Z",
+  "source": "https://github.com/PerryLink/dsh-plugins/blob/main/TAXONOMY.md",
+  "disclaimer": "Non-official machine-readable projection of the four-axis taxonomy; the provider page remains the v1 source of truth. 非官方、非认证；v1 provider page 仍是安装元数据的唯一事实源。",
+  "axes": {
+    "collection": "product line",
+    "category": "user job",
+    "archetype": "functional contract",
+    "domain": "business subject"
+  },
+  "categories": [
+    "business-ops",
+    "compliance",
+    "content",
+    "data",
+    "developer-tools",
+    "integrations",
+    "interface",
+    "observability",
+    "platform",
+    "research",
+    "security",
+    "workflow"
+  ],
+  "archetypes": [
+    "assistant",
+    "calculator",
+    "catalog",
+    "checker",
+    "doctor",
+    "drafter",
+    "extractor",
+    "ingest",
+    "inspector",
+    "integration",
+    "ledger",
+    "reconciler",
+    "runtime",
+    "suite",
+    "ui",
+    "validator"
+  ],
+  "packages": [
+    {
+      "name": "@perrylink/dsh-github",
+      "category": "workflow",
+      "archetype": "integration",
+      "domains": [
+        "github"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "@perrylink/dsh-plugin-doctor",
+      "category": "developer-tools",
+      "archetype": "doctor",
+      "domains": [
+        "plugin-install"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "@perrylink/dsh-plugin-kit",
+      "category": "developer-tools",
+      "archetype": "catalog",
+      "domains": [
+        "plugin-dev"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "@perrylink/dsh-skill-pack-security-provider",
+      "category": "security",
+      "archetype": "assistant",
+      "domains": [
+        "security-audit"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "@perrylink/dsh-ticktick",
+      "category": "integrations",
+      "archetype": "integration",
+      "domains": [
+        "tasks"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-aqua-input-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "safety",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-archive-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "government",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-auto-review",
+      "category": "workflow",
+      "archetype": "assistant",
+      "domains": [
+        "approval",
+        "security"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-autotier",
+      "category": "observability",
+      "archetype": "runtime",
+      "domains": [
+        "model-routing",
+        "cost"
+      ],
+      "status": "frozen"
+    },
+    {
+      "name": "dsh-background-agents",
+      "category": "workflow",
+      "archetype": "runtime",
+      "domains": [
+        "agents"
+      ],
+      "status": "retired"
+    },
+    {
+      "name": "dsh-bid-ca-precheck",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "tender",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-bid-qual-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "tender",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-budget",
+      "category": "observability",
+      "archetype": "calculator",
+      "domains": [
+        "cost"
+      ],
+      "status": "frozen"
+    },
+    {
+      "name": "dsh-cert-mcp",
+      "category": "platform",
+      "archetype": "catalog",
+      "domains": [
+        "certification",
+        "mcp"
+      ],
+      "status": "frozen"
+    },
+    {
+      "name": "dsh-checkpoint-rewind",
+      "category": "workflow",
+      "archetype": "runtime",
+      "domains": [
+        "sessions"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-claude-move",
+      "category": "integrations",
+      "archetype": "ingest",
+      "domains": [
+        "migration"
+      ],
+      "status": "frozen"
+    },
+    {
+      "name": "dsh-click",
+      "category": "interface",
+      "archetype": "ui",
+      "domains": [
+        "desktop",
+        "ocr"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-community-bench",
+      "category": "developer-tools",
+      "archetype": "validator",
+      "domains": [
+        "benchmark"
+      ],
+      "status": "frozen"
+    },
+    {
+      "name": "dsh-composer-history",
+      "category": "interface",
+      "archetype": "ui",
+      "domains": [
+        "input"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-contract-stance",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "tender",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-customs-doc-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "trade",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-data-quality",
+      "category": "developer-tools",
+      "archetype": "validator",
+      "domains": [
+        "data"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-defend",
+      "category": "security",
+      "archetype": "runtime",
+      "domains": [
+        "prompt-injection"
+      ],
+      "status": "frozen"
+    },
+    {
+      "name": "dsh-demurrage-ledger",
+      "category": "compliance",
+      "archetype": "ledger",
+      "domains": [
+        "trade",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-doublecheck",
+      "category": "workflow",
+      "archetype": "assistant",
+      "domains": [
+        "quality-gate"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-draw",
+      "category": "interface",
+      "archetype": "ui",
+      "domains": [
+        "visual"
+      ],
+      "status": "frozen"
+    },
+    {
+      "name": "dsh-drill-script-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "safety",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-eia-guide-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "construction",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-emergency-plan",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "safety",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-essay-rubric-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "research",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-evidence-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "legal",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-export-ctl-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "trade",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-fast",
+      "category": "observability",
+      "archetype": "runtime",
+      "domains": [
+        "performance"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-fmea-table-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "quality",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-forecast-penalty",
+      "category": "compliance",
+      "archetype": "calculator",
+      "domains": [
+        "trade",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-fund-research",
+      "category": "research",
+      "archetype": "assistant",
+      "domains": [
+        "funds"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-gongwen-flow-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "government",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-gongwen-word-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "government",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-guard-plan-qc",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "construction",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-hazchem-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "safety",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-hazplan-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "construction",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-hidden-risk-map",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "safety",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-hs-classify",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "trade",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-icd-rule-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "medical",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-industry-research",
+      "category": "research",
+      "archetype": "assistant",
+      "domains": [
+        "industry"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-lawcite-adapter",
+      "category": "compliance",
+      "archetype": "extractor",
+      "domains": [
+        "legal",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-laya",
+      "category": "integrations",
+      "archetype": "integration",
+      "domains": [
+        "automation"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-lc-doc-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "trade",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-learning-gap-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "research",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-library",
+      "category": "content",
+      "archetype": "extractor",
+      "domains": [
+        "knowledge"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-local-ai",
+      "category": "integrations",
+      "archetype": "integration",
+      "domains": [
+        "local-model"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-lsp-actions",
+      "category": "developer-tools",
+      "archetype": "integration",
+      "domains": [
+        "lsp"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-mask",
+      "category": "security",
+      "archetype": "runtime",
+      "domains": [
+        "secrets"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-mcp-panel",
+      "category": "developer-tools",
+      "archetype": "integration",
+      "domains": [
+        "mcp"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-medrec-qc",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "medical",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-memento",
+      "category": "workflow",
+      "archetype": "runtime",
+      "domains": [
+        "memory"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-nsfc-form-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "research",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-nurse-record-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "medical",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-observe",
+      "category": "observability",
+      "archetype": "runtime",
+      "domains": [
+        "telemetry"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-origin-rvc-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "trade",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-ota-review-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "quality",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-output-styles",
+      "category": "interface",
+      "archetype": "ui",
+      "domains": [
+        "output"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-paper-doc-adapter",
+      "category": "compliance",
+      "archetype": "extractor",
+      "domains": [
+        "research",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-permission-rules",
+      "category": "security",
+      "archetype": "runtime",
+      "domains": [
+        "permissions"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-permit-report-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "construction",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-personal-directive",
+      "category": "workflow",
+      "archetype": "runtime",
+      "domains": [
+        "personal"
+      ],
+      "status": "retired"
+    },
+    {
+      "name": "dsh-phocinae",
+      "category": "developer-tools",
+      "archetype": "runtime",
+      "domains": [
+        "decisions"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-phone-inbox",
+      "category": "integrations",
+      "archetype": "integration",
+      "domains": [
+        "messaging"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-pipeline-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "quality",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-pleading-draft",
+      "category": "compliance",
+      "archetype": "drafter",
+      "domains": [
+        "legal",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-plugin-guide",
+      "category": "developer-tools",
+      "archetype": "assistant",
+      "domains": [
+        "plugin-dev"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-plugin-upgrade",
+      "category": "workflow",
+      "archetype": "integration",
+      "domains": [
+        "upgrade"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-policy-brief-draft",
+      "category": "compliance",
+      "archetype": "drafter",
+      "domains": [
+        "research",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-power-loss-split",
+      "category": "compliance",
+      "archetype": "calculator",
+      "domains": [
+        "safety",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-power-ticket-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "safety",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-ppap-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "quality",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-protest-deadline",
+      "category": "compliance",
+      "archetype": "calculator",
+      "domains": [
+        "tender",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-railway-window",
+      "category": "compliance",
+      "archetype": "calculator",
+      "domains": [
+        "trade",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-reach",
+      "category": "integrations",
+      "archetype": "integration",
+      "domains": [
+        "messaging"
+      ],
+      "status": "frozen"
+    },
+    {
+      "name": "dsh-repair-order-qc",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "quality",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-research-report",
+      "category": "research",
+      "archetype": "assistant",
+      "domains": [
+        "research"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-review-reply-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "quality",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-rulefile-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "tender",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-safety-brief-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "construction",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-score",
+      "category": "developer-tools",
+      "archetype": "assistant",
+      "domains": [
+        "evaluation"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-session-pin",
+      "category": "interface",
+      "archetype": "ui",
+      "domains": [
+        "sessions"
+      ],
+      "status": "retired"
+    },
+    {
+      "name": "dsh-session-sync",
+      "category": "workflow",
+      "archetype": "runtime",
+      "domains": [
+        "sessions"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-site-log-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "construction",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-soe-decision-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "governance",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-soilwater-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "construction",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-sop-sync-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "governance",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-spc-gbt-adapter",
+      "category": "compliance",
+      "archetype": "calculator",
+      "domains": [
+        "quality",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-talk",
+      "category": "content",
+      "archetype": "ui",
+      "domains": [
+        "chat"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-team-rooms",
+      "category": "workflow",
+      "archetype": "runtime",
+      "domains": [
+        "agents"
+      ],
+      "status": "retired"
+    },
+    {
+      "name": "dsh-tender-extract",
+      "category": "compliance",
+      "archetype": "extractor",
+      "domains": [
+        "tender",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-tender-matrix",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "tender",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-test-drive",
+      "category": "workflow",
+      "archetype": "assistant",
+      "domains": [
+        "testing"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-translate",
+      "category": "content",
+      "archetype": "assistant",
+      "domains": [
+        "translation"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-warranty-calc",
+      "category": "compliance",
+      "archetype": "calculator",
+      "domains": [
+        "quality",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-bid-health-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "tender",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-canteen-retention-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "safety",
+        "food-service",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-construction-doc-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "construction",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-excel-reconcile",
+      "category": "data",
+      "archetype": "reconciler",
+      "domains": [
+        "data",
+        "finance"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-invoice-ledger",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "finance",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-payroll-audit",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "finance",
+        "hr",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-safety-ledger-check",
+      "category": "compliance",
+      "archetype": "checker",
+      "domains": [
+        "construction",
+        "safety",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-table-ingest",
+      "category": "data",
+      "archetype": "extractor",
+      "domains": [
+        "data",
+        "documents"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-tender-requirements",
+      "category": "business-ops",
+      "archetype": "extractor",
+      "domains": [
+        "tender",
+        "china"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "@perrylink/dsh-checkers-suite",
+      "category": "compliance",
+      "archetype": "suite",
+      "domains": [
+        "china",
+        "compliance"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-einvoice",
+      "category": "business-ops",
+      "archetype": "ingest",
+      "domains": [
+        "finance",
+        "china-einvoice"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-bankrec",
+      "category": "business-ops",
+      "archetype": "reconciler",
+      "domains": [
+        "finance",
+        "banking"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-ap-three-way",
+      "category": "business-ops",
+      "archetype": "reconciler",
+      "domains": [
+        "finance",
+        "accounts-payable"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-travel-recon",
+      "category": "business-ops",
+      "archetype": "reconciler",
+      "domains": [
+        "finance",
+        "travel-expense"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-legal-intake",
+      "category": "business-ops",
+      "archetype": "ingest",
+      "domains": [
+        "legal",
+        "intake"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-legal-clause",
+      "category": "business-ops",
+      "archetype": "checker",
+      "domains": [
+        "legal",
+        "contracts"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-ghg",
+      "category": "business-ops",
+      "archetype": "calculator",
+      "domains": [
+        "esg",
+        "emissions",
+        "energy"
+      ],
+      "status": "frozen"
+    },
+    {
+      "name": "dsh-qms-capa",
+      "category": "business-ops",
+      "archetype": "ledger",
+      "domains": [
+        "quality",
+        "manufacturing"
+      ],
+      "status": "frozen"
+    },
+    {
+      "name": "dsh-hs-candidate",
+      "category": "business-ops",
+      "archetype": "checker",
+      "domains": [
+        "trade",
+        "customs"
+      ],
+      "status": "frozen"
+    },
+    {
+      "name": "dsh-freight-audit",
+      "category": "business-ops",
+      "archetype": "checker",
+      "domains": [
+        "logistics",
+        "freight"
+      ],
+      "status": "frozen"
+    },
+    {
+      "name": "dsh-docx-redline",
+      "category": "content",
+      "archetype": "inspector",
+      "domains": [
+        "documents"
+      ],
+      "status": "frozen"
+    },
+    {
+      "name": "dsh-ifc-qto",
+      "category": "data",
+      "archetype": "extractor",
+      "domains": [
+        "construction",
+        "bim"
+      ],
+      "status": "frozen"
+    },
+    {
+      "name": "dsh-policy-ledger",
+      "category": "developer-tools",
+      "archetype": "doctor",
+      "domains": [
+        "plugin-install",
+        "supply-chain"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-pim-lint",
+      "category": "data",
+      "archetype": "validator",
+      "domains": [
+        "retail",
+        "pim"
+      ],
+      "status": "frozen"
+    },
+    {
+      "name": "dsh-eval-pack",
+      "category": "developer-tools",
+      "archetype": "validator",
+      "domains": [
+        "evaluation"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-finops-suite",
+      "category": "business-ops",
+      "archetype": "suite",
+      "domains": [
+        "finance"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "dsh-contract-suite",
+      "category": "business-ops",
+      "archetype": "suite",
+      "domains": [
+        "legal"
+      ],
+      "status": "active"
+    }
+  ]
+}

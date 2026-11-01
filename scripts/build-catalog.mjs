@@ -32,6 +32,8 @@ const stripBom = (value) => value.replace(/^\uFEFF/, '')
 const packages = JSON.parse(stripBom(await readFile(`${base}/data/packages.json`, 'utf8')))
 const snapshot = JSON.parse(stripBom(await readFile(`${base}/data/npm-snapshot.json`, 'utf8')))
 const byName = new Map(snapshot.map((/** @type {SnapshotRow} */ entry) => [entry.name, entry]))
+const taxonomyRows = JSON.parse(stripBom(await readFile(`${base}/data/taxonomy.json`, 'utf8')))
+const taxonomyByName = new Map(taxonomyRows.map((entry) => [entry.name, entry]))
 
 // Strip control characters and bidi controls: the wire schema rejects them.
 // Every call site passes a string (the `??` chain always ends in a literal);
@@ -55,6 +57,8 @@ for (const pkg of packages) {
   // control characters and bidi controls.
   const displayNameZh = typeof pkg.displayNameZh === 'string' && pkg.displayNameZh.length > 0 ? clean(pkg.displayNameZh) : undefined
   const summaryZh = typeof pkg.summaryZh === 'string' && pkg.summaryZh.length > 0 ? clean(pkg.summaryZh).slice(0, 1000) : undefined
+  const tx = taxonomyByName.get(pkg.npm)
+  if (!tx) throw new Error(`taxonomy sidecar missing for ${pkg.npm}`)
   const item = {
     id: pkg.npm.startsWith('@') ? pkg.npm.slice(1) : pkg.npm,
     name: pkg.npm,
@@ -70,7 +74,7 @@ for (const pkg of packages) {
     ...(pkg.requires === undefined ? {} : { requires: pkg.requires }),
     ...(pkg.difficulty === undefined ? {} : { difficulty: pkg.difficulty }),
     ...(pkg.conflicts === undefined ? {} : { conflicts: pkg.conflicts }),
-    categories: pkg.categories,
+    categories: [tx.category],
     repository: { url: repositoryUrl },
     package: { registry: 'npm', name: pkg.npm },
     publisher: { name: 'PerryLink', url: 'https://github.com/PerryLink' },
@@ -91,6 +95,31 @@ const page = {
   revision,
   items,
   page: { total: items.length },
+}
+
+// The v1 item contract has no `taxonomy` member, so the four-axis projection
+// lives beside the page, exactly like the adoption-level sidecar. The page's
+// `categories` field carries the single market category; `group` keeps the
+// domain-facing label used by the existing market UI.
+const taxonomy = {
+  schema: 'dsh-taxonomy-sidecar/1',
+  revision,
+  generatedAt,
+  source: 'https://github.com/PerryLink/dsh-plugins/blob/main/TAXONOMY.md',
+  disclaimer: 'Non-official machine-readable projection of the four-axis taxonomy; the provider page remains the v1 source of truth. 非官方、非认证；v1 provider page 仍是安装元数据的唯一事实源。',
+  axes: { collection: 'product line', category: 'user job', archetype: 'functional contract', domain: 'business subject' },
+  categories: [...new Set(items.map((item) => taxonomyByName.get(item.name).category))].sort(),
+  archetypes: [...new Set(items.map((item) => taxonomyByName.get(item.name).archetype))].sort(),
+  packages: items.map((item) => {
+    const tx = taxonomyByName.get(item.name)
+    return {
+      name: item.name,
+      category: tx.category,
+      archetype: tx.archetype,
+      domains: tx.domains ?? [],
+      status: item.status ?? tx.status ?? 'active',
+    }
+  }),
 }
 
 // A read-only projection, not a field on any item: adding `levels` to an item
@@ -146,6 +175,7 @@ const manifest = {
 await mkdir(`${base}/artifacts/v1`, { recursive: true })
 await writeFile(`${base}/artifacts/v1/plugins.json`, `${JSON.stringify(page, null, 2)}\n`)
 await writeFile(`${base}/artifacts/v1/levels.json`, `${JSON.stringify(levels, null, 2)}\n`)
+await writeFile(`${base}/artifacts/v1/taxonomy.json`, `${JSON.stringify(taxonomy, null, 2)}\n`)
 await writeFile(`${base}/catalog-source.json`, `${JSON.stringify(manifest, null, 2)}\n`)
 // The deploy unit (deploy/deno-worker.js) imports its payload with
 // ./-relative specifiers, so it must be self-contained: mirror all three
@@ -154,5 +184,6 @@ await writeFile(`${base}/catalog-source.json`, `${JSON.stringify(manifest, null,
 await mkdir(`${base}/deploy/artifacts/v1`, { recursive: true })
 await writeFile(`${base}/deploy/artifacts/v1/plugins.json`, `${JSON.stringify(page, null, 2)}\n`)
 await writeFile(`${base}/deploy/artifacts/v1/levels.json`, `${JSON.stringify(levels, null, 2)}\n`)
+await writeFile(`${base}/deploy/artifacts/v1/taxonomy.json`, `${JSON.stringify(taxonomy, null, 2)}\n`)
 await writeFile(`${base}/deploy/catalog-source.json`, `${JSON.stringify(manifest, null, 2)}\n`)
-console.log(`built ${items.length} items -> artifacts/v1/plugins.json + artifacts/v1/levels.json + deploy/ copies (endpoint ${deployOrigin}/v1/plugins)`)
+console.log(`built ${items.length} items -> artifacts/v1/plugins.json + levels + taxonomy + deploy/ copies (endpoint ${deployOrigin}/v1/plugins)`)

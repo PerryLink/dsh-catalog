@@ -36,6 +36,20 @@ roster. It carries npm records in `data/packages.json` (including
 community/third-party records and the retired names kept for older installs).
 Every per-plugin README carries the same collapsed roster.
 
+## Taxonomy sidecar (read-only, non-official)
+
+The provider page's `categories` field carries exactly one **market category** per package (12 classes: security, workflow, developer-tools, integrations, research, content, data, observability, interface, business-ops, compliance, platform). The **archetype** and **domain** tags are published beside the page, never inside an item: the v1 item contract has no `taxonomy` member.
+
+- Endpoint: `GET /v1/taxonomy`
+- Committed payload: `deploy/artifacts/v1/taxonomy.json`
+- Schema: `dsh-taxonomy-sidecar/1`
+- Same `revision` / `generatedAt` as the provider page it describes
+- One entry per catalog item: `{ name, category, archetype, domains, status }`
+- Source of truth: [TAXONOMY.md](https://github.com/PerryLink/dsh-plugins/blob/main/TAXONOMY.md)
+- `check-taxonomy.mjs` holds the sidecar to the page: every item is covered, the page's `categories` is exactly `[category]`, and the 12-category/16-archetype vocabulary is enforced.
+
+The sidecar is machine-readable metadata, not a security review, ranking, or paid placement.
+
 ## Compliance notes
 
 - Contract: [catalog-provider-contract.md](https://github.com/anywhere-labs/dsh-desktop/blob/main/dsh-community-market/docs/catalog-provider-contract.md) (v1, `manifestVersion`/`schemaVersion` `1.0.0`). The schemas are vendored nowhere in this repo; `scripts/validate.mjs` mirrors the structural rules of `catalog-source.schema.json` and `catalog-provider-page.schema.json` and the cross-field rules (unique item ids, npm name pattern, no install commands in items, HTTPS repository URLs, page shape).

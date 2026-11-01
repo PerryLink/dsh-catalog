@@ -3,6 +3,7 @@
   "name": "perrylink-dsh-catalog",
   "rewrites": [
     { "source": "/v1/plugins", "destination": "/artifacts/v1/plugins.json" },
-    { "source": "/v1/levels", "destination": "/artifacts/v1/levels.json" }
+    { "source": "/v1/levels", "destination": "/artifacts/v1/levels.json" },
+    { "source": "/v1/taxonomy", "destination": "/artifacts/v1/taxonomy.json" }
   ]
 }

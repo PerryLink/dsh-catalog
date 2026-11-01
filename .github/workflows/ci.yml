@@ -52,6 +52,12 @@ jobs:
       - name: The committed level sidecar must match the catalog page
         run: node scripts/check-levels.mjs
 
+      # The four-axis taxonomy is a second sidecar, not an item field: the v1
+      # item contract has no taxonomy member. It must cover every item and
+      # agree with the page's own categories.
+      - name: The committed taxonomy sidecar must match the catalog page
+        run: node scripts/check-taxonomy.mjs
+
       # The family count has one source of truth (data/packages.json). This
       # holds the README summaries, the manifest description, the shipped page
       # and the deploy live-smoke floor to it, so a hand-edited number cannot
