@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// @ts-nocheck
 // Validate the taxonomy sidecar against the committed provider page.
 // The v1 item contract has no taxonomy member, so this sidecar is the
 // machine-readable projection of TA2000's four axes.
