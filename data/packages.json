@@ -1,7 +1,7 @@
 [
   {
-    "npm": "@perrylink/dsh-github",
-    "repo": "PerryLink/dsh-github",
+    "npm": "dsh-github-bot",
+    "repo": "PerryLink/dsh-github-bot",
     "displayName": "GitHub",
     "displayNameZh": "GitHub 集成",
     "categories": [
@@ -17,8 +17,8 @@
     "difficulty": "intermediate"
   },
   {
-    "npm": "@perrylink/dsh-plugin-doctor",
-    "repo": "PerryLink/dsh-plugin-doctor",
+    "npm": "dsh-clinic",
+    "repo": "PerryLink/dsh-clinic",
     "displayName": "Plugin Doctor",
     "displayNameZh": "插件医生",
     "categories": [
@@ -34,8 +34,8 @@
     "difficulty": "advanced"
   },
   {
-    "npm": "@perrylink/dsh-plugin-kit",
-    "repo": "PerryLink/dsh-plugin-kit",
+    "npm": "dsh-scaffold",
+    "repo": "PerryLink/dsh-scaffold",
     "displayName": "Plugin Kit",
     "displayNameZh": "插件工具包",
     "categories": [
@@ -51,8 +51,8 @@
     "difficulty": "advanced"
   },
   {
-    "npm": "@perrylink/dsh-skill-pack-security-provider",
-    "repo": "PerryLink/dsh-skill-pack-security",
+    "npm": "dsh-security-pack",
+    "repo": "PerryLink/dsh-security-pack",
     "displayName": "Skill Pack Security Provider",
     "displayNameZh": "安全技能包",
     "categories": [
@@ -63,8 +63,8 @@
     "difficulty": "advanced"
   },
   {
-    "npm": "@perrylink/dsh-ticktick",
-    "repo": "PerryLink/dsh-ticktick",
+    "npm": "dsh-dida",
+    "repo": "PerryLink/dsh-dida",
     "displayName": "TickTick",
     "displayNameZh": "滴答清单桥",
     "categories": [

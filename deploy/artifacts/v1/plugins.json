@@ -5,12 +5,12 @@
   "items": [
     {
       "id": "perrylink/dsh-github",
-      "name": "@perrylink/dsh-github",
+      "name": "dsh-github-bot",
       "displayName": "GitHub",
       "displayNameZh": "GitHub 集成",
       "summary": "GitHub for DeepSeek Harness: PR/issue/repo/file tools, reviews, and CI checks — every write gated by human approval, token never logged.",
       "summaryZh": "GitHub 集成：PR/issue/仓库/文件工具、评审与 CI 检查，每次写入都需人工审批，token 从不进日志。",
-      "homepage": "https://github.com/PerryLink/dsh-github#readme",
+      "homepage": "https://github.com/PerryLink/dsh-github-bot#readme",
       "latestVersion": "0.7.28",
       "license": "Apache-2.0",
       "group": "集成",
@@ -23,11 +23,11 @@
         "workflow"
       ],
       "repository": {
-        "url": "https://github.com/PerryLink/dsh-github"
+        "url": "https://github.com/PerryLink/dsh-github-bot"
       },
       "package": {
         "registry": "npm",
-        "name": "@perrylink/dsh-github"
+        "name": "dsh-github-bot"
       },
       "publisher": {
         "name": "PerryLink",
@@ -43,12 +43,12 @@
     },
     {
       "id": "perrylink/dsh-plugin-doctor",
-      "name": "@perrylink/dsh-plugin-doctor",
+      "name": "dsh-clinic",
       "displayName": "Plugin Doctor",
       "displayNameZh": "插件医生",
       "summary": "Zero-dependency static + sandbox smoke detector for DeepSeek Harness plugins: package-structure gates (R), cordis contract scans (K), keyless-headless sandbox smoke (D), and ecosystem-listing checks (CC).",
       "summaryZh": "DeepSeek Harness 插件零依赖检测器：包结构静态检查（R）、cordis 契约扫描（K）、无键无头沙箱冒烟（D）与生态清单校验（CC）四层。",
-      "homepage": "https://www.npmjs.com/package/@perrylink/dsh-plugin-doctor",
+      "homepage": "https://www.npmjs.com/package/dsh-clinic",
       "latestVersion": "0.7.7",
       "license": "Apache-2.0",
       "group": "生态",
@@ -61,11 +61,11 @@
         "developer-tools"
       ],
       "repository": {
-        "url": "https://github.com/PerryLink/dsh-plugin-doctor"
+        "url": "https://github.com/PerryLink/dsh-clinic"
       },
       "package": {
         "registry": "npm",
-        "name": "@perrylink/dsh-plugin-doctor"
+        "name": "dsh-clinic"
       },
       "publisher": {
         "name": "PerryLink",
@@ -81,12 +81,12 @@
     },
     {
       "id": "perrylink/dsh-plugin-kit",
-      "name": "@perrylink/dsh-plugin-kit",
+      "name": "dsh-scaffold",
       "displayName": "Plugin Kit",
       "displayNameZh": "插件工具包",
       "summary": "Shared zero-runtime-dependency toolkit for PerryLink DSH plugins: a pluggable Provider registry seam, fail-closed approval and adaptive session-event gates, mechanical verify scripts, shared sanitize/pricing/judge modules, and a new-plugin skeleton.",
       "summaryZh": "PerryLink DSH 插件共享零运行时依赖工具包：可插拔 Provider 注册表接缝、失效即拒的审批门与自适应会话事件门、机械校验脚本、共享的脱敏/计价/裁决模块，以及新插件骨架。",
-      "homepage": "https://www.npmjs.com/package/@perrylink/dsh-plugin-kit",
+      "homepage": "https://www.npmjs.com/package/dsh-scaffold",
       "latestVersion": "0.1.22",
       "license": "Apache-2.0",
       "group": "基建",
@@ -99,11 +99,11 @@
         "developer-tools"
       ],
       "repository": {
-        "url": "https://github.com/PerryLink/dsh-plugin-kit"
+        "url": "https://github.com/PerryLink/dsh-scaffold"
       },
       "package": {
         "registry": "npm",
-        "name": "@perrylink/dsh-plugin-kit"
+        "name": "dsh-scaffold"
       },
       "publisher": {
         "name": "PerryLink",
@@ -119,12 +119,12 @@
     },
     {
       "id": "perrylink/dsh-skill-pack-security-provider",
-      "name": "@perrylink/dsh-skill-pack-security-provider",
+      "name": "dsh-security-pack",
       "displayName": "Skill Pack Security Provider",
       "displayNameZh": "安全技能包",
       "summary": "Security skill-pack provider: pre-packaged security review skills with a risk card; ships both host and client faces.",
       "summaryZh": "安全技能包 provider：预置带风险卡的安全评审技能，同时提供宿主侧与客户端侧两个面。",
-      "homepage": "https://github.com/PerryLink/dsh-skill-pack-security#readme",
+      "homepage": "https://github.com/PerryLink/dsh-security-pack#readme",
       "latestVersion": "2.2.25",
       "license": "Apache-2.0",
       "difficulty": "advanced",
@@ -132,11 +132,11 @@
         "security"
       ],
       "repository": {
-        "url": "https://github.com/PerryLink/dsh-skill-pack-security"
+        "url": "https://github.com/PerryLink/dsh-security-pack"
       },
       "package": {
         "registry": "npm",
-        "name": "@perrylink/dsh-skill-pack-security-provider"
+        "name": "dsh-security-pack"
       },
       "publisher": {
         "name": "PerryLink",
@@ -152,12 +152,12 @@
     },
     {
       "id": "perrylink/dsh-ticktick",
-      "name": "@perrylink/dsh-ticktick",
+      "name": "dsh-dida",
       "displayName": "TickTick",
       "displayNameZh": "滴答清单桥",
       "summary": "TickTick (Dida365) task bridge for DeepSeek Harness: a session-header task panel (list filter, quick add, complete, delete, due dates, drag reorder), eleven curated ticktick_* tools, and a plugin settings card over the official TickTick MCP endpoint.",
       "summaryZh": "TickTick（滴答清单）任务桥：会话顶部任务面板（列表筛选、快速添加、完成、删除、截止日期、拖动排序）、十一个 ticktick_* 工具，以及基于官方 TickTick MCP 端点的插件设置卡。",
-      "homepage": "https://github.com/PerryLink/dsh-ticktick#readme",
+      "homepage": "https://github.com/PerryLink/dsh-dida#readme",
       "latestVersion": "0.1.23",
       "license": "Apache-2.0",
       "group": "集成",
@@ -170,11 +170,11 @@
         "integrations"
       ],
       "repository": {
-        "url": "https://github.com/PerryLink/dsh-ticktick"
+        "url": "https://github.com/PerryLink/dsh-dida"
       },
       "package": {
         "registry": "npm",
-        "name": "@perrylink/dsh-ticktick"
+        "name": "dsh-dida"
       },
       "publisher": {
         "name": "PerryLink",

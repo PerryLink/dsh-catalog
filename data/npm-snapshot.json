@@ -1,46 +1,46 @@
 [
   {
-    "name": "@perrylink/dsh-github",
+    "name": "dsh-github-bot",
     "description": "Official-grade GitHub CI for DeepSeek Harness: composite action (review PRs / fix CI / report), polling PR review bot with idempotent inline comments, a status-check gate, and approval-gated PR/issue/repo/file tools",
     "license": "Apache-2.0",
-    "homepage": "https://github.com/PerryLink/dsh-github#readme",
-    "repository": "git+https://github.com/PerryLink/dsh-github.git",
+    "homepage": "https://github.com/PerryLink/dsh-github-bot#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-github-bot.git",
     "latest": "0.7.28",
     "updatedAt": "2026-10-27T11:48:57.280Z"
   },
   {
-    "name": "@perrylink/dsh-plugin-doctor",
+    "name": "dsh-clinic",
     "description": "Zero-dependency static + sandbox smoke detector for DeepSeek Harness (dsh) plugins: package-structure gates (R), cordis contract scans (K), keyless-headless sandbox smoke (D), and ecosystem-listing checks (CC).",
     "license": "Apache-2.0",
-    "homepage": "https://www.npmjs.com/package/@perrylink/dsh-plugin-doctor",
-    "repository": "git+https://github.com/PerryLink/dsh-plugin-doctor.git",
+    "homepage": "https://www.npmjs.com/package/dsh-clinic",
+    "repository": "git+https://github.com/PerryLink/dsh-clinic.git",
     "latest": "0.7.7",
     "updatedAt": "2026-11-01T08:24:36.854Z"
   },
   {
-    "name": "@perrylink/dsh-plugin-kit",
+    "name": "dsh-scaffold",
     "description": "Shared zero-runtime-dependency toolkit for PerryLink DSH plugins: a pluggable Provider registry seam, fail-closed approval and adaptive session-event gates, mechanical verify scripts, shared sanitize/pricing/judge modules, and a new-plugin skeleton.",
     "license": "Apache-2.0",
-    "homepage": "https://www.npmjs.com/package/@perrylink/dsh-plugin-kit",
-    "repository": "git+https://github.com/PerryLink/dsh-plugin-kit.git",
+    "homepage": "https://www.npmjs.com/package/dsh-scaffold",
+    "repository": "git+https://github.com/PerryLink/dsh-scaffold.git",
     "latest": "0.1.22",
     "updatedAt": "2026-11-01T08:29:32.147Z"
   },
   {
-    "name": "@perrylink/dsh-skill-pack-security-provider",
+    "name": "dsh-security-pack",
     "description": "Provider plugin for dsh-skill-pack-security: registers the pack's skills/ (zh) or skills-en/ (en) edition on ctx.skills AND the plugin_vet supply-chain gate tool on ctx.tools (license/SBOM/commit-lock/malware scans + five-dimension risk card). Ships both ",
     "license": "Apache-2.0",
-    "homepage": "https://github.com/PerryLink/dsh-skill-pack-security#readme",
-    "repository": "git+https://github.com/PerryLink/dsh-skill-pack-security.git",
+    "homepage": "https://github.com/PerryLink/dsh-security-pack#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-security-pack.git",
     "latest": "2.2.25",
     "updatedAt": "2026-10-31T17:09:48.579Z"
   },
   {
-    "name": "@perrylink/dsh-ticktick",
+    "name": "dsh-dida",
     "description": "TickTick (Dida365) task bridge for DeepSeek Harness: a Session-header task panel (list filter, quick add, complete, delete, due dates, drag reorder) over the official TickTick MCP endpoint, a Ticktick Remote service, curated agent tools, and a plugin sett",
     "license": "Apache-2.0",
-    "homepage": "https://github.com/PerryLink/dsh-ticktick#readme",
-    "repository": "git+https://github.com/PerryLink/dsh-ticktick.git",
+    "homepage": "https://github.com/PerryLink/dsh-dida#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-dida.git",
     "latest": "0.1.23",
     "updatedAt": "2026-10-26T12:29:04.932Z"
   },
