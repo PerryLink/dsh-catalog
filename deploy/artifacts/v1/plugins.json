@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-11-01T12:09:55.468Z",
-  "revision": "perrylink-dsh-catalog-2026-11-01",
+  "generatedAt": "2026-11-02T05:02:49.077Z",
+  "revision": "perrylink-dsh-catalog-2026-11-02",
   "items": [
     {
       "id": "perrylink/dsh-github",
@@ -4149,7 +4149,7 @@
       "summary": "文件级中国电子发票（OFD/XML）入库、解析、去重与本地归档。",
       "summaryZh": "文件级中国电子发票（OFD/XML）入库、解析、去重与本地归档。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-einvoice.html",
-      "latestVersion": "0.2.0-alpha.8",
+      "latestVersion": "0.2.0-alpha.10",
       "license": "Apache-2.0",
       "status": "active",
       "group": "财务运营",
@@ -4178,7 +4178,7 @@
           "alt": "China e-invoice (file-level)"
         }
       },
-      "updatedAt": "2026-11-01T11:58:52.516Z"
+      "updatedAt": "2026-11-02T04:46:34.976Z"
     },
     {
       "id": "dsh-bankrec",
@@ -4188,7 +4188,7 @@
       "summary": "银行流水/GL/CAMT.053/MT940 入库、对账与三表底稿。",
       "summaryZh": "银行流水/GL/CAMT.053/MT940 入库、对账与三表底稿。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-bankrec.html",
-      "latestVersion": "0.1.0-alpha.11",
+      "latestVersion": "0.1.0-alpha.15",
       "license": "Apache-2.0",
       "status": "active",
       "group": "财务运营",
@@ -4217,7 +4217,7 @@
           "alt": "Bank statement reconciliation"
         }
       },
-      "updatedAt": "2026-11-01T11:50:54.945Z"
+      "updatedAt": "2026-11-02T04:46:54.220Z"
     },
     {
       "id": "dsh-ap-three-way",
@@ -4227,7 +4227,7 @@
       "summary": "发票/PO/GRN 三单匹配、容差与例外底稿。",
       "summaryZh": "发票/PO/GRN 三单匹配、容差与例外底稿。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-ap-three-way.html",
-      "latestVersion": "0.1.0-alpha.8",
+      "latestVersion": "0.1.0-alpha.10",
       "license": "Apache-2.0",
       "status": "active",
       "group": "财务运营",
@@ -4256,7 +4256,7 @@
           "alt": "AP three-way match"
         }
       },
-      "updatedAt": "2026-11-01T11:50:39.524Z"
+      "updatedAt": "2026-11-02T04:48:49.344Z"
     },
     {
       "id": "dsh-travel-recon",
@@ -4266,7 +4266,7 @@
       "summary": "差旅订单/发票/卡流水对账、去重与只读政策检查。",
       "summaryZh": "差旅订单/发票/卡流水对账、去重与只读政策检查。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-travel-recon.html",
-      "latestVersion": "0.1.0-alpha.10",
+      "latestVersion": "0.1.0-alpha.12",
       "license": "Apache-2.0",
       "status": "active",
       "group": "财务运营",
@@ -4295,7 +4295,7 @@
           "alt": "Travel reconciliation & policy check"
         }
       },
-      "updatedAt": "2026-11-01T11:51:00.091Z"
+      "updatedAt": "2026-11-02T04:48:37.250Z"
     },
     {
       "id": "dsh-legal-intake",
@@ -4305,7 +4305,7 @@
       "summary": "法务需求 EML 收件、线程去重与台账导出。",
       "summaryZh": "法务需求 EML 收件、线程去重与台账导出。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-legal-intake.html",
-      "latestVersion": "0.1.0-alpha.7",
+      "latestVersion": "0.1.0-alpha.9",
       "license": "Apache-2.0",
       "status": "active",
       "group": "法务运营",
@@ -4334,7 +4334,7 @@
           "alt": "Legal request intake"
         }
       },
-      "updatedAt": "2026-11-01T11:50:36.240Z"
+      "updatedAt": "2026-11-02T04:50:03.157Z"
     },
     {
       "id": "dsh-legal-clause",
@@ -4344,7 +4344,7 @@
       "summary": "合同条款树、playbook 映射与未解决报告。",
       "summaryZh": "合同条款树、playbook 映射与未解决报告。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-legal-clause.html",
-      "latestVersion": "0.1.0-alpha.9",
+      "latestVersion": "0.1.0-alpha.11",
       "license": "Apache-2.0",
       "status": "active",
       "group": "法务运营",
@@ -4373,7 +4373,7 @@
           "alt": "Contract clause & playbook review"
         }
       },
-      "updatedAt": "2026-11-01T11:50:33.043Z"
+      "updatedAt": "2026-11-02T04:48:16.144Z"
     },
     {
       "id": "dsh-ghg",
@@ -4383,7 +4383,7 @@
       "summary": "用电活动入库、GHG 计算、逐行复算、底稿与部分 ESRS 包。",
       "summaryZh": "用电活动入库、GHG 计算、逐行复算、底稿与部分 ESRS 包。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-ghg.html",
-      "latestVersion": "0.1.0-alpha.13",
+      "latestVersion": "0.1.0-alpha.16",
       "license": "Apache-2.0",
       "status": "active",
       "group": "可持续与质量",
@@ -4412,7 +4412,7 @@
           "alt": "Electricity GHG (Scope 2)"
         }
       },
-      "updatedAt": "2026-11-01T11:51:08.961Z"
+      "updatedAt": "2026-11-02T04:48:34.656Z"
     },
     {
       "id": "dsh-qms-capa",
@@ -4422,7 +4422,7 @@
       "summary": "QMS NCR 入库、批次别名、影响评估、CAPA 与 8D。",
       "summaryZh": "QMS NCR 入库、批次别名、影响评估、CAPA 与 8D。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-qms-capa.html",
-      "latestVersion": "0.1.0-alpha.9",
+      "latestVersion": "0.1.0-alpha.11",
       "license": "Apache-2.0",
       "status": "active",
       "group": "可持续与质量",
@@ -4451,7 +4451,7 @@
           "alt": "QMS NCR, CAPA & 8D"
         }
       },
-      "updatedAt": "2026-11-01T11:42:40.222Z"
+      "updatedAt": "2026-11-02T04:48:56.280Z"
     },
     {
       "id": "dsh-hs-candidate",
@@ -4461,7 +4461,7 @@
       "summary": "HS Top3 候选、12 要素完整性、RVC 与税则版本门。",
       "summaryZh": "HS Top3 候选、12 要素完整性、RVC 与税则版本门。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-hs-candidate.html",
-      "latestVersion": "0.1.0-alpha.9",
+      "latestVersion": "0.1.0-alpha.11",
       "license": "Apache-2.0",
       "status": "active",
       "group": "关务与物流",
@@ -4490,7 +4490,7 @@
           "alt": "HS candidate precheck"
         }
       },
-      "updatedAt": "2026-11-01T11:42:28.437Z"
+      "updatedAt": "2026-11-02T04:49:11.057Z"
     },
     {
       "id": "dsh-freight-audit",
@@ -4500,7 +4500,7 @@
       "summary": "运费 ratecard 版本、账单审计、recovery 汇总与差异导出。",
       "summaryZh": "运费 ratecard 版本、账单审计、recovery 汇总与差异导出。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-freight-audit.html",
-      "latestVersion": "0.1.0-alpha.10",
+      "latestVersion": "0.1.0-alpha.12",
       "license": "Apache-2.0",
       "status": "active",
       "group": "关务与物流",
@@ -4529,7 +4529,7 @@
           "alt": "Freight bill audit"
         }
       },
-      "updatedAt": "2026-11-01T11:50:43.683Z"
+      "updatedAt": "2026-11-02T04:48:14.924Z"
     },
     {
       "id": "dsh-docx-redline",
@@ -4539,7 +4539,7 @@
       "summary": "DOCX 结构检查、逐字节 roundtrip 与单 run 文本替换。",
       "summaryZh": "DOCX 结构检查、逐字节 roundtrip 与单 run 文本替换。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-docx-redline.html",
-      "latestVersion": "0.1.0-alpha.10",
+      "latestVersion": "0.1.0-alpha.12",
       "license": "Apache-2.0",
       "status": "active",
       "group": "文档与模型",
@@ -4568,7 +4568,7 @@
           "alt": "DOCX inspect & text diff"
         }
       },
-      "updatedAt": "2026-11-01T11:50:56.934Z"
+      "updatedAt": "2026-11-02T04:48:04.857Z"
     },
     {
       "id": "dsh-ifc-qto",
@@ -4578,7 +4578,7 @@
       "summary": "IFC 构件/工程量清单与 CSV 导出。",
       "summaryZh": "IFC 构件/工程量清单与 CSV 导出。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-ifc-qto.html",
-      "latestVersion": "0.1.0-alpha.10",
+      "latestVersion": "0.1.0-alpha.12",
       "license": "Apache-2.0",
       "status": "active",
       "group": "文档与模型",
@@ -4607,7 +4607,7 @@
           "alt": "IFC quantity takeoff"
         }
       },
-      "updatedAt": "2026-11-01T11:42:16.298Z"
+      "updatedAt": "2026-11-02T04:49:22.467Z"
     },
     {
       "id": "dsh-policy-ledger",
@@ -4617,7 +4617,7 @@
       "summary": "只读安装诊断：能力快照、tarball 断言与安装日志分类。",
       "summaryZh": "只读安装诊断：能力快照、tarball 断言与安装日志分类。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-policy-ledger.html",
-      "latestVersion": "0.2.0-alpha.10",
+      "latestVersion": "0.2.0-alpha.12",
       "license": "Apache-2.0",
       "status": "active",
       "group": "校验工具",
@@ -4646,7 +4646,7 @@
           "alt": "Install doctor"
         }
       },
-      "updatedAt": "2026-11-01T11:50:44.940Z"
+      "updatedAt": "2026-11-02T04:50:29.454Z"
     },
     {
       "id": "dsh-pim-lint",
@@ -4656,7 +4656,7 @@
       "summary": "PIM 目录 lint：必填、重复 SKU、GTIN 校验位与价格。",
       "summaryZh": "PIM 目录 lint：必填、重复 SKU、GTIN 校验位与价格。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-pim-lint.html",
-      "latestVersion": "0.1.0-alpha.8",
+      "latestVersion": "0.1.0-alpha.10",
       "license": "Apache-2.0",
       "status": "active",
       "group": "校验工具",
@@ -4685,7 +4685,7 @@
           "alt": "PIM catalog lint"
         }
       },
-      "updatedAt": "2026-11-01T11:34:45.191Z"
+      "updatedAt": "2026-11-02T04:49:33.331Z"
     },
     {
       "id": "dsh-eval-pack",
@@ -4695,7 +4695,7 @@
       "summary": "公开/合成 eval-pack lint 与确定性 JSON 评分。",
       "summaryZh": "公开/合成 eval-pack lint 与确定性 JSON 评分。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-eval-pack.html",
-      "latestVersion": "0.1.0-alpha.8",
+      "latestVersion": "0.1.0-alpha.10",
       "license": "Apache-2.0",
       "status": "active",
       "group": "校验工具",
@@ -4724,7 +4724,7 @@
           "alt": "Eval pack lint & grader"
         }
       },
-      "updatedAt": "2026-11-01T11:37:29.727Z"
+      "updatedAt": "2026-11-02T04:50:04.484Z"
     },
     {
       "id": "dsh-finops-suite",
@@ -4734,7 +4734,7 @@
       "summary": "One-command install for dsh-einvoice, dsh-bankrec, dsh-ap-three-way and dsh-travel-recon.",
       "summaryZh": "一键安装 dsh-einvoice、dsh-bankrec、dsh-ap-three-way 与 dsh-travel-recon 的财务运营套件。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-finops-suite.html",
-      "latestVersion": "0.1.0-alpha.6",
+      "latestVersion": "0.1.0-alpha.8",
       "license": "Apache-2.0",
       "status": "active",
       "group": "财务运营",
@@ -4763,7 +4763,7 @@
           "alt": "Finance ops suite"
         }
       },
-      "updatedAt": "2026-11-01T06:46:51.174Z"
+      "updatedAt": "2026-11-02T04:55:02.716Z"
     },
     {
       "id": "dsh-contract-suite",
@@ -4773,7 +4773,7 @@
       "summary": "One-command install for dsh-legal-intake and dsh-legal-clause.",
       "summaryZh": "一键安装 dsh-legal-intake 与 dsh-legal-clause 的合同法务套件。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-contract-suite.html",
-      "latestVersion": "0.1.0-alpha.5",
+      "latestVersion": "0.1.0-alpha.7",
       "license": "Apache-2.0",
       "status": "active",
       "group": "法务运营",
@@ -4802,7 +4802,7 @@
           "alt": "Contract ops suite"
         }
       },
-      "updatedAt": "2026-11-01T06:48:02.589Z"
+      "updatedAt": "2026-11-02T04:55:10.388Z"
     }
   ],
   "page": {
