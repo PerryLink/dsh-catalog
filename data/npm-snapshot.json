@@ -986,8 +986,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-einvoice.html",
     "repository": "git+https://github.com/PerryLink/dsh-einvoice.git",
-    "latest": "0.2.0-alpha.8",
-    "updatedAt": "2026-11-01T11:58:52.516Z"
+    "latest": "0.2.0-alpha.10",
+    "updatedAt": "2026-11-02T04:46:34.976Z"
   },
   {
     "name": "dsh-bankrec",
@@ -995,8 +995,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-bankrec.html",
     "repository": "git+https://github.com/PerryLink/dsh-bankrec.git",
-    "latest": "0.1.0-alpha.11",
-    "updatedAt": "2026-11-01T11:50:54.945Z"
+    "latest": "0.1.0-alpha.15",
+    "updatedAt": "2026-11-02T04:46:54.220Z"
   },
   {
     "name": "dsh-ap-three-way",
@@ -1004,8 +1004,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-ap-three-way.html",
     "repository": "git+https://github.com/PerryLink/dsh-ap-three-way.git",
-    "latest": "0.1.0-alpha.8",
-    "updatedAt": "2026-11-01T11:50:39.524Z"
+    "latest": "0.1.0-alpha.10",
+    "updatedAt": "2026-11-02T04:48:49.344Z"
   },
   {
     "name": "dsh-travel-recon",
@@ -1013,8 +1013,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-travel-recon.html",
     "repository": "git+https://github.com/PerryLink/dsh-travel-recon.git",
-    "latest": "0.1.0-alpha.10",
-    "updatedAt": "2026-11-01T11:51:00.091Z"
+    "latest": "0.1.0-alpha.12",
+    "updatedAt": "2026-11-02T04:48:37.250Z"
   },
   {
     "name": "dsh-legal-intake",
@@ -1022,8 +1022,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-legal-intake.html",
     "repository": "git+https://github.com/PerryLink/dsh-legal-intake.git",
-    "latest": "0.1.0-alpha.7",
-    "updatedAt": "2026-11-01T11:50:36.240Z"
+    "latest": "0.1.0-alpha.9",
+    "updatedAt": "2026-11-02T04:50:03.157Z"
   },
   {
     "name": "dsh-legal-clause",
@@ -1031,8 +1031,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-legal-clause.html",
     "repository": "git+https://github.com/PerryLink/dsh-legal-clause.git",
-    "latest": "0.1.0-alpha.9",
-    "updatedAt": "2026-11-01T11:50:33.043Z"
+    "latest": "0.1.0-alpha.11",
+    "updatedAt": "2026-11-02T04:48:16.144Z"
   },
   {
     "name": "dsh-ghg",
@@ -1040,8 +1040,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-ghg.html",
     "repository": "git+https://github.com/PerryLink/dsh-ghg.git",
-    "latest": "0.1.0-alpha.13",
-    "updatedAt": "2026-11-01T11:51:08.961Z"
+    "latest": "0.1.0-alpha.16",
+    "updatedAt": "2026-11-02T04:48:34.656Z"
   },
   {
     "name": "dsh-qms-capa",
@@ -1049,8 +1049,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-qms-capa.html",
     "repository": "git+https://github.com/PerryLink/dsh-qms-capa.git",
-    "latest": "0.1.0-alpha.9",
-    "updatedAt": "2026-11-01T11:42:40.222Z"
+    "latest": "0.1.0-alpha.11",
+    "updatedAt": "2026-11-02T04:48:56.280Z"
   },
   {
     "name": "dsh-hs-candidate",
@@ -1058,8 +1058,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-hs-candidate.html",
     "repository": "git+https://github.com/PerryLink/dsh-hs-candidate.git",
-    "latest": "0.1.0-alpha.9",
-    "updatedAt": "2026-11-01T11:42:28.437Z"
+    "latest": "0.1.0-alpha.11",
+    "updatedAt": "2026-11-02T04:49:11.057Z"
   },
   {
     "name": "dsh-freight-audit",
@@ -1067,8 +1067,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-freight-audit.html",
     "repository": "git+https://github.com/PerryLink/dsh-freight-audit.git",
-    "latest": "0.1.0-alpha.10",
-    "updatedAt": "2026-11-01T11:50:43.683Z"
+    "latest": "0.1.0-alpha.12",
+    "updatedAt": "2026-11-02T04:48:14.924Z"
   },
   {
     "name": "dsh-docx-redline",
@@ -1076,8 +1076,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-docx-redline.html",
     "repository": "git+https://github.com/PerryLink/dsh-docx-redline.git",
-    "latest": "0.1.0-alpha.10",
-    "updatedAt": "2026-11-01T11:50:56.934Z"
+    "latest": "0.1.0-alpha.12",
+    "updatedAt": "2026-11-02T04:48:04.857Z"
   },
   {
     "name": "dsh-ifc-qto",
@@ -1085,8 +1085,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-ifc-qto.html",
     "repository": "git+https://github.com/PerryLink/dsh-ifc-qto.git",
-    "latest": "0.1.0-alpha.10",
-    "updatedAt": "2026-11-01T11:42:16.298Z"
+    "latest": "0.1.0-alpha.12",
+    "updatedAt": "2026-11-02T04:49:22.467Z"
   },
   {
     "name": "dsh-policy-ledger",
@@ -1094,8 +1094,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-policy-ledger.html",
     "repository": "git+https://github.com/PerryLink/dsh-policy-ledger.git",
-    "latest": "0.2.0-alpha.10",
-    "updatedAt": "2026-11-01T11:50:44.940Z"
+    "latest": "0.2.0-alpha.12",
+    "updatedAt": "2026-11-02T04:50:29.454Z"
   },
   {
     "name": "dsh-pim-lint",
@@ -1103,8 +1103,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-pim-lint.html",
     "repository": "git+https://github.com/PerryLink/dsh-pim-lint.git",
-    "latest": "0.1.0-alpha.8",
-    "updatedAt": "2026-11-01T11:34:45.191Z"
+    "latest": "0.1.0-alpha.10",
+    "updatedAt": "2026-11-02T04:49:33.331Z"
   },
   {
     "name": "dsh-eval-pack",
@@ -1112,8 +1112,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-eval-pack.html",
     "repository": "git+https://github.com/PerryLink/dsh-eval-pack.git",
-    "latest": "0.1.0-alpha.8",
-    "updatedAt": "2026-11-01T11:37:29.727Z"
+    "latest": "0.1.0-alpha.10",
+    "updatedAt": "2026-11-02T04:50:04.484Z"
   },
   {
     "name": "dsh-finops-suite",
@@ -1121,8 +1121,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-finops-suite.html",
     "repository": "git+https://github.com/PerryLink/dsh-finops-suite.git",
-    "latest": "0.1.0-alpha.6",
-    "updatedAt": "2026-11-01T06:46:51.174Z"
+    "latest": "0.1.0-alpha.8",
+    "updatedAt": "2026-11-02T04:55:02.716Z"
   },
   {
     "name": "dsh-contract-suite",
@@ -1130,7 +1130,7 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-contract-suite.html",
     "repository": "git+https://github.com/PerryLink/dsh-contract-suite.git",
-    "latest": "0.1.0-alpha.5",
-    "updatedAt": "2026-11-01T06:48:02.589Z"
+    "latest": "0.1.0-alpha.7",
+    "updatedAt": "2026-11-02T04:55:10.388Z"
   }
 ]
