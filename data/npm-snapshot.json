@@ -1,12 +1,12 @@
 [
   {
     "name": "dsh-github-bot",
-    "description": "Official-grade GitHub CI for DeepSeek Harness: composite action (review PRs / fix CI / report), polling PR review bot with idempotent inline comments, a status-check gate, and approval-gated PR/issue/repo/file tools",
+    "description": "GitHub PRs, reviews, issues and CI for DeepSeek Harness: approval-gated write tools, a CI composite action, a polling review bot and a status-check gate.",
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-github-bot#readme",
     "repository": "git+https://github.com/PerryLink/dsh-github-bot.git",
-    "latest": "0.7.28",
-    "updatedAt": "2026-10-27T11:48:57.280Z"
+    "latest": "0.8.0",
+    "updatedAt": "2026-11-02T12:38:37.769Z"
   },
   {
     "name": "dsh-clinic",
@@ -14,8 +14,8 @@
     "license": "Apache-2.0",
     "homepage": "https://www.npmjs.com/package/dsh-clinic",
     "repository": "git+https://github.com/PerryLink/dsh-clinic.git",
-    "latest": "0.7.7",
-    "updatedAt": "2026-11-01T08:24:36.854Z"
+    "latest": "0.8.0",
+    "updatedAt": "2026-11-01T09:19:41.478Z"
   },
   {
     "name": "dsh-scaffold",
@@ -23,26 +23,26 @@
     "license": "Apache-2.0",
     "homepage": "https://www.npmjs.com/package/dsh-scaffold",
     "repository": "git+https://github.com/PerryLink/dsh-scaffold.git",
-    "latest": "0.1.22",
-    "updatedAt": "2026-11-01T08:29:32.147Z"
+    "latest": "0.2.0",
+    "updatedAt": "2026-11-01T09:18:16.399Z"
   },
   {
     "name": "dsh-security-pack",
-    "description": "Provider plugin for dsh-skill-pack-security: registers the pack's skills/ (zh) or skills-en/ (en) edition on ctx.skills AND the plugin_vet supply-chain gate tool on ctx.tools (license/SBOM/commit-lock/malware scans + five-dimension risk card). Ships both ",
+    "description": "Security-audit skill pack + plugin_vet supply-chain gate for DeepSeek Harness: eight bilingual skills and a pre-install gate (license / SBOM / commit pinning / malicious patterns / five-dimension risk card).",
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-security-pack#readme",
     "repository": "git+https://github.com/PerryLink/dsh-security-pack.git",
-    "latest": "2.2.25",
-    "updatedAt": "2026-10-31T17:09:48.579Z"
+    "latest": "3.0.0",
+    "updatedAt": "2026-11-02T12:23:19.099Z"
   },
   {
     "name": "dsh-dida",
-    "description": "TickTick (Dida365) task bridge for DeepSeek Harness: a Session-header task panel (list filter, quick add, complete, delete, due dates, drag reorder) over the official TickTick MCP endpoint, a Ticktick Remote service, curated agent tools, and a plugin sett",
+    "description": "TickTick / Dida365 (滴答清单) task bridge for DeepSeek Harness: a Session-header task panel, curated agent tools, a typed Remote service and a settings card over the official TickTick MCP endpoint.",
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-dida#readme",
     "repository": "git+https://github.com/PerryLink/dsh-dida.git",
-    "latest": "0.1.23",
-    "updatedAt": "2026-10-26T12:29:04.932Z"
+    "latest": "0.2.0",
+    "updatedAt": "2026-11-02T12:32:40.622Z"
   },
   {
     "name": "dsh-aqua-input-check",
@@ -635,8 +635,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-plugin-guide#readme",
     "repository": "git+https://github.com/PerryLink/dsh-plugin-guide.git",
-    "latest": "0.3.40",
-    "updatedAt": "2026-11-01T08:22:00.556Z"
+    "latest": "0.3.41",
+    "updatedAt": "2026-11-02T13:05:16.434Z"
   },
   {
     "name": "dsh-plugin-upgrade",
@@ -644,8 +644,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-plugin-upgrade#readme",
     "repository": "git+https://github.com/PerryLink/dsh-plugin-upgrade.git",
-    "latest": "2.2.0",
-    "updatedAt": "2026-11-01T08:22:23.212Z"
+    "latest": "2.2.1",
+    "updatedAt": "2026-11-02T13:04:41.759Z"
   },
   {
     "name": "dsh-policy-brief-draft",
@@ -977,8 +977,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-checkers#readme",
     "repository": "git+https://github.com/PerryLink/dsh-checkers.git",
-    "latest": "0.1.0",
-    "updatedAt": "2026-10-18T15:20:06.222Z"
+    "latest": "0.1.1",
+    "updatedAt": "2026-11-02T13:05:02.103Z"
   },
   {
     "name": "dsh-einvoice",
@@ -986,8 +986,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-einvoice.html",
     "repository": "git+https://github.com/PerryLink/dsh-einvoice.git",
-    "latest": "0.2.0-alpha.11",
-    "updatedAt": "2026-11-02T05:44:30.841Z"
+    "latest": "0.2.0-alpha.12",
+    "updatedAt": "2026-11-02T12:56:39.493Z"
   },
   {
     "name": "dsh-bankrec",
@@ -995,8 +995,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-bankrec.html",
     "repository": "git+https://github.com/PerryLink/dsh-bankrec.git",
-    "latest": "0.1.0-alpha.16",
-    "updatedAt": "2026-11-02T05:56:46.486Z"
+    "latest": "0.1.0-alpha.17",
+    "updatedAt": "2026-11-02T12:37:03.861Z"
   },
   {
     "name": "dsh-ap-three-way",
@@ -1004,8 +1004,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-ap-three-way.html",
     "repository": "git+https://github.com/PerryLink/dsh-ap-three-way.git",
-    "latest": "0.1.0-alpha.11",
-    "updatedAt": "2026-11-02T05:59:03.349Z"
+    "latest": "0.1.0-alpha.12",
+    "updatedAt": "2026-11-02T12:37:51.613Z"
   },
   {
     "name": "dsh-travel-recon",
@@ -1013,8 +1013,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-travel-recon.html",
     "repository": "git+https://github.com/PerryLink/dsh-travel-recon.git",
-    "latest": "0.1.0-alpha.13",
-    "updatedAt": "2026-11-02T05:44:41.416Z"
+    "latest": "0.1.0-alpha.14",
+    "updatedAt": "2026-11-02T12:38:44.137Z"
   },
   {
     "name": "dsh-legal-intake",
@@ -1031,8 +1031,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-legal-clause.html",
     "repository": "git+https://github.com/PerryLink/dsh-legal-clause.git",
-    "latest": "0.1.0-alpha.12",
-    "updatedAt": "2026-11-02T05:44:47.353Z"
+    "latest": "0.1.0-alpha.13",
+    "updatedAt": "2026-11-02T12:39:11.479Z"
   },
   {
     "name": "dsh-ghg",
@@ -1049,8 +1049,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-qms-capa.html",
     "repository": "git+https://github.com/PerryLink/dsh-qms-capa.git",
-    "latest": "0.1.0-alpha.12",
-    "updatedAt": "2026-11-02T05:44:44.223Z"
+    "latest": "0.1.0-alpha.13",
+    "updatedAt": "2026-11-02T12:38:21.040Z"
   },
   {
     "name": "dsh-hs-candidate",
@@ -1058,8 +1058,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-hs-candidate.html",
     "repository": "git+https://github.com/PerryLink/dsh-hs-candidate.git",
-    "latest": "0.1.0-alpha.12",
-    "updatedAt": "2026-11-02T05:45:37.796Z"
+    "latest": "0.1.0-alpha.13",
+    "updatedAt": "2026-11-02T12:39:05.030Z"
   },
   {
     "name": "dsh-freight-audit",
@@ -1076,8 +1076,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-docx-redline.html",
     "repository": "git+https://github.com/PerryLink/dsh-docx-redline.git",
-    "latest": "0.1.0-alpha.13",
-    "updatedAt": "2026-11-02T05:43:39.916Z"
+    "latest": "0.1.0-alpha.14",
+    "updatedAt": "2026-11-02T12:55:47.024Z"
   },
   {
     "name": "dsh-ifc-qto",
@@ -1085,8 +1085,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-ifc-qto.html",
     "repository": "git+https://github.com/PerryLink/dsh-ifc-qto.git",
-    "latest": "0.1.0-alpha.13",
-    "updatedAt": "2026-11-02T05:45:10.222Z"
+    "latest": "0.1.0-alpha.15",
+    "updatedAt": "2026-11-02T12:55:47.606Z"
   },
   {
     "name": "dsh-policy-ledger",

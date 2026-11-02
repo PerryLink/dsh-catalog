@@ -1,12 +1,12 @@
 {
   "schema": "dsh-levels-sidecar/1",
   "revision": "perrylink-dsh-catalog-2026-11-02",
-  "generatedAt": "2026-11-02T11:25:16.009Z",
+  "generatedAt": "2026-11-02T14:19:15.549Z",
   "source": "https://github.com/PerryLink/dsh-standards/blob/main/publish/attestations/index.json",
   "disclaimer": "Non-official; not a certification or security audit. ENTRY/FLOW/BOOST are read-only, revocable statuses: no evidence means not-run / not-measured. A-D grades are orthogonal to the three levels. 非官方、非认证、非安全审计；三层状态是可撤回的只读引用，无证据即 not-run / not-measured。",
   "packages": [
     {
-      "name": "@perrylink/dsh-github",
+      "name": "dsh-github-bot",
       "entry": "not-run",
       "flow": "not-run",
       "boost": "not-measured",
@@ -14,7 +14,7 @@
       "peerRange": ">=0.2.1-0 <0.3.0"
     },
     {
-      "name": "@perrylink/dsh-plugin-doctor",
+      "name": "dsh-clinic",
       "entry": "not-run",
       "flow": "not-run",
       "boost": "not-measured",
@@ -22,7 +22,7 @@
       "peerRange": ">=0.2.1-0 <0.3.0"
     },
     {
-      "name": "@perrylink/dsh-plugin-kit",
+      "name": "dsh-scaffold",
       "entry": "not-run",
       "flow": "not-run",
       "boost": "not-measured",
@@ -30,14 +30,14 @@
       "peerRange": ">=0.2.1-0 <0.3.0"
     },
     {
-      "name": "@perrylink/dsh-skill-pack-security-provider",
+      "name": "dsh-security-pack",
       "entry": "not-run",
       "flow": "not-run",
       "boost": "not-measured",
       "dshVersion": null
     },
     {
-      "name": "@perrylink/dsh-ticktick",
+      "name": "dsh-dida",
       "entry": "not-run",
       "flow": "not-run",
       "boost": "not-measured",

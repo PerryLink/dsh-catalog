@@ -1,7 +1,7 @@
 {
   "schema": "dsh-taxonomy-sidecar/1",
   "revision": "perrylink-dsh-catalog-2026-11-02",
-  "generatedAt": "2026-11-02T11:25:16.009Z",
+  "generatedAt": "2026-11-02T14:19:15.549Z",
   "source": "https://github.com/PerryLink/dsh-plugins/blob/main/TAXONOMY.md",
   "disclaimer": "Non-official machine-readable projection of the four-axis taxonomy; the provider page remains the v1 source of truth. 非官方、非认证；v1 provider page 仍是安装元数据的唯一事实源。",
   "axes": {
@@ -44,7 +44,7 @@
   ],
   "packages": [
     {
-      "name": "@perrylink/dsh-github",
+      "name": "dsh-github-bot",
       "category": "workflow",
       "archetype": "integration",
       "domains": [
@@ -53,7 +53,7 @@
       "status": "active"
     },
     {
-      "name": "@perrylink/dsh-plugin-doctor",
+      "name": "dsh-clinic",
       "category": "developer-tools",
       "archetype": "doctor",
       "domains": [
@@ -62,7 +62,7 @@
       "status": "active"
     },
     {
-      "name": "@perrylink/dsh-plugin-kit",
+      "name": "dsh-scaffold",
       "category": "developer-tools",
       "archetype": "catalog",
       "domains": [
@@ -71,7 +71,7 @@
       "status": "active"
     },
     {
-      "name": "@perrylink/dsh-skill-pack-security-provider",
+      "name": "dsh-security-pack",
       "category": "security",
       "archetype": "assistant",
       "domains": [
@@ -80,7 +80,7 @@
       "status": "active"
     },
     {
-      "name": "@perrylink/dsh-ticktick",
+      "name": "dsh-dida",
       "category": "integrations",
       "archetype": "integration",
       "domains": [

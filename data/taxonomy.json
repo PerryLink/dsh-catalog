@@ -1,6 +1,6 @@
 [
   {
-    "name": "@perrylink/dsh-github",
+    "name": "dsh-github-bot",
     "category": "workflow",
     "archetype": "integration",
     "domains": [
@@ -9,7 +9,7 @@
     "status": "active"
   },
   {
-    "name": "@perrylink/dsh-plugin-doctor",
+    "name": "dsh-clinic",
     "category": "developer-tools",
     "archetype": "doctor",
     "domains": [
@@ -18,7 +18,7 @@
     "status": "active"
   },
   {
-    "name": "@perrylink/dsh-plugin-kit",
+    "name": "dsh-scaffold",
     "category": "developer-tools",
     "archetype": "catalog",
     "domains": [
@@ -27,7 +27,7 @@
     "status": "active"
   },
   {
-    "name": "@perrylink/dsh-skill-pack-security-provider",
+    "name": "dsh-security-pack",
     "category": "security",
     "archetype": "assistant",
     "domains": [
@@ -36,7 +36,7 @@
     "status": "active"
   },
   {
-    "name": "@perrylink/dsh-ticktick",
+    "name": "dsh-dida",
     "category": "integrations",
     "archetype": "integration",
     "domains": [
