@@ -1,0 +1,16 @@
+{
+  "schema": "dsh-capture/v1",
+  "repository": "dsh-catalog",
+  "storyboard": [
+    "$ node scripts/check-counts.mjs --json"
+  ],
+  "commands": [
+    "node scripts/check-counts.mjs --json"
+  ],
+  "renderer": "plugins/_archive/growth/2026-10-17/asset-tools/render.mjs",
+  "size": {
+    "hero": "1280x720",
+    "gif": "960x540",
+    "gifSeconds": 4
+  }
+}

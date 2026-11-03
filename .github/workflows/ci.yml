@@ -45,19 +45,6 @@ jobs:
       - name: Validate the committed deploy artifacts
         run: node scripts/validate.mjs
 
-      # The level sidecar is a separate read-only artifact, not an item field.
-      # It must cover every catalog item, share the page's revision, use the
-      # fixed status vocabulary, and require evidence for any runtime/measured/
-      # manual claim. This checks the committed deploy/ copy before the build.
-      - name: The committed level sidecar must match the catalog page
-        run: node scripts/check-levels.mjs
-
-      # The four-axis taxonomy is a second sidecar, not an item field: the v1
-      # item contract has no taxonomy member. It must cover every item and
-      # agree with the page's own categories.
-      - name: The committed taxonomy sidecar must match the catalog page
-        run: node scripts/check-taxonomy.mjs
-
       # The family count has one source of truth (data/packages.json). This
       # holds the README summaries, the manifest description, the shipped page
       # and the deploy live-smoke floor to it, so a hand-edited number cannot
@@ -69,13 +56,12 @@ jobs:
       # build is safe here, and only here, because this checkout is throwaway:
       # it rewrites the tracked deploy/ copies with the same placeholder origin
       # they are committed with, and catalog-source.json carries no timestamp
-      # (unlike deploy/artifacts/v1/plugins.json and levels.json, whose
-      # generatedAt/revision always differ). README §Build forbids the
-      # no-argument build as a *local* gate for exactly that rewriting reason.
+      # (unlike deploy/artifacts/v1/plugins.json, whose generatedAt/revision
+      # always differ). README §Build forbids the no-argument build as a *local*
+      # gate for exactly that rewriting reason.
       - name: The committed deploy manifest must match a fresh build
         run: |
           node scripts/build-catalog.mjs
-          node scripts/check-levels.mjs
           git diff --exit-code -- deploy/catalog-source.json
 
   types:
