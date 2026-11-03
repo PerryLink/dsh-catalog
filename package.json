@@ -1,5 +1,5 @@
 {
-  "name": "dsh-catalog",
+  "name": "dsh-family-catalog",
   "version": "0.1.0",
   "private": true,
   "description": "DSH Community Market standard catalog source for the PerryLink dsh-* plugin family.",
