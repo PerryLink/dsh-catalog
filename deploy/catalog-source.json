@@ -3,7 +3,7 @@
   "providerId": "com.perrylink.dsh-catalog",
   "name": "PerryLink DSH Catalog",
   "description": "Official catalog of the 126-package PerryLink DeepSeek Harness plugin family on npm: 125 family repositories plus 1 third-party package catalogued alongside them.",
-  "homepage": "https://github.com/PerryLink/dsh-catalog",
+  "homepage": "https://github.com/PerryLink/dsh-family-catalog",
   "attribution": {
     "name": "PerryLink",
     "url": "https://github.com/PerryLink"
