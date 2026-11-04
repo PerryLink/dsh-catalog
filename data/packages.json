@@ -60,7 +60,8 @@
     ],
     "summary": "Security skill-pack provider: pre-packaged security review skills with a risk card; ships both host and client faces.",
     "summaryZh": "安全技能包 provider：预置带风险卡的安全评审技能，同时提供宿主侧与客户端侧两个面。",
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "group": "安全"
   },
   {
     "npm": "dsh-dida",
@@ -335,7 +336,8 @@
     "locale": "en",
     "summary": "In-app Community Bench tab for DeepSeek Harness: reads the public, task-conditioned registry and shows the same score everyone sees; no local scoring.",
     "summaryZh": "DSH 应用内社区基准标签页：读取公开的、按任务条件计算的 registry，展示所有人看到的同一分数；不在本地算分。",
-    "difficulty": "advanced"
+    "difficulty": "advanced",
+    "group": "校验工具"
   },
   {
     "npm": "dsh-composer-history",
@@ -1336,7 +1338,8 @@
       "dsh": ">=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
     },
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "group": "会话"
   },
   {
     "npm": "dsh-phocinae",
@@ -1350,7 +1353,8 @@
     "summary": "Local non-generative decision layer for DeepSeek Harness: phocinae_ask / phocinae_gate tools plus a fail-closed approval gate",
     "summaryZh": "本地的非生成式决策层：phocinae_ask / phocinae_gate 两个工具，外加一个失效即拒的审批闸门。",
     "npmRepository": "https://github.com/Phocinae/dsh-phocinae",
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "group": "集成"
   },
   {
     "npm": "dsh-phone-inbox",
@@ -1369,7 +1373,8 @@
       "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
       "node": "^22.19.0 || >=24.0.0"
     },
-    "difficulty": "intermediate"
+    "difficulty": "intermediate",
+    "group": "集成"
   },
   {
     "npm": "dsh-pipeline-check",
